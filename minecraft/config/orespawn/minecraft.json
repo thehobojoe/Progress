@@ -1,0 +1,186 @@
+{
+	"dimensions":[
+		{
+			"dimension":"+",
+			"ores":[
+				{
+					"blockID":"minecraft:coal_ore",
+					"size":19,
+					"variation":10,
+					"frequency":20,
+					"minHeight":0,
+					"maxHeight":128,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:iron_ore",
+					"size":8,
+					"variation":4,
+					"frequency":20,
+					"minHeight":0,
+					"maxHeight":64,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:gold_ore",
+					"size":8,
+					"variation":2,
+					"frequency":2,
+					"minHeight":0,
+					"maxHeight":32,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:diamond_ore",
+					"size":6,
+					"variation":3,
+					"frequency":1,
+					"minHeight":0,
+					"maxHeight":16,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:redstone_ore",
+					"size":6,
+					"variation":3,
+					"frequency":8,
+					"minHeight":0,
+					"maxHeight":16,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:lapis_ore",
+					"size":6,
+					"variation":3,
+					"frequency":2,
+					"minHeight":0,
+					"maxHeight":32,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:emerald_ore",
+					"size":1,
+					"variation":0,
+					"frequency":8,
+					"minHeight":4,
+					"maxHeight":32,
+					"biomes":[
+						"Extreme Hills Edge",
+						"Extreme Hills"
+					]
+				},
+				{
+					"blockID":"minecraft:dirt",
+					"size":72,
+					"variation":35,
+					"frequency":8,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:gravel",
+					"size":72,
+					"variation":35,
+					"frequency":7,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:clay",
+					"size":30,
+					"variation":10,
+					"frequency":4,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"blockID":"minecraft:sand",
+					"size":45,
+					"variation":22,
+					"frequency":5,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"__comment":"granite",
+					"blockID":"minecraft:stone",
+					"blockMeta":1,
+					"size":750,
+					"variation":120,
+					"frequency":1,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"__comment":"diorite",
+					"blockID":"minecraft:stone",
+					"blockMeta":3,
+					"size":750,
+					"variation":120,
+					"frequency":1,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				},
+				{
+					"__comment":"andesite",
+					"blockID":"minecraft:stone",
+					"blockMeta":5,
+					"size":750,
+					"variation":120,
+					"frequency":1,
+					"minHeight":0,
+					"maxHeight":255,
+					"biomes":[
+
+					]
+				}
+			]
+		},
+		{
+			"dimension":-1,
+			"ores":[
+				{
+					"blockID":"minecraft:quartz_ore",
+					"size":15,
+					"variation":4,
+					"frequency":7,
+					"minHeight":0,
+					"maxHeight":128,
+					"biomes":[
+
+					]
+				}
+			]
+		}
+	]
+}

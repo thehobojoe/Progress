@@ -1,0 +1,18 @@
+{
+	"dimensions":[
+		{
+			"dimension":"+",
+			"ores":[
+				{
+					"blockID":"enderore:oreEnder",
+					"size":4,
+					"variation":2,
+					"frequency":2,
+					"minHeight":0,
+					"maxHeight":35,
+					"biomes":[]
+				}
+			]
+		}
+	]
+}
