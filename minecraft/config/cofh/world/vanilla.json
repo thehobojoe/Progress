@@ -7,7 +7,7 @@
 				"material": "stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 7,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -40,16 +40,21 @@
 				]
 			}
 		},
-		"sand": {
+		"diorite": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "sand",
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+					}
+				},
 				"material": "stone",
-				"cluster-size": 33
+				"cluster-size": 0
 			},
-			"cluster-count": 4,
+			"cluster-count": 0,
 			"min-height": 0,
-			"max-height": 256,
+			"max-height": 80,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -60,16 +65,46 @@
 				]
 			}
 		},
-		"clay": {
+		"granite": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "clay",
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+					}
+				},
 				"material": "stone",
-				"cluster-size": 33
+				"cluster-size": 0
 			},
-			"cluster-count": 4,
+			"cluster-count": 0,
 			"min-height": 0,
-			"max-height": 256,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"andesite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+					}
+				},
+				"material": "stone",
+				"cluster-size": 0
+			},
+			"cluster-count": 0,
+			"min-height": 0,
+			"max-height": 80,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -105,7 +140,7 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "stone",
-				"cluster-size": 8
+				"cluster-size": 9
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -145,7 +180,7 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "stone",
-				"cluster-size": 7
+				"cluster-size": 8
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -165,7 +200,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "stone",
-				"cluster-size": 7
+				"cluster-size": 8
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -323,7 +358,7 @@
 				"material": "netherrack",
 				"cluster-size": 14
 			},
-			"cluster-count": 10,
+			"cluster-count": 16,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,
