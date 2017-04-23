@@ -7,7 +7,7 @@
 				"material": "stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 7,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -40,21 +40,16 @@
 				]
 			}
 		},
-		"diorite": {
+		"sand": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "diorite"
-					}
-				},
+				"block": "sand",
 				"material": "stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 4,
 			"min-height": 0,
-			"max-height": 80,
+			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -65,46 +60,16 @@
 				]
 			}
 		},
-		"granite": {
+		"clay": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "granite"
-					}
-				},
+				"block": "clay",
 				"material": "stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 4,
 			"min-height": 0,
-			"max-height": 80,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"andesite": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "stone",
-					"properties": {
-						"variant": "andesite"
-					}
-				},
-				"material": "stone",
-				"cluster-size": 33
-			},
-			"cluster-count": 10,
-			"min-height": 0,
-			"max-height": 80,
+			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -140,7 +105,7 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "stone",
-				"cluster-size": 9
+				"cluster-size": 8
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -180,7 +145,7 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "stone",
-				"cluster-size": 8
+				"cluster-size": 7
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -200,7 +165,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "stone",
-				"cluster-size": 8
+				"cluster-size": 7
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -358,7 +323,7 @@
 				"material": "netherrack",
 				"cluster-size": 14
 			},
-			"cluster-count": 16,
+			"cluster-count": 10,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,

@@ -1,4 +1,3 @@
-
 var brick_block 	= <minecraft:brick_block>;
 
 # Ingots
