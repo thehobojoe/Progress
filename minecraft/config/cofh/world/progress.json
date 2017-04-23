@@ -59,6 +59,81 @@
 					1
 				]
 			}
+		},
+		"certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "appliedenergistics2:quartz_ore",
+						"metadata": 0,
+						"weight": 91
+					},
+					{
+						"name": "appliedenergistics2:charged_quartz_ore",
+						"metadata": 0,
+						"weight": 9
+					}
+				],
+				"material": "stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 4,
+			"min-height": 17,
+			"max-height": 63,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"yellorium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "bigreactors:brore",
+				"material": "stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 2,
+			"max-height": 50,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 4,
+					"weight": 20
+				},
+				"material": "stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 5,
+			"min-height": 35,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
 		}
 	}
 }

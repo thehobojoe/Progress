@@ -1,5 +1,6 @@
 /patches
 instance.cfg
+/natives
 minecraft/asm
 minecraft/crash-reports
 minecraft/enderio
