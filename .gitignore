@@ -19,3 +19,16 @@ minecraft/options.txt
 minecraft/usercache.json
 minecraft/usernamecache.json
 minecraft/betterfps.txt
+minecraft/installer.log
+minecraft/libraries
+minecraft/minecraft_server*
+minecraft/mods/mod_list.json
+minecraft/config/AppliedEnergistics2/recipes/generated
+minecraft/Biome Bundle
+minecraft/banned-ips.json
+minecraft/banned-players.json
+minecraft/config/Mercurius.cfg
+minecraft/eula.txt
+minecraft/local
+minecraft/ops.json
+minecraft/whitelist.json
