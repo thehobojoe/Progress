@@ -11,6 +11,7 @@ var ingotSteel304	= <progress:ingotSteel304>;
 
 var graphite 		= <ore:ingotGraphite>;
 
+/*
 var casing 			= <bigreactors:reactorCasing>;
 var casingTurbine	= <bigreactors:turbineHousing>;
 var casingCore		= <bigreactors:reactorCasingCores>;
@@ -53,3 +54,4 @@ recipes.addShaped(casingCore,
 	[[ingotSteel304, graphite, ingotSteel304],
 	[ingotGold, redstone, ingotGold],
 	[ingotSteel304, graphite, ingotSteel304]]);
+	*/

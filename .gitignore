@@ -1,6 +1,7 @@
 /patches
+instance.cfg
+/natives
 minecraft/asm
-minecraft/coremods
 minecraft/crash-reports
 minecraft/enderio
 minecraft/journeymap
@@ -17,3 +18,4 @@ minecraft/servers.dat
 minecraft/options.txt
 minecraft/usercache.json
 minecraft/usernamecache.json
+minecraft/betterfps.txt
