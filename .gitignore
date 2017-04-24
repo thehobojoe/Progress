@@ -19,3 +19,5 @@ minecraft/options.txt
 minecraft/usercache.json
 minecraft/usernamecache.json
 minecraft/betterfps.txt
+minecraft/config/JEI/worldSettings.cfg
+minecraft/config/AppliedEnergistics2/VersionChecker.cfg
