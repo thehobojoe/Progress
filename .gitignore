@@ -32,3 +32,4 @@ minecraft/eula.txt
 minecraft/local
 minecraft/ops.json
 minecraft/whitelist.json
+minecraft/config/JEI/worldSettings.cfg
