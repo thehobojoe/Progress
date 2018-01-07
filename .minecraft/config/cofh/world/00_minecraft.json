@@ -6,9 +6,9 @@
 			"generator": {
 				"block": "dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -27,9 +27,9 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 48
 			},
-			"cluster-count": 8,
+			"cluster-count": 2,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,

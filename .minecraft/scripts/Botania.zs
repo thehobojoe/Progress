@@ -25,7 +25,7 @@ recipes.addShaped(<botania:spreader>,
 recipes.remove(<botania:spreader:2>);
 recipes.addShaped(<botania:spreader:2>,
 	[[dreamwood, dreamwood, dreamwood],
-	[<botania:manaResource:7>, <botania:petal:*>, null],
+	[<botania:manaresource:7>, <botania:petal:*>, null],
 	[dreamwood, dreamwood, dreamwood]]);
 
 

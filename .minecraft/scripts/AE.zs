@@ -55,6 +55,5 @@ recipes.addShaped(<appliedenergistics2:controller>,
 	[sky_stone, fluix_block, sky_stone]]);
 
 
-
 //fluix crystal
-recipes.addShapeless(fluix_crystal * 2, [charged_quartz, nether_quartz, redstone]);
+recipes.addShapeless("FluixCrystal", fluix_crystal * 2, [charged_quartz, nether_quartz, redstone]);

@@ -3,4 +3,4 @@ recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:*>]);
 
 recipes.remove(<tconstruct:slimesling>);
 recipes.remove(<extrautils2:angelring>);
-recipes.remove(<botania:superTravelBelt>);
+//recipes.remove(<botania:superTravelBelt>);
