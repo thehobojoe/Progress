@@ -1,1 +1,0 @@
-{NoAI:1,PersistenceRequired:1}

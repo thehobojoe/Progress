@@ -1,1 +1,0 @@
-{IsVillager:1,VillagerProfession:0,ZombieType:1}

@@ -1,1 +1,0 @@
-{Profession:1,Career:1,PersistenceRequired:1}

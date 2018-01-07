@@ -1,1 +1,0 @@
-{CustomName:"Tool Smith",Profession:3,Career:1,PersistenceRequired:1}

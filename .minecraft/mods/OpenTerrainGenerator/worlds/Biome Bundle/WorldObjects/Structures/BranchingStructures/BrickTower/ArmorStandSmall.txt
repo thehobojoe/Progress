@@ -1,1 +1,0 @@
-{ShowArms:1,Small:1}

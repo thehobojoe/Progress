@@ -24,3 +24,4 @@ mmc-pack.json
 .minecraft/config/splash.properties
 .minecraft/config/JEI/worldSettings.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+.minecraft/mods/OpenTerrainGenerator/worlds
