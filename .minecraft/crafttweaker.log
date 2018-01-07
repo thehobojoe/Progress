@@ -1,0 +1,446 @@
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: AE.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Blockheads.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Botania.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: BR.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: chisel.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: EIO.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: generation.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ImmersiveEngineering.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: misc.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Loading scripts
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: AE.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Blockheads.zs}
+[INITIALIZATION][CLIENT][ERROR] Blockheads.zs:2: Could not resolve <cookingforblockheads : recipeBook : 2>
+[INITIALIZATION][CLIENT][ERROR] Blockheads.zs:3: Could not resolve <cookingforblockheads : recipeBook : 2>
+[INITIALIZATION][CLIENT][ERROR] Blockheads.zs:3: Could not resolve <cookingforblockheads : recipeBook : 1>
+[INITIALIZATION][CLIENT][ERROR] Null not allowed in shapeless recipes! Recipe for: null not created!
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Botania.zs}
+[INITIALIZATION][CLIENT][ERROR] Botania.zs:28: Could not resolve <botania : manaResource : 7>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: BR.zs}
+[INITIALIZATION][CLIENT][ERROR] BR.zs:10: Could not resolve <progress : ingotSteel304>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: chisel.zs}
+[INITIALIZATION][CLIENT][ERROR] chisel.zs:1 > No such member: chisel
+[INITIALIZATION][CLIENT][ERROR] chisel.zs:2 > No such member: chisel
+[INITIALIZATION][CLIENT][ERROR] chisel.zs:3 > No such member: chisel
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: chisel.zs}: Bad type on operand stack
+Exception Details:
+  Location:
+    Chisel.__script__()V @23: invokestatic
+  Reason:
+    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[4]) is not assignable to 'java/lang/String'
+  Current Frame:
+    bci: @23
+    flags: { }
+    locals: { }
+    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
+  Bytecode:
+    0x0000000: 0112 0abd 000c 5912 0d12 0f59 c700 0857
+    0x0000010: 01a7 0006 b800 15b8 001b 59c7 0008 5701
+    0x0000020: a700 06b8 0015 5359 121c 121e 120d b800
+    0x0000030: 2459 c700 0857 01a7 0006 b800 2953 b900
+    0x0000040: 2d02 0057 0112 0abd 000c 5912 0d12 2f59
+    0x0000050: c700 0857 01a7 0006 b800 15b8 001b 59c7
+    0x0000060: 0008 5701 a700 06b8 0015 5359 121c 1231
+    0x0000070: 120d b800 2459 c700 0857 01a7 0006 b800
+    0x0000080: 2953 b900 2d02 0057 0112 0abd 000c 5912
+    0x0000090: 0d12 3359 c700 0857 01a7 0006 b800 15b8
+    0x00000a0: 001b 59c7 0008 5701 a700 06b8 0015 5359
+    0x00000b0: 121c 1235 120d b800 2459 c700 0857 01a7
+    0x00000c0: 0006 b800 2953 b900 2d02 0057 b1       
+  Stackmap Table:
+    full_frame(@20,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@23,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@35,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@38,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@58,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@61,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@88,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@91,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@103,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@106,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@126,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@129,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@156,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@159,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@171,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@174,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@194,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@197,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+
+java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    Chisel.__script__()V @23: invokestatic
+  Reason:
+    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[4]) is not assignable to 'java/lang/String'
+  Current Frame:
+    bci: @23
+    flags: { }
+    locals: { }
+    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
+  Bytecode:
+    0x0000000: 0112 0abd 000c 5912 0d12 0f59 c700 0857
+    0x0000010: 01a7 0006 b800 15b8 001b 59c7 0008 5701
+    0x0000020: a700 06b8 0015 5359 121c 121e 120d b800
+    0x0000030: 2459 c700 0857 01a7 0006 b800 2953 b900
+    0x0000040: 2d02 0057 0112 0abd 000c 5912 0d12 2f59
+    0x0000050: c700 0857 01a7 0006 b800 15b8 001b 59c7
+    0x0000060: 0008 5701 a700 06b8 0015 5359 121c 1231
+    0x0000070: 120d b800 2459 c700 0857 01a7 0006 b800
+    0x0000080: 2953 b900 2d02 0057 0112 0abd 000c 5912
+    0x0000090: 0d12 3359 c700 0857 01a7 0006 b800 15b8
+    0x00000a0: 001b 59c7 0008 5701 a700 06b8 0015 5359
+    0x00000b0: 121c 1235 120d b800 2459 c700 0857 01a7
+    0x00000c0: 0006 b800 2953 b900 2d02 0057 b1       
+  Stackmap Table:
+    full_frame(@20,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@23,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@35,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@38,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@58,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@61,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@88,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@91,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@103,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@106,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@126,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@129,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@156,{},{Null,Object[#55],Object[#55],Integer,Object[#57]})
+    full_frame(@159,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@171,{},{Null,Object[#55],Object[#55],Integer,Object[#59]})
+    full_frame(@174,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+    full_frame(@194,{},{Null,Object[#55],Object[#55],Integer,Object[#61]})
+    full_frame(@197,{},{Null,Object[#55],Object[#55],Integer,Object[#12]})
+
+	at __ZenMain__.run(Chisel)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:149)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:56)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:115)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:46)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_312_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:622)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:352)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: EIO.zs}
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:20: Could not resolve <progress : ingotSteel304>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:21: Could not resolve <enderio : itemAlloy>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:22: Could not resolve <enderio : itemAlloy : 2>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:23: Could not resolve <enderio : itemAlloy : 1>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:25: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:26: Could not resolve <enderio : blockFarmStation>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:27: Could not resolve <enderio : blockPowerMonitor>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:29: Could not resolve <enderio : blockSagMill>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:30: Could not resolve <enderio : blockAlloySmelter>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:35: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:54: Could not resolve <botania : manaGlass>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:56: Could not resolve <enderio : blockKillerJoe>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:57: Could not resolve <enderio : blockPoweredSpawner>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:58: Could not resolve <enderio : itemSoulVessel>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:61: Could not resolve <enderio : blockSoulBinder>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:62: Could not resolve <enderio : blockTravelAnchor>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:63: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:64: Could not resolve <enderio : itemTravelStaff>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:65: Could not resolve <enderio : blockVacuumChest>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:66: Could not resolve <enderio : itemXpTransfer>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:67: Could not resolve <enderio : blockExperienceObelisk>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:68: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:69: Could not resolve <enderio : blockXPVacuum>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:70: Could not resolve <enderio : itemRodOfReturn>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:71: Could not resolve <enderio : blockTelePad>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:72: Could not resolve <enderio : blockDialingDevice>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:95: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:104: Could not resolve <enderio : blockEndermanSkull>
+[INITIALIZATION][CLIENT][ERROR] EIO.zs:105: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: EIO.zs}: stanhebben.zenscript.value.IAny.as(Ljava/lang/Object;)Ljava/lang/Class;
+java.lang.NoSuchMethodError: stanhebben.zenscript.value.IAny.as(Ljava/lang/Object;)Ljava/lang/Class;
+	at EIO.__script__(EIO.zs:32)
+	at __ZenMain__.run(EIO)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:149)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:56)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:115)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:46)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_312_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:622)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:352)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: generation.zs}
+[INITIALIZATION][CLIENT][ERROR] generation.zs:2: Could not resolve <immersiveengineering : metalDevice1 : 3>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ImmersiveEngineering.zs}
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:19: Could not resolve <progress : ingotSteel304>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:20: Could not resolve <enderio : itemAlloy>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:21: Could not resolve <enderio : itemAlloy : 2>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:22: Could not resolve <enderio : itemAlloy : 1>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:23: Could not resolve <enderio : itemAlloy : 5>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:24: Could not resolve <enderio : itemAlloy : 3>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:49: Could not resolve <enderio : blockFusedQuartz : 1>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:58: Could not resolve <enderio : itemMaterial>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:67: Could not resolve <immersiveengineering : stoneDecoration>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:68: Could not resolve <immersiveengineering : stoneDecoration>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:74: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[INITIALIZATION][CLIENT][ERROR] ImmersiveEngineering.zs:75: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ImmersiveEngineering.zs}: Bad type on operand stack
+Exception Details:
+  Location:
+    ImmersiveEngineering.__script__()V @132: ifnonnull
+  Reason:
+    Type integer (current frame, stack[2]) is not assignable to reference type
+  Current Frame:
+    bci: @132
+    flags: { }
+    locals: { top, 'crafttweaker/api/item/IItemStack', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/item/IItemStack', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/item/IItemStack', top, null, top, null, top, null, top, null, top, null, top, null }
+    stack: { null, integer, integer }
+  Bytecode:
+    0x0000000: 120b 120c b800 124c 1214 b800 1a4e 121c
+    0x0000010: b800 1a3a 0512 1eb8 001a 3a07 1220 b800
+    0x0000020: 1a3a 0912 22b8 001a 3a0b 1224 b800 1a3a
+    0x0000030: 0d12 26b8 001a 3a0f 1228 b800 1a3a 1112
+    0x0000040: 2a12 0cb8 0012 3a13 122c b800 1a3a 1512
+    0x0000050: 2eb8 001a 3a17 1230 b800 1a3a 1912 32b8
+    0x0000060: 001a 3a1b 1234 1235 b800 123a 1d01 3a1f
+    0x0000070: 013a 2101 3a23 013a 2501 3a27 013a 2919
+    0x0000080: 1f12 3659 c700 0857 01a7 0006 b800 3cb8
+    0x0000090: 0042 59c7 0008 5701 a700 06b8 003c b900
+    0x00000a0: 4802 0012 4ab9 004e 0200 1250 b800 1a01
+    0x00000b0: 1251 1252 1253 bd00 5559 120c 1257 b800
+    0x00000c0: 1a53 01b8 005d 1923 124a b900 4e02 0019
+    0x00000d0: 2512 55b9 004e 0200 0112 5112 5212 53bd
+    0x00000e0: 0055 5912 0c12 5f12 0cb8 0012 5301 b800
+    0x00000f0: 5d19 2712 4ab9 004e 0200 1915 0112 6012
+    0x0000100: 5212 53bd 0055 5912 0c12 5f12 0cb8 0012
+    0x0000110: 5301 b800 5d19 2112 4ab9 004e 0200 b800
+    0x0000120: 6419 2112 4ab9 004e 0200 1915 0112 6512
+    0x0000130: 5212 66bd 0055 5912 0c19 0d53 5912 5319
+    0x0000140: 1153 01b8 005d 1921 124a b900 4e02 0019
+    0x0000150: 0f01 1265 1252 1266 bd00 5559 120c 190d
+    0x0000160: 5359 1253 1911 5301 b800 5d19 2912 4ab9
+    0x0000170: 004e 0200 1913 0112 6512 5212 53bd 0055
+    0x0000180: 5912 0c19 1153 01b8 005d 0112 6812 0cb8
+    0x0000190: 0012 1253 b900 6c02 0001 1265 1252 1253
+    0x00001a0: bd00 5559 120c 1268 120c b800 1212 66b9
+    0x00001b0: 006c 0200 5301 b800 5d01 126e 120c b800
+    0x00001c0: 1212 6f01 1400 70b8 0076 1278 1279 b800
+    0x00001d0: 1212 7bb8 001a 127c 0114 0070 b800 7612
+    0x00001e0: 7812 66b8 0012 127e b800 1a12 7c01 1400
+    0x00001f0: 70b8 0076 126e 120c b800 1212 80b8 001a
+    0x0000200: 1281 0114 0070 b800 7612 7812 35b8 0012
+    0x0000210: 1278 1282 b800 1212 8101 1400 70b8 0076
+    0x0000220: 1284 120c b800 1212 8612 0cb8 0012 1287
+    0x0000230: 0114 0070 b800 76b2 008d 0103 b900 9303
+    0x0000240: 00b2 008d 0112 79b9 006c 0200 1279 bd00
+    0x0000250: 9559 120c 1279 bd00 5559 120c 2d53 5912
+    0x0000260: 5319 0553 5912 662d 5353 5912 5312 79bd
+    0x0000270: 0055 5912 0c19 0553 5912 5319 0953 5912
+    0x0000280: 6619 0553 5359 1266 1279 bd00 5559 120c
+    0x0000290: 2d53 5912 5319 0553 5912 662d 5353 0101
+    0x00002a0: b900 9905 00b2 008d 0103 b900 9303 00b2
+    0x00002b0: 008d 0112 79b9 006c 0200 1279 bd00 9559
+    0x00002c0: 120c 1279 bd00 5559 120c 1907 5359 1253
+    0x00002d0: 1905 5359 1266 1907 5353 5912 5312 79bd
+    0x00002e0: 0055 5912 0c19 0553 5912 5319 0b53 5912
+    0x00002f0: 6619 0553 5359 1266 1279 bd00 5559 120c
+    0x0000300: 1907 5359 1253 1905 5359 1266 1907 5353
+    0x0000310: 0101 b900 9905 00b1                    
+  Stackmap Table:
+    full_frame(@140,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Integer})
+    full_frame(@143,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#68]})
+    full_frame(@155,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#157]})
+    full_frame(@158,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#68]})
+
+java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    ImmersiveEngineering.__script__()V @132: ifnonnull
+  Reason:
+    Type integer (current frame, stack[2]) is not assignable to reference type
+  Current Frame:
+    bci: @132
+    flags: { }
+    locals: { top, 'crafttweaker/api/item/IItemStack', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/item/IItemStack', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/oredict/IOreDictEntry', top, 'crafttweaker/api/item/IItemStack', top, null, top, null, top, null, top, null, top, null, top, null }
+    stack: { null, integer, integer }
+  Bytecode:
+    0x0000000: 120b 120c b800 124c 1214 b800 1a4e 121c
+    0x0000010: b800 1a3a 0512 1eb8 001a 3a07 1220 b800
+    0x0000020: 1a3a 0912 22b8 001a 3a0b 1224 b800 1a3a
+    0x0000030: 0d12 26b8 001a 3a0f 1228 b800 1a3a 1112
+    0x0000040: 2a12 0cb8 0012 3a13 122c b800 1a3a 1512
+    0x0000050: 2eb8 001a 3a17 1230 b800 1a3a 1912 32b8
+    0x0000060: 001a 3a1b 1234 1235 b800 123a 1d01 3a1f
+    0x0000070: 013a 2101 3a23 013a 2501 3a27 013a 2919
+    0x0000080: 1f12 3659 c700 0857 01a7 0006 b800 3cb8
+    0x0000090: 0042 59c7 0008 5701 a700 06b8 003c b900
+    0x00000a0: 4802 0012 4ab9 004e 0200 1250 b800 1a01
+    0x00000b0: 1251 1252 1253 bd00 5559 120c 1257 b800
+    0x00000c0: 1a53 01b8 005d 1923 124a b900 4e02 0019
+    0x00000d0: 2512 55b9 004e 0200 0112 5112 5212 53bd
+    0x00000e0: 0055 5912 0c12 5f12 0cb8 0012 5301 b800
+    0x00000f0: 5d19 2712 4ab9 004e 0200 1915 0112 6012
+    0x0000100: 5212 53bd 0055 5912 0c12 5f12 0cb8 0012
+    0x0000110: 5301 b800 5d19 2112 4ab9 004e 0200 b800
+    0x0000120: 6419 2112 4ab9 004e 0200 1915 0112 6512
+    0x0000130: 5212 66bd 0055 5912 0c19 0d53 5912 5319
+    0x0000140: 1153 01b8 005d 1921 124a b900 4e02 0019
+    0x0000150: 0f01 1265 1252 1266 bd00 5559 120c 190d
+    0x0000160: 5359 1253 1911 5301 b800 5d19 2912 4ab9
+    0x0000170: 004e 0200 1913 0112 6512 5212 53bd 0055
+    0x0000180: 5912 0c19 1153 01b8 005d 0112 6812 0cb8
+    0x0000190: 0012 1253 b900 6c02 0001 1265 1252 1253
+    0x00001a0: bd00 5559 120c 1268 120c b800 1212 66b9
+    0x00001b0: 006c 0200 5301 b800 5d01 126e 120c b800
+    0x00001c0: 1212 6f01 1400 70b8 0076 1278 1279 b800
+    0x00001d0: 1212 7bb8 001a 127c 0114 0070 b800 7612
+    0x00001e0: 7812 66b8 0012 127e b800 1a12 7c01 1400
+    0x00001f0: 70b8 0076 126e 120c b800 1212 80b8 001a
+    0x0000200: 1281 0114 0070 b800 7612 7812 35b8 0012
+    0x0000210: 1278 1282 b800 1212 8101 1400 70b8 0076
+    0x0000220: 1284 120c b800 1212 8612 0cb8 0012 1287
+    0x0000230: 0114 0070 b800 76b2 008d 0103 b900 9303
+    0x0000240: 00b2 008d 0112 79b9 006c 0200 1279 bd00
+    0x0000250: 9559 120c 1279 bd00 5559 120c 2d53 5912
+    0x0000260: 5319 0553 5912 662d 5353 5912 5312 79bd
+    0x0000270: 0055 5912 0c19 0553 5912 5319 0953 5912
+    0x0000280: 6619 0553 5359 1266 1279 bd00 5559 120c
+    0x0000290: 2d53 5912 5319 0553 5912 662d 5353 0101
+    0x00002a0: b900 9905 00b2 008d 0103 b900 9303 00b2
+    0x00002b0: 008d 0112 79b9 006c 0200 1279 bd00 9559
+    0x00002c0: 120c 1279 bd00 5559 120c 1907 5359 1253
+    0x00002d0: 1905 5359 1266 1907 5353 5912 5312 79bd
+    0x00002e0: 0055 5912 0c19 0553 5912 5319 0b53 5912
+    0x00002f0: 6619 0553 5359 1266 1279 bd00 5559 120c
+    0x0000300: 1907 5359 1253 1905 5359 1266 1907 5353
+    0x0000310: 0101 b900 9905 00b1                    
+  Stackmap Table:
+    full_frame(@140,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Integer})
+    full_frame(@143,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#68]})
+    full_frame(@155,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#157]})
+    full_frame(@158,{Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#155],Top,Object[#74],Top,Null,Top,Null,Top,Null,Top,Null,Top,Null,Top,Null},{Null,Object[#68]})
+
+	at __ZenMain__.run(ImmersiveEngineering)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:149)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:56)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:115)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:46)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_312_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:622)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:352)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: misc.zs}
+[INITIALIZATION][CLIENT][ERROR] misc.zs:6: Could not resolve <botania : superTravelBelt>
+[POSTINITIALIZATION][CLIENT][ERROR] Error while applying actions
+java.lang.NullPointerException
+	at crafttweaker.mc1120.recipes.MCRecipeManager$ActionRemoveRecipesNoIngredients.matches(MCRecipeManager.java:458)
+	at crafttweaker.mc1120.recipes.MCRecipeManager$ActionRemoveRecipesNoIngredients.apply(MCRecipeManager.java:446)
+	at crafttweaker.mc1120.CraftTweaker.onPostInit(CraftTweaker.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:606)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:253)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:231)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:148)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:724)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:352)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
