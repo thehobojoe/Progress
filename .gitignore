@@ -20,5 +20,7 @@ mmc-pack.json
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 .minecraft/betterfps.txt
+.minecraft/crafttweaker.log
+.minecraft/config/splash.properties
 .minecraft/config/JEI/worldSettings.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
