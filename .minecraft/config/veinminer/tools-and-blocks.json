@@ -48,7 +48,11 @@
         "natura:overworld_logs2",
         "natura:redwood_leaves",
         "natura:redwood_logs",
-        "tconstruct:slime_leaves"
+        "tconstruct:slime_leaves",
+        "twilightforest:magic_leaves",
+        "twilightforest:magic_log",
+        "twilightforest:twilight_leaves",
+        "twilightforest:twilight_log"
       ]
     },
     "hoe": {
@@ -232,7 +236,9 @@
         "natura:overworld_leaves",
         "natura:overworld_leaves2",
         "natura:redwood_leaves",
-        "tconstruct:slime_leaves"
+        "tconstruct:slime_leaves",
+        "twilightforest:magic_leaves",
+        "twilightforest:twilight_leaves"
       ]
     },
     "shovel": {

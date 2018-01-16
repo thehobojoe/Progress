@@ -114,9 +114,32 @@
 					"metadata": 5
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 5
 			},
 			"cluster-count": 2,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
 			"min-height": 5,
 			"max-height": 20,
 			"retrogen": "true",

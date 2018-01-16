@@ -38,11 +38,16 @@ recipes.addShaped(<botania:altar>,
 
 
 
-//replace livingwood recipe
-//mods.botania.PureDaisy.removeRecipe(<Botania:livingwood>);
-//mods.botania.PureDaisy.addRecipe(<ore:plankTreatedWood>, <Botania:livingwood>);
-
-
 //alter manasteel
-//mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>); //Infusion
-//mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:ingotSteel>, 4000);
+//mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>); //Infusion
+//mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 4000);
+
+
+//remove tiara
+recipes.remove(<botania:flighttiara>);
+
+//remove globetrotters sash
+recipes.remove(<botania:supertravelbelt>);
+
+//remove life imbuer
+recipes.remove(<botania:spawnerclaw>);

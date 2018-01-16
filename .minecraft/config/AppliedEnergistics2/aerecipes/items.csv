@@ -643,6 +643,15 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+ae2stuff:encoder, Pattern Encoder
+ae2stuff:grower, Crystal Growth Chamber
+ae2stuff:inscriber, Advanced Inscriber
+ae2stuff:wireless, Wireless Connector
+ae2stuff:wireless_kit, Wireless Setup Kit
+ae2stuff:visualiser, Network Visualisation Tool
+enderstorage:ender_storage:0, Ender Chest
+enderstorage:ender_storage:1, Ender Tank
+enderstorage:ender_pouch, Ender Pouch
 extrautils2:wateringcan, Watering Can
 extrautils2:itemcreativedestructionwand, Creative Destruction Wand
 extrautils2:unstableingots:0, Unstable Ingot
@@ -736,12 +745,6 @@ extrautils2:goldenlasso:0, Golden Lasso
 extrautils2:goldenlasso:1, Cursed Lasso
 extrautils2:chickenring:0, Chicken Wing Ring
 extrautils2:chickenring:1, Ring of the Flying Squid
-extrautils2:angelring:0, Angel Ring
-extrautils2:angelring:1, Angel Ring
-extrautils2:angelring:2, Angel Ring
-extrautils2:angelring:3, Angel Ring
-extrautils2:angelring:4, Angel Ring
-extrautils2:angelring:5, Angel Ring
 extrautils2:powermanager, Power Manager
 extrautils2:bagofholding, Bag Of Holding
 extrautils2:decorativeglass:0, Thickened Glass
@@ -760,7 +763,6 @@ extrautils2:wrench, Wrench
 extrautils2:boomerang, Magical Boomerang
 extrautils2:book, Extra Utilities 2 Manual
 extrautils2:contract, Contract
-extrautils2:chunkloader, Chunk Loading Ward
 extrautils2:filter, Filter
 extrautils2:filterfluids, Filter Fluids
 extrautils2:grocket:0, Transfer Node (Items)
@@ -805,8 +807,6 @@ extrautils2:teleporter:0, Overworld Portal
 extrautils2:teleporter:1, Deep Dark Portal
 extrautils2:powertransmitter, Wireless RF Transmitter
 extrautils2:powerbattery, Wireless RF Battery
-extrautils2:quarryproxy, Quantum Quarry Actuator
-extrautils2:quarry, Quantum Quarry
 extrautils2:spike_wood, Wooden Spikes
 extrautils2:spike_stone, Stone Spikes
 extrautils2:spike_iron, Iron Spikes
@@ -1372,7 +1372,6 @@ thermalexpansion:device:7, Lexical Transmuter
 thermalexpansion:device:8, Insightful Condenser
 thermalexpansion:device:9, Decoctive Diffuser
 thermalexpansion:dynamo:0, Steam Dynamo (Basic)
-thermalexpansion:dynamo:1, Magmatic Dynamo (Basic)
 thermalexpansion:dynamo:2, Compression Dynamo (Basic)
 thermalexpansion:dynamo:3, Reactant Dynamo (Basic)
 thermalexpansion:dynamo:4, Enervation Dynamo (Basic)
@@ -4137,147 +4136,6 @@ thermaldynamics:cover:0, Fluix Slabs Cover
 thermaldynamics:cover:0, Certus Quartz Slabs Cover
 thermaldynamics:cover:0, Chiseled Certus Quartz Slabs Cover
 thermaldynamics:cover:0, Certus Quartz Pillar Slabs Cover
-thermaldynamics:cover:0, Mystical White Flower Cover
-thermaldynamics:cover:0, Mystical Orange Flower Cover
-thermaldynamics:cover:0, Mystical Magenta Flower Cover
-thermaldynamics:cover:0, Mystical Light Blue Flower Cover
-thermaldynamics:cover:0, Mystical Yellow Flower Cover
-thermaldynamics:cover:0, Mystical Lime Flower Cover
-thermaldynamics:cover:0, Mystical Pink Flower Cover
-thermaldynamics:cover:0, Mystical Gray Flower Cover
-thermaldynamics:cover:0, Mystical Light Gray Flower Cover
-thermaldynamics:cover:0, Mystical Cyan Flower Cover
-thermaldynamics:cover:0, Mystical Purple Flower Cover
-thermaldynamics:cover:0, Mystical Blue Flower Cover
-thermaldynamics:cover:0, Mystical Brown Flower Cover
-thermaldynamics:cover:0, Mystical Green Flower Cover
-thermaldynamics:cover:0, Mystical Red Flower Cover
-thermaldynamics:cover:0, Mystical Black Flower Cover
-thermaldynamics:cover:0, Livingrock Cover
-thermaldynamics:cover:0, Livingrock Brick Cover
-thermaldynamics:cover:0, Mossy Livingrock Brick Cover
-thermaldynamics:cover:0, Cracked Livingrock Brick Cover
-thermaldynamics:cover:0, Chiseled Livingrock Brick Cover
-thermaldynamics:cover:0, Livingwood Cover
-thermaldynamics:cover:0, Livingwood Planks Cover
-thermaldynamics:cover:0, Mossy Livingwood Planks Cover
-thermaldynamics:cover:0, Framed Livingwood Cover
-thermaldynamics:cover:0, Pattern Framed Livingwood Cover
-thermaldynamics:cover:0, Glimmering Livingwood Cover
-thermaldynamics:cover:0, Force Relay Cover
-thermaldynamics:cover:0, Alchemy Catalyst Cover
-thermaldynamics:cover:0, Block of Manasteel Cover
-thermaldynamics:cover:0, Block of Terrasteel Cover
-thermaldynamics:cover:0, Block of Elementium Cover
-thermaldynamics:cover:0, Block of Mana Diamond Cover
-thermaldynamics:cover:0, Block of Dragonstone Cover
-thermaldynamics:cover:0, Drum of the Wild Cover
-thermaldynamics:cover:0, Drum of the Gathering Cover
-thermaldynamics:cover:0, Drum of the Canopy Cover
-thermaldynamics:cover:0, Glimmering White Flower Cover
-thermaldynamics:cover:0, Glimmering Orange Flower Cover
-thermaldynamics:cover:0, Glimmering Magenta Flower Cover
-thermaldynamics:cover:0, Glimmering Light Blue Flower Cover
-thermaldynamics:cover:0, Glimmering Yellow Flower Cover
-thermaldynamics:cover:0, Glimmering Lime Flower Cover
-thermaldynamics:cover:0, Glimmering Pink Flower Cover
-thermaldynamics:cover:0, Glimmering Gray Flower Cover
-thermaldynamics:cover:0, Glimmering Light Gray Flower Cover
-thermaldynamics:cover:0, Glimmering Cyan Flower Cover
-thermaldynamics:cover:0, Glimmering Purple Flower Cover
-thermaldynamics:cover:0, Glimmering Blue Flower Cover
-thermaldynamics:cover:0, Glimmering Brown Flower Cover
-thermaldynamics:cover:0, Glimmering Green Flower Cover
-thermaldynamics:cover:0, Glimmering Red Flower Cover
-thermaldynamics:cover:0, Glimmering Black Flower Cover
-thermaldynamics:cover:0, Dreamwood Cover
-thermaldynamics:cover:0, Dreamwood Planks Cover
-thermaldynamics:cover:0, Mossy Dreamwood Planks Cover
-thermaldynamics:cover:0, Framed Dreamwood Cover
-thermaldynamics:cover:0, Pattern Framed Dreamwood Cover
-thermaldynamics:cover:0, Glimmering Dreamwood Cover
-thermaldynamics:cover:0, Conjuration Catalyst Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Azulejo Cover
-thermaldynamics:cover:0, Alfglass Cover
-thermaldynamics:cover:0, Managlass Cover
-thermaldynamics:cover:0, White Petal Block Cover
-thermaldynamics:cover:0, Orange Petal Block Cover
-thermaldynamics:cover:0, Magenta Petal Block Cover
-thermaldynamics:cover:0, Light Blue Petal Block Cover
-thermaldynamics:cover:0, Yellow Petal Block Cover
-thermaldynamics:cover:0, Lime Petal Block Cover
-thermaldynamics:cover:0, Pink Petal Block Cover
-thermaldynamics:cover:0, Gray Petal Block Cover
-thermaldynamics:cover:0, Light Gray Petal Block Cover
-thermaldynamics:cover:0, Cyan Petal Block Cover
-thermaldynamics:cover:0, Purple Petal Block Cover
-thermaldynamics:cover:0, Blue Petal Block Cover
-thermaldynamics:cover:0, Brown Petal Block Cover
-thermaldynamics:cover:0, Green Petal Block Cover
-thermaldynamics:cover:0, Red Petal Block Cover
-thermaldynamics:cover:0, Black Petal Block Cover
-thermaldynamics:cover:0, White Shimmering Mushroom Cover
-thermaldynamics:cover:0, Orange Shimmering Mushroom Cover
-thermaldynamics:cover:0, Magenta Shimmering Mushroom Cover
-thermaldynamics:cover:0, Light Blue Shimmering Mushroom Cover
-thermaldynamics:cover:0, Yellow Shimmering Mushroom Cover
-thermaldynamics:cover:0, Lime Shimmering Mushroom Cover
-thermaldynamics:cover:0, Pink Shimmering Mushroom Cover
-thermaldynamics:cover:0, Gray Shimmering Mushroom Cover
-thermaldynamics:cover:0, Light Gray Shimmering Mushroom Cover
-thermaldynamics:cover:0, Cyan Shimmering Mushroom Cover
-thermaldynamics:cover:0, Purple Shimmering Mushroom Cover
-thermaldynamics:cover:0, Blue Shimmering Mushroom Cover
-thermaldynamics:cover:0, Brown Shimmering Mushroom Cover
-thermaldynamics:cover:0, Green Shimmering Mushroom Cover
-thermaldynamics:cover:0, Red Shimmering Mushroom Cover
-thermaldynamics:cover:0, Black Shimmering Mushroom Cover
-thermaldynamics:cover:0, Tall Mystical White Flower Cover
-thermaldynamics:cover:0, Tall Mystical Orange Flower Cover
-thermaldynamics:cover:0, Tall Mystical Magenta Flower Cover
-thermaldynamics:cover:0, Tall Mystical Light Blue Flower Cover
-thermaldynamics:cover:0, Tall Mystical Yellow Flower Cover
-thermaldynamics:cover:0, Tall Mystical Lime Flower Cover
-thermaldynamics:cover:0, Tall Mystical Pink Flower Cover
-thermaldynamics:cover:0, Tall Mystical Gray Flower Cover
-thermaldynamics:cover:0, Tall Mystical Light Gray Flower Cover
-thermaldynamics:cover:0, Tall Mystical Cyan Flower Cover
-thermaldynamics:cover:0, Tall Mystical Purple Flower Cover
-thermaldynamics:cover:0, Tall Mystical Blue Flower Cover
-thermaldynamics:cover:0, Tall Mystical Brown Flower Cover
-thermaldynamics:cover:0, Tall Mystical Green Flower Cover
-thermaldynamics:cover:0, Tall Mystical Red Flower Cover
-thermaldynamics:cover:0, Tall Mystical Black Flower Cover
-thermaldynamics:cover:0, Blaze Mesh Cover
-thermaldynamics:cover:0, Spectral Rail Cover
-thermaldynamics:cover:0, Living Root Cover
-thermaldynamics:cover:0, Fel Pumpkin Cover
-thermaldynamics:cover:0, Luminizer Launcher Cover
-thermaldynamics:cover:0, Manastorm Charge Cover
-thermaldynamics:cover:0, Bifrost Block Cover
-thermaldynamics:cover:0, Shimmerrock Cover
-thermaldynamics:cover:0, Shimmerwood Planks Cover
-thermaldynamics:cover:0, Dry Grass Cover
-thermaldynamics:cover:0, Golden Grass Cover
-thermaldynamics:cover:0, Vivid Grass Cover
-thermaldynamics:cover:0, Scorched Grass Cover
-thermaldynamics:cover:0, Infused Grass Cover
-thermaldynamics:cover:0, Mutated Grass Cover
 thermaldynamics:cover:0, Livingwood Stairs Cover
 thermaldynamics:cover:0, Livingwood Slab Cover
 thermaldynamics:cover:0, Livingwood Wall Cover
@@ -4441,6 +4299,147 @@ thermaldynamics:cover:0, Shimmerwood Plank Stairs Cover
 thermaldynamics:cover:0, Managlass Pane Cover
 thermaldynamics:cover:0, Alfglass Pane Cover
 thermaldynamics:cover:0, Bifrost Pane Cover
+thermaldynamics:cover:0, Mystical White Flower Cover
+thermaldynamics:cover:0, Mystical Orange Flower Cover
+thermaldynamics:cover:0, Mystical Magenta Flower Cover
+thermaldynamics:cover:0, Mystical Light Blue Flower Cover
+thermaldynamics:cover:0, Mystical Yellow Flower Cover
+thermaldynamics:cover:0, Mystical Lime Flower Cover
+thermaldynamics:cover:0, Mystical Pink Flower Cover
+thermaldynamics:cover:0, Mystical Gray Flower Cover
+thermaldynamics:cover:0, Mystical Light Gray Flower Cover
+thermaldynamics:cover:0, Mystical Cyan Flower Cover
+thermaldynamics:cover:0, Mystical Purple Flower Cover
+thermaldynamics:cover:0, Mystical Blue Flower Cover
+thermaldynamics:cover:0, Mystical Brown Flower Cover
+thermaldynamics:cover:0, Mystical Green Flower Cover
+thermaldynamics:cover:0, Mystical Red Flower Cover
+thermaldynamics:cover:0, Mystical Black Flower Cover
+thermaldynamics:cover:0, Livingrock Cover
+thermaldynamics:cover:0, Livingrock Brick Cover
+thermaldynamics:cover:0, Mossy Livingrock Brick Cover
+thermaldynamics:cover:0, Cracked Livingrock Brick Cover
+thermaldynamics:cover:0, Chiseled Livingrock Brick Cover
+thermaldynamics:cover:0, Livingwood Cover
+thermaldynamics:cover:0, Livingwood Planks Cover
+thermaldynamics:cover:0, Mossy Livingwood Planks Cover
+thermaldynamics:cover:0, Framed Livingwood Cover
+thermaldynamics:cover:0, Pattern Framed Livingwood Cover
+thermaldynamics:cover:0, Glimmering Livingwood Cover
+thermaldynamics:cover:0, Force Relay Cover
+thermaldynamics:cover:0, Alchemy Catalyst Cover
+thermaldynamics:cover:0, Block of Manasteel Cover
+thermaldynamics:cover:0, Block of Terrasteel Cover
+thermaldynamics:cover:0, Block of Elementium Cover
+thermaldynamics:cover:0, Block of Mana Diamond Cover
+thermaldynamics:cover:0, Block of Dragonstone Cover
+thermaldynamics:cover:0, Drum of the Wild Cover
+thermaldynamics:cover:0, Drum of the Gathering Cover
+thermaldynamics:cover:0, Drum of the Canopy Cover
+thermaldynamics:cover:0, Glimmering White Flower Cover
+thermaldynamics:cover:0, Glimmering Orange Flower Cover
+thermaldynamics:cover:0, Glimmering Magenta Flower Cover
+thermaldynamics:cover:0, Glimmering Light Blue Flower Cover
+thermaldynamics:cover:0, Glimmering Yellow Flower Cover
+thermaldynamics:cover:0, Glimmering Lime Flower Cover
+thermaldynamics:cover:0, Glimmering Pink Flower Cover
+thermaldynamics:cover:0, Glimmering Gray Flower Cover
+thermaldynamics:cover:0, Glimmering Light Gray Flower Cover
+thermaldynamics:cover:0, Glimmering Cyan Flower Cover
+thermaldynamics:cover:0, Glimmering Purple Flower Cover
+thermaldynamics:cover:0, Glimmering Blue Flower Cover
+thermaldynamics:cover:0, Glimmering Brown Flower Cover
+thermaldynamics:cover:0, Glimmering Green Flower Cover
+thermaldynamics:cover:0, Glimmering Red Flower Cover
+thermaldynamics:cover:0, Glimmering Black Flower Cover
+thermaldynamics:cover:0, Dreamwood Cover
+thermaldynamics:cover:0, Dreamwood Planks Cover
+thermaldynamics:cover:0, Mossy Dreamwood Planks Cover
+thermaldynamics:cover:0, Framed Dreamwood Cover
+thermaldynamics:cover:0, Pattern Framed Dreamwood Cover
+thermaldynamics:cover:0, Glimmering Dreamwood Cover
+thermaldynamics:cover:0, Conjuration Catalyst Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Azulejo Cover
+thermaldynamics:cover:0, Alfglass Cover
+thermaldynamics:cover:0, Managlass Cover
+thermaldynamics:cover:0, White Petal Block Cover
+thermaldynamics:cover:0, Orange Petal Block Cover
+thermaldynamics:cover:0, Magenta Petal Block Cover
+thermaldynamics:cover:0, Light Blue Petal Block Cover
+thermaldynamics:cover:0, Yellow Petal Block Cover
+thermaldynamics:cover:0, Lime Petal Block Cover
+thermaldynamics:cover:0, Pink Petal Block Cover
+thermaldynamics:cover:0, Gray Petal Block Cover
+thermaldynamics:cover:0, Light Gray Petal Block Cover
+thermaldynamics:cover:0, Cyan Petal Block Cover
+thermaldynamics:cover:0, Purple Petal Block Cover
+thermaldynamics:cover:0, Blue Petal Block Cover
+thermaldynamics:cover:0, Brown Petal Block Cover
+thermaldynamics:cover:0, Green Petal Block Cover
+thermaldynamics:cover:0, Red Petal Block Cover
+thermaldynamics:cover:0, Black Petal Block Cover
+thermaldynamics:cover:0, White Shimmering Mushroom Cover
+thermaldynamics:cover:0, Orange Shimmering Mushroom Cover
+thermaldynamics:cover:0, Magenta Shimmering Mushroom Cover
+thermaldynamics:cover:0, Light Blue Shimmering Mushroom Cover
+thermaldynamics:cover:0, Yellow Shimmering Mushroom Cover
+thermaldynamics:cover:0, Lime Shimmering Mushroom Cover
+thermaldynamics:cover:0, Pink Shimmering Mushroom Cover
+thermaldynamics:cover:0, Gray Shimmering Mushroom Cover
+thermaldynamics:cover:0, Light Gray Shimmering Mushroom Cover
+thermaldynamics:cover:0, Cyan Shimmering Mushroom Cover
+thermaldynamics:cover:0, Purple Shimmering Mushroom Cover
+thermaldynamics:cover:0, Blue Shimmering Mushroom Cover
+thermaldynamics:cover:0, Brown Shimmering Mushroom Cover
+thermaldynamics:cover:0, Green Shimmering Mushroom Cover
+thermaldynamics:cover:0, Red Shimmering Mushroom Cover
+thermaldynamics:cover:0, Black Shimmering Mushroom Cover
+thermaldynamics:cover:0, Tall Mystical White Flower Cover
+thermaldynamics:cover:0, Tall Mystical Orange Flower Cover
+thermaldynamics:cover:0, Tall Mystical Magenta Flower Cover
+thermaldynamics:cover:0, Tall Mystical Light Blue Flower Cover
+thermaldynamics:cover:0, Tall Mystical Yellow Flower Cover
+thermaldynamics:cover:0, Tall Mystical Lime Flower Cover
+thermaldynamics:cover:0, Tall Mystical Pink Flower Cover
+thermaldynamics:cover:0, Tall Mystical Gray Flower Cover
+thermaldynamics:cover:0, Tall Mystical Light Gray Flower Cover
+thermaldynamics:cover:0, Tall Mystical Cyan Flower Cover
+thermaldynamics:cover:0, Tall Mystical Purple Flower Cover
+thermaldynamics:cover:0, Tall Mystical Blue Flower Cover
+thermaldynamics:cover:0, Tall Mystical Brown Flower Cover
+thermaldynamics:cover:0, Tall Mystical Green Flower Cover
+thermaldynamics:cover:0, Tall Mystical Red Flower Cover
+thermaldynamics:cover:0, Tall Mystical Black Flower Cover
+thermaldynamics:cover:0, Blaze Mesh Cover
+thermaldynamics:cover:0, Spectral Rail Cover
+thermaldynamics:cover:0, Living Root Cover
+thermaldynamics:cover:0, Fel Pumpkin Cover
+thermaldynamics:cover:0, Luminizer Launcher Cover
+thermaldynamics:cover:0, Manastorm Charge Cover
+thermaldynamics:cover:0, Bifrost Block Cover
+thermaldynamics:cover:0, Shimmerrock Cover
+thermaldynamics:cover:0, Shimmerwood Planks Cover
+thermaldynamics:cover:0, Dry Grass Cover
+thermaldynamics:cover:0, Golden Grass Cover
+thermaldynamics:cover:0, Vivid Grass Cover
+thermaldynamics:cover:0, Scorched Grass Cover
+thermaldynamics:cover:0, Infused Grass Cover
+thermaldynamics:cover:0, Mutated Grass Cover
 thermaldynamics:cover:0, Kitchen Floor Cover
 thermaldynamics:cover:0, Ender Ore Cover
 thermaldynamics:cover:0, Grout Cover
@@ -4654,6 +4653,7 @@ thermaldynamics:cover:0, Biodiesel Cover
 thermaldynamics:cover:0, Liquid Concrete Cover
 thermaldynamics:cover:0, Molten Uranium Cover
 thermaldynamics:cover:0, Molten Constantan Cover
+thermaldynamics:cover:0, Asphalt Concrete Cover
 thermaldynamics:cover:0, Cloud Cover
 thermaldynamics:cover:0, Dark Cloud Cover
 thermaldynamics:cover:0, Ash Cloud Cover
@@ -4877,6 +4877,210 @@ thermaldynamics:cover:0, Birch Trim Cover
 thermaldynamics:cover:0, Jungle Trim Cover
 thermaldynamics:cover:0, Acacia Trim Cover
 thermaldynamics:cover:0, Dark Oak Trim Cover
+thermaldynamics:cover:0, Twilight Oak Wood Cover
+thermaldynamics:cover:0, Canopy Tree Wood Cover
+thermaldynamics:cover:0, Mangrove Wood Cover
+thermaldynamics:cover:0, Darkwood Wood Cover
+thermaldynamics:cover:0, Roots Cover
+thermaldynamics:cover:0, Liveroots Cover
+thermaldynamics:cover:0, tile.TFLeaves.4.name Cover
+thermaldynamics:cover:0, tile.TFLeaves.5.name Cover
+thermaldynamics:cover:0, tile.TFLeaves.6.name Cover
+thermaldynamics:cover:0, tile.TFLeaves.7.name Cover
+thermaldynamics:cover:0, Mazestone Cover
+thermaldynamics:cover:0, Mazestone Brick Cover
+thermaldynamics:cover:0, Chiseled Mazestone Cover
+thermaldynamics:cover:0, Decorative Mazestone Brick Cover
+thermaldynamics:cover:0, Cracked Mazestone Brick Cover
+thermaldynamics:cover:0, Mossy Mazestone Brick Cover
+thermaldynamics:cover:0, Mazestone Mosaic Cover
+thermaldynamics:cover:0, Mazestone Border Cover
+thermaldynamics:cover:0, Hedge Cover
+thermaldynamics:cover:0, Firefly Jar Cover
+thermaldynamics:cover:0, Moss Patch Cover
+thermaldynamics:cover:0, Mayapple Cover
+thermaldynamics:cover:0, Clover Patch [WIP] Cover
+thermaldynamics:cover:0, Fiddlehead Cover
+thermaldynamics:cover:0, Mushgloom Cover
+thermaldynamics:cover:0, Forest Grass Cover
+thermaldynamics:cover:0, Dried Bush Cover
+thermaldynamics:cover:0, Torchberry Plant Cover
+thermaldynamics:cover:0, Root Strands Cover
+thermaldynamics:cover:0, Uncrafting Table Cover
+thermaldynamics:cover:0, Nagastone Head Cover
+thermaldynamics:cover:0, Nagastone Cover
+thermaldynamics:cover:0, Sickly Twilight Oak Sapling Cover
+thermaldynamics:cover:0, Canopy Tree Sapling Cover
+thermaldynamics:cover:0, Twilight Mangrove Sapling Cover
+thermaldynamics:cover:0, Darkwood Sapling Cover
+thermaldynamics:cover:0, Robust Twilight Oak Sapling Cover
+thermaldynamics:cover:0, Tree of Time Sapling Cover
+thermaldynamics:cover:0, Tree of Transformation Sapling Cover
+thermaldynamics:cover:0, Miner's Tree Sapling Cover
+thermaldynamics:cover:0, Sorting Tree Sapling Cover
+thermaldynamics:cover:0, Rainbow Oak Sapling Cover
+thermaldynamics:cover:0, Timewood Cover
+thermaldynamics:cover:0, Transwood Cover
+thermaldynamics:cover:0, Minewood Cover
+thermaldynamics:cover:0, Sortingwood Cover
+thermaldynamics:cover:0, tile.TFMagicLeaves.4.name Cover
+thermaldynamics:cover:0, tile.TFMagicLeaves.5.name Cover
+thermaldynamics:cover:0, tile.TFMagicLeaves.6.name Cover
+thermaldynamics:cover:0, tile.TFMagicLeaves.7.name Cover
+thermaldynamics:cover:0, Timewood Clock Cover
+thermaldynamics:cover:0, Heart of Transformation Cover
+thermaldynamics:cover:0, Minewood Core Cover
+thermaldynamics:cover:0, Sortingwood Engine Cover
+thermaldynamics:cover:0, Towerwood Planks Cover
+thermaldynamics:cover:0, Encased Towerwood Cover
+thermaldynamics:cover:0, Cracked Towerwood Cover
+thermaldynamics:cover:0, Mossy Towerwood Cover
+thermaldynamics:cover:0, Infested Towerwood Cover
+thermaldynamics:cover:0, Reappearing Block Cover
+thermaldynamics:cover:0, Vanishing Block Cover
+thermaldynamics:cover:0, Locked Vanishing Block Cover
+thermaldynamics:cover:0, Unlocked Vanishing Block Cover
+thermaldynamics:cover:0, Carminite Builder Cover
+thermaldynamics:cover:0, Carminite Reactor Cover
+thermaldynamics:cover:0, Stronghold Shield Cover
+thermaldynamics:cover:0, Trophy Pedestal Cover
+thermaldynamics:cover:0, Aurora Block Cover
+thermaldynamics:cover:0, Underbrick Cover
+thermaldynamics:cover:0, Mossy Underbrick Cover
+thermaldynamics:cover:0, Underbrick Floor Cover
+thermaldynamics:cover:0, Thorns Cover
+thermaldynamics:cover:0, Green Thorns Cover
+thermaldynamics:cover:0, Burnt Thorns Cover
+thermaldynamics:cover:0, Thorn Rose Cover
+thermaldynamics:cover:0, tile.TFLeaves3.4.name Cover
+thermaldynamics:cover:0, tile.TFLeaves3.5.name Cover
+thermaldynamics:cover:0, Weathered Deadrock Cover
+thermaldynamics:cover:0, Cracked Deadrock Cover
+thermaldynamics:cover:0, Deadrock Cover
+thermaldynamics:cover:0, Darkwood Leaves Cover
+thermaldynamics:cover:0, Aurora Pillar Cover
+thermaldynamics:cover:0, Aurora Slab Cover
+thermaldynamics:cover:0, Trollsteinn Cover
+thermaldynamics:cover:0, Wispy Cloud Cover
+thermaldynamics:cover:0, Fluffy Cloud Cover
+thermaldynamics:cover:0, Giant Cobblestone Cover
+thermaldynamics:cover:0, Giant Log Cover
+thermaldynamics:cover:0, Giant Leaves Cover
+thermaldynamics:cover:0, Giant Obsidian Cover
+thermaldynamics:cover:0, Uberous Soil Cover
+thermaldynamics:cover:0, Huge Stalk Cover
+thermaldynamics:cover:0, Trollvidr Cover
+thermaldynamics:cover:0, Unripe Trollber Cover
+thermaldynamics:cover:0, Trollber Cover
+thermaldynamics:cover:0, Block of Knightmetal Cover
+thermaldynamics:cover:0, Huge Lily Pad Cover
+thermaldynamics:cover:0, Huge Water Lily Cover
+thermaldynamics:cover:0, Slide Trap Cover
+thermaldynamics:cover:0, Slide Trap 1 Cover
+thermaldynamics:cover:0, Slide Trap 2 Cover
+thermaldynamics:cover:0, Slide Trap 3 Cover
+thermaldynamics:cover:0, Castle Brick Cover
+thermaldynamics:cover:0, Worn Castle Brick Cover
+thermaldynamics:cover:0, Cracked Castle Brick Cover
+thermaldynamics:cover:0, Castle Roof Tile Cover
+thermaldynamics:cover:0, Mossy Castle Brick Cover
+thermaldynamics:cover:0, Thick Castle Brick Cover
+thermaldynamics:cover:0, Encased Castle Brick Pillar Cover
+thermaldynamics:cover:0, Encased Castle Brick Tile Cover
+thermaldynamics:cover:0, Bold Castle Brick Pillar Cover
+thermaldynamics:cover:0, Bold Castle Brick Tiles Cover
+thermaldynamics:cover:0, Encased Castle Brick Stairs Cover
+thermaldynamics:cover:0, Bold Castle Brick Stairs Cover
+thermaldynamics:cover:0, Pink Castle Rune Brick Cover
+thermaldynamics:cover:0, Blue Castle Rune Brick Cover
+thermaldynamics:cover:0, Yellow Castle Rune Brick Cover
+thermaldynamics:cover:0, Violet Castle Rune Brick Cover
+thermaldynamics:cover:0, Violet Force Field Cover
+thermaldynamics:cover:0, Pink Force Field Cover
+thermaldynamics:cover:0, Orange Force Field Cover
+thermaldynamics:cover:0, Green Force Field Cover
+thermaldynamics:cover:0, Blue Force Field Cover
+thermaldynamics:cover:0, Cinder Furnace [NYI] Cover
+thermaldynamics:cover:0, Cinder Log [NYI] Cover
+thermaldynamics:cover:0, Yellow Castle Door Cover
+thermaldynamics:cover:0, Violet Castle Door Cover
+thermaldynamics:cover:0, Pink Castle Door Cover
+thermaldynamics:cover:0, Blue Castle Door Cover
+thermaldynamics:cover:0, Block of Ironwood Cover
+thermaldynamics:cover:0, Block of Fiery Metal Cover
+thermaldynamics:cover:0, Block of Steeleaf Cover
+thermaldynamics:cover:0, Block of Arctic Fur Cover
+thermaldynamics:cover:0, Block of Carminite Cover
+thermaldynamics:cover:0, White Cave Crystal Cover
+thermaldynamics:cover:0, Red Cave Crystal Cover
+thermaldynamics:cover:0, Orange Cave Crystal Cover
+thermaldynamics:cover:0, Yellow Cave Crystal Cover
+thermaldynamics:cover:0, Green Cave Crystal Cover
+thermaldynamics:cover:0, Blue Cave Crystal Cover
+thermaldynamics:cover:0, Indigo Cave Crystal Cover
+thermaldynamics:cover:0, Violet Cave Crystal Cover
+thermaldynamics:cover:0, Brimstone Cover
+thermaldynamics:cover:0, Permafrost Cover
+thermaldynamics:cover:0, Brimstone Slab Cover
+thermaldynamics:cover:0, Brimstone Stairs Cover
+thermaldynamics:cover:0, Permafrost Slab Cover
+thermaldynamics:cover:0, Permafrost Stairs Cover
+thermaldynamics:cover:0, Brimstone Wall Cover
+thermaldynamics:cover:0, Permafrost Wall Cover
+thermaldynamics:cover:0, Glowcelium Cover
+thermaldynamics:cover:0, Glowshroom Cover
+thermaldynamics:cover:0, Ender Biotite Ore Cover
+thermaldynamics:cover:0, Block of Biotite Cover
+thermaldynamics:cover:0, Chiseled Biotite Block Cover
+thermaldynamics:cover:0, Pillar Biotite Block Cover
+thermaldynamics:cover:0, Biotite Slab Cover
+thermaldynamics:cover:0, Biotite Stairs Cover
+thermaldynamics:cover:0, Biotite Wall Cover
+thermaldynamics:cover:0, Basalt Cover
+thermaldynamics:cover:0, Polished Basalt Cover
+thermaldynamics:cover:0, Basalt Slab Cover
+thermaldynamics:cover:0, Basalt Stairs Cover
+thermaldynamics:cover:0, Basalt Wall Cover
+thermaldynamics:cover:0, Iron Rod Cover
+thermaldynamics:cover:0, Obsidian Pressure Plate Cover
+thermaldynamics:cover:0, Spruce Trapdoor Cover
+thermaldynamics:cover:0, Birch Trapdoor Cover
+thermaldynamics:cover:0, Jungle Trapdoor Cover
+thermaldynamics:cover:0, Acacia Trapdoor Cover
+thermaldynamics:cover:0, Dark Oak Trapdoor Cover
+thermaldynamics:cover:0, Paper Wall Cover
+thermaldynamics:cover:0, Iron Ladder Cover
+thermaldynamics:cover:0, Spruce Bookshelf Cover
+thermaldynamics:cover:0, Birch Bookshelf Cover
+thermaldynamics:cover:0, Jungle Bookshelf Cover
+thermaldynamics:cover:0, Acacia Bookshelf Cover
+thermaldynamics:cover:0, Dark Oak Bookshelf Cover
+thermaldynamics:cover:0, Lit Redstone Lamp Cover
+thermaldynamics:cover:0, White Candle Cover
+thermaldynamics:cover:0, Orange Candle Cover
+thermaldynamics:cover:0, Magenta Candle Cover
+thermaldynamics:cover:0, Light Blue Candle Cover
+thermaldynamics:cover:0, Yellow Candle Cover
+thermaldynamics:cover:0, Lime Candle Cover
+thermaldynamics:cover:0, Pink Candle Cover
+thermaldynamics:cover:0, Gray Candle Cover
+thermaldynamics:cover:0, Light Gray Candle Cover
+thermaldynamics:cover:0, Cyan Candle Cover
+thermaldynamics:cover:0, Purple Candle Cover
+thermaldynamics:cover:0, Blue Candle Cover
+thermaldynamics:cover:0, Brown Candle Cover
+thermaldynamics:cover:0, Green Candle Cover
+thermaldynamics:cover:0, Red Candle Cover
+thermaldynamics:cover:0, Black Candle Cover
+thermaldynamics:cover:0, Blaze Lantern Cover
+thermaldynamics:cover:0, Nether Brick Fence Gate Cover
+thermaldynamics:cover:0, Oak Leaf Carpet Cover
+thermaldynamics:cover:0, Spruce Leaf Carpet Cover
+thermaldynamics:cover:0, Birch Leaf Carpet Cover
+thermaldynamics:cover:0, Jungle Leaf Carpet Cover
+thermaldynamics:cover:0, Acacia Leaf Carpet Cover
+thermaldynamics:cover:0, Dark Oak Leaf Carpet Cover
+thermaldynamics:cover:0, Block of Charcoal Cover
 thermaldynamics:cover:0, Sugar Cane Block Cover
 thermaldynamics:cover:0, Sugar Cane Stairs Cover
 thermaldynamics:cover:0, Sugar Cane Slab Cover
@@ -5091,26 +5295,18 @@ thermaldynamics:cover:0, Granite Bricks Cover
 thermaldynamics:cover:0, Diorite Bricks Cover
 thermaldynamics:cover:0, Andesite Bricks Cover
 thermaldynamics:cover:0, Basalt Bricks Cover
-thermaldynamics:cover:0, Marble Bricks Cover
-thermaldynamics:cover:0, Limestone Bricks Cover
 thermaldynamics:cover:0, Granite Brick Stairs Cover
 thermaldynamics:cover:0, Diorite Brick Stairs Cover
 thermaldynamics:cover:0, Andesite Brick Stairs Cover
 thermaldynamics:cover:0, Basalt Brick Stairs Cover
-thermaldynamics:cover:0, Marble Brick Stairs Cover
-thermaldynamics:cover:0, Limestone Brick Stairs Cover
 thermaldynamics:cover:0, Granite Brick Slab Cover
 thermaldynamics:cover:0, Diorite Brick Slab Cover
 thermaldynamics:cover:0, Andesite Brick Slab Cover
 thermaldynamics:cover:0, Basalt Brick Slab Cover
-thermaldynamics:cover:0, Marble Brick Slab Cover
-thermaldynamics:cover:0, Limestone Brick Slab Cover
 thermaldynamics:cover:0, Granite Brick Wall Cover
 thermaldynamics:cover:0, Diorite Brick Wall Cover
 thermaldynamics:cover:0, Andesite Brick Wall Cover
 thermaldynamics:cover:0, Basalt Brick Wall Cover
-thermaldynamics:cover:0, Marble Brick Wall Cover
-thermaldynamics:cover:0, Limestone Brick Wall Cover
 thermaldynamics:cover:0, Midori Block Cover
 thermaldynamics:cover:0, Midori Pillar Cover
 thermaldynamics:cover:0, Midori Stairs Cover
@@ -5162,86 +5358,6 @@ thermaldynamics:cover:0, Brown Quilted Wool Cover
 thermaldynamics:cover:0, Green Quilted Wool Cover
 thermaldynamics:cover:0, Red Quilted Wool Cover
 thermaldynamics:cover:0, Black Quilted Wool Cover
-thermaldynamics:cover:0, Marble Cover
-thermaldynamics:cover:0, Polished Marble Cover
-thermaldynamics:cover:0, Marble Slab Cover
-thermaldynamics:cover:0, Marble Stairs Cover
-thermaldynamics:cover:0, Marble Wall Cover
-thermaldynamics:cover:0, Limestone Cover
-thermaldynamics:cover:0, Polished Limestone Cover
-thermaldynamics:cover:0, Limestone Slab Cover
-thermaldynamics:cover:0, Limestone Stairs Cover
-thermaldynamics:cover:0, Limestone Wall Cover
-thermaldynamics:cover:0, White Cave Crystal Cover
-thermaldynamics:cover:0, Red Cave Crystal Cover
-thermaldynamics:cover:0, Orange Cave Crystal Cover
-thermaldynamics:cover:0, Yellow Cave Crystal Cover
-thermaldynamics:cover:0, Green Cave Crystal Cover
-thermaldynamics:cover:0, Blue Cave Crystal Cover
-thermaldynamics:cover:0, Indigo Cave Crystal Cover
-thermaldynamics:cover:0, Violet Cave Crystal Cover
-thermaldynamics:cover:0, Brimstone Cover
-thermaldynamics:cover:0, Permafrost Cover
-thermaldynamics:cover:0, Brimstone Slab Cover
-thermaldynamics:cover:0, Brimstone Stairs Cover
-thermaldynamics:cover:0, Permafrost Slab Cover
-thermaldynamics:cover:0, Permafrost Stairs Cover
-thermaldynamics:cover:0, Brimstone Wall Cover
-thermaldynamics:cover:0, Permafrost Wall Cover
-thermaldynamics:cover:0, Glowcelium Cover
-thermaldynamics:cover:0, Glowshroom Cover
-thermaldynamics:cover:0, Ender Biotite Ore Cover
-thermaldynamics:cover:0, Block of Biotite Cover
-thermaldynamics:cover:0, Chiseled Biotite Block Cover
-thermaldynamics:cover:0, Pillar Biotite Block Cover
-thermaldynamics:cover:0, Biotite Slab Cover
-thermaldynamics:cover:0, Biotite Stairs Cover
-thermaldynamics:cover:0, Biotite Wall Cover
-thermaldynamics:cover:0, Basalt Cover
-thermaldynamics:cover:0, Polished Basalt Cover
-thermaldynamics:cover:0, Basalt Slab Cover
-thermaldynamics:cover:0, Basalt Stairs Cover
-thermaldynamics:cover:0, Basalt Wall Cover
-thermaldynamics:cover:0, Spruce Trapdoor Cover
-thermaldynamics:cover:0, Birch Trapdoor Cover
-thermaldynamics:cover:0, Jungle Trapdoor Cover
-thermaldynamics:cover:0, Acacia Trapdoor Cover
-thermaldynamics:cover:0, Dark Oak Trapdoor Cover
-thermaldynamics:cover:0, Paper Wall Cover
-thermaldynamics:cover:0, Iron Ladder Cover
-thermaldynamics:cover:0, Spruce Bookshelf Cover
-thermaldynamics:cover:0, Birch Bookshelf Cover
-thermaldynamics:cover:0, Jungle Bookshelf Cover
-thermaldynamics:cover:0, Acacia Bookshelf Cover
-thermaldynamics:cover:0, Dark Oak Bookshelf Cover
-thermaldynamics:cover:0, Lit Redstone Lamp Cover
-thermaldynamics:cover:0, White Candle Cover
-thermaldynamics:cover:0, Orange Candle Cover
-thermaldynamics:cover:0, Magenta Candle Cover
-thermaldynamics:cover:0, Light Blue Candle Cover
-thermaldynamics:cover:0, Yellow Candle Cover
-thermaldynamics:cover:0, Lime Candle Cover
-thermaldynamics:cover:0, Pink Candle Cover
-thermaldynamics:cover:0, Gray Candle Cover
-thermaldynamics:cover:0, Light Gray Candle Cover
-thermaldynamics:cover:0, Cyan Candle Cover
-thermaldynamics:cover:0, Purple Candle Cover
-thermaldynamics:cover:0, Blue Candle Cover
-thermaldynamics:cover:0, Brown Candle Cover
-thermaldynamics:cover:0, Green Candle Cover
-thermaldynamics:cover:0, Red Candle Cover
-thermaldynamics:cover:0, Black Candle Cover
-thermaldynamics:cover:0, Blaze Lantern Cover
-thermaldynamics:cover:0, Nether Brick Fence Gate Cover
-thermaldynamics:cover:0, Oak Leaf Carpet Cover
-thermaldynamics:cover:0, Spruce Leaf Carpet Cover
-thermaldynamics:cover:0, Birch Leaf Carpet Cover
-thermaldynamics:cover:0, Jungle Leaf Carpet Cover
-thermaldynamics:cover:0, Acacia Leaf Carpet Cover
-thermaldynamics:cover:0, Dark Oak Leaf Carpet Cover
-thermaldynamics:cover:0, Block of Charcoal Cover
-thermaldynamics:cover:0, Iron Rod Cover
-thermaldynamics:cover:0, Obsidian Pressure Plate Cover
 thermaldynamics:cover:0, Wither Ash Cover
 thermaldynamics:cover:0, Date Sapling Cover
 thermaldynamics:cover:0, Date Cover
@@ -5261,6 +5377,8 @@ thermaldynamics:cover:0, Pear Sapling Cover
 thermaldynamics:cover:0, Pear Cover
 thermaldynamics:cover:0, Olive Sapling Cover
 thermaldynamics:cover:0, Olive Cover
+thermaldynamics:cover:0, Spider Web Sapling Cover
+thermaldynamics:cover:0, Spider Web Cover
 thermaldynamics:cover:0, Grapefruit Sapling Cover
 thermaldynamics:cover:0, Grapefruit Cover
 thermaldynamics:cover:0, Pomegranate Sapling Cover
@@ -7893,53 +8011,8 @@ appliedenergistics2:facade:0, Cable Facade - Sky Stone
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Block
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Brick
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Small Brick
-appliedenergistics2:facade:0, Cable Facade - Livingrock
-appliedenergistics2:facade:0, Cable Facade - Livingrock Brick
-appliedenergistics2:facade:0, Cable Facade - Mossy Livingrock Brick
-appliedenergistics2:facade:0, Cable Facade - Cracked Livingrock Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Livingrock Brick
-appliedenergistics2:facade:0, Cable Facade - Livingwood
-appliedenergistics2:facade:0, Cable Facade - Livingwood Planks
-appliedenergistics2:facade:0, Cable Facade - Mossy Livingwood Planks
-appliedenergistics2:facade:0, Cable Facade - Framed Livingwood
-appliedenergistics2:facade:0, Cable Facade - Pattern Framed Livingwood
-appliedenergistics2:facade:0, Cable Facade - Glimmering Livingwood
-appliedenergistics2:facade:0, Cable Facade - Force Relay
-appliedenergistics2:facade:0, Cable Facade - Alchemy Catalyst
-appliedenergistics2:facade:0, Cable Facade - Block of Manasteel
-appliedenergistics2:facade:0, Cable Facade - Block of Terrasteel
-appliedenergistics2:facade:0, Cable Facade - Block of Elementium
-appliedenergistics2:facade:0, Cable Facade - Block of Mana Diamond
-appliedenergistics2:facade:0, Cable Facade - Block of Dragonstone
-appliedenergistics2:facade:0, Cable Facade - Dreamwood
-appliedenergistics2:facade:0, Cable Facade - Dreamwood Planks
-appliedenergistics2:facade:0, Cable Facade - Mossy Dreamwood Planks
-appliedenergistics2:facade:0, Cable Facade - Framed Dreamwood
-appliedenergistics2:facade:0, Cable Facade - Pattern Framed Dreamwood
-appliedenergistics2:facade:0, Cable Facade - Glimmering Dreamwood
-appliedenergistics2:facade:0, Cable Facade - Conjuration Catalyst
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Azulejo
-appliedenergistics2:facade:0, Cable Facade - Enchanted Soil
-appliedenergistics2:facade:0, Cable Facade - Blaze Mesh
-appliedenergistics2:facade:0, Cable Facade - Fel Pumpkin
-appliedenergistics2:facade:0, Cable Facade - Manastorm Charge
-appliedenergistics2:facade:0, Cable Facade - Shimmerrock
-appliedenergistics2:facade:0, Cable Facade - Shimmerwood Planks
+appliedenergistics2:facade:0, Cable Facade - Boiler Block
+appliedenergistics2:facade:0, Cable Facade - Firebox
 appliedenergistics2:facade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:facade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Pillar Smokey Quartz Block
@@ -7999,6 +8072,53 @@ appliedenergistics2:facade:0, Cable Facade - Blue Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Red Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Yellow Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Green Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Livingrock
+appliedenergistics2:facade:0, Cable Facade - Livingrock Brick
+appliedenergistics2:facade:0, Cable Facade - Mossy Livingrock Brick
+appliedenergistics2:facade:0, Cable Facade - Cracked Livingrock Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Livingrock Brick
+appliedenergistics2:facade:0, Cable Facade - Livingwood
+appliedenergistics2:facade:0, Cable Facade - Livingwood Planks
+appliedenergistics2:facade:0, Cable Facade - Mossy Livingwood Planks
+appliedenergistics2:facade:0, Cable Facade - Framed Livingwood
+appliedenergistics2:facade:0, Cable Facade - Pattern Framed Livingwood
+appliedenergistics2:facade:0, Cable Facade - Glimmering Livingwood
+appliedenergistics2:facade:0, Cable Facade - Force Relay
+appliedenergistics2:facade:0, Cable Facade - Alchemy Catalyst
+appliedenergistics2:facade:0, Cable Facade - Block of Manasteel
+appliedenergistics2:facade:0, Cable Facade - Block of Terrasteel
+appliedenergistics2:facade:0, Cable Facade - Block of Elementium
+appliedenergistics2:facade:0, Cable Facade - Block of Mana Diamond
+appliedenergistics2:facade:0, Cable Facade - Block of Dragonstone
+appliedenergistics2:facade:0, Cable Facade - Dreamwood
+appliedenergistics2:facade:0, Cable Facade - Dreamwood Planks
+appliedenergistics2:facade:0, Cable Facade - Mossy Dreamwood Planks
+appliedenergistics2:facade:0, Cable Facade - Framed Dreamwood
+appliedenergistics2:facade:0, Cable Facade - Pattern Framed Dreamwood
+appliedenergistics2:facade:0, Cable Facade - Glimmering Dreamwood
+appliedenergistics2:facade:0, Cable Facade - Conjuration Catalyst
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Azulejo
+appliedenergistics2:facade:0, Cable Facade - Enchanted Soil
+appliedenergistics2:facade:0, Cable Facade - Blaze Mesh
+appliedenergistics2:facade:0, Cable Facade - Fel Pumpkin
+appliedenergistics2:facade:0, Cable Facade - Manastorm Charge
+appliedenergistics2:facade:0, Cable Facade - Shimmerrock
+appliedenergistics2:facade:0, Cable Facade - Shimmerwood Planks
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
@@ -9987,6 +10107,7 @@ appliedenergistics2:facade:0, Cable Facade - Light Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Heavy Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Generator Block
 appliedenergistics2:facade:0, Cable Facade - Radiator Block
+appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
 appliedenergistics2:facade:0, Cable Facade - Topiary Grass
 appliedenergistics2:facade:0, Cable Facade - Bluegrass
 appliedenergistics2:facade:0, Cable Facade - Autumnal Grass
@@ -10030,6 +10151,99 @@ appliedenergistics2:facade:0, Cable Facade - Birch Trim
 appliedenergistics2:facade:0, Cable Facade - Jungle Trim
 appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
+appliedenergistics2:facade:0, Cable Facade - Twilight Oak Wood
+appliedenergistics2:facade:0, Cable Facade - Canopy Tree Wood
+appliedenergistics2:facade:0, Cable Facade - Mangrove Wood
+appliedenergistics2:facade:0, Cable Facade - Darkwood Wood
+appliedenergistics2:facade:0, Cable Facade - Roots
+appliedenergistics2:facade:0, Cable Facade - Liveroots
+appliedenergistics2:facade:0, Cable Facade - Mazestone
+appliedenergistics2:facade:0, Cable Facade - Mazestone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Mazestone
+appliedenergistics2:facade:0, Cable Facade - Decorative Mazestone Brick
+appliedenergistics2:facade:0, Cable Facade - Cracked Mazestone Brick
+appliedenergistics2:facade:0, Cable Facade - Mossy Mazestone Brick
+appliedenergistics2:facade:0, Cable Facade - Mazestone Mosaic
+appliedenergistics2:facade:0, Cable Facade - Mazestone Border
+appliedenergistics2:facade:0, Cable Facade - Uncrafting Table
+appliedenergistics2:facade:0, Cable Facade - Nagastone Head
+appliedenergistics2:facade:0, Cable Facade - Nagastone
+appliedenergistics2:facade:0, Cable Facade - Timewood
+appliedenergistics2:facade:0, Cable Facade - Transwood
+appliedenergistics2:facade:0, Cable Facade - Minewood
+appliedenergistics2:facade:0, Cable Facade - Sortingwood
+appliedenergistics2:facade:0, Cable Facade - Timewood Clock
+appliedenergistics2:facade:0, Cable Facade - Heart of Transformation
+appliedenergistics2:facade:0, Cable Facade - Minewood Core
+appliedenergistics2:facade:0, Cable Facade - Sortingwood Engine
+appliedenergistics2:facade:0, Cable Facade - Towerwood Planks
+appliedenergistics2:facade:0, Cable Facade - Encased Towerwood
+appliedenergistics2:facade:0, Cable Facade - Cracked Towerwood
+appliedenergistics2:facade:0, Cable Facade - Mossy Towerwood
+appliedenergistics2:facade:0, Cable Facade - Infested Towerwood
+appliedenergistics2:facade:0, Cable Facade - Reappearing Block
+appliedenergistics2:facade:0, Cable Facade - Vanishing Block
+appliedenergistics2:facade:0, Cable Facade - Locked Vanishing Block
+appliedenergistics2:facade:0, Cable Facade - Unlocked Vanishing Block
+appliedenergistics2:facade:0, Cable Facade - Carminite Builder
+appliedenergistics2:facade:0, Cable Facade - Anti-builder
+appliedenergistics2:facade:0, Cable Facade - Ghast Trap
+appliedenergistics2:facade:0, Cable Facade - Carminite Reactor
+appliedenergistics2:facade:0, Cable Facade - Stronghold Shield
+appliedenergistics2:facade:0, Cable Facade - Trophy Pedestal
+appliedenergistics2:facade:0, Cable Facade - Aurora Block
+appliedenergistics2:facade:0, Cable Facade - Underbrick
+appliedenergistics2:facade:0, Cable Facade - Mossy Underbrick
+appliedenergistics2:facade:0, Cable Facade - Underbrick Floor
+appliedenergistics2:facade:0, Cable Facade - Weathered Deadrock
+appliedenergistics2:facade:0, Cable Facade - Cracked Deadrock
+appliedenergistics2:facade:0, Cable Facade - Deadrock
+appliedenergistics2:facade:0, Cable Facade - Aurora Pillar
+appliedenergistics2:facade:0, Cable Facade - Trollsteinn
+appliedenergistics2:facade:0, Cable Facade - Wispy Cloud
+appliedenergistics2:facade:0, Cable Facade - Fluffy Cloud
+appliedenergistics2:facade:0, Cable Facade - Giant Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Giant Log
+appliedenergistics2:facade:0, Cable Facade - Giant Obsidian
+appliedenergistics2:facade:0, Cable Facade - Huge Stalk
+appliedenergistics2:facade:0, Cable Facade - Huge Mushgloom
+appliedenergistics2:facade:0, Cable Facade - Slide Trap
+appliedenergistics2:facade:0, Cable Facade - Slide Trap 1
+appliedenergistics2:facade:0, Cable Facade - Slide Trap 2
+appliedenergistics2:facade:0, Cable Facade - Slide Trap 3
+appliedenergistics2:facade:0, Cable Facade - Castle Brick
+appliedenergistics2:facade:0, Cable Facade - Worn Castle Brick
+appliedenergistics2:facade:0, Cable Facade - Cracked Castle Brick
+appliedenergistics2:facade:0, Cable Facade - Castle Roof Tile
+appliedenergistics2:facade:0, Cable Facade - Mossy Castle Brick
+appliedenergistics2:facade:0, Cable Facade - Thick Castle Brick
+appliedenergistics2:facade:0, Cable Facade - Encased Castle Brick Pillar
+appliedenergistics2:facade:0, Cable Facade - Encased Castle Brick Tile
+appliedenergistics2:facade:0, Cable Facade - Bold Castle Brick Pillar
+appliedenergistics2:facade:0, Cable Facade - Bold Castle Brick Tiles
+appliedenergistics2:facade:0, Cable Facade - Pink Castle Rune Brick
+appliedenergistics2:facade:0, Cable Facade - Blue Castle Rune Brick
+appliedenergistics2:facade:0, Cable Facade - Yellow Castle Rune Brick
+appliedenergistics2:facade:0, Cable Facade - Violet Castle Rune Brick
+appliedenergistics2:facade:0, Cable Facade - Cinder Furnace [NYI]
+appliedenergistics2:facade:0, Cable Facade - Cinder Log [NYI]
+appliedenergistics2:facade:0, Cable Facade - Yellow Castle Door
+appliedenergistics2:facade:0, Cable Facade - Violet Castle Door
+appliedenergistics2:facade:0, Cable Facade - Pink Castle Door
+appliedenergistics2:facade:0, Cable Facade - Blue Castle Door
+appliedenergistics2:facade:0, Cable Facade - Block of Ironwood
+appliedenergistics2:facade:0, Cable Facade - Block of Fiery Metal
+appliedenergistics2:facade:0, Cable Facade - Block of Arctic Fur
+appliedenergistics2:facade:0, Cable Facade - Block of Carminite
+appliedenergistics2:facade:0, Cable Facade - Spiral Stone Bricks [WIP]
+appliedenergistics2:facade:0, Cable Facade - Brimstone
+appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Biotite
+appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Basalt
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Sugar Cane Block
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
@@ -10055,16 +10269,6 @@ appliedenergistics2:facade:0, Cable Facade - Vertical White Stained Planks
 appliedenergistics2:facade:0, Cable Facade - Duskbound Block
 appliedenergistics2:facade:0, Cable Facade - Duskbound Lantern
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Marble
-appliedenergistics2:facade:0, Cable Facade - Limestone
-appliedenergistics2:facade:0, Cable Facade - Brimstone
-appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Biotite
-appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
-appliedenergistics2:facade:0, Cable Facade - Basalt
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Well
 appliedenergistics2:facade:0, Cable Facade - Beehive
 appliedenergistics2:facade:0, Cable Facade - Honey Block
@@ -10171,7 +10375,6 @@ appliedenergistics2:material:47, Singularity
 appliedenergistics2:material:45, Sky Stone Dust
 appliedenergistics2:material:41, Wireless Receiver
 appliedenergistics2:material:42, Wireless Booster
-appliedenergistics2:material:40, Wooden Gear
 appliedenergistics2:part:300, ME Annihilation Plane
 appliedenergistics2:part:120, Cable Anchor
 appliedenergistics2:part:20, ME Covered Cable - White
@@ -10285,6 +10488,177 @@ appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
 baubles:ring:0, Miner's Ring
+betterboilers:inspector, Inspector's Booklet
+betterboilers:boiler, Boiler Block
+betterboilers:boiler_valve, Boiler Valve
+betterboilers:boiler_vent, Boiler Vent
+betterboilers:boiler_pump, Boiler Pump
+betterboilers:firebox, Firebox
+betterboilers:firebox_hatch, Firebox Hatch
+betterboilers:controller, Drawer Controller
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, Livingwood Slab
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, Livingwood Plank Slab
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, Livingrock Slab
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, Livingrock Brick Slab
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, Dreamwood Slab
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, Dreamwood Plank Slab
+botania:quartztypedark:0, Block of Smokey Quartz
+botania:quartztypedark:1, Chiseled Smokey Quartz Block
+botania:quartztypedark:2, Pillar Smokey Quartz Block
+botania:quartzslabdarkhalf:0, Smokey Quartz Slab
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, Block of Mana Quartz
+botania:quartztypemana:1, Chiseled Mana Quartz Block
+botania:quartztypemana:2, Pillar Mana Quartz Block
+botania:quartzslabmanahalf:0, Mana Quartz Slab
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, Block of Blaze Quartz
+botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
+botania:quartztypeblaze:2, Pillar Blaze Quartz Block
+botania:quartzslabblazehalf:0, Blaze Quartz Slab
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, Block of Lavender Quartz
+botania:quartztypelavender:1, Chiseled Lavender Quartz Block
+botania:quartztypelavender:2, Pillar Lavender Quartz Block
+botania:quartzslablavenderhalf:0, Lavender Quartz Slab
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, Block of Redquartz
+botania:quartztypered:1, Chiseled Redquartz Block
+botania:quartztypered:2, Pillar Redquartz Block
+botania:quartzslabredhalf:0, Redquartz Slab
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, Block of Elven Quartz
+botania:quartztypeelf:1, Chiseled Elven Quartz Block
+botania:quartztypeelf:2, Pillar Elven Quartz Block
+botania:quartzslabelfhalf:0, Elven Quartz Slab
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, Block of Sunny Quartz
+botania:quartztypesunny:1, Chiseled Sunny Quartz Block
+botania:quartztypesunny:2, Pillar Sunny Quartz Block
+botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, Metamorphic Forest Stone
+botania:biomestonea:1, Metamorphic Plains Stone
+botania:biomestonea:2, Metamorphic Mountain Stone
+botania:biomestonea:3, Metamorphic Fungal Stone
+botania:biomestonea:4, Metamorphic Swamp Stone
+botania:biomestonea:5, Metamorphic Desert Stone
+botania:biomestonea:6, Metamorphic Taiga Stone
+botania:biomestonea:7, Metamorphic Mesa Stone
+botania:biomestonea:8, Metamorphic Forest Cobblestone
+botania:biomestonea:9, Metamorphic Plains Cobblestone
+botania:biomestonea:10, Metamorphic Mountain Cobblestone
+botania:biomestonea:11, Metamorphic Fungal Cobblestone
+botania:biomestonea:12, Metamorphic Swamp Cobblestone
+botania:biomestonea:13, Metamorphic Desert Cobblestone
+botania:biomestonea:14, Metamorphic Taiga Cobblestone
+botania:biomestonea:15, Metamorphic Mesa Cobblestone
+botania:biomestoneb:0, Metamorphic Forest Stone Bricks
+botania:biomestoneb:1, Metamorphic Plains Stone Bricks
+botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
+botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
+botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
+botania:biomestoneb:5, Metamorphic Desert Stone Bricks
+botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
+botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
+botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
+botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
+botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
+botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
+botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
+botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
+botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
+botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
+botania:pavement:0, White Portuguese Pavement
+botania:pavement:1, Black Portuguese Pavement
+botania:pavement:2, Blue Portuguese Pavement
+botania:pavement:3, Red Portuguese Pavement
+botania:pavement:4, Yellow Portuguese Pavement
+botania:pavement:5, Green Portuguese Pavement
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
+botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
+botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
+botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
+botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
+botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
+botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
+botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
+botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, White Portuguese Pavement Slab
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, Black Portuguese Pavement Slab
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, Blue Portuguese Pavement Slab
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, Red Portuguese Pavement Slab
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, Yellow Portuguese Pavement Slab
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, Green Portuguese Pavement Slab
+botania:shimmerrock0slab:0, Shimmerrock Slab
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:flower:0, Mystical White Flower
 botania:flower:1, Mystical Orange Flower
 botania:flower:2, Mystical Magenta Flower
@@ -10610,169 +10984,6 @@ botania:altgrass:3, Scorched Grass
 botania:altgrass:4, Infused Grass
 botania:altgrass:5, Mutated Grass
 botania:animatedtorch, tile.animatedTorch.name
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, Livingwood Slab
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, Livingwood Plank Slab
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, Livingrock Slab
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, Livingrock Brick Slab
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, Dreamwood Slab
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, Dreamwood Plank Slab
-botania:quartztypedark:0, Block of Smokey Quartz
-botania:quartztypedark:1, Chiseled Smokey Quartz Block
-botania:quartztypedark:2, Pillar Smokey Quartz Block
-botania:quartzslabdarkhalf:0, Smokey Quartz Slab
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, Block of Mana Quartz
-botania:quartztypemana:1, Chiseled Mana Quartz Block
-botania:quartztypemana:2, Pillar Mana Quartz Block
-botania:quartzslabmanahalf:0, Mana Quartz Slab
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, Block of Blaze Quartz
-botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
-botania:quartztypeblaze:2, Pillar Blaze Quartz Block
-botania:quartzslabblazehalf:0, Blaze Quartz Slab
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, Block of Lavender Quartz
-botania:quartztypelavender:1, Chiseled Lavender Quartz Block
-botania:quartztypelavender:2, Pillar Lavender Quartz Block
-botania:quartzslablavenderhalf:0, Lavender Quartz Slab
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, Block of Redquartz
-botania:quartztypered:1, Chiseled Redquartz Block
-botania:quartztypered:2, Pillar Redquartz Block
-botania:quartzslabredhalf:0, Redquartz Slab
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, Block of Elven Quartz
-botania:quartztypeelf:1, Chiseled Elven Quartz Block
-botania:quartztypeelf:2, Pillar Elven Quartz Block
-botania:quartzslabelfhalf:0, Elven Quartz Slab
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, Block of Sunny Quartz
-botania:quartztypesunny:1, Chiseled Sunny Quartz Block
-botania:quartztypesunny:2, Pillar Sunny Quartz Block
-botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, Metamorphic Forest Stone
-botania:biomestonea:1, Metamorphic Plains Stone
-botania:biomestonea:2, Metamorphic Mountain Stone
-botania:biomestonea:3, Metamorphic Fungal Stone
-botania:biomestonea:4, Metamorphic Swamp Stone
-botania:biomestonea:5, Metamorphic Desert Stone
-botania:biomestonea:6, Metamorphic Taiga Stone
-botania:biomestonea:7, Metamorphic Mesa Stone
-botania:biomestonea:8, Metamorphic Forest Cobblestone
-botania:biomestonea:9, Metamorphic Plains Cobblestone
-botania:biomestonea:10, Metamorphic Mountain Cobblestone
-botania:biomestonea:11, Metamorphic Fungal Cobblestone
-botania:biomestonea:12, Metamorphic Swamp Cobblestone
-botania:biomestonea:13, Metamorphic Desert Cobblestone
-botania:biomestonea:14, Metamorphic Taiga Cobblestone
-botania:biomestonea:15, Metamorphic Mesa Cobblestone
-botania:biomestoneb:0, Metamorphic Forest Stone Bricks
-botania:biomestoneb:1, Metamorphic Plains Stone Bricks
-botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
-botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
-botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
-botania:biomestoneb:5, Metamorphic Desert Stone Bricks
-botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
-botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
-botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
-botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
-botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
-botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
-botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
-botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
-botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
-botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
-botania:pavement:0, White Portuguese Pavement
-botania:pavement:1, Black Portuguese Pavement
-botania:pavement:2, Blue Portuguese Pavement
-botania:pavement:3, Red Portuguese Pavement
-botania:pavement:4, Yellow Portuguese Pavement
-botania:pavement:5, Green Portuguese Pavement
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
-botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
-botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
-botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
-botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
-botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
-botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
-botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
-botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, White Portuguese Pavement Slab
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, Black Portuguese Pavement Slab
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, Blue Portuguese Pavement Slab
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, Red Portuguese Pavement Slab
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, Yellow Portuguese Pavement Slab
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, Green Portuguese Pavement Slab
-botania:shimmerrock0slab:0, Shimmerrock Slab
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, Mystical White Petal
 botania:petal:1, Mystical Orange Petal
@@ -11134,6 +11345,9 @@ cookingforblockheads:kitchen_floor, Kitchen Floor
 cookingforblockheads:recipe_book:0, Cooking for Blockheads
 cookingforblockheads:recipe_book:1, Cooking for Blockheads I
 cookingforblockheads:recipe_book:2, Cooking for Blockheads II
+enchiridion:book:1, §6Library
+enchiridion:book:0, Create §2NEW§r Book
+enchiridion:book:0, §6Getting Started
 enderore:dust_ender, Ender Dust
 enderore:ore_ender, Ender Ore
 tconstruct:book, Materials and You
@@ -11270,34 +11484,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -12245,7 +12459,20 @@ tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
+tconstruct:tooltables:1, Stencil Table
+tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:4, Pattern Chest
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
+tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
@@ -12337,62 +12564,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tough Binding Cast
 tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Tough Binding Cast
 tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
 tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
 tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -12780,6 +13007,27 @@ immersiveengineering:powerpack, Capacitor Backpack
 immersiveengineering:shield, Heavy Plated Shield
 immersiveengineering:molten_uranium, Molten Uranium
 immersiveengineering:molten_constantan, Molten Constantan
+immersivepetroleum:metal_device:0, Automatic Lubricator
+immersivepetroleum:metal_device:1, Portable Generator
+immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
+immersivepetroleum:material:0, Bitumen
+immersivepetroleum:schematic, %s Projector
+immersivepetroleum:speedboat, Motorboat
+immersivepetroleum:upgrades:0, Reinforced Hull
+immersivepetroleum:upgrades:1, Icebreaker Bow
+immersivepetroleum:upgrades:2, Expanded Fuel Tank
+immersivepetroleum:upgrades:3, Maneuvering Rudders
+immersivepetroleum:upgrades:4, Emergency Paddles
+immersivepetroleum:oil_can, Lubricant Can
+immersivetech:connectors, tile.immersivetech.connectors.name
+immersivetech:material:0, Salt
+teslacorelib:base_addon, Base Addon
+teslacorelib:energy_tier1, Energy Upgrade I
+teslacorelib:energy_tier2, Energy Upgrade II
+teslacorelib:machine_case, Machine Case
+teslacorelib:speed_tier1, Speed Upgrade I
+teslacorelib:speed_tier2, Speed Upgrade II
+teslacorelib:wrench, Tesla Wrench
 ironbackpacks:backpack:0, Basic Backpack
 ironbackpacks:backpack:0, Iron Backpack
 ironbackpacks:backpack:0, Iron Backpack
@@ -13263,6 +13511,27 @@ natura:flint_and_blaze, Flint and Blaze
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -13313,27 +13582,423 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
+twilightforest:naga_scale, Naga Scale
+twilightforest:naga_chestplate, Naga Scale Tunic
+twilightforest:naga_leggings, Naga Scale Leggings
+twilightforest:twilight_scepter, Scepter of Twilight
+twilightforest:lifedrain_scepter, Scepter of Life Draining
+twilightforest:zombie_scepter, Zombie Scepter
+twilightforest:ore_meter, Ore Meter [WIP]
+twilightforest:magic_map:0, Magic Map
+twilightforest:maze_map:0, Maze Map
+twilightforest:ore_map:0, Maze/Ore Map
+twilightforest:raven_feather, Raven's Feather
+twilightforest:magic_map_focus, Magic Map Focus
+twilightforest:maze_map_focus, Maze Map Focus
+twilightforest:liveroot, Liveroot
+twilightforest:ironwood_raw, Raw Ironwood Materials
+twilightforest:ironwood_ingot, Ironwood Ingot
+twilightforest:ironwood_helmet, Ironwood Helm
+twilightforest:ironwood_chestplate, Ironwood Plate
+twilightforest:ironwood_leggings, Ironwood Legs
+twilightforest:ironwood_boots, Ironwood Boots
+twilightforest:ironwood_sword, Ironwood Sword
+twilightforest:ironwood_shovel, Ironwood Shovel
+twilightforest:ironwood_pickaxe, Ironwood Pick
+twilightforest:ironwood_axe, Ironwood Axe
+twilightforest:ironwood_hoe, Ironwood Hoe
+twilightforest:torchberries, Torchberries
+twilightforest:raw_venison, Raw Venison
+twilightforest:cooked_venison, Venison Steak
+twilightforest:hydra_chop, Hydra Chop
+twilightforest:fiery_blood, Fiery Blood
+twilightforest:trophy:0, Naga Trophy
+twilightforest:trophy:1, Twilight Lich Trophy
+twilightforest:trophy:2, Hydra Trophy
+twilightforest:trophy:3, Ur-ghast Trophy
+twilightforest:trophy:4, Knight Phantom Trophy
+twilightforest:trophy:5, Snow Queen Trophy
+twilightforest:trophy:6, Minoshroom Trophy
+twilightforest:trophy:8, Questing Ram Trophy
+twilightforest:fiery_ingot, Fiery Ingot
+twilightforest:fiery_helmet, Fiery Helm
+twilightforest:fiery_chestplate, Fiery Plate
+twilightforest:fiery_leggings, Fiery Legs
+twilightforest:fiery_boots, Fiery Boots
+twilightforest:fiery_sword, Fiery Sword
+twilightforest:fiery_pickaxe, Fiery Pick
+twilightforest:steeleaf_ingot, Steeleaf
+twilightforest:steeleaf_helmet, Steeleaf Helm
+twilightforest:steeleaf_chestplate, Steeleaf Plate
+twilightforest:steeleaf_leggings, Steeleaf Legs
+twilightforest:steeleaf_boots, Steeleaf Boots
+twilightforest:steeleaf_sword, Steeleaf Sword
+twilightforest:steeleaf_shovel, Steeleaf Shovel
+twilightforest:steeleaf_pickaxe, Steeleaf Pick
+twilightforest:steeleaf_axe, Steeleaf Axe
+twilightforest:steeleaf_hoe, Steeleaf Hoe
+twilightforest:minotaur_axe, Minotaur Axe
+twilightforest:mazebreaker_pickaxe, Mazebreaker
+twilightforest:transformation_powder, Transformation Powder
+twilightforest:raw_meef, Raw Meef
+twilightforest:cooked_meef, Meef Steak
+twilightforest:meef_stroganoff, Meef Stroganoff
+twilightforest:maze_wafer, Maze Wafer
+twilightforest:magic_map_empty, Blank Magic Map
+twilightforest:maze_map_empty, Blank Maze Map
+twilightforest:ore_map_empty, Blank Maze/Ore Map
+twilightforest:ore_magnet, Ore Magnet
+twilightforest:crumble_horn, Crumble Horn
+twilightforest:peacock_fan, Peacock Feather Fan
+twilightforest:moonworm_queen, Moonworm Queen
+twilightforest:charm_of_life_1, Charm of Life I
+twilightforest:charm_of_life_2, Charm of Life II
+twilightforest:charm_of_keeping_1, Charm of Keeping I
+twilightforest:charm_of_keeping_2, Charm of Keeping II
+twilightforest:charm_of_keeping_3, Charm of Keeping III
+twilightforest:tower_key, Tower Key
+twilightforest:borer_essence, Borer Essence
+twilightforest:carminite, Carminite
+twilightforest:experiment_115, Experiment 115
+twilightforest:armor_shard, Armor Shard
+twilightforest:knightmetal_ingot, Knightmetal Ingot
+twilightforest:armor_shard_cluster, Armor Shard Cluster
+twilightforest:knightmetal_helmet, Knightly Helm
+twilightforest:knightmetal_chestplate, Knightly Plate
+twilightforest:knightmetal_leggings, Knightly Greaves
+twilightforest:knightmetal_boots, Knightly Boots
+twilightforest:knightmetal_sword, Knightly Sword
+twilightforest:knightmetal_pickaxe, Knightly Pick
+twilightforest:knightmetal_axe, Knightly Axe
+twilightforest:phantom_helmet, Phantom Helm
+twilightforest:phantom_chestplate, Phantom Plate
+twilightforest:lamp_of_cinders, Lamp of Cinders
+twilightforest:fiery_tears, Fiery Tears
+twilightforest:alpha_fur, Alpha Yeti Fur
+twilightforest:yeti_helmet, Yeti Horned Helm
+twilightforest:yeti_chestplate, Yeti Jacket
+twilightforest:yeti_leggings, Yeti Leggings
+twilightforest:yeti_boots, Yeti Boots
+twilightforest:ice_bomb, Ice Bomb
+twilightforest:arctic_fur, Arctic Fur
+twilightforest:arctic_helmet, Arctic Hood
+twilightforest:arctic_chestplate, Arctic Jacket
+twilightforest:arctic_leggings, Arctic Leggings
+twilightforest:arctic_boots, Arctic Boots
+twilightforest:magic_beans, Magic Beans
+twilightforest:giant_pickaxe, Giant's Pickaxe
+twilightforest:giant_sword, Giant's Sword
+twilightforest:triple_bow, Tri-bow
+twilightforest:seeker_bow, Seeker Bow
+twilightforest:ice_bow, Ice Bow
+twilightforest:ender_bow, Ender Bow
+twilightforest:ice_sword, Ice Sword
+twilightforest:glass_sword, Glass Sword
+twilightforest:knightmetal_ring, Knightmetal Loop
+twilightforest:block_and_chain, Block and Chain
+twilightforest:cube_talisman, Talisman of the Cube
+twilightforest:cube_of_annihilation, Cube of Annihilation
+twilightforest:twilight_log:0, Twilight Oak Wood
+twilightforest:twilight_log:1, Canopy Tree Wood
+twilightforest:twilight_log:2, Mangrove Wood
+twilightforest:twilight_log:3, Darkwood Wood
+twilightforest:root:0, Roots
+twilightforest:root:1, Liveroots
+twilightforest:twilight_leaves:0, Twilight Oak Leaves
+twilightforest:twilight_leaves:1, Canopy Tree Leaves
+twilightforest:twilight_leaves:2, Mangrove Leaves
+twilightforest:twilight_leaves:3, Rainbow Oak Leaves
+twilightforest:firefly, Firefly
+twilightforest:cicada, Cicada
+twilightforest:maze_stone:0, Mazestone
+twilightforest:maze_stone:1, Mazestone Brick
+twilightforest:maze_stone:2, Chiseled Mazestone
+twilightforest:maze_stone:3, Decorative Mazestone Brick
+twilightforest:maze_stone:4, Cracked Mazestone Brick
+twilightforest:maze_stone:5, Mossy Mazestone Brick
+twilightforest:maze_stone:6, Mazestone Mosaic
+twilightforest:maze_stone:7, Mazestone Border
+twilightforest:hedge:0, Hedge
+twilightforest:boss_spawner:0, Naga Spawner
+twilightforest:firefly_jar, Firefly Jar
+twilightforest:twilight_plant:0, Moss Patch
+twilightforest:twilight_plant:1, Mayapple
+twilightforest:twilight_plant:2, Clover Patch [WIP]
+twilightforest:twilight_plant:3, Fiddlehead
+twilightforest:twilight_plant:4, Mushgloom
+twilightforest:twilight_plant:5, Forest Grass
+twilightforest:twilight_plant:6, Dried Bush
+twilightforest:twilight_plant:7, Torchberry Plant
+twilightforest:twilight_plant:8, Root Strands
+twilightforest:uncrafting_table, Uncrafting Table
+twilightforest:fire_jet:0, Smoking block
+twilightforest:fire_jet:3, Fire Jet
+twilightforest:fire_jet:1, Encased Smoker
+twilightforest:fire_jet:6, Encased Fire Jet
+twilightforest:naga_stone:0, Nagastone Head
+twilightforest:naga_stone:1, Nagastone
+twilightforest:twilight_sapling:0, Sickly Twilight Oak Sapling
+twilightforest:twilight_sapling:1, Canopy Tree Sapling
+twilightforest:twilight_sapling:2, Twilight Mangrove Sapling
+twilightforest:twilight_sapling:3, Darkwood Sapling
+twilightforest:twilight_sapling:4, Robust Twilight Oak Sapling
+twilightforest:twilight_sapling:5, Tree of Time Sapling
+twilightforest:twilight_sapling:6, Tree of Transformation Sapling
+twilightforest:twilight_sapling:7, Miner's Tree Sapling
+twilightforest:twilight_sapling:8, Sorting Tree Sapling
+twilightforest:twilight_sapling:9, Rainbow Oak Sapling
+twilightforest:moonworm, Moonworm
+twilightforest:magic_log:0, Timewood
+twilightforest:magic_log:1, Transwood
+twilightforest:magic_log:2, Minewood
+twilightforest:magic_log:3, Sortingwood
+twilightforest:magic_leaves:0, Timewood Leaves
+twilightforest:magic_leaves:1, Leaves of Transformation
+twilightforest:magic_leaves:2, Miner's Leaves
+twilightforest:magic_leaves:3, Sorting Leaves
+twilightforest:magic_log_core:0, Timewood Clock
+twilightforest:magic_log_core:1, Heart of Transformation
+twilightforest:magic_log_core:2, Minewood Core
+twilightforest:magic_log_core:3, Sortingwood Engine
+twilightforest:tower_wood:0, Towerwood Planks
+twilightforest:tower_wood:1, Encased Towerwood
+twilightforest:tower_wood:2, Cracked Towerwood
+twilightforest:tower_wood:3, Mossy Towerwood
+twilightforest:tower_wood:4, Infested Towerwood
+twilightforest:tower_device:0, Reappearing Block
+twilightforest:tower_device:2, Vanishing Block
+twilightforest:tower_device:4, Locked Vanishing Block
+twilightforest:tower_device:5, Unlocked Vanishing Block
+twilightforest:tower_device:6, Carminite Builder
+twilightforest:tower_device:9, Anti-builder
+twilightforest:tower_device:10, Ghast Trap
+twilightforest:tower_device:12, Carminite Reactor
+twilightforest:stronghold_shield:0, Stronghold Shield
+twilightforest:trophy_pedestal:0, Trophy Pedestal
+twilightforest:aurora_block, Aurora Block
+twilightforest:underbrick:0, Underbrick
+twilightforest:underbrick:1, Mossy Underbrick
+twilightforest:underbrick:2, Underbrick Floor
+twilightforest:thorns:0, Thorns
+twilightforest:thorns:1, Green Thorns
+twilightforest:burnt_thorns, Burnt Thorns
+twilightforest:thorn_rose, Thorn Rose
+twilightforest:twilight_leaves_3:0, Thorn Leaves
+twilightforest:twilight_leaves_3:1, Beanstalk Leaves
+twilightforest:deadrock:0, Weathered Deadrock
+twilightforest:deadrock:1, Cracked Deadrock
+twilightforest:deadrock:2, Deadrock
+twilightforest:dark_leaves, Darkwood Leaves
+twilightforest:aurora_pillar, Aurora Pillar
+twilightforest:aurora_slab:0, Aurora Slab
+twilightforest:trollsteinn, Trollsteinn
+twilightforest:wispy_cloud, Wispy Cloud
+twilightforest:fluffy_cloud, Fluffy Cloud
+twilightforest:giant_cobblestone, Giant Cobblestone
+twilightforest:giant_log, Giant Log
+twilightforest:giant_leaves, Giant Leaves
+twilightforest:giant_obsidian, Giant Obsidian
+twilightforest:uberous_soil, Uberous Soil
+twilightforest:huge_stalk, Huge Stalk
+twilightforest:huge_mushgloom, Huge Mushgloom
+twilightforest:trollvidr, Trollvidr
+twilightforest:unripe_trollber, Unripe Trollber
+twilightforest:trollber, Trollber
+twilightforest:knightmetal_block, Block of Knightmetal
+twilightforest:huge_lilypad, Huge Lily Pad
+twilightforest:huge_waterlily, Huge Water Lily
+twilightforest:slider:0, Slide Trap
+twilightforest:slider:1, Slide Trap 1
+twilightforest:slider:2, Slide Trap 2
+twilightforest:slider:3, Slide Trap 3
+twilightforest:castle_brick:0, Castle Brick
+twilightforest:castle_brick:1, Worn Castle Brick
+twilightforest:castle_brick:2, Cracked Castle Brick
+twilightforest:castle_brick:3, Castle Roof Tile
+twilightforest:castle_brick:4, Mossy Castle Brick
+twilightforest:castle_brick:5, Thick Castle Brick
+twilightforest:castle_pillar:0, Encased Castle Brick Pillar
+twilightforest:castle_pillar:1, Encased Castle Brick Tile
+twilightforest:castle_pillar:2, Bold Castle Brick Pillar
+twilightforest:castle_pillar:3, Bold Castle Brick Tiles
+twilightforest:castle_stairs:0, Encased Castle Brick Stairs
+twilightforest:castle_stairs:8, Bold Castle Brick Stairs
+twilightforest:castle_rune_brick:0, Pink Castle Rune Brick
+twilightforest:castle_rune_brick:1, Blue Castle Rune Brick
+twilightforest:castle_rune_brick:2, Yellow Castle Rune Brick
+twilightforest:castle_rune_brick:3, Violet Castle Rune Brick
+twilightforest:force_field:0, Violet Force Field
+twilightforest:force_field:1, Pink Force Field
+twilightforest:force_field:2, Orange Force Field
+twilightforest:force_field:3, Green Force Field
+twilightforest:force_field:4, Blue Force Field
+twilightforest:cinder_furnace, Cinder Furnace [NYI]
+twilightforest:cinder_log:0, Cinder Log [NYI]
+twilightforest:castle_door:0, Yellow Castle Door
+twilightforest:castle_door:1, Violet Castle Door
+twilightforest:castle_door:2, Pink Castle Door
+twilightforest:castle_door:3, Blue Castle Door
+twilightforest:miniature_structure:0, Miniature Twilight Portal [NYI]
+twilightforest:miniature_structure:1, Miniature Hedge Maze [NYI]
+twilightforest:miniature_structure:2, Miniature Hollow Hill [NYI]
+twilightforest:miniature_structure:3, Miniature Quest Grove [NYI]
+twilightforest:miniature_structure:4, Miniature Mushroom Castle [NYI]
+twilightforest:miniature_structure:5, Miniature Naga Courtyard [NYI]
+twilightforest:miniature_structure:6, Miniature Lich Tower [NYI]
+twilightforest:miniature_structure:7, Miniature Minotaur Labyrinth [NYI]
+twilightforest:miniature_structure:8, Miniature Hydra's Lair [NYI]
+twilightforest:miniature_structure:9, Miniature Goblin Stronghold [NYI]
+twilightforest:miniature_structure:10, Miniature Dark Tower [NYI]
+twilightforest:miniature_structure:11, Miniature Yeti Cave [NYI]
+twilightforest:miniature_structure:12, Miniature Aurora Palace [NYI]
+twilightforest:miniature_structure:13, Miniature Troll Cave and House in the Clouds [NYI]
+twilightforest:miniature_structure:14, Miniature Final Castle [NYI]
+twilightforest:block_storage:0, Block of Ironwood
+twilightforest:block_storage:1, Block of Fiery Metal
+twilightforest:block_storage:2, Block of Steeleaf
+twilightforest:block_storage:3, Block of Arctic Fur
+twilightforest:block_storage:4, Block of Carminite
+twilightforest:spiral_bricks, Spiral Stone Bricks [WIP]
+teslacorelib:gear_diamond, Diamond Gear
+teslacorelib:gear_stone, Stone Gear
+teslacorelib:gear_wood, Wood Gear
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
+quark:witch_hat, item.witch_hat.name
+quark:pirate_hat, item.pirate_hat.name
+quark:crystal:0, White Cave Crystal
+quark:crystal:1, Red Cave Crystal
+quark:crystal:2, Orange Cave Crystal
+quark:crystal:3, Yellow Cave Crystal
+quark:crystal:4, Green Cave Crystal
+quark:crystal:5, Blue Cave Crystal
+quark:crystal:6, Indigo Cave Crystal
+quark:crystal:7, Violet Cave Crystal
+quark:biome_cobblestone:0, Brimstone
+quark:biome_cobblestone:1, Permafrost
+quark:fire_stone_slab:0, Brimstone Slab
+quark:fire_stone_stairs, tile.fire_stone_stairs.name
+quark:icy_stone_slab:0, Permafrost Slab
+quark:icy_stone_stairs, tile.icy_stone_stairs.name
+quark:fire_stone_wall, tile.fire_stone_wall.name
+quark:icy_stone_wall, tile.icy_stone_wall.name
+quark:glowcelium, tile.glowcelium.name
+quark:glowshroom, tile.glowshroom.name
+quark:soul_bead, item.soul_bead.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, Block of Biotite
+quark:biotite_block:1, Chiseled Biotite Block
+quark:biotite_block:2, Pillar Biotite Block
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, Biotite Slab
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:basalt:0, Basalt
+quark:basalt:1, Polished Basalt
+quark:stone_basalt_slab:0, Basalt Slab
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+quark:smoker, tile.smoker.name
+quark:iron_rod, tile.iron_rod.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, tile.paper_wall.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:charcoal_block, tile.charcoal_block.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:reed_block, tile.reed_block.name
 quark:reed_block_stairs, tile.reed_block_stairs.name
 quark:reed_block_slab:0, Sugar Cane Slab
@@ -13548,26 +14213,18 @@ quark:world_stone_bricks:0, Granite Bricks
 quark:world_stone_bricks:1, Diorite Bricks
 quark:world_stone_bricks:2, Andesite Bricks
 quark:world_stone_bricks:3, Basalt Bricks
-quark:world_stone_bricks:4, Marble Bricks
-quark:world_stone_bricks:5, Limestone Bricks
 quark:stone_granite_bricks_stairs, tile.stone_granite_bricks_stairs.name
 quark:stone_diorite_bricks_stairs, tile.stone_diorite_bricks_stairs.name
 quark:stone_andesite_bricks_stairs, tile.stone_andesite_bricks_stairs.name
 quark:stone_basalt_bricks_stairs, tile.stone_basalt_bricks_stairs.name
-quark:stone_marble_bricks_stairs, tile.stone_marble_bricks_stairs.name
-quark:stone_limestone_bricks_stairs, tile.stone_limestone_bricks_stairs.name
 quark:stone_granite_bricks_slab:0, Granite Brick Slab
 quark:stone_diorite_bricks_slab:0, Diorite Brick Slab
 quark:stone_andesite_bricks_slab:0, Andesite Brick Slab
 quark:stone_basalt_bricks_slab:0, Basalt Brick Slab
-quark:stone_marble_bricks_slab:0, Marble Brick Slab
-quark:stone_limestone_bricks_slab:0, Limestone Brick Slab
 quark:stone_granite_bricks_wall, tile.stone_granite_bricks_wall.name
 quark:stone_diorite_bricks_wall, tile.stone_diorite_bricks_wall.name
 quark:stone_andesite_bricks_wall, tile.stone_andesite_bricks_wall.name
 quark:stone_basalt_bricks_wall, tile.stone_basalt_bricks_wall.name
-quark:stone_marble_bricks_wall, tile.stone_marble_bricks_wall.name
-quark:stone_limestone_bricks_wall, tile.stone_limestone_bricks_wall.name
 quark:midori_block, tile.midori_block.name
 quark:midori_pillar, tile.midori_pillar.name
 quark:midori_block_stairs, tile.midori_block_stairs.name
@@ -13620,153 +14277,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:pirate_hat, item.pirate_hat.name
-quark:marble:0, Marble
-quark:marble:1, Polished Marble
-quark:stone_marble_slab:0, Marble Slab
-quark:stone_marble_stairs, tile.stone_marble_stairs.name
-quark:marble_wall, tile.marble_wall.name
-quark:limestone:0, Limestone
-quark:limestone:1, Polished Limestone
-quark:stone_limestone_slab:0, Limestone Slab
-quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
-quark:limestone_wall, tile.limestone_wall.name
-quark:crystal:0, White Cave Crystal
-quark:crystal:1, Red Cave Crystal
-quark:crystal:2, Orange Cave Crystal
-quark:crystal:3, Yellow Cave Crystal
-quark:crystal:4, Green Cave Crystal
-quark:crystal:5, Blue Cave Crystal
-quark:crystal:6, Indigo Cave Crystal
-quark:crystal:7, Violet Cave Crystal
-quark:biome_cobblestone:0, Brimstone
-quark:biome_cobblestone:1, Permafrost
-quark:fire_stone_slab:0, Brimstone Slab
-quark:fire_stone_stairs, tile.fire_stone_stairs.name
-quark:icy_stone_slab:0, Permafrost Slab
-quark:icy_stone_stairs, tile.icy_stone_stairs.name
-quark:fire_stone_wall, tile.fire_stone_wall.name
-quark:icy_stone_wall, tile.icy_stone_wall.name
-quark:glowcelium, tile.glowcelium.name
-quark:glowshroom, tile.glowshroom.name
-quark:soul_bead, item.soul_bead.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, Block of Biotite
-quark:biotite_block:1, Chiseled Biotite Block
-quark:biotite_block:2, Pillar Biotite Block
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, Biotite Slab
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:basalt:0, Basalt
-quark:basalt:1, Polished Basalt
-quark:stone_basalt_slab:0, Basalt Slab
-quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
-quark:basalt_wall, tile.basalt_wall.name
-quark:smoker, tile.smoker.name
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, tile.paper_wall.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:charcoal_block, tile.charcoal_block.name
-quark:glass_item_frame, item.glass_item_frame.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
-quark:witch_hat, item.witch_hat.name
-quark:iron_rod, tile.iron_rod.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
 quark:glowstone_dust_block, tile.glowstone_dust_block.name
 quark:gunpowder_block, tile.gunpowder_block.name
 quark:arrow_ender, item.arrow_ender.name
@@ -16285,6 +16795,65 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Block
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Small Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Tiny TNT
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Smokey Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Smokey Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Smokey Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Mana Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Mana Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Mana Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Blaze Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Blaze Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Blaze Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Lavender Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Lavender Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Lavender Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Redquartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Redquartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Redquartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Elven Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Elven Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Elven Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Sunny Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sunny Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Sunny Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Forest Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Plains Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mountain Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Fungal Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Swamp Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Desert Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Taiga Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mesa Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - White Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Black Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Red Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Green Portuguese Pavement
 chiselsandbits:block_bit:0, Chiseled Bit - Livingrock
 chiselsandbits:block_bit:0, Chiseled Bit - Livingrock Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Mossy Livingrock Brick
@@ -16347,65 +16916,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Fel Pumpkin South
 chiselsandbits:block_bit:0, Chiseled Bit - Manastorm Charge
 chiselsandbits:block_bit:0, Chiseled Bit - Shimmerrock
 chiselsandbits:block_bit:0, Chiseled Bit - Shimmerwood Planks
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Smokey Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Smokey Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Smokey Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Mana Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Mana Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Mana Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Blaze Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Blaze Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Blaze Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Lavender Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Lavender Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Lavender Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Redquartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Redquartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Redquartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Elven Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Elven Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Elven Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Sunny Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sunny Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Sunny Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Forest Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Plains Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mountain Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Fungal Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Swamp Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Desert Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Taiga Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mesa Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - White Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Black Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Blue Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Red Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Yellow Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Green Portuguese Pavement
 chiselsandbits:block_bit:0, Chiseled Bit - Kitchen Floor
 chiselsandbits:block_bit:0, Chiseled Bit - Ender Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Grout
@@ -16495,6 +17005,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Light Engineering Block
 chiselsandbits:block_bit:0, Chiseled Bit - Heavy Engineering Block
 chiselsandbits:block_bit:0, Chiseled Bit - Generator Block
 chiselsandbits:block_bit:0, Chiseled Bit - Radiator Block
+chiselsandbits:block_bit:0, Chiseled Bit - Asphalt Concrete
 chiselsandbits:block_bit:0, Chiseled Bit - Topiary Grass
 chiselsandbits:block_bit:0, Chiseled Bit - Bluegrass
 chiselsandbits:block_bit:0, Chiseled Bit - Autumnal Grass
@@ -16563,6 +17074,97 @@ chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
 chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
 chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
 chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Twilight Oak Wood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Canopy Tree Wood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Mangrove Wood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Darkwood Wood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Roots
+chiselsandbits:block_bit:0, Chiseled Bit - Roots
+chiselsandbits:block_bit:0, Chiseled Bit - Mazestone
+chiselsandbits:block_bit:0, Chiseled Bit - Mazestone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Mazestone
+chiselsandbits:block_bit:0, Chiseled Bit - Decorative Mazestone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Mazestone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Mazestone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Mazestone Mosaic
+chiselsandbits:block_bit:0, Chiseled Bit - Mazestone Border
+chiselsandbits:block_bit:0, Chiseled Bit - Uncrafting Table
+chiselsandbits:block_bit:0, Chiseled Bit - Nagastone Head
+chiselsandbits:block_bit:0, Chiseled Bit - Nagastone Head
+chiselsandbits:block_bit:0, Chiseled Bit - Timewood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Transwood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Minewood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Sortingwood Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Timewood Clock Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Heart of Transformation Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Minewood Core Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Sortingwood Engine Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Towerwood Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Encased Towerwood
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Towerwood
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Towerwood
+chiselsandbits:block_bit:0, Chiseled Bit - Infested Towerwood
+chiselsandbits:block_bit:0, Chiseled Bit - Reappearing Block
+chiselsandbits:block_bit:0, Chiseled Bit - Vanishing Block
+chiselsandbits:block_bit:0, Chiseled Bit - Locked Vanishing Block
+chiselsandbits:block_bit:0, Chiseled Bit - Unlocked Vanishing Block
+chiselsandbits:block_bit:0, Chiseled Bit - Carminite Builder
+chiselsandbits:block_bit:0, Chiseled Bit - Anti-builder
+chiselsandbits:block_bit:0, Chiseled Bit - Ghast Trap
+chiselsandbits:block_bit:0, Chiseled Bit - Carminite Reactor
+chiselsandbits:block_bit:0, Chiseled Bit - Stronghold Shield Down
+chiselsandbits:block_bit:0, Chiseled Bit - Aurora Block
+chiselsandbits:block_bit:0, Chiseled Bit - Underbrick
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Underbrick
+chiselsandbits:block_bit:0, Chiseled Bit - Underbrick Floor
+chiselsandbits:block_bit:0, Chiseled Bit - Weathered Deadrock
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Deadrock
+chiselsandbits:block_bit:0, Chiseled Bit - Deadrock
+chiselsandbits:block_bit:0, Chiseled Bit - Darkwood Leaves
+chiselsandbits:block_bit:0, Chiseled Bit - Aurora Pillar Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Trollsteinn
+chiselsandbits:block_bit:0, Chiseled Bit - Fluffy Cloud
+chiselsandbits:block_bit:0, Chiseled Bit - Giant Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Giant Log
+chiselsandbits:block_bit:0, Chiseled Bit - Giant Obsidian
+chiselsandbits:block_bit:0, Chiseled Bit - Huge Stalk
+chiselsandbits:block_bit:0, Chiseled Bit - Castle Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Worn Castle Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Castle Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Castle Roof Tile
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Castle Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Thick Castle Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Encased Castle Brick Pillar East/West
+chiselsandbits:block_bit:0, Chiseled Bit - Encased Castle Brick Pillar Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Encased Castle Brick Pillar North/South
+chiselsandbits:block_bit:0, Chiseled Bit - Encased Castle Brick Tile mod.chiselsandbits.pretty.axis-none
+chiselsandbits:block_bit:0, Chiseled Bit - Pink Castle Rune Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Castle Rune Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Castle Rune Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Violet Castle Rune Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Cinder Furnace [NYI] South
+chiselsandbits:block_bit:0, Chiseled Bit - Cinder Log [NYI] Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Ironwood
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Fiery Metal
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Steeleaf
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Arctic Fur
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Carminite
+chiselsandbits:block_bit:0, Chiseled Bit - Brimstone
+chiselsandbits:block_bit:0, Chiseled Bit - Permafrost
+chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Basalt
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
 chiselsandbits:block_bit:0, Chiseled Bit - Sugar Cane Block Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
@@ -16632,8 +17234,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Granite Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Diorite Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Andesite Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Basalt Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Marble Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Limestone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Midori Block
 chiselsandbits:block_bit:0, Chiseled Bit - Midori Pillar Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Magma Bricks
@@ -16677,28 +17277,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brown Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Green Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Red Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Black Quilted Wool
-chiselsandbits:block_bit:0, Chiseled Bit - Marble
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Marble
-chiselsandbits:block_bit:0, Chiseled Bit - Limestone
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Limestone
-chiselsandbits:block_bit:0, Chiseled Bit - Brimstone
-chiselsandbits:block_bit:0, Chiseled Bit - Permafrost
-chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Basalt
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
 chiselsandbits:block_bit:0, Chiseled Bit - Well
-chiselsandbits:block_bit:0, Chiseled Bit - Beehive
 chiselsandbits:block_bit:0, Chiseled Bit - Honey Block
 chiselsandbits:block_bit:0, Chiseled Bit - Honeycomb Block
 chiselsandbits:block_bit:0, Chiseled Bit - Pressed Wax Block
@@ -16738,6 +17317,22 @@ chiselsandbits:block_bit:0, Chiseled Bit - Biodiesel
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Concrete
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Constantan
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Crude Oil
 chiselsandbits:block_bit:0, Chiseled Bit - Destabilized Redstone
 chiselsandbits:block_bit:0, Chiseled Bit - Energized Glowstone
@@ -16747,7 +17342,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Gelid Cryotheum
 chiselsandbits:block_bit:0, Chiseled Bit - Zephyrean Aerotheum
 chiselsandbits:block_bit:0, Chiseled Bit - Tectonic Petrotheum
 chiselsandbits:block_bit:0, Chiseled Bit - Primal Mana
-chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
@@ -16780,6 +17374,110 @@ theoneprobe:diamond_helmet_probe:0, Diamond Helmet with Probe
 theoneprobe:gold_helmet_probe:0, Gold Helmet with Probe
 theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
 theoneprobe:probe_goggles, The One Probe (Bauble)
+industrialforegoing:petrified_fuel_generator, Petrified Fuel Generator
+industrialforegoing:enchantment_refiner, Enchantment Sorter
+industrialforegoing:enchantment_extractor, Enchantment Extractor
+industrialforegoing:enchantment_aplicator, Enchantment Applicator
+industrialforegoing:mob_relocator, Mob Crusher
+industrialforegoing:potion_enervator, Potion Brewer
+industrialforegoing:animal_independence_selector, Animal Baby Separator
+industrialforegoing:animal_stock_increaser, Animal Feeder
+industrialforegoing:crop_sower, Plant Sower
+industrialforegoing:crop_enrich_material_injector, Plant Fertilizer
+industrialforegoing:crop_recolector, Plant Gatherer
+industrialforegoing:black_hole_unit, Black Hole Unit
+industrialforegoing:water_condensator, Water Condensator
+industrialforegoing:water_resources_collector, Resources Fisher
+industrialforegoing:animal_resource_harvester, Animal Rancher
+industrialforegoing:mob_slaughter_factory, Mob Slaughter Factory
+industrialforegoing:mob_duplicator, Mob Duplicator
+industrialforegoing:block_destroyer, Block Breaker
+industrialforegoing:block_placer, Block Placer
+industrialforegoing:tree_fluid_extractor, Tree Fluid Extractor
+industrialforegoing:latex_processing_unit, Latex Processing Unit
+industrialforegoing:sewage_composter_solidifier, Sewage Composter
+industrialforegoing:animal_byproduct_recolector, Animal Sewer
+industrialforegoing:sludge_refiner, Sludge Refiner
+industrialforegoing:mob_detector, Mob Detector
+industrialforegoing:lava_fabricator, Lava Fabricator
+industrialforegoing:bioreactor, Bioreactor
+industrialforegoing:biofuel_generator, Biofuel Generator
+industrialforegoing:laser_base, Laser Base
+industrialforegoing:laser_drill, Laser Drill
+industrialforegoing:ore_processor, Ore Processor
+industrialforegoing:black_hole_controller, Black Hole Controller
+industrialforegoing:dye_mixer, Dye Mixer
+industrialforegoing:enchantment_invoker, Enchantment Factory
+industrialforegoing:spores_recreator, Spores Recreator
+industrialforegoing:animal_growth_increaser, Animal Grower
+industrialforegoing:material_stonework_factory, Material StoneWork Factory
+industrialforegoing:resourceful_furnace, Resourceful Furnace
+industrialforegoing:villager_trade_exchanger, Villager Trade Exchanger
+industrialforegoing:energy_field_provider, Energy Field Provider
+industrialforegoing:oredictionary_converter, Ore Dictionary Converter
+industrialforegoing:protein_reactor, Protein Reactor
+industrialforegoing:protein_generator, Protein Generator
+industrialforegoing:hydrator, Hydrator
+industrialforegoing:wither_builder, Wither Builder
+industrialforegoing:fluid_pump, Fluid Pump
+industrialforegoing:fluid_crafter, Fluid Crafter
+industrialforegoing:item_splitter, Item Splitter
+industrialforegoing:tinydryrubber, Tiny Dry Rubber
+industrialforegoing:dryrubber, Dry Rubber
+industrialforegoing:plastic, Plastic
+industrialforegoing:fertilizer, Fertilizer
+industrialforegoing:meat_feeder, Meat Feeder
+industrialforegoing:mob_imprisonment_tool, Mob Imprisonment Tool
+industrialforegoing:laser_lens:0, Laser Lens
+industrialforegoing:laser_lens:1, Laser Lens
+industrialforegoing:laser_lens:2, Laser Lens
+industrialforegoing:laser_lens:3, Laser Lens
+industrialforegoing:laser_lens:4, Laser Lens
+industrialforegoing:laser_lens:5, Laser Lens
+industrialforegoing:laser_lens:6, Laser Lens
+industrialforegoing:laser_lens:7, Laser Lens
+industrialforegoing:laser_lens:8, Laser Lens
+industrialforegoing:laser_lens:9, Laser Lens
+industrialforegoing:laser_lens:10, Laser Lens
+industrialforegoing:laser_lens:11, Laser Lens
+industrialforegoing:laser_lens:12, Laser Lens
+industrialforegoing:laser_lens:13, Laser Lens
+industrialforegoing:laser_lens:14, Laser Lens
+industrialforegoing:laser_lens:15, Laser Lens
+industrialforegoing:laser_lens_inverted:0, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:1, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:2, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:3, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:4, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:5, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:6, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:7, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:8, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:9, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:10, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:11, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:12, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:13, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:14, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:15, Laser Lens (Inverted)
+industrialforegoing:straw, Straw
+industrialforegoing:pink_slime, Pink Slime
+industrialforegoing:book_manual, Industrial Foregoing's Manual
+industrialforegoing:adult_filter, Adult Filter
+industrialforegoing:range_addon:0, Range Addon
+industrialforegoing:range_addon:1, Range Addon
+industrialforegoing:range_addon:2, Range Addon
+industrialforegoing:range_addon:3, Range Addon
+industrialforegoing:range_addon:4, Range Addon
+industrialforegoing:range_addon:5, Range Addon
+industrialforegoing:range_addon:6, Range Addon
+industrialforegoing:range_addon:7, Range Addon
+industrialforegoing:range_addon:8, Range Addon
+industrialforegoing:range_addon:9, Range Addon
+industrialforegoing:range_addon:10, Range Addon
+industrialforegoing:range_addon:11, Range Addon
+industrialforegoing:energy_field_addon, Energy Field Addon
+industrialforegoing:leaf_shearing, Leaf Shearing Addon
 harvestcraft:blackberryitem, Blackberry
 harvestcraft:blackberryseeditem, Blackberry Seed
 harvestcraft:blueberryitem, Blueberry
@@ -16926,6 +17624,8 @@ harvestcraft:pampear, Pear
 harvestcraft:olive_sapling, Olive Sapling
 harvestcraft:oliveitem, Olive
 harvestcraft:pamolive, Olive
+harvestcraft:spiderweb_sapling, Spider Web Sapling
+harvestcraft:pamspiderweb, Spider Web
 harvestcraft:grapefruit_sapling, Grapefruit Sapling
 harvestcraft:grapefruititem, Grapefruit
 harvestcraft:pamgrapefruit, Grapefruit
@@ -17106,7 +17806,7 @@ harvestcraft:plumjuiceitem, Plum Juice
 harvestcraft:pearjuiceitem, Pear Juice
 harvestcraft:apricotjuiceitem, Apricot Juice
 harvestcraft:figjuiceitem, Fig Juice
-harvestcraft:grapefruitjuiceitem, Grapfruit Juice
+harvestcraft:grapefruitjuiceitem, Grapefruit Juice
 harvestcraft:persimmonjuiceitem, Persimmon Juice
 harvestcraft:pumpkinsoupitem, Pumpkin Soup
 harvestcraft:melonsmoothieitem, Melon Smoothie
@@ -17676,7 +18376,7 @@ harvestcraft:berryvinaigrettesaladitem, Berry Vinaigrette Salad
 harvestcraft:tomatoherbchickenitem, Tomato Herb Chicken
 harvestcraft:pastagardeniaitem, Pasta Gardenia 
 harvestcraft:fiestacornsaladitem, Fiesta Corn Salad
-harvestcraft:threebeansaladitem, Three Been Salad
+harvestcraft:threebeansaladitem, Three Bean Salad
 harvestcraft:sweetandsourmeatballsitem, Sweet and Sour Meatballs
 harvestcraft:pepperjellyitem, Pepper Jelly
 harvestcraft:pepperjellyandcrackersitem, Pepper Jelly and Crackers
@@ -17696,8 +18396,8 @@ harvestcraft:festivalbreaditem, Festival Bread
 harvestcraft:fruitcreamfestivalbreaditem, Fruit Cream Festival Bread
 harvestcraft:phoitem, Pho
 harvestcraft:bubbleteaitem, Bubble Tea
-harvestcraft:duckrawitem, item.duckrawitem.name
-harvestcraft:duckcookeditem, item.duckcookeditem.name
+harvestcraft:duckrawitem, Raw Duck
+harvestcraft:duckcookeditem, Cooked Duck
 harvestcraft:wontonsoupitem, Wonton Soup
 harvestcraft:springrollitem, Spring Rolls
 harvestcraft:meatystirfryitem, Meaty Stirfry
@@ -17708,7 +18408,7 @@ harvestcraft:stuffedduckitem, Stuffed Duck
 harvestcraft:rouxitem, Roux
 harvestcraft:candiedpecansitem, Candied Pecans
 harvestcraft:stuffingitem, Stuffing
-harvestcraft:greenbeencasseroleitem, Green Bean Casserole
+harvestcraft:greenbeancasseroleitem, Green Bean Casserole
 harvestcraft:hamandpineapplepizzaitem, Ham and Pineapple Pizza
 harvestcraft:cobblestonecobbleritem, Cobblestone Cobbler
 harvestcraft:crayfishsaladitem, Crayfish Salad
@@ -17784,7 +18484,7 @@ harvestcraft:chickenandwafflesitem, Chicken and Waffles
 harvestcraft:delightedmealitem, Delighted Meal
 harvestcraft:heartybreakfastitem, Hearty Breakfast
 harvestcraft:mcpamitem, McPam
-harvestcraft:deluxenachoesitem, Deluxe Nachoes
+harvestcraft:deluxenachoesitem, Deluxe Nachos
 harvestcraft:chimichangaitem, Chimichanga
 harvestcraft:salisburysteakitem, Salisbury Steak
 harvestcraft:ploughmanslunchitem, Ploughman's Lunch
@@ -17798,6 +18498,7 @@ harvestcraft:koreandinneritem, Korean Dinner
 harvestcraft:cornedbeefbreakfastitem, Corned Beef Breakfast
 harvestcraft:queenbeeitem, Queen Bee
 harvestcraft:grubitem, Bee Grub
+harvestcraft:cookedgrubitem, item.cookedgrubItem.name
 harvestcraft:honeycombitem, Honeycomb
 harvestcraft:honeyitem, Honey
 harvestcraft:waxcombitem, Waxcomb
@@ -17856,6 +18557,11 @@ minecraft:salmon, Raw Salmon
 minecraft:cooked_salmon, Cooked Salmon
 minecraft:clownfish, Clownfish
 minecraft:pufferfish, Pufferfish
+rflux:lightblock_on, Light Block (on)
+rflux:lightblock_off, Light Block (off)
+rflux:flatlightblock_on, Flat Light Block (on)
+rflux:flatlightblock_off, Flat Light Block (off)
+rflux:invisible_block, tile.rflux.invisibleblock.name
 rftools:smartwrench, Smart Wrench
 rftools:rftools_manual, RFTools Manual
 rftools:rftools_shape_manual, RFTools Shape Manual

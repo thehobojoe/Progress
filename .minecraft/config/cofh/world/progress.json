@@ -43,7 +43,7 @@
 		"enderore": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "enderore:oreEnder",
+				"block": "enderore:ore_ender",
 				"material": "stone",
 				"cluster-size": 4
 			},
