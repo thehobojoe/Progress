@@ -8,6 +8,8 @@
         "appliedenergistics2:item.ToolCertusQuartzAxe",
         "appliedenergistics2:item.ToolNetherQuartzAxe",
         "appliedenergistics2:nether_quartz_axe",
+        "astralsorcery:itemchargedcrystalaxe",
+        "astralsorcery:itemcrystalaxe",
         "extrautils2:fireaxe",
         "minecraft:diamond_axe",
         "minecraft:golden_axe",
@@ -30,6 +32,12 @@
         "thermalfoundation:tool.axe_tin"
       ],
       "blocklist": [
+        "earthworks:block_timber/0",
+        "earthworks:block_timber_acacia/0",
+        "earthworks:block_timber_birch/0",
+        "earthworks:block_timber_dark_oak/0",
+        "earthworks:block_timber_jungle/0",
+        "earthworks:block_timber_spruce/0",
         "harvestcraft:pamcinnamon/0",
         "harvestcraft:pammaple/0",
         "harvestcraft:pampaperbark/0",
@@ -121,6 +129,8 @@
         "appliedenergistics2:item.ToolCertusQuartzPickaxe",
         "appliedenergistics2:item.ToolNetherQuartzPickaxe",
         "appliedenergistics2:nether_quartz_pickaxe",
+        "astralsorcery:itemchargedcrystalpickaxe",
+        "astralsorcery:itemcrystalpickaxe",
         "immersiveengineering:drill",
         "minecraft:diamond_pickaxe",
         "minecraft:golden_pickaxe",
@@ -163,6 +173,8 @@
       "blocklist": [
         "appliedenergistics2:charged_quartz_ore/0",
         "appliedenergistics2:quartz_ore/0",
+        "astralsorcery:blockcustomore/1",
+        "astralsorcery:blockcustomsandore/0",
         "immersiveengineering:ore/0",
         "immersiveengineering:ore/1",
         "immersiveengineering:ore/2",
@@ -247,6 +259,8 @@
       "toollist": [
         "appliedenergistics2:item.ToolCertusQuartzSpade",
         "appliedenergistics2:item.ToolNetherQuartzSpade",
+        "astralsorcery:itemchargedcrystalshovel",
+        "astralsorcery:itemcrystalshovel",
         "immersiveengineering:drill",
         "minecraft:diamond_shovel",
         "minecraft:golden_shovel",

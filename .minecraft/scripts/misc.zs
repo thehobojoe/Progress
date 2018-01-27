@@ -12,4 +12,7 @@ recipes.remove(<rftools:dialing_device>);
 recipes.remove(<rftools:spawner>);
 recipes.remove(<rftools:matter_beamer>);
 
-recipes.remove(<rftools:coal_generator>);
+recipes.remove(<rftools:coalgenerator>);
+
+recipes.remove(<enderstorage:ender_storage>);
+recipes.remove(<enderstorage:ender_pouch>);
