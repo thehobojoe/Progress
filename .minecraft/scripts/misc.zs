@@ -12,6 +12,13 @@ recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:*>]);
 
 recipes.remove(<tconstruct:slimesling>);
 
+//hopping bonsai
+recipes.remove(<bonsaitrees:bonsaipot:1>);
+recipes.addShaped("HoppingBonsai", <bonsaitrees:bonsaipot:1>,
+	[[null, null, null],
+	[<botania:manaresource:22>, <bonsaitrees:bonsaipot>, <botania:manaresource:22>],
+	[<botania:manaresource:22>, <minecraft:hopper>, <botania:manaresource:22>]]);
+
 //remove rftools teleporters
 recipes.remove(<rftools:matter_transmitter>);
 recipes.remove(<rftools:matter_receiver>);

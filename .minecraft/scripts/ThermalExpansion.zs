@@ -25,6 +25,7 @@ var dustCharcoalTF 	= <thermalfoundation:material:769>;
 # TE Mats
 var frame			= <thermalexpansion:frame:64>;
 var servo			= <thermalfoundation:material:512>;
+var fluiduct		= <thermaldynamics:duct_16:1>;
 
 # TE Machines
 var accumulator 	= <thermalexpansion:device>;
@@ -70,7 +71,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(dustIronTF, cokeTF);
 recipes.remove(accumulator);
 recipes.addShaped("Accumulator", accumulator,
 	[[null, bucket, null],
-	[glass, frame, glass],
+	[glass, fluiduct, glass],
 	[bucket, servo, bucket]]);
 
 
