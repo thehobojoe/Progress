@@ -2,10 +2,14 @@
 instance.cfg
 mmc-pack.json
 /natives
+.minecraft/.mixin.out/
 .minecraft/asm
 .minecraft/crash-reports
 .minecraft/enderio
 .minecraft/journeymap
+.minecraft/dumps
+.minecraft/libraries
+.minecraft/fonts
 .minecraft/logs
 .minecraft/saves
 .minecraft/screenshots
@@ -25,3 +29,4 @@ mmc-pack.json
 .minecraft/config/JEI/worldSettings.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/mods/OpenTerrainGenerator/worlds
+.minecraft/realms_persistence.json

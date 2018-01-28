@@ -10,6 +10,8 @@ var dustIron 		= <ore:dustIron>;
 var silicon			= <ore:itemSilicon>;
 var redstone 		= <minecraft:redstone>;
 var enderPearl		= <minecraft:ender_pearl>;
+var obsidian		= <minecraft:obsidian>;
+var gunpowder		= <minecraft:gunpowder>;
 
 var cokeBrick 		= <immersiveengineering:stone_decoration>;
 var blastBrick 		= <immersiveengineering:stone_decoration:1>;
@@ -48,9 +50,9 @@ recipes.addShaped("CokeBrick", cokeBrick * 3,
 
 recipes.remove(blastBrick);
 recipes.addShaped("BlastBrick", blastBrick * 3, 
-	[[	brickNether, 	brick, 			brickNether],
-	[	brick, 			blazePowder,	brick],
-	[	brickNether, 	brick, 			brickNether]]);
+	[[	brickNether, 	brick, 		brickNether],
+	[	brick, 			gunpowder,	brick],
+	[	brickNether, 	brick, 		brickNether]]);
 
 
 

@@ -14,6 +14,7 @@ var ingotGraphite 	= <immersiveengineering:material:19>;
 var gearSteel		= <ore:gearSteel>;
 var gearSilver		= <ore:gearSilver>;
 
+
 # Dusts
 var dustIronIE		= <immersiveengineering:metal:18>;
 var dustIronTF		= <thermalfoundation:material>;
@@ -21,10 +22,21 @@ var dustCoalTF 		= <thermalfoundation:material:768>;
 var dustCharcoalTF 	= <thermalfoundation:material:769>;
 
 
+# TE Mats
+var frame			= <thermalexpansion:frame:64>;
+var servo			= <thermalfoundation:material:512>;
+
+# TE Machines
+var accumulator 	= <thermalexpansion:device>;
+
+
 # Misc
 var glassHardened	= <ore:blockGlassHardened>;
 var cokeTF			= <thermalfoundation:material:802>;
 var redstone 		= <minecraft:redstone>;
+var bucket			= <minecraft:bucket>;
+var glass 			= <minecraft:glass>;
+
 
 
 
@@ -52,6 +64,14 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(ingotIron, dustCharcoalTF * 
 
 mods.thermalexpansion.InductionSmelter.removeRecipe(ingotIron, cokeTF);
 mods.thermalexpansion.InductionSmelter.removeRecipe(dustIronTF, cokeTF);
+
+
+// Accumulator
+recipes.remove(accumulator);
+recipes.addShaped("Accumulator", accumulator,
+	[[null, bucket, null],
+	[glass, frame, glass],
+	[bucket, servo, bucket]]);
 
 
 
