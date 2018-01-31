@@ -99,6 +99,6 @@ recipes.remove(<thermalfoundation:material:294>);
 recipes.remove(<thermalfoundation:material:295>);
 
 // Remove signalum and enderium recipes
-recipes.remove(<thermalfoundation:material:165>);
-recipes.remove(<thermalfoundation:material:167>);
+recipes.remove(<thermalfoundation:material:103>);
+recipes.remove(<thermalfoundation:material:101>);
 
