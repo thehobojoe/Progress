@@ -44,6 +44,9 @@ recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<enderstorage:ender_storage>);
 recipes.remove(<enderstorage:ender_pouch>);
 
+// fluid crafting augment
+recipes.remove(<thermalexpansion:augment:433>);
+
 // alter shape card
 recipes.remove(<rftools:shape_card:2>);
 recipes.addShaped("quarry", <rftools:shape_card:2>, 
