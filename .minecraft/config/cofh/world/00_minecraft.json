@@ -55,7 +55,8 @@
 				"material": "minecraft:stone",
 				"cluster-size": 256
 			},
-			"chunk-chance": 0.3,
+			"chunk-chance": 3,
+			"cluster-count": 1,
 			"min-height": 40,
 			"max-height": 100,
 			"retrogen": false,
@@ -81,7 +82,8 @@
 				"material": "minecraft:stone",
 				"cluster-size": 256
 			},
-			"chunk-chance": 0.3,
+			"chunk-chance": 3,
+			"cluster-count": 1,
 			"min-height": 10,
 			"max-height": 50,
 			"retrogen": false,
@@ -107,7 +109,8 @@
 				"material": "minecraft:stone",
 				"cluster-size": 256
 			},
-			"chunk-chance": 0.3,
+			"chunk-chance": 3,
+			"cluster-count": 1,
 			"min-height": 30,
 			"max-height": 100,
 			"retrogen": false,

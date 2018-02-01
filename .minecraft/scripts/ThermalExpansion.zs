@@ -37,6 +37,7 @@ var cokeTF			= <thermalfoundation:material:802>;
 var redstone 		= <minecraft:redstone>;
 var bucket			= <minecraft:bucket>;
 var glass 			= <minecraft:glass>;
+var plateSteel		= <ore:plateSteel>;
 
 
 
@@ -51,9 +52,9 @@ recipes.addShaped("HardenedUpgrade", <thermalfoundation:upgrade>,
 
 recipes.remove(<thermalfoundation:upgrade:1>);
 recipes.addShaped("ReinforcedUpgrade", <thermalfoundation:upgrade:1>,
-	[[ingotGraphite, ingotGraphite, ingotGraphite],
+	[[plateSteel, plateSteel, plateSteel],
 	[ingotGraphite, gearSilver, ingotGraphite],
-	[glassHardened, ingotGraphite, glassHardened]]);
+	[glassHardened, <ore:plateGold>, glassHardened]]);
 
 
 // remove induction smelter steel recipes
@@ -74,6 +75,10 @@ recipes.addShaped("Accumulator", accumulator,
 	[glass, fluiduct, glass],
 	[bucket, servo, bucket]]);
 
+
+// remove smelter alloying for enderium and signalum
+mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 
 
 // Remove gear recipes

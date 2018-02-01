@@ -5,8 +5,6 @@ var brick 			= <ore:ingotBrick>;
 var brickNether 	= <ore:ingotBrickNether>;
 var sandstone		= <ore:sandstone>;
 var blazePowder		= <ore:powderBlaze>;
-var dustCoal 		= <ore:dustCoal>;
-var dustIron 		= <ore:dustIron>;
 var silicon			= <ore:itemSilicon>;
 var redstone 		= <minecraft:redstone>;
 var enderPearl		= <minecraft:ender_pearl>;
@@ -33,6 +31,8 @@ var dustPlatinum			= <ore:dustPlatinum>;
 var dustCopper				= <ore:dustCopper>;
 var dustTin 				= <ore:dustTin>;
 var dustSilver 				= <ore:dustSilver>;
+var dustCoal 		= <ore:dustCoal>;
+var dustIron 		= <ore:dustIron>;
 
 
 

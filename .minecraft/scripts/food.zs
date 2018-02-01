@@ -7,5 +7,5 @@ recipes.addShapeless(<cookingforblockheads:recipe_book:2>, [<cookingforblockhead
 recipes.removeShapeless(<harvestcraft:saltitem>, [<harvestcraft:potitem>, <ore:listAllwater>]);
 recipes.addShapeless("salt", <harvestcraft:saltitem> * 3, [<ore:toolPot>, <ore:listAllwater>]);
 
-// chestnut to flower
-recipes.removeShapeless(<harvestcraft:flouritem>, [<harvestcraft:mortarandpestleitem>, <harvestcraft:chestnutitem>]);
+// chestnut to flour
+recipes.addShapeless("chestnutOil", <harvestcraft:chestnutbutteritem>, [<harvestcraft:juiceritem>, <harvestcraft:chestnutitem>] );

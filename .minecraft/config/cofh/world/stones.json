@@ -8,7 +8,7 @@
 					"metadata": 7
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 112
+				"cluster-size": 148
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -26,11 +26,15 @@
 		"limestone": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "quark:limestone",
+				"block": {
+					"name": "chisel:limestone2",
+					"metadata": 7
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 172
+				"cluster-size": 350
 			},
-			"chunk-chance": 0.3,
+			"cluster-count": 1,
+			"chunk-chance": 3,
 			"min-height": 20,
 			"max-height": 100,
 			"retrogen": false,
@@ -46,13 +50,80 @@
 		"marble": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "quark:marble",
+				"block": {
+					"name": "chisel:marble2",
+					"metadata": 7
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 172
+				"cluster-size": 500
 			},
-			"chunk-chance": 0.5,
+			"cluster-count": 1,
+			"chunk-chance": 3,
 			"min-height": 16,
-			"max-height": 48,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"slateBlue": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate",
+				"material": "minecraft:stone",
+				"cluster-size": 400
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 24,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"slateGreen": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate_green",
+				"material": "minecraft:stone",
+				"cluster-size": 400
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 24,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"slatePurple": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "earthworks:block_slate_purple",
+				"material": "minecraft:stone",
+				"cluster-size": 400
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 24,
+			"max-height": 128,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
