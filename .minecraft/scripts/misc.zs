@@ -71,8 +71,3 @@ recipes.addShaped("candle", <rustic:candle>,
 	[[null, <minecraft:string>, null],
 	[null, <ore:tallow>, null],
 	[null, ingotIron, null]]);
-
-
-// add chalk to marble oredict (for chisel)
-val marbleDict = <ore:stoneMarble>;
-marbleDict.add(<earthworks:block_chalk>);
