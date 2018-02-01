@@ -2,6 +2,8 @@
 instance.cfg
 mmc-pack.json
 /natives
+.minecraft/astralsorcery
+.minecraft/hotbar.nbt
 .minecraft/.mixin.out/
 .minecraft/asm
 .minecraft/crash-reports
@@ -11,6 +13,7 @@ mmc-pack.json
 .minecraft/libraries
 .minecraft/fonts
 .minecraft/logs
+.minecraft/resources
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs
