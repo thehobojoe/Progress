@@ -5,8 +5,8 @@ var redstone		= <minecraft:redstone>;
 
 
 // gear cast from stone gear
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:gold>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:alubrass>, 144, true);
+//mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:gold>, 144, true);
+//mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:alubrass>, 144, true);
 
 // food journal to lunchbox
 recipes.addShapeless(<spiceoflife:lunchbox>, [<spiceoflife:bookfoodjournal>]);
@@ -49,10 +49,10 @@ recipes.remove(<thermalexpansion:augment:433>);
 
 // alter shape card
 recipes.remove(<rftools:shape_card:2>);
-recipes.addShaped("quarry", <rftools:shape_card:2>, 
-	[[redstone, <botania:elementiumpick>, redstone],
-	[ingotIron, <rftools:shape_card>, ingotIron],
-	[redstone, <botania:elementiumshovel>, redstone]]);
+//recipes.addShaped("quarry", <rftools:shape_card:2>, 
+//	[[redstone, <botania:elementiumpick>, redstone],
+//	[ingotIron, <rftools:shape_card>, ingotIron],
+//	[redstone, <botania:elementiumshovel>, redstone]]);
 
 
 var stickIron 	= <ore:stickIron>;

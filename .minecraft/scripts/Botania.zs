@@ -42,14 +42,6 @@ recipes.addShaped(<botania:altar>,
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>); //Infusion
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 4000);
 
-//alter endoflame recipe
-mods.botania.Apothecary.removeRecipe("endoflame");
-mods.botania.Apothecary.addRecipe("endoflame", [<ore:petalBrown>, <ore:petalBrown>, <ore:petalLightGray>, <ore:petalRed>, <ore:blockFuelCoke>]);
-
-//alter hydroangea
-mods.botania.Apothecary.removeRecipe("hydroangeas");
-mods.botania.Apothecary.addRecipe("hydroangeas", [<ore:petalBlue>, <ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <minecraft:clay>, <minecraft:waterlily>]);
-
 
 //remove tiara
 recipes.remove(<botania:flighttiara>);
@@ -67,5 +59,5 @@ mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
 mods.botania.PureDaisy.addRecipe(<immersiveengineering:treated_wood>, <botania:livingwood>, 1200);
 
 // do this when metadata bug gets fixed
-//mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
-//mods.botania.PureDaisy.addRecipe(hempcrete, <botania:livingrock>, 1200);
+mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
+mods.botania.PureDaisy.addRecipe(hempcrete, <botania:livingrock>, 1200);
