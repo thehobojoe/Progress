@@ -19,10 +19,20 @@ recipes.remove(<tconstruct:slimesling>);
 
 //hopping bonsai
 recipes.remove(<bonsaitrees:bonsaipot:1>);
-recipes.addShaped("HoppingBonsai", <bonsaitrees:bonsaipot:1>,
+recipes.addShaped("ButtBonsai", <bonsaitrees:bonsaipot:1>,
 	[[null, null, null],
 	[<botania:manaresource:22>, <bonsaitrees:bonsaipot>, <botania:manaresource:22>],
 	[<botania:manaresource:22>, <minecraft:hopper>, <botania:manaresource:22>]]);
+
+var gearElectrum = <thermalfoundation:material:289>;
+recipes.addShaped("TechingBonsai", <bonsaitrees:bonsaipot:1>,
+	[[null, null, null],
+	[gearElectrum, <bonsaitrees:bonsaipot>, gearElectrum],
+	[gearElectrum, <minecraft:hopper>, gearElectrum]]);
+
+
+//remove petrified fuel generator
+recipes.remove(<industrialforegoing:petrified_fuel_generator>);
 
 //remove rftools teleporters
 recipes.remove(<rftools:matter_transmitter>);
@@ -58,7 +68,7 @@ recipes.remove(<rftools:shape_card:2>);
 var stickIron 	= <ore:stickIron>;
 // alter malisis ladder recipe
 recipes.remove(<malisisdoors:rustyladder>);
-recipes.addShaped("rustyLadder", <malisisdoors:rustyladder>,
+recipes.addShaped("rustyLadder", <malisisdoors:rustyladder> * 12,
 	[[stickIron, null, stickIron],
 	[ingotIron, ingotIron, ingotIron],
 	[stickIron, null, stickIron]]);
