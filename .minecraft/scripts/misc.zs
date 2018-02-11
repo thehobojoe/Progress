@@ -81,3 +81,10 @@ recipes.addShaped("candle", <rustic:candle>,
 	[[null, <minecraft:string>, null],
 	[null, <ore:tallow>, null],
 	[null, ingotIron, null]]);
+
+// exchangers
+recipes.remove(<exchangers:teexcore_t1>);
+recipes.addShaped("exCoreT1", <exchangers:teexcore_t1>,
+	[[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>],
+	[<ore:ingotLead>, <minecraft:ender_pearl>, <ore:ingotLead>],
+	[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>]]);
