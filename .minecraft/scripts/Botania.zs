@@ -42,6 +42,9 @@ recipes.addShaped(<botania:altar>,
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>); //Infusion
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 4000);
 
+mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<botania:storage>, <minecraft:iron_block>, 36000);
+
 
 //remove tiara
 recipes.remove(<botania:flighttiara>);
