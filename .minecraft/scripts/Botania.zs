@@ -59,9 +59,8 @@ val hempcrete = <immersiveengineering:stone_decoration:4>;
 
 // living wood requires treated wood
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
-mods.botania.PureDaisy.addRecipe(<immersiveengineering:treated_wood>, <botania:livingwood>, 1200);
+mods.botania.PureDaisy.addRecipe(<immersiveengineering:treated_wood>, <botania:livingwood>, 60);
 
 // livingrock from hempcrete
-// you win this time curseforge
-//mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
-//mods.botania.PureDaisy.addRecipe(hempcrete, <botania:livingrock>, 1200);
+mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
+mods.botania.PureDaisy.addRecipe(hempcrete, <botania:livingrock>, 60);
