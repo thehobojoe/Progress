@@ -204,6 +204,7 @@
         "minecraft:obsidian",
         "minecraft:quartz_ore",
         "minecraft:redstone_ore",
+        "rftools:dimensional_shard_ore",
         "tconstruct:ore/0",
         "tconstruct:ore/1",
         "thermalfoundation:ore/0",

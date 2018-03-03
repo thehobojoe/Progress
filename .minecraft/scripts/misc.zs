@@ -27,7 +27,7 @@ recipes.addShaped("ButtBonsai", <bonsaitrees:bonsaipot:1>,
 var gearElectrum = <thermalfoundation:material:289>;
 recipes.addShaped("TechingBonsai", <bonsaitrees:bonsaipot:1>,
 	[[null, null, null],
-	[gearElectrum, <bonsaitrees:bonsaipot>, gearElectrum],
+	[null, <bonsaitrees:bonsaipot>, null],
 	[gearElectrum, <minecraft:hopper>, gearElectrum]]);
 
 
@@ -83,8 +83,9 @@ recipes.addShaped("candle", <rustic:candle>,
 	[null, ingotIron, null]]);
 
 // exchangers
-recipes.remove(<exchangers:teexcore_t1>);
-recipes.addShaped("exCoreT1", <exchangers:teexcore_t1>,
+val exchangerCore = <exchangers:te_exchanger_core_tier1>;
+recipes.remove(exchangerCore);
+recipes.addShaped("exCoreT1", exchangerCore,
 	[[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>],
 	[<ore:ingotLead>, <minecraft:ender_pearl>, <ore:ingotLead>],
 	[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>]]);
