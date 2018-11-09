@@ -13,6 +13,7 @@ mmc-pack.json
 .minecraft/libraries
 .minecraft/fonts
 .minecraft/logs
+.minecraft/notes
 .minecraft/resources
 .minecraft/saves
 .minecraft/screenshots
