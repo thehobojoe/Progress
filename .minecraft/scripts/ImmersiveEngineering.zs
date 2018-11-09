@@ -22,6 +22,7 @@ var ingotTin 				= <ore:ingotTin>;
 var ingotLead 				= <ore:ingotLead>;
 var ingotSilver 			= <ore:ingotSilver>;
 var ingotPlatinum 			= <ore:ingotPlatinum>;
+var ingotAluminum 			= <ore:ingotAluminum>;
 var ingotSteel 				= <immersiveengineering:metal:8>;
 var ingotLumium				= <thermalfoundation:material:166>;
 var ingotEnderium			= <thermalfoundation:material:167>;
@@ -37,6 +38,10 @@ var dustSilver 				= <ore:dustSilver>;
 var dustCoal 				= <ore:dustCoal>;
 var dustIron 				= <ore:dustIron>;
 var dustGlowstone			= <minecraft:glowstone_dust>;
+
+var rodIron 				= <immersiveengineering:material:1>;
+var rodSteel 				= <immersiveengineering:material:2>;
+var rodAluminum				= <immersiveengineering:material:3>;
 
 
 
@@ -59,6 +64,14 @@ recipes.addShaped("BlastBrick", blastBrick * 3,
 	[	brickNether, 	brick, 		brickNether]]);
 
 
+// Rod recipes
+recipes.remove(rodIron);
+recipes.remove(rodSteel);
+recipes.remove(rodAluminum);
+
+recipes.addShapeless("rodIron", rodIron * 2, [ingotIron, ingotIron]);
+recipes.addShapeless("rodSteel", rodSteel * 2, [ingotSteel, ingotSteel]);
+recipes.addShapeless("rodAluminum", rodAluminum * 2, [ingotAluminum, ingotAluminum]);
 
 ///////////////////////
 //  Crusher recipes  //

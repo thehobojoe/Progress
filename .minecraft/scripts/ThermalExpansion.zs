@@ -1,18 +1,19 @@
 
-
-
-
-
 # Ingots
 var ingotIron 		= <minecraft:iron_ingot>;
-var ingotSteel		= <thermalfoundation:material:160>;
-var ingotInvar		= <thermalfoundation:material:162>;
+var ingotTin 		= <ore:ingotTin>;
+var ingotSteel		= <ore:ingotSteel>;
+var ingotInvar		= <ore:ingotInvar>;
+var ingotLead 		= <ore:ingotLead>;
+var ingotElectrum 	= <ore:ingotElectrum>;
 var ingotGraphite 	= <immersiveengineering:material:19>;
 
 
 # Gears
 var gearSteel		= <ore:gearSteel>;
 var gearSilver		= <ore:gearSilver>;
+var gearElectrum	= <ore:gearElectrum>;
+var gearBronze 		= <ore:gearBronze>;
 
 
 # Dusts
@@ -27,6 +28,7 @@ var frame			= <thermalexpansion:frame:64>;
 var servo			= <thermalfoundation:material:512>;
 var fluiduct		= <thermaldynamics:duct_16:1>;
 
+
 # TE Machines
 var accumulator 	= <thermalexpansion:device>;
 
@@ -36,22 +38,45 @@ var glassHardened	= <ore:blockGlassHardened>;
 var cokeTF			= <thermalfoundation:material:802>;
 var redstone 		= <minecraft:redstone>;
 var bucket			= <minecraft:bucket>;
-var glass 			= <minecraft:glass>;
 var plateSteel		= <ore:plateSteel>;
+var glass 			= <ore:blockGlass>;
+var diamond 		= <minecraft:diamond>;
 
+
+// Device frame recipe
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.addShaped(<thermalexpansion:frame:64>,
+	[[ingotTin, glass, ingotTin],
+	[glass, gearBronze, glass],
+	[ingotTin, glass, ingotTin]]);
+
+
+// Machine frame recipe
+recipes.removeByRecipeName("thermalexpansion:frame");
+recipes.addShaped("progress_machineframe", <thermalexpansion:frame>,
+	[[ingotSteel, glass, ingotSteel],
+	[glass, gearBronze, glass],
+	[ingotSteel, glass, ingotSteel]]);
+
+
+// Energy cell recipe
+recipes.removeByRecipeName("thermalexpansion:frame_2");
+recipes.addShaped("progress_cellframe", <thermalexpansion:frame:128>,
+	[[ingotElectrum, glass, ingotElectrum],
+	[glass, <thermalexpansion:frame>, glass],
+	[ingotElectrum, glass, ingotElectrum]]);
 
 
 
 // Replace recipe kit recipes
-
-recipes.remove(<thermalfoundation:upgrade>);
-recipes.addShaped("HardenedUpgrade", <thermalfoundation:upgrade>,
+recipes.removeByRecipeName("thermalfoundation:upgrade");
+recipes.addShaped("progress_hardenedupgrade", <thermalfoundation:upgrade>,
 	[[null, ingotInvar, null],
 	[ingotInvar, gearSteel, ingotInvar],
 	[redstone, ingotInvar, redstone]]);
 
-recipes.remove(<thermalfoundation:upgrade:1>);
-recipes.addShaped("ReinforcedUpgrade", <thermalfoundation:upgrade:1>,
+recipes.removeByRecipeName("thermalfoundation:upgrade_1");
+recipes.addShaped("progress_reinforcedupgrade", <thermalfoundation:upgrade:1>,
 	[[plateSteel, plateSteel, plateSteel],
 	[ingotGraphite, gearSilver, ingotGraphite],
 	[glassHardened, <ore:plateGold>, glassHardened]]);
@@ -69,8 +94,8 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(dustIronTF, cokeTF);
 
 
 // Accumulator
-recipes.remove(accumulator);
-recipes.addShaped("Accumulator", accumulator,
+recipes.removeByRecipeName("thermalexpansion:device");
+recipes.addShaped("progress_accumulator", accumulator,
 	[[null, bucket, null],
 	[glass, fluiduct, glass],
 	[bucket, servo, bucket]]);

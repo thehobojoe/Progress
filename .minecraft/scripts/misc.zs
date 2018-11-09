@@ -9,7 +9,7 @@ var redstone		= <minecraft:redstone>;
 //mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:alubrass>, 144, true);
 
 // food journal to lunchbox
-recipes.addShapeless(<spiceoflife:lunchbox>, [<spiceoflife:bookfoodjournal>]);
+//recipes.addShapeless(<spiceoflife:lunchbox>, [<spiceoflife:bookfoodjournal>]);
 
 
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh> * 4);

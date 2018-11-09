@@ -40,26 +40,6 @@
 				]
 			}
 		},
-		"enderore": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "enderore:ore_ender",
-				"material": "stone",
-				"cluster-size": 4
-			},
-			"cluster-count": 2,
-			"min-height": 0,
-			"max-height": 35,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
 		"certus": {
 			"distribution": "uniform",
 			"generator": {

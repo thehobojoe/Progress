@@ -38,6 +38,8 @@
         "earthworks:block_timber_dark_oak/0",
         "earthworks:block_timber_jungle/0",
         "earthworks:block_timber_spruce/0",
+        "extrautils2:ironwood_leaves",
+        "extrautils2:ironwood_log",
         "harvestcraft:pamcinnamon/0",
         "harvestcraft:pammaple/0",
         "harvestcraft:pampaperbark/0",
@@ -56,6 +58,8 @@
         "natura:overworld_logs2",
         "natura:redwood_leaves",
         "natura:redwood_logs",
+        "rustic:leaves/0",
+        "rustic:leaves/1",
         "rustic:leaves/8",
         "rustic:leaves/9",
         "rustic:leaves_apple/0",
@@ -182,6 +186,9 @@
         "appliedenergistics2:quartz_ore/0",
         "astralsorcery:blockcustomore/1",
         "astralsorcery:blockcustomsandore/0",
+        "bigreactors:brore/0",
+        "bigreactors:brore/1",
+        "bigreactors:brore/2",
         "deepresonance:resonating_ore/0",
         "enderore:ore_ender",
         "immersiveengineering:ore/0",
@@ -204,6 +211,7 @@
         "minecraft:obsidian",
         "minecraft:quartz_ore",
         "minecraft:redstone_ore",
+        "quark:biotite_ore/0",
         "rftools:dimensional_shard_ore",
         "tconstruct:ore/0",
         "tconstruct:ore/1",
@@ -220,7 +228,8 @@
         "thermalfoundation:ore_fluid/1",
         "thermalfoundation:ore_fluid/2",
         "thermalfoundation:ore_fluid/3",
-        "thermalfoundation:ore_fluid/4"
+        "thermalfoundation:ore_fluid/4",
+        "thermalfoundation:ore_fluid/5"
       ]
     },
     "shears": {
@@ -246,6 +255,7 @@
         "thermalfoundation:tool.shears_wood"
       ],
       "blocklist": [
+        "extrautils2:ironwood_leaves",
         "minecraft:deadbush",
         "minecraft:leaves",
         "minecraft:leaves2",
@@ -258,6 +268,8 @@
         "natura:overworld_leaves",
         "natura:overworld_leaves2",
         "natura:redwood_leaves",
+        "rustic:leaves/0",
+        "rustic:leaves/1",
         "rustic:leaves/8",
         "rustic:leaves/9",
         "rustic:leaves_apple/0",
