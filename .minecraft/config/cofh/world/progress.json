@@ -71,6 +71,26 @@
 				]
 			}
 		},
+		"yellorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "bigreactors:brore",
+				"material": "stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 15,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"aluminum": {
 			"distribution": "uniform",
 			"generator": {
@@ -94,6 +114,26 @@
 					1
 				]
 			}
-		}
+		},
+		"enderore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "enderore:ore_ender",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 	}
 }
