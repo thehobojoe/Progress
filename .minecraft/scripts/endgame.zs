@@ -14,10 +14,8 @@ var redstoneBlock	= <minecraft:redstone_block>;
 
 // black iron
 recipes.remove(ingotBlackIron);
-recipes.addShaped(ingotBlackIron,
-	[[coalCoke, coalCoke, coalCoke],
-	[coalCoke, ingotIron, coalCoke],
-	[coalCoke, coalCoke, coalCoke]]);
+mods.thermalexpansion.Transposer.addFillRecipe(ingotBlackIron, ingotIron, <liquid:coal> * 1000, 25000);
+
 
 
 //Crafting Core
@@ -75,10 +73,7 @@ val terraPick 		= <botania:terrapick>;
 val fluxPick 		= <redstonearsenal:tool.pickaxe_flux>;
 val neroPrime 		= <astralsorcery:blockborehead>;
 val fysaPrime 		= <astralsorcery:blockborehead:1>;
-val collectorCrystal= <astralsorcery:blockcelestialcollectorcrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.evorsio", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}, collectorType: 1}});
 val bucketStarlight = <liquid:astralsorcery.liquidstarlight>;
-
-//.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia", crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}, collectorType: 1}})
 
 recipes.remove(laserDrill);
 mods.extendedcrafting.CombinationCrafting.addRecipe(laserDrill, 1000000000, 500000,
@@ -91,3 +86,70 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(laserDrill, 1000000000, 5000
 		neroPrime,
 		fysaPrime
 	]);
+
+
+
+// Reactor controller
+val reactorController	= <bigreactors:reactorcontroller>;
+val resonatingGem 		= <astralsorcery:itemcraftingcomponent:4>;
+val blockSteel 			= <ore:blockSteel>;
+val meController 		= <appliedenergistics2:controller>;
+val reactorCasing 		= <bigreactors:reactorcasing>;
+
+recipes.remove(reactorController);
+mods.extendedcrafting.CombinationCrafting.addRecipe(reactorController, 500000000, 500000,
+	meController, 
+	[
+		resonantConv,
+		ingotTerrasteel,
+		blockEnderium,
+		blockSteel,
+		resonatingGem
+	]);
+
+
+// Rector power tap
+val reactorPowerTap 	= <bigreactors:reactorpowertaprf>;
+
+recipes.remove(reactorPowerTap);
+mods.extendedcrafting.CombinationCrafting.addRecipe(reactorPowerTap, 100000000, 500000,
+	resonantFrame, 
+	[
+		resonantConv,
+		cryoDuct,
+		blockEnderium,
+		blockSteel
+	]);
+
+// Reactor casing core
+val reactorCasingCore 	= <bigreactors:reactorcasingcores>;
+val rodSteel 			= <immersiveengineering:material:2>;
+val graphiteBlock		= <ore:blockGraphite>;
+
+recipes.remove(reactorCasingCore);
+recipes.addShaped(reactorCasingCore,
+	[[rodSteel, rodSteel, rodSteel],
+	[rodSteel, graphiteBlock, rodSteel],
+	[rodSteel, rodSteel, rodSteel]]);
+
+// Reactor casing
+val plateSteel			= <ore:plateSteel>;
+
+recipes.remove(reactorCasing);
+recipes.addShaped(reactorCasing * 2,
+	[[plateSteel, plateSteel, plateSteel],
+	[plateSteel, reactorCasingCore, plateSteel],
+	[plateSteel, plateSteel, plateSteel]]);
+
+
+// Reactor Fuel Rod
+val reactorFuelRod 		= <bigreactors:reactorfuelrod>;
+val ingotUranium 		= <ore:ingotUranium>;
+val hardenedGlass 		= <ore:blockGlassHardened>;
+val ingotGraphite 		= <ore:ingotGraphite>;
+
+recipes.remove(reactorFuelRod);
+recipes.addShaped(reactorFuelRod,
+	[[hardenedGlass, ingotGraphite, hardenedGlass],
+	[hardenedGlass, ingotUranium, hardenedGlass],
+	[hardenedGlass, ingotGraphite, hardenedGlass]]);
