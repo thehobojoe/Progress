@@ -476,7 +476,7 @@
     "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
-        5
+        30
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -566,7 +566,7 @@
     "7:10": {
       "questID:3": 7,
       "preRequisites:11": [
-        6
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -929,7 +929,7 @@
     "12:10": {
       "questID:3": 12,
       "preRequisites:11": [
-        14
+        18
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1110,7 +1110,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Resonating Wand",
-          "desc:8": "Lets get started on... STAR POWER!"
+          "desc:8": "Lets get started on... STAR POWER!\n\nTo craft the resonating wand, you\u0027ll need to find an Astral Sorcery shrine. There are many types of shrines, but two types contain the big floating Collector Crystals you will need. Some show up underground, so congrats if you find one. The others are large marble structures that appear above ground. If you dig into the floor, you\u0027ll find the big crystal, as well as some chests.\n\nTo make the wand, place a crafting table down, which will cause a beam of light to extend from the crystal towards the table. Then put the ingredients in, and you can craft the wand."
         }
       },
       "tasks:9": {
@@ -1385,7 +1385,7 @@
     "18:10": {
       "questID:3": 18,
       "preRequisites:11": [
-        12
+        14
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1411,7 +1411,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Luminous Crafting Table",
-          "desc:8": "Start doing stuff with star power"
+          "desc:8": "Start doing stuff with star power.\n\nTo craft this table, you\u0027ll need to do the same you did with the resonating wand - find a shrine with a floating Collector Crystal, place down a workbench and wait for the beam of light, then put the ingredients into the crafting table. Congrats, you now have a luminous crafting table!"
         }
       },
       "tasks:9": {
@@ -1589,7 +1589,7 @@
     "21:10": {
       "questID:3": 21,
       "preRequisites:11": [
-        18
+        29
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1612,7 +1612,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Starmetal ore",
-          "desc:8": "Did this REALLY come from a star?"
+          "desc:8": "Did this REALLY come from a star?\n\nTo make starmetal ore, place iron ore near a collector crystal. Then with the linking tool in hand, right click the crystal then right click the iron ore. After a short period, the iron ore will turn into starmetal ore. You can then mine it, and place down new iron ore without re-linking."
         }
       },
       "tasks:9": {
@@ -1803,7 +1803,7 @@
     "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        23
+        21
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1964,7 +1964,7 @@
     "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
-        27
+        6
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2033,7 +2033,7 @@
     "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
-        6
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2185,6 +2185,676 @@
           }
         }
       }
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemlinkingtool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Linking tool",
+          "desc:8": "Now you can control starlight"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemlinkingtool",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:dynamo",
+            "Count:3": 1,
+            "tag:10": {
+              "RSControl:1": 0,
+              "Facing:1": 1,
+              "Energy:3": 0,
+              "Level:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Steam Dynamo",
+          "desc:8": "Power!\n\nGive it fuel and water, then hook it up to some thing that needs (or stores) power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:dynamo",
+              "Count:3": 1,
+              "tag:10": {
+                "RSControl:1": 0,
+                "Facing:1": 1,
+                "Energy:3": 0,
+                "Level:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 802
+            }
+          }
+        }
+      }
+    },
+    "31:10": {
+      "questID:3": 31,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:drive",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "ME Drive",
+          "desc:8": "Your stuff is now binary."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:drive",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 35
+            }
+          }
+        }
+      }
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 360,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "ME Terminal",
+          "desc:8": "Making things... with computers"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 360
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 56
+            }
+          }
+        }
+      }
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        32
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:energy_acceptor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Energy Acceptor",
+          "desc:8": "This thing is gonna need power. Here\u0027s how you hook it up"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:energy_acceptor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 56
+            }
+          }
+        }
+      }
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:interface",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "ME Interface",
+          "desc:8": "You need an automatic way to convert items into digital form. Connect a machine or pipe to this block, and things that go into it will automatically go into the ME system. Wow!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "ME Controller",
+          "desc:8": "A standalone network without a controller (known as an ad-hoc network) can only support 8 channels - more simply, only 8 devices can be connected.\n\nWith an ME Controller, you can vastly increase the amount of connected devices. Each face of the controller provides 32 channels, which you\u0027ll need either Dense ME cables or a p2p device (more on that later) to get out directly. \n\nMultiple ME controllers can also be connected as a multiblock, when you start needing more than 96+ channels.\n\nThe ME controller also serves a dual purpose of being an energy input device, so you\u0027ll no longer need the energy acceptor."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:controller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 35
+            }
+          }
+        }
+      }
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 340,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Pattern Terminal",
+          "desc:8": "This device is interesting. It allows you to make recipes, either normal crafting or \"processing\", which can then be put into an interface. When this interface is connected to a molecular assembler you can automatically craft items with normal crafting recipes.\n\nBut more interestingly, when you connect the interface to some kind of machine or other complex setup, you can input arbitrary ingredients and get arbitrary outputs, fo creating items without normal crafting recipes. I\u0027ll leave you to figure out the rest."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 340
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 52
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 52
+            }
+          }
+        }
+      }
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:molecular_assembler",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Molecular Assembler",
+          "desc:8": "When connected to an interface that has encoded patterns in it, this will automatically craft the items on-demand. It can be sped up with acceleration cards. It can also have multiple interfaces connected to it, if you want more than 8 recipes. Note, however, that it can always only craft one item at a time."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 52
+            }
+          }
+        }
+      }
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:cast_custom",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Gear Cast",
+          "desc:8": "You\u0027re gonna need gears. Until you figure out a better methods, you\u0027ll have to cast them directly.\n\nTo make the cast, use a stone gear and pour gold or aluminum brass over it from the smeltery."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:cast_custom",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 163
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2254,39 +2924,51 @@
         },
         "2:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 0,
+          "x:3": 54,
+          "y:3": 126,
           "id:3": 6
         },
         "3:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 42,
+          "x:3": 12,
+          "y:3": 0,
           "id:3": 7
         },
         "4:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 84,
+          "x:3": 12,
+          "y:3": 42,
           "id:3": 8
         },
         "5:10": {
           "size:3": 24,
-          "x:3": -30,
-          "y:3": 126,
+          "x:3": 12,
+          "y:3": 84,
           "id:3": 25
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 0,
+          "x:3": 96,
+          "y:3": 126,
           "id:3": 26
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 12,
-          "y:3": 0,
+          "x:3": -30,
+          "y:3": 42,
           "id:3": 27
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 12,
+          "y:3": 126,
+          "id:3": 30
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": 0,
+          "id:3": 38
         }
       },
       "lineID:3": 1,
@@ -2329,7 +3011,7 @@
         "4:10": {
           "size:3": 24,
           "x:3": -54,
-          "y:3": 42,
+          "y:3": 84,
           "id:3": 14
         },
         "5:10": {
@@ -2352,8 +3034,8 @@
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 30,
-          "y:3": 42,
+          "x:3": -12,
+          "y:3": 84,
           "id:3": 18
         },
         "9:10": {
@@ -2370,14 +3052,14 @@
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 72,
-          "y:3": 42,
+          "x:3": 114,
+          "y:3": 84,
           "id:3": 21
         },
         "12:10": {
           "size:3": 24,
-          "x:3": 114,
-          "y:3": 42,
+          "x:3": 156,
+          "y:3": 84,
           "id:3": 22
         },
         "13:10": {
@@ -2388,15 +3070,77 @@
         },
         "14:10": {
           "size:3": 24,
-          "x:3": 30,
+          "x:3": 114,
           "y:3": 126,
           "id:3": 24
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 72,
+          "y:3": 84,
+          "id:3": 29
         }
       },
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
           "name:8": "The Mystical Age",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 3
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -96,
+          "y:3": 0,
+          "id:3": 31
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -54,
+          "y:3": 0,
+          "id:3": 32
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 0,
+          "id:3": 33
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -66,
+          "y:3": 54,
+          "id:3": 34
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -36,
+          "y:3": 66,
+          "id:3": 35
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -6,
+          "y:3": 78,
+          "id:3": 36
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": 24,
+          "y:3": 72,
+          "id:3": 37
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "The Digital Age",
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "No Description"

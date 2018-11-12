@@ -5,11 +5,21 @@ var redstone		= <minecraft:redstone>;
 
 
 // gear cast from stone gear
-//mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:gold>, 144, true);
-//mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:alubrass>, 144, true);
+var gearStone = <thermalfoundation:material:23>;
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, gearStone, <liquid:gold>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, gearStone, <liquid:alubrass>, 144, true);
+
+
+//change iron door count
+var ironDoor = <minecraft:iron_door>;
+recipes.remove(ironDoor);
+recipes.addShaped(ironDoor,
+	[[ingotIron, ingotIron, null],
+	[ingotIron, ingotIron, null],
+	[ingotIron, ingotIron, null]]);
 
 // food journal to lunchbox
-//recipes.addShapeless(<spiceoflife:lunchbox>, [<spiceoflife:bookfoodjournal>]);
+recipes.addShapeless(<spiceoflife:lunchbox>, [<spiceoflife:bookfoodjournal>]);
 
 
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh> * 4);

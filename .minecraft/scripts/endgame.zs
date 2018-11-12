@@ -12,6 +12,17 @@ var redstone		= <minecraft:redstone>;
 var redstoneBlock	= <minecraft:redstone_block>;
 
 
+
+// deep dark portal
+var compressed3 = <extrautils2:compressedcobblestone:2>;
+var compressed4 = <extrautils2:compressedcobblestone:3>;
+recipes.remove(<extrautils2:teleporter>);
+recipes.addShaped(<extrautils2:teleporter>,
+	[[compressed4, compressed3, compressed4],
+	[compressed3,  <astralsorcery:blockcelestialgateway>, compressed3],
+	[compressed4, compressed3, compressed4]]);
+
+
 // black iron
 recipes.remove(ingotBlackIron);
 mods.thermalexpansion.Transposer.addFillRecipe(ingotBlackIron, ingotIron, <liquid:coal> * 1000, 25000);

@@ -8,7 +8,9 @@ val dreamwood = <botania:dreamwood>;
 val livingwood = <botania:livingwood>;
 val livingrock = <botania:livingrock>;
 val manasteel = <ore:ingotManasteel>;
+val manaDiamond = <botania:manaresource:2>;
 val terrasteel = <ore:ingotTerrasteel>;
+val nuggetTerra = <ore:nuggetTerrasteel>;
 
 
 val glassLens = <astralsorcery:itemcraftingcomponent:3>;
@@ -36,12 +38,19 @@ mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 36000
 
 
 
-
 //Mana Pool
 recipes.remove(<botania:pool>);
 recipes.addShaped(<botania:pool>,
 	[[null, null, null],
 	[livingrock, crystalRock, livingrock],
+	[livingrock, livingrock, livingrock]]);
+
+
+//Runic altar
+recipes.remove(<botania:runealtar>);
+recipes.addShaped(<botania:runealtar>,
+	[[manaDiamond, crystalRock, manaDiamond],
+	[livingrock, livingrock, livingrock],
 	[livingrock, livingrock, livingrock]]);
 
 
@@ -82,11 +91,20 @@ recipes.addShaped(<botania:altar>,
 	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 
+// Terrestrial plate
 recipes.remove(<botania:terraplate>);
 recipes.addShaped(<botania:terraplate>, 
 	[[<botania:storage>, <ore:ingotAstralStarmetal>, <botania:storage>], 
 	[<ore:runeWaterB>, crystalCelestial, <ore:runeFireB>], 
 	[<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
+
+
+// Elven gateway
+recipes.remove(<botania:alfheimportal>);
+recipes.addShaped(<botania:alfheimportal>,
+	[[livingwood, nuggetTerra, livingwood],
+	[livingwood, nuggetTerra, livingwood],
+	[livingwood, <astralsorcery:blockcelestialgateway>, livingwood]]);
 
 
 val terraPick 	= <botania:terrapick>;
