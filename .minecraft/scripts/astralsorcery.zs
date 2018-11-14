@@ -1,7 +1,7 @@
 
 val blaze_powder = <minecraft:blaze_powder>;
 val gold = <minecraft:gold_ingot>;
-val goldNugget = <ore:nuggetGold>;
+val nuggetGold = <ore:nuggetGold>;
 
 // Botania materials
 val dreamwood = <botania:dreamwood>;
@@ -9,6 +9,7 @@ val livingwood = <botania:livingwood>;
 val livingrock = <botania:livingrock>;
 val manasteel = <ore:ingotManasteel>;
 val terrasteel = <ore:ingotTerrasteel>;
+val manaDiamond = <ore:manaDiamond>;
 
 
 // AS materials
@@ -66,3 +67,11 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(
 		resonatingGem, resonatingGem,
 		marbleSooty, marbleSooty
 		]);
+
+
+// spectral relay
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/attunementrelay");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("spectralRelay", <astralsorcery:blockattunementrelay>, 600, 80, [
+    null, null, null,
+    manaDiamond, glassLens, manaDiamond,
+    <ore:plankWood>, <ore:stoneMarble>, <ore:plankWood>]);

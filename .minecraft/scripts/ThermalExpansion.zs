@@ -106,6 +106,22 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 
 
+//////////////////////
+// Redstone Arsenal //
+//////////////////////
+var dustFluxed = <redstonearsenal:material>;
+var ingotFluxed = <redstonearsenal:material:32>;
+var crystalFluxed = <redstonearsenal:material:160>;
+
+// Remove fluxed blend recipe
+recipes.remove(dustFluxed);
+recipes.remove(crystalFluxed);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<redstonearsenal:material>, <minecraft:sand>);
+//mods.thermalexpansion.InductionSmelter.removeRecipe(<redstonearsenal:material>, <minecraft:sand:1>);
+
+////////////////////
+
+
 // Remove gear recipes
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:257>);

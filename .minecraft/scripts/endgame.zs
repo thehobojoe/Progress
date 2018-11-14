@@ -122,6 +122,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(reactorController, 500000000
 // Rector power tap
 val reactorPowerTap 	= <bigreactors:reactorpowertaprf>;
 
+recipes.remove(<bigreactors:reactorpowertaptesla>);
+recipes.remove(<bigreactors:turbinepowertaptesla>);
 recipes.remove(reactorPowerTap);
 mods.extendedcrafting.CombinationCrafting.addRecipe(reactorPowerTap, 100000000, 500000,
 	resonantFrame, 
