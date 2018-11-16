@@ -3,6 +3,10 @@ var ingotIron		= <minecraft:iron_ingot>;
 var redstone		= <minecraft:redstone>;
 
 
+// nether brick
+var coagulatedBlood = <tconstruct:edible:3>;
+var brick = <minecraft:brick>;
+recipes.addShapeless(<minecraft:netherbrick>, [coagulatedBlood, brick]);
 
 // gear cast from stone gear
 var gearStone = <thermalfoundation:material:23>;

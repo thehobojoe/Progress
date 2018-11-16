@@ -122,6 +122,54 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<redstonearsenal:material>, 
 ////////////////////
 
 
+// Slightly tweak dynamo 
+var dynamoCompression = <thermalexpansion:dynamo:2>;
+var dynamoReactant = 	<thermalexpansion:dynamo:3>;
+var dynamoEnervation = 	<thermalexpansion:dynamo:4>;
+var dynamoNumismatic = 	<thermalexpansion:dynamo:5>;
+
+var coilTransmission = 	<thermalfoundation:material:514>;
+
+var plateIron = <ore:plateIron>;
+var plateTin = <ore:plateTin>;
+var plateLead = <ore:plateLead>;
+var plateCopper = <ore:plateCopper>;
+var plateElectrum = <ore:plateElectrum>;
+var plateConstantan = <ore:plateConstantan>;
+
+var gearTin = <ore:gearTin>;
+var gearLead = <ore:gearLead>;
+var gearConstantan = <ore:gearConstantan>;
+
+recipes.remove(dynamoCompression);
+recipes.addShaped(dynamoCompression,
+	[[null, coilTransmission, null],
+	[plateIron, gearTin, plateIron],
+	[plateTin, redstone, plateTin]]);
+
+recipes.remove(dynamoReactant);
+recipes.addShaped(dynamoReactant,
+	[[null, coilTransmission, null],
+	[plateIron, gearLead, plateIron],
+	[plateLead, redstone, plateLead]]);
+
+recipes.remove(dynamoEnervation);
+recipes.addShaped(dynamoEnervation,
+	[[null, coilTransmission, null],
+	[plateIron, gearElectrum, plateIron],
+	[plateElectrum, redstone, plateElectrum]]);
+
+recipes.remove(dynamoNumismatic);
+recipes.addShaped(dynamoNumismatic,
+	[[null, coilTransmission, null],
+	[plateIron, gearConstantan, plateIron],
+	[plateConstantan, redstone, plateConstantan]]);
+
+
+// Remove boiler augment
+recipes.remove(<thermalexpansion:augment:576>);
+
+
 // Remove gear recipes
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:257>);
