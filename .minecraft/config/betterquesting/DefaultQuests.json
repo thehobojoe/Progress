@@ -476,7 +476,7 @@
     "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
-        30
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -499,7 +499,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Metal Press",
-          "desc:8": "It presses things to make other things!"
+          "desc:8": "It presses things to make other things!\n\nA useful device for automating gears, wires, and more."
         }
       },
       "tasks:9": {
@@ -589,7 +589,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Device Frame",
-          "desc:8": "You make devices with it"
+          "desc:8": "You make helpful devices with it. Not as powerful as the machine frame, but cheap to make."
         }
       },
       "tasks:9": {
@@ -1813,7 +1813,7 @@
     "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        21
+        51
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1836,7 +1836,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Starlight Infuser",
-          "desc:8": "Pump me full of starlight, baby"
+          "desc:8": "Pump me full of starlight, baby.\n\nAnother multiblock temple structure that will infuse items with liquid starlight. Once you unlock the Containment Chalice, this thing really becomes powerful."
         }
       },
       "tasks:9": {
@@ -1865,7 +1865,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 16,
+              "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1974,7 +1974,7 @@
     "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
-        6
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2043,7 +2043,7 @@
     "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
-        38
+        5
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2066,7 +2066,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kiln",
-          "desc:8": "You\u0027re gonna need some alloys"
+          "desc:8": "You\u0027re gonna need some alloys. There is other methods to create these alloys, but some of them won\u0027t be available early on."
         }
       },
       "tasks:9": {
@@ -2265,7 +2265,7 @@
     "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
-        25
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2294,7 +2294,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Steam Dynamo",
-          "desc:8": "Power!\n\nGive it fuel and water, then hook it up to some thing that needs (or stores) power."
+          "desc:8": "Power!\n\nGive it solid fuel and water, then hook it up to some thing that needs (or stores) power."
         }
       },
       "tasks:9": {
@@ -3700,6 +3700,205 @@
           "command:8": "/bq_admin default load"
         }
       }
+    },
+    "50:10": {
+      "questID:3": 50,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:stone_decoration",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Improved Blast Furnace",
+          "desc:8": "That Blast Furnace sure is slow. Time to upgrade it. \n\nThe Improved Blast Furnace can be automated, and have \u0027Blast Furnace Preheaters\u0027 added beside it to increase it\u0027s speed (they need to be powered!)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:stone_decoration",
+              "Count:3": 27,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "1:10": {
+              "id:8": "minecraft:hopper",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 12,
+              "OreDict:8": "",
+              "Damage:3": 160
+            }
+          }
+        }
+      }
+    },
+    "51:10": {
+      "questID:3": 51,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockaltar",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Celestial Crafting Altar",
+          "desc:8": "Time for another table upgrade. You\u0027ll need more marble to expand the multi-block temple you are building, but it\u0027s up to you this time to gather all that."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockaltar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 1
+        }
+      }
+    },
+    "52:10": {
+      "questID:3": 52,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockcelestialgateway",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Celestial Gateway",
+          "desc:8": "One of the big problems with multiplayer minecraft is players like to build far apart sometimes. This handy dandy device allows you to traverse the stars to visit any other celestial gateway at the speed of starlight!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockcelestialgateway",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -3775,44 +3974,44 @@
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 126,
+          "x:3": -30,
+          "y:3": -42,
           "id:3": 6
         },
         "3:10": {
           "size:3": 24,
           "x:3": 12,
-          "y:3": 0,
+          "y:3": -42,
           "id:3": 7
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 12,
-          "y:3": 42,
+          "x:3": 54,
+          "y:3": -42,
           "id:3": 8
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 12,
-          "y:3": 84,
+          "x:3": 96,
+          "y:3": -42,
           "id:3": 25
         },
         "6:10": {
           "size:3": 24,
-          "x:3": 96,
-          "y:3": 126,
+          "x:3": 54,
+          "y:3": 0,
           "id:3": 26
         },
         "7:10": {
           "size:3": 24,
-          "x:3": -30,
+          "x:3": -72,
           "y:3": 42,
           "id:3": 27
         },
         "8:10": {
           "size:3": 24,
-          "x:3": 12,
-          "y:3": 126,
+          "x:3": -30,
+          "y:3": 42,
           "id:3": 30
         },
         "9:10": {
@@ -3820,6 +4019,12 @@
           "x:3": -30,
           "y:3": 0,
           "id:3": 38
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": -72,
+          "y:3": -42,
+          "id:3": 50
         }
       },
       "lineID:3": 1,
@@ -3828,7 +4033,7 @@
           "name:8": "The Industrial Age",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "A rats nest of pipes"
         }
       },
       "order:3": 1
@@ -3915,7 +4120,7 @@
         },
         "13:10": {
           "size:3": 24,
-          "x:3": 72,
+          "x:3": 114,
           "y:3": 138,
           "id:3": 24
         },
@@ -3936,6 +4141,18 @@
           "x:3": 30,
           "y:3": 54,
           "id:3": 40
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 72,
+          "y:3": 138,
+          "id:3": 51
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 72,
+          "y:3": 54,
+          "id:3": 52
         }
       },
       "lineID:3": 2,
@@ -4000,7 +4217,7 @@
           "name:8": "The Digital Age",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Digimon, digital monsters!"
         }
       },
       "order:3": 2
