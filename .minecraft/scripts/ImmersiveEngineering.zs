@@ -70,7 +70,7 @@ recipes.remove(rodSteel);
 recipes.remove(rodAluminum);
 
 recipes.addShapeless("rodIron", rodIron * 2, [ingotIron, ingotIron]);
-recipes.addShapeless("rodSteel", rodSteel * 2, [ingotSteel, ingotSteel]);
+recipes.addShapeless("rodSteel", rodSteel * 2, [<ore:ingotSteel>, <ore:ingotSteel>]);
 recipes.addShapeless("rodAluminum", rodAluminum * 2, [ingotAluminum, ingotAluminum]);
 
 ///////////////////////

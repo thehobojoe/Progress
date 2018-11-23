@@ -34,3 +34,5 @@ mmc-pack.json
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/mods/OpenTerrainGenerator/worlds
 .minecraft/realms_persistence.json
+
+.minecraft/OpenComputersMod*

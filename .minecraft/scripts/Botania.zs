@@ -1,23 +1,25 @@
 
-val blaze_powder = <minecraft:blaze_powder>;
-val gold = <minecraft:gold_ingot>;
-val goldNugget = <ore:nuggetGold>;
+var blaze_powder = <minecraft:blaze_powder>;
+var gold = <minecraft:gold_ingot>;
+var goldNugget = <ore:nuggetGold>;
 
 // Botania materials
-val dreamwood = <botania:dreamwood>;
-val livingwood = <botania:livingwood>;
-val livingrock = <botania:livingrock>;
-val manasteel = <ore:ingotManasteel>;
-val manaDiamond = <botania:manaresource:2>;
-val terrasteel = <ore:ingotTerrasteel>;
-val nuggetTerra = <ore:nuggetTerrasteel>;
+var dreamwood = <botania:dreamwood>;
+var livingwood = <botania:livingwood>;
+var livingrock = <botania:livingrock>;
+var manasteel = <ore:ingotManasteel>;
+var manaDiamond = <botania:manaresource:2>;
+var terrasteel = <ore:ingotTerrasteel>;
+var nuggetTerra = <ore:nuggetTerrasteel>;
 
 
-val glassLens = <astralsorcery:itemcraftingcomponent:3>;
-val crystalRock = <astralsorcery:itemrockcrystalsimple>;
-val crystalCelestial = <astralsorcery:itemcelestialcrystal>;
+var glassLens = <astralsorcery:itemcraftingcomponent:3>;
+var crystalRock = <astralsorcery:itemrockcrystalsimple>;
+var crystalCelestial = <astralsorcery:itemcelestialcrystal>;
+var crystalAny = mods.astralsorcery.Utils.getCrystalORIngredient(false, false);
+var crystalAttuned = mods.astralsorcery.Utils.getCrystalORIngredient(false, true);
 
-val hempcrete = <immersiveengineering:stone_decoration:4>;
+var hempcrete = <immersiveengineering:stone_decoration:4>;
 
 
 // living wood requires treated wood
@@ -42,14 +44,14 @@ mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 36000
 recipes.remove(<botania:pool>);
 recipes.addShaped(<botania:pool>,
 	[[null, null, null],
-	[livingrock, crystalRock, livingrock],
+	[livingrock, crystalAny, livingrock],
 	[livingrock, livingrock, livingrock]]);
 
 
 //Runic altar
 recipes.remove(<botania:runealtar>);
 recipes.addShaped(<botania:runealtar>,
-	[[manaDiamond, crystalRock, manaDiamond],
+	[[manaDiamond, crystalAny, manaDiamond],
 	[livingrock, livingrock, livingrock],
 	[livingrock, livingrock, livingrock]]);
 
@@ -95,7 +97,7 @@ recipes.addShaped(<botania:altar>,
 recipes.remove(<botania:terraplate>);
 recipes.addShaped(<botania:terraplate>, 
 	[[<botania:storage>, <ore:ingotAstralStarmetal>, <botania:storage>], 
-	[<ore:runeWaterB>, crystalCelestial, <ore:runeFireB>], 
+	[<ore:runeWaterB>, crystalAttuned, <ore:runeFireB>], 
 	[<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>]]);
 
 

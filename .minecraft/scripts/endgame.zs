@@ -12,12 +12,11 @@ var redstone		= <minecraft:redstone>;
 var redstoneBlock	= <minecraft:redstone_block>;
 
 
-
 // deep dark portal
 var compressed3 = <extrautils2:compressedcobblestone:2>;
 var compressed4 = <extrautils2:compressedcobblestone:3>;
-recipes.remove(<extrautils2:teleporter>);
-recipes.addShaped(<extrautils2:teleporter>,
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.addShaped(<extrautils2:teleporter:1>,
 	[[compressed4, compressed3, compressed4],
 	[compressed3,  <astralsorcery:blockcelestialgateway>, compressed3],
 	[compressed4, compressed3, compressed4]]);
@@ -30,20 +29,19 @@ mods.thermalexpansion.Transposer.addFillRecipe(ingotBlackIron, ingotIron, <liqui
 
 
 //Crafting Core
-val craftingCore 	= <extendedcrafting:crafting_core>;
-
-val resonantConv 	= <thermalfoundation:upgrade:35>;
-val magicalWood 	= <extrautils2:decorativesolidwood:1>;
-val netherStar		= <minecraft:nether_star>;
-val crystalEnder 	= <ore:crystalEnder>;
-val enderiumGlass 	= <thermalfoundation:glass_alloy:7>;
-val blockTerrasteel	= <botania:storage:1>;
-val blockPlatinum	= <thermalfoundation:storage:6>;
-val blockSignalum	= <thermalfoundation:storage_alloy:5>;
-val starlightInfuser= <astralsorcery:blockstarlightinfuser>;
-val compactor 		= <thermalexpansion:machine:5>;
-val chalice 		= <astralsorcery:blockchalice>;
-val terraPlate 		= <botania:terraplate>;
+var craftingCore 	= <extendedcrafting:crafting_core>;
+var resonantConv 	= <thermalfoundation:upgrade:35>;
+var magicalWood 	= <extrautils2:decorativesolidwood:1>;
+var netherStar		= <minecraft:nether_star>;
+var crystalEnder 	= <ore:crystalEnder>;
+var enderiumGlass 	= <thermalfoundation:glass_alloy:7>;
+var blockTerrasteel	= <botania:storage:1>;
+var blockPlatinum	= <thermalfoundation:storage:6>;
+var blockSignalum	= <thermalfoundation:storage_alloy:5>;
+var starlightInfuser= <astralsorcery:blockstarlightinfuser>;
+var compactor 		= <thermalexpansion:machine:5>;
+var chalice 		= <astralsorcery:blockchalice>;
+var terraPlate 		= <botania:terraplate>;
 
 recipes.remove(craftingCore);
 mods.extendedcrafting.TableCrafting.addShaped(craftingCore, 
@@ -55,14 +53,14 @@ mods.extendedcrafting.TableCrafting.addShaped(craftingCore,
 
 
 // Resonant cell frame
-val resonantFrame 	= <thermalexpansion:frame:148>;
-val cellFrame 		= <thermalexpansion:frame:128>;
-val ingotTerrasteel = <botania:manaresource:4>;
-val crystalCelestial= <astralsorcery:itemcelestialcrystal>;
-val ingotPlatinum 	= <thermalfoundation:material:134>;
-val blockEnderium 	= <thermalfoundation:storage_alloy:7>;
-val cryoDuct 		= <thermaldynamics:duct_0:5>;
-val alfglass 		= <botania:elfglass>;
+var resonantFrame 	= <thermalexpansion:frame:148>;
+var cellFrame 		= <thermalexpansion:frame:128>;
+var ingotTerrasteel = <botania:manaresource:4>;
+var crystalCelestial= <astralsorcery:itemcelestialcrystal>;
+var ingotPlatinum 	= <thermalfoundation:material:134>;
+var blockEnderium 	= <thermalfoundation:storage_alloy:7>;
+var cryoDuct 		= <thermaldynamics:duct_0:5>;
+var alfglass 		= <botania:elfglass>;
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(resonantFrame, 250000000, 250000,
 	cellFrame, 
@@ -79,12 +77,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(resonantFrame, 250000000, 25
 
 
 // Laser drill
-val laserDrill 		= <industrialforegoing:laser_drill>;
-val terraPick 		= <botania:terrapick>;
-val fluxPick 		= <redstonearsenal:tool.pickaxe_flux>;
-val neroPrime 		= <astralsorcery:blockborehead>;
-val fysaPrime 		= <astralsorcery:blockborehead:1>;
-val bucketStarlight = <liquid:astralsorcery.liquidstarlight>;
+var laserDrill 		= <industrialforegoing:laser_drill>;
+var terraPick 		= <botania:terrapick>;
+var fluxPick 		= <redstonearsenal:tool.pickaxe_flux>;
+var neroPrime 		= <astralsorcery:blockborehead>;
+var fysaPrime 		= <astralsorcery:blockborehead:1>;
+var bucketStarlight = <liquid:astralsorcery.liquidstarlight>;
 
 recipes.remove(laserDrill);
 mods.extendedcrafting.CombinationCrafting.addRecipe(laserDrill, 1000000000, 500000,
@@ -101,11 +99,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(laserDrill, 1000000000, 5000
 
 
 // Reactor controller
-val reactorController	= <bigreactors:reactorcontroller>;
-val resonatingGem 		= <astralsorcery:itemcraftingcomponent:4>;
-val blockSteel 			= <ore:blockSteel>;
-val meController 		= <appliedenergistics2:controller>;
-val reactorCasing 		= <bigreactors:reactorcasing>;
+var reactorController	= <bigreactors:reactorcontroller>;
+var resonatingGem 		= <astralsorcery:itemcraftingcomponent:4>;
+var blockSteel 			= <ore:blockSteel>;
+var meController 		= <appliedenergistics2:controller>;
+var reactorCasing 		= <bigreactors:reactorcasing>;
 
 recipes.remove(reactorController);
 mods.extendedcrafting.CombinationCrafting.addRecipe(reactorController, 500000000, 500000,
@@ -120,7 +118,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(reactorController, 500000000
 
 
 // Rector power tap
-val reactorPowerTap 	= <bigreactors:reactorpowertaprf>;
+var reactorPowerTap 	= <bigreactors:reactorpowertaprf>;
 
 recipes.remove(<bigreactors:reactorpowertaptesla>);
 recipes.remove(<bigreactors:turbinepowertaptesla>);
@@ -135,9 +133,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(reactorPowerTap, 100000000, 
 	]);
 
 // Reactor casing core
-val reactorCasingCore 	= <bigreactors:reactorcasingcores>;
-val rodSteel 			= <immersiveengineering:material:2>;
-val graphiteBlock		= <ore:blockGraphite>;
+var reactorCasingCore 	= <bigreactors:reactorcasingcores>;
+var rodSteel 			= <immersiveengineering:material:2>;
+var graphiteBlock		= <ore:blockGraphite>;
 
 recipes.remove(reactorCasingCore);
 recipes.addShaped(reactorCasingCore,
@@ -146,7 +144,7 @@ recipes.addShaped(reactorCasingCore,
 	[rodSteel, rodSteel, rodSteel]]);
 
 // Reactor casing
-val plateSteel			= <ore:plateSteel>;
+var plateSteel			= <ore:plateSteel>;
 
 recipes.remove(reactorCasing);
 recipes.addShaped(reactorCasing * 2,
@@ -156,10 +154,10 @@ recipes.addShaped(reactorCasing * 2,
 
 
 // Reactor Fuel Rod
-val reactorFuelRod 		= <bigreactors:reactorfuelrod>;
-val ingotUranium 		= <ore:ingotUranium>;
-val hardenedGlass 		= <ore:blockGlassHardened>;
-val ingotGraphite 		= <ore:ingotGraphite>;
+var reactorFuelRod 		= <bigreactors:reactorfuelrod>;
+var ingotUranium 		= <ore:ingotUranium>;
+var hardenedGlass 		= <ore:blockGlassHardened>;
+var ingotGraphite 		= <ore:ingotGraphite>;
 
 recipes.remove(reactorFuelRod);
 recipes.addShaped(reactorFuelRod,

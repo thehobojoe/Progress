@@ -22,6 +22,8 @@ val crystalCelestial = <astralsorcery:itemcelestialcrystal>;
 val glassLens = <astralsorcery:itemcraftingcomponent:3>;
 val bucketStarlight = <liquid:astralsorcery.liquidstarlight>;
 
+//mods.astralsorcery.Utils.getCrystalORIngredient(boolean hasToBeCelestial, boolean hasToBeAttuned)
+
 // Marble variants
 val marbleChiseled = <astralsorcery:blockmarble:4>;
 val marblePillar = <astralsorcery:blockmarble:2>;

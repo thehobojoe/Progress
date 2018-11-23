@@ -17,7 +17,7 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, gearStone, <l
 //change iron door count
 var ironDoor = <minecraft:iron_door>;
 recipes.remove(ironDoor);
-recipes.addShaped(ironDoor,
+recipes.addShaped(ironDoor * 2,
 	[[ingotIron, ingotIron, null],
 	[ingotIron, ingotIron, null],
 	[ingotIron, ingotIron, null]]);
@@ -30,6 +30,9 @@ furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh> * 4);
 recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:*>]);
 
 recipes.remove(<tconstruct:slimesling>);
+recipes.remove(<tconstruct:slimesling:1>);
+recipes.remove(<tconstruct:slimesling:2>);
+recipes.remove(<tconstruct:slimesling:4>);
 
 //hopping bonsai
 recipes.remove(<bonsaitrees:bonsaipot:1>);
