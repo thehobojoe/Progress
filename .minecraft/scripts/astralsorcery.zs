@@ -75,5 +75,5 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/attunementrelay");
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("spectralRelay", <astralsorcery:blockattunementrelay>, 600, 80, [
     null, null, null,
-    manaDiamond, glassLens, manaDiamond,
-    <ore:plankWood>, <ore:stoneMarble>, <ore:plankWood>]);
+    <ore:stoneMarble>, glassLens, <ore:stoneMarble>,
+    <ore:plankWood>, manaDiamond, <ore:plankWood>]);

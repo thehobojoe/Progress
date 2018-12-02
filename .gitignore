@@ -6,6 +6,7 @@ mmc-pack.json
 .minecraft/hotbar.nbt
 .minecraft/.mixin.out/
 .minecraft/asm
+.minecraft/crafttweaker-dump/
 .minecraft/crash-reports
 .minecraft/enderio
 .minecraft/journeymap
@@ -14,7 +15,6 @@ mmc-pack.json
 .minecraft/fonts
 .minecraft/logs
 .minecraft/notes
-.minecraft/resources
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs

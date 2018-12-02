@@ -89,14 +89,25 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:wheat_seeds>, <minecraft:
 //  Arc furnace recipes  //
 ///////////////////////////
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, enderPearl * 4, null, 750, 1024, [dustLead * 3, dustPlatinum]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, enderPearl * 4, null, 750, 1024, [ingotLead * 3, ingotPlatinum]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, dustPlatinum, null, 750, 1024, [dustLead * 3, enderPearl * 4]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, ingotPlatinum, null, 750, 1024, [ingotLead * 3, enderPearl * 4]);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, redstone * 9, null, 500, 1024, [dustCopper * 3, dustSilver]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, redstone * 9, null, 500, 1024, [ingotCopper * 3, ingotSilver]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, dustSilver, null, 500, 1024, [dustCopper * 3, redstone * 9]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, ingotSilver, null, 500, 1024, [ingotCopper * 3, redstone * 9]);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, dustGlowstone * 6, null, 500, 1024, [dustTin * 3, dustSilver]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, dustGlowstone * 6, null, 500, 1024, [ingotTin * 3, ingotSilver]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, dustSilver, null, 500, 1024, [dustTin * 3, dustGlowstone * 6]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, ingotSilver, null, 500, 1024, [ingotTin * 3, dustGlowstone * 6]);
 
 
 furnace.setFuel(<immersivepetroleum:material>, 1600);
+
+
+////////////////////////
+//  Squeezer recipes  //
+////////////////////////
+
+var meatPulp = <contenttweaker:meat_pulp>;
+
+mods.immersiveengineering.Squeezer.addRecipe(meatPulp, <liquid:meat> * 200, <ore:listAllmeatraw>, 4096);
+mods.immersiveengineering.Squeezer.addRecipe(meatPulp, <liquid:meat> * 100, <ore:listAllfishraw>, 4096);
+mods.immersiveengineering.Squeezer.addRecipe(meatPulp, <liquid:meat> * 100, <ore:listAllfishfresh>, 4096);

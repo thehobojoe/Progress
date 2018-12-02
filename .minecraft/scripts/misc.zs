@@ -32,7 +32,11 @@ recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:*>]);
 recipes.remove(<tconstruct:slimesling>);
 recipes.remove(<tconstruct:slimesling:1>);
 recipes.remove(<tconstruct:slimesling:2>);
+recipes.remove(<tconstruct:slimesling:3>);
 recipes.remove(<tconstruct:slimesling:4>);
+
+//OC chunkloader
+recipes.remove(<opencomputers:upgrade:4>);
 
 //hopping bonsai
 recipes.remove(<bonsaitrees:bonsaipot:1>);
@@ -98,11 +102,3 @@ recipes.addShaped("candle", <rustic:candle>,
 	[[null, <minecraft:string>, null],
 	[null, <ore:tallow>, null],
 	[null, ingotIron, null]]);
-
-// exchangers
-val exchangerCore = <exchangers:te_exchanger_core_tier1>;
-recipes.remove(exchangerCore);
-recipes.addShaped("exCoreT1", exchangerCore,
-	[[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>],
-	[<ore:ingotLead>, <minecraft:ender_pearl>, <ore:ingotLead>],
-	[<ore:gearCopper>, <ore:ingotLead>, <ore:gearCopper>]]);

@@ -404,6 +404,12 @@
               "Count:3": 16,
               "OreDict:8": "",
               "Damage:3": 6
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:tool",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
             }
           }
         }
@@ -499,7 +505,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Metal Press",
-          "desc:8": "It presses things to make other things!\n\nA useful device for automating gears, wires, and more."
+          "desc:8": "It presses things to make other things! A useful device for automating gears, wires, and more.\n\nThe provided projector will assist you in accurately creating the devices from the schematics, by building a hologram telling you what to do. See the entry in your Engineers Manual for further information."
         }
       },
       "tasks:9": {
@@ -558,6 +564,12 @@
               "Count:3": 12,
               "OreDict:8": "",
               "Damage:3": 352
+            },
+            "1:10": {
+              "id:8": "immersivepetroleum:schematic",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
             }
           }
         }
@@ -1865,9 +1877,15 @@
           "rewards:9": {
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 8,
+              "Count:3": 32,
               "OreDict:8": "",
               "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 3
             }
           }
         }
@@ -3003,7 +3021,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
@@ -3830,10 +3848,22 @@
       },
       "rewards:9": {
         "0:10": {
-          "amount:3": 10,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 1
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemusabledust",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "astralsorcery:blockmarble",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
         }
       }
     },
@@ -4159,6 +4189,198 @@
           }
         }
       }
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockchalice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Containment Chalice",
+          "desc:8": "This thing is gonna come in handy. Mainly it\u0027s good for making it so you never have to bucket starlight into your infuser again."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 4
+            },
+            "1:10": {
+              "id:8": "astralsorcery:blockwell",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockattunementaltar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Attunement Altar",
+          "desc:8": "Infuse your flesh with star power"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockattunementaltar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockattunementrelay",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "59:10": {
+      "questID:3": 59,
+      "preRequisites:11": [
+        58
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 400,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemconstellationpaper",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Constellation paper",
+          "desc:8": "These things seem to be really difficult to come by, maybe if you try really hard you can create some yourself. This quest can be repeated."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 5
+            },
+            "1:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemconstellationpaper",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -4419,6 +4641,24 @@
           "x:3": 72,
           "y:3": 54,
           "id:3": 52
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 156,
+          "y:3": 138,
+          "id:3": 57
+        },
+        "20:10": {
+          "size:3": 24,
+          "x:3": 72,
+          "y:3": 180,
+          "id:3": 58
+        },
+        "21:10": {
+          "size:3": 24,
+          "x:3": 114,
+          "y:3": 180,
+          "id:3": 59
         }
       },
       "lineID:3": 2,
