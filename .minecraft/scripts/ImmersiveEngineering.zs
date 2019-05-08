@@ -89,14 +89,14 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:wheat_seeds>, <minecraft:
 //  Arc furnace recipes  //
 ///////////////////////////
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, dustPlatinum, null, 750, 1024, [dustLead * 3, enderPearl * 4]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, ingotPlatinum, null, 750, 1024, [ingotLead * 3, enderPearl * 4]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, dustPlatinum, null, 750, 1024, [dustLead * 3, enderPearl * 4], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotEnderium * 4, ingotPlatinum, null, 750, 1024, [ingotLead * 3, enderPearl * 4], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, dustSilver, null, 500, 1024, [dustCopper * 3, redstone * 9]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, ingotSilver, null, 500, 1024, [ingotCopper * 3, redstone * 9]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, dustSilver, null, 500, 1024, [dustCopper * 3, redstone * 9], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotSignalum * 4, ingotSilver, null, 500, 1024, [ingotCopper * 3, redstone * 9], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, dustSilver, null, 500, 1024, [dustTin * 3, dustGlowstone * 6]);
-mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, ingotSilver, null, 500, 1024, [ingotTin * 3, dustGlowstone * 6]);
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, dustSilver, null, 500, 1024, [dustTin * 3, dustGlowstone * 6], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(ingotLumium * 4, ingotSilver, null, 500, 1024, [ingotTin * 3, dustGlowstone * 6], "Alloying");
 
 
 furnace.setFuel(<immersivepetroleum:material>, 1600);
