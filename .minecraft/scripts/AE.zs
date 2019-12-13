@@ -27,6 +27,18 @@ val proc_diamond = <appliedenergistics2:material:24>;
 
 val controller = <appliedenergistics2:controller>;
 
+val empty_storage_disk = <appliedenergistics2:material:39>;
+//these are the fluid components, 1k->64k in order
+val babby_fluid_component = <appliedenergistics2:material:54>;
+val wow_fluid_component = <appliedenergistics2:material:55>;
+val chonk_fluid_component = <appliedenergistics2:material:56>;
+val megachonk_fluid_component = <appliedenergistics2:material:57>;
+
+//these are the complete cells, 1k->64k in order
+val babby_fluid_cell = <appliedenergistics2:fluid_storage_cell_1k>;
+val wow_fluid_cell = <appliedenergistics2:fluid_storage_cell_4k>;
+val chonk_fluid_cell = <appliedenergistics2:fluid_storage_cell_16k>;
+val megachonk_fluid_cell = <appliedenergistics2:fluid_storage_cell_64k>;
 
 ////////////////////////////
 //  Alternate AE Recipes  //
@@ -56,3 +68,16 @@ recipes.addShaped(proc_quartz,
 //fluix crystal
 recipes.addShapeless("FluixCrystal", fluix_crystal * 2, [charged_quartz, nether_quartz, redstone]);
 
+
+/////////////////////////////////
+//  Fluid cell deconstruction  //
+/////////////////////////////////
+
+
+recipes.addShapeless("Babbys first disk",  babby_fluid_component, [babby_fluid_cell.transformReplace(empty_storage_disk)]);
+
+recipes.addShapeless("wow a free disk",  wow_fluid_component, [wow_fluid_cell.transformReplace(empty_storage_disk)]);
+
+recipes.addShapeless("a chonkin disk",  chonk_fluid_component, [chonk_fluid_cell.transformReplace(empty_storage_disk)]);
+
+recipes.addShapeless("oh lord he coming",  megachonk_fluid_component, [megachonk_fluid_cell.transformReplace(empty_storage_disk)]);

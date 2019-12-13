@@ -126,6 +126,6 @@ recipes.remove(<botania:flighttiara>);
 //remove life imbuer
 recipes.remove(<botania:spawnerclaw>);
 
-
-
+//this thing is crashing the butt
+recipes.remove(<botania:thirdeye>);
 
