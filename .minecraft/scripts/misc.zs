@@ -35,9 +35,6 @@ recipes.remove(<tconstruct:slimesling:2>);
 recipes.remove(<tconstruct:slimesling:3>);
 recipes.remove(<tconstruct:slimesling:4>);
 
-//OC chunkloader
-recipes.remove(<opencomputers:upgrade:4>);
-
 //hopping bonsai
 recipes.remove(<bonsaitrees:bonsaipot:1>);
 recipes.addShaped("ButtBonsai", <bonsaitrees:bonsaipot:1>,

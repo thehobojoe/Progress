@@ -1,7 +1,5 @@
 
 // slate
-mods.chisel.Carving.addGroup("slate");
-
 mods.chisel.Carving.addVariation("slate", <earthworks:block_slate>);
 mods.chisel.Carving.addVariation("slate", <earthworks:block_slate_green>);
 mods.chisel.Carving.addVariation("slate", <earthworks:block_slate_purple>);
