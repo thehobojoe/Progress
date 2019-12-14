@@ -2,6 +2,8 @@
 var ingotIron		= <minecraft:iron_ingot>;
 var redstone		= <minecraft:redstone>;
 
+// uranium ore dict
+<ore:oreUranium>.add(<bigreactors:brore>);
 
 // nether brick
 var coagulatedBlood = <tconstruct:edible:3>;
@@ -99,3 +101,4 @@ recipes.addShaped("candle", <rustic:candle>,
 	[[null, <minecraft:string>, null],
 	[null, <ore:tallow>, null],
 	[null, ingotIron, null]]);
+
