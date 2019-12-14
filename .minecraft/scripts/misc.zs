@@ -50,6 +50,13 @@ recipes.addShaped("TechingBonsai", <bonsaitrees:bonsaipot:1>,
 	[null, <bonsaitrees:bonsaipot>, null],
 	[gearElectrum, <minecraft:hopper>, gearElectrum]]);
 
+//remove deep mob learning weapons/armor
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_helmet>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_chestplate>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_leggings>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_boots>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_sword>);
+
 
 //remove petrified fuel generator
 recipes.remove(<industrialforegoing:petrified_fuel_generator>);
