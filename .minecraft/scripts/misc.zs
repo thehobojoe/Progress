@@ -15,6 +15,9 @@ var gearStone = <thermalfoundation:material:23>;
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, gearStone, <liquid:gold>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, gearStone, <liquid:alubrass>, 144, true);
 
+// do not allow melting coal in the smeltery
+mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
+
 
 //change iron door count
 var ironDoor = <minecraft:iron_door>;
