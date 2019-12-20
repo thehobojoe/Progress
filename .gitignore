@@ -6,6 +6,7 @@ mmc-pack.json
 .minecraft/hotbar.nbt
 .minecraft/.mixin.out/
 .minecraft/asm
+.minecraft/config/jei/bookmarks.ini
 .minecraft/crafttweaker-dump/
 .minecraft/crash-reports
 .minecraft/enderio
