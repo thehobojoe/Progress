@@ -16,11 +16,13 @@ mmc-pack.json
 .minecraft/fonts
 .minecraft/logs
 .minecraft/notes
+.minecraft/photo-frame-cache
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs
 .minecraft/structures
 .minecraft/texturepacks
+.minecraft/tv-cache
 .minecraft/BotaniaVars.dat
 .minecraft/icon.png
 .minecraft/minetweaker.log
