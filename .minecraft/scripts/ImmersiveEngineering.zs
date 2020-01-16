@@ -44,6 +44,14 @@ var rodSteel 				= <immersiveengineering:material:2>;
 var rodAluminum				= <immersiveengineering:material:3>;
 
 
+///////////////////////////
+//  Excavator Additions  //
+///////////////////////////
+mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("oreThorium", 0.25);
+mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreBoron", 0.25);
+mods.immersiveengineering.Excavator.getMineral("Silt").addOre("oreLithium", 0.15);
+mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("oreMagnesium", 0.65);
+
 
 
 //////////////////////

@@ -62,7 +62,6 @@ mods.chisel.Carving.addVariation("daub", <earthworks:daub_cob_xdoor2>);
 mods.chisel.Carving.addVariation("daub", <earthworks:daub_cob_xdoor3>);
 
 
-
 mods.chisel.Carving.addGroup("earthworks-plaster");
 
 mods.chisel.Carving.addVariation("earthworks-plaster", <earthworks:plaster_arrow0>);
@@ -109,3 +108,39 @@ mods.chisel.Carving.addVariation("earthworks-plaster", <earthworks:plaster_xleft
 mods.chisel.Carving.addVariation("earthworks-plaster", <earthworks:plaster_x>);
 mods.chisel.Carving.addVariation("earthworks-plaster", <earthworks:plaster_xright>);
 mods.chisel.Carving.addVariation("earthworks-plaster", <earthworks:plaster_xtop>);
+
+// infused wood
+mods.chisel.Carving.addVariation("infused-wood", <astralsorcery:blockinfusedwood:1>);
+mods.chisel.Carving.addVariation("infused-wood", <astralsorcery:blockinfusedwood:2>);
+mods.chisel.Carving.addVariation("infused-wood", <astralsorcery:blockinfusedwood:3>);
+mods.chisel.Carving.addVariation("infused-wood", <astralsorcery:blockinfusedwood:4>);
+mods.chisel.Carving.addVariation("infused-wood", <astralsorcery:blockinfusedwood:5>);
+
+// AE colored cables
+
+val cable = <appliedenergistics2:part>.definition;
+
+// glass cable
+for i in 0 to 17 {
+    mods.chisel.Carving.addVariation("glass-cable", cable.makeStack(i));
+}
+
+// covered cable
+for i in 20 to 37 {
+	mods.chisel.Carving.addVariation("covered-cable", cable.makeStack(i));
+}
+
+// dense covered cable
+for i in 500 to 517 {
+	mods.chisel.Carving.addVariation("covered-dense-cable", cable.makeStack(i));
+}
+
+// smart cable
+for i in 40 to 57 {
+	mods.chisel.Carving.addVariation("smart-cable", cable.makeStack(i));
+}
+
+// dense smart cable
+for i in 60 to 77 {
+	mods.chisel.Carving.addVariation("smart-dense-cable", cable.makeStack(i));
+}
