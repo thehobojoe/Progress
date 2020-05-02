@@ -2,9 +2,6 @@
 var ingotIron		= <minecraft:iron_ingot>;
 var redstone		= <minecraft:redstone>;
 
-// uranium ore dict
-<ore:oreUranium>.add(<bigreactors:brore>);
-
 // nether brick
 var coagulatedBlood = <tconstruct:edible:3>;
 var brick = <minecraft:brick>;

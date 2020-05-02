@@ -71,14 +71,17 @@
 				]
 			}
 		},
-		"yellorite": {
+		"uranium": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "bigreactors:brore",
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 4
+				},
 				"material": "stone",
-				"cluster-size": 7
+				"cluster-size": 6
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"min-height": 0,
 			"max-height": 15,
 			"retrogen": "true",
