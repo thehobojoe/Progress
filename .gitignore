@@ -2,6 +2,7 @@
 instance.cfg
 mmc-pack.json
 /natives
+.idea/
 .minecraft/astralsorcery
 .minecraft/hotbar.nbt
 .minecraft/.mixin.out/

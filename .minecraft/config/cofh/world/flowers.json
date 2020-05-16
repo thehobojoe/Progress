@@ -1,0 +1,692 @@
+{
+	"populate": {
+		"mysticflowerswhite": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 0
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersorange": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 1
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersmagenta": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 2
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerslightblue": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 3
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersyellow": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 4
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerslime": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 5
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerspink": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 6
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersgray": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 7
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerslightgray": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 8
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerscyan": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 9
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowerspurple": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 10
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersblue": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 11
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersbrown": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 12
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersgreen": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 13
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersred": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 14
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mysticflowersblack": {
+			"enabled": true,
+			"distribution": "decoration",
+			"generator": {
+				"block": {
+					"name": "botania:flower",
+					"metadata": 15
+				},
+				"material": [],
+				"cluster-size": 4,
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"see-sky": "false",
+				"check-stay": "false",
+				"stack-height": 1
+			},
+			"material": [],
+			"follow-terrain": "true",
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"minecraft:forest",
+							"minecraft:plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
