@@ -15,8 +15,8 @@
 				"min-height": 2,
 				"height-variance": 2,
 				"height-mod": 3,
-				"gen-size": 3,
-				"size-variance": 2
+				"gen-size": 2,
+				"size-variance": 3
 			},
 			"cluster-count": 1,
 			"chunk-chance": "1",
