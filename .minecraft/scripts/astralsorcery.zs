@@ -31,6 +31,8 @@ val marbleRuned = <astralsorcery:blockmarble:6>;
 val marbleSooty = <astralsorcery:blockblackmarble>;
 
 
+// Remove recipe for cave illuminator
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminator");
 
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
