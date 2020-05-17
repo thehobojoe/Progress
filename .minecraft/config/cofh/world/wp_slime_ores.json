@@ -62,7 +62,7 @@
 				"smooth": true,
 				"fat": false,
 				"min-height": 2,
-				"height-variance": 2,
+				"height-variance": 3,
 				"height-mod": 3,
 				"gen-size": 1,
 				"size-variance": 3
@@ -170,7 +170,7 @@
 				"smooth": true,
 				"fat": false,
 				"min-height": 2,
-				"height-variance": 2,
+				"height-variance": 3,
 				"height-mod": 3,
 				"gen-size": 1,
 				"size-variance": 2

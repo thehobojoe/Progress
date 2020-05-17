@@ -82,7 +82,7 @@
 				"gen-size": 2,
 				"size-variance": 2
 			},
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"chunk-chance": "2",
 			"min-height": 80,
 			"max-height": 120,
@@ -115,7 +115,7 @@
 				"gen-size": 2,
 				"size-variance": 2
 			},
-			"cluster-count": 3,
+			"cluster-count": 1,
 			"chunk-chance": "2",
 			"min-height": 80,
 			"max-height": 120,
@@ -144,11 +144,11 @@
 				"min-height": 3,
 				"height-variance": 2,
 				"height-mod": 3,
-				"gen-size": 2,
-				"size-variance": 2
+				"gen-size": 1,
+				"size-variance": 3
 			},
-			"cluster-count": 3,
-			"chunk-chance": "8",
+			"cluster-count": 2,
+			"chunk-chance": "9",
 			"min-height": 80,
 			"max-height": 120,
 			"retrogen": false,
