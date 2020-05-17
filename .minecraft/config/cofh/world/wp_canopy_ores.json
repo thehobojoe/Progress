@@ -1,0 +1,216 @@
+{
+	"populate": {
+
+		"canopy_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "coal_ore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass",
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 3,
+				"height-mod": 3,
+				"gen-size": 3,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"chunk-chance": "5",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"canopy_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "iron_ore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass",
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"chunk-chance": "6",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"canopy_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "thermalfoundation:ore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass"
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"cluster-count": 3,
+			"chunk-chance": "7",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"canopy_tin": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 1
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass"
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 3,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"cluster-count": 3,
+			"chunk-chance": "9",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"canopy_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "gold_ore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass",
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"cluster-count": 3,
+			"chunk-chance": "10",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+
+		"canopy_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "redstone_ore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:grass",
+				],
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 1,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 1,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"chunk-chance": "10",
+			"min-height": 100,
+			"max-height": 160,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

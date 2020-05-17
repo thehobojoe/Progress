@@ -6,11 +6,11 @@
 			"generator": {
 				"block": "dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 20
+				"cluster-size": 30
 			},
 			"cluster-count": 8,
-			"min-height": 0,
-			"max-height": 256,
+			"min-height": 18,
+			"max-height": 128,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -27,11 +27,11 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 42
+				"cluster-size": 50
 			},
 			"cluster-count": 2,
-			"min-height": 0,
-			"max-height": 256,
+			"min-height": 30,
+			"max-height": 120,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -53,12 +53,12 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 256
+				"cluster-size": 512
 			},
 			"chunk-chance": 3,
 			"cluster-count": 1,
-			"min-height": 40,
-			"max-height": 100,
+			"min-height": 15,
+			"max-height": 120,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -80,12 +80,12 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 256
+				"cluster-size": 512
 			},
 			"chunk-chance": 3,
 			"cluster-count": 1,
-			"min-height": 10,
-			"max-height": 50,
+			"min-height": 15,
+			"max-height": 100,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -107,12 +107,12 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 256
+				"cluster-size": 512
 			},
 			"chunk-chance": 3,
 			"cluster-count": 1,
-			"min-height": 30,
-			"max-height": 100,
+			"min-height": 10,
+			"max-height": 120,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -129,7 +129,7 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 15
+				"cluster-size": 14
 			},
 			"cluster-count": 21,
 			"min-height": 0,
@@ -152,7 +152,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
+			"cluster-count": 18,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -171,7 +171,7 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 8
 			},
 			"cluster-count": 2,
 			"min-height": 0,
@@ -194,7 +194,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 7,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
@@ -213,7 +213,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 7
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -234,7 +234,7 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 6
 			},
 			"cluster-count": 1,
 			"center-height": 16,
@@ -296,14 +296,14 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 2
 			},
 			"cluster-count": {
 				"min": 3,
 				"max": 6
 			},
 			"min-height": 4,
-			"max-height": 28,
+			"max-height": 60,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",

@@ -5,11 +5,11 @@
 			"generator": {
 				"block": "sand",
 				"material": "stone",
-				"cluster-size": 25
+				"cluster-size": 35
 			},
-			"cluster-count": 4,
-			"min-height": 0,
-			"max-height": 256,
+			"cluster-count": 5,
+			"min-height": 22,
+			"max-height": 145,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -25,11 +25,11 @@
 			"generator": {
 				"block": "clay",
 				"material": "stone",
-				"cluster-size": 15
+				"cluster-size": 25
 			},
 			"cluster-count": 5,
-			"min-height": 0,
-			"max-height": 256,
+			"min-height": 18,
+			"max-height": 150,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -47,18 +47,18 @@
 					{
 						"name": "appliedenergistics2:quartz_ore",
 						"metadata": 0,
-						"weight": 91
+						"weight": 70
 					},
 					{
 						"name": "appliedenergistics2:charged_quartz_ore",
 						"metadata": 0,
-						"weight": 9
+						"weight": 30
 					}
 				],
 				"material": "stone",
-				"cluster-size": 5
+				"cluster-size": 6
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"min-height": 17,
 			"max-height": 63,
 			"retrogen": "true",
@@ -99,13 +99,12 @@
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
-					"metadata": 4,
-					"weight": 20
+					"metadata": 4
 				},
 				"material": "stone",
 				"cluster-size": 6
 			},
-			"cluster-count": 5,
+			"cluster-count": 4,
 			"min-height": 35,
 			"max-height": 80,
 			"retrogen": "true",
@@ -123,9 +122,9 @@
 			"generator": {
 				"block": "enderore:ore_ender",
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 7
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
@@ -143,7 +142,7 @@
 			"generator": {
 				"block": {
 					"name": "nuclearcraft:ore",
-					"metadata": 7,
+					"metadata": 7
 				},
 				"material": "stone",
 				"cluster-size": 5
@@ -166,7 +165,7 @@
 			"generator": {
 				"block": {
 					"name": "nuclearcraft:ore",
-					"metadata": 6,
+					"metadata": 6
 				},
 				"material": "stone",
 				"cluster-size": 5
@@ -189,7 +188,7 @@
 			"generator": {
 				"block": {
 					"name": "nuclearcraft:ore",
-					"metadata": 5,
+					"metadata": 5
 				},
 				"material": "stone",
 				"cluster-size": 5
@@ -212,7 +211,7 @@
 			"generator": {
 				"block": {
 					"name": "nuclearcraft:ore",
-					"metadata": 3,
+					"metadata": 3
 				},
 				"material": "stone",
 				"cluster-size": 4
@@ -229,6 +228,6 @@
 					1
 				]
 			}
-		},
+		}
 	}
 }

@@ -1,0 +1,238 @@
+{
+	"populate": {
+
+		"bare_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "coal_ore"
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 3,
+				"size-variance": 2
+			},
+			"cluster-count": 1,
+			"chunk-chance": "1",
+			"min-height": 75,
+			"max-height": 110,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "iron_ore"
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 3,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"chunk-chance": "1",
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "thermalfoundation:ore"
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 2
+			},
+			"cluster-count": 3,
+			"chunk-chance": "2",
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_tin": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 3,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 2
+			},
+			"cluster-count": 3,
+			"chunk-chance": "2",
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "gold_ore"
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 2,
+				"size-variance": 2
+			},
+			"cluster-count": 3,
+			"chunk-chance": "8",
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "appliedenergistics2:quartz_ore",
+						"metadata": 0,
+						"weight": 70
+					},
+					{
+						"name": "appliedenergistics2:charged_quartz_ore",
+						"metadata": 0,
+						"weight": 30
+					}
+				],
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 2,
+				"height-mod": 3,
+				"gen-size": 1,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": "8",
+			"min-height": 75,
+			"max-height": 110,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"bare_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": {
+					"name": "redstone_ore"
+				},
+				"material": "minecraft:stone",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 2,
+				"height-variance": 3,
+				"height-mod": 3,
+				"gen-size": 1,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"chunk-chance": "4",
+			"min-height": 75,
+			"max-height": 110,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
