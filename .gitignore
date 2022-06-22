@@ -2,9 +2,11 @@
 instance.cfg
 mmc-pack.json
 /natives
+/.idea/
 .minecraft/astralsorcery
 .minecraft/hotbar.nbt
 .minecraft/.mixin.out/
+.minecraft/.fabric/
 .minecraft/asm
 .minecraft/crash-reports
 .minecraft/enderio
@@ -13,6 +15,8 @@ mmc-pack.json
 .minecraft/libraries
 .minecraft/fonts
 .minecraft/logs
+.minecraft/ModTranslations
+.minecraft/not-enough-crashes
 .minecraft/resources
 .minecraft/saves
 .minecraft/screenshots
