@@ -6,6 +6,9 @@
     "megane-create": {
       "lol.bai.megane.module.create.MeganeCreate": true
     },
+    "megane-alloy-forgery": {
+      "lol.bai.megane.module.alloyforgery.MeganeAlloyForgery": true
+    },
     "megane-extra-generators": {
       "lol.bai.megane.module.extragenerators.MeganeExtraGenerators": true
     },

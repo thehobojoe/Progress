@@ -1,9 +1,14 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}"
+		],
 		"hiddenFavorites": [],
+		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": "WHEN_CREATIVE",
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -51,7 +56,7 @@
 		"overlayVisible": true,
 		"cheatingStyle": "GRAB",
 		"motion": {
-			"favoritesAnimation": true
+			"favoritesAnimation": false
 		}
 	},
 	"advanced": {
@@ -121,13 +126,13 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false
+			"cachingFastEntryRendering": true
 		}
 	},
 	"appearance": {
 		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
-		"theme": "LIGHT",
+		"theme": "DARK",
 		"layout": {
 			// Declares the position of the search field.
 			"searchFieldLocation": "CENTER",
@@ -151,7 +156,7 @@
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.

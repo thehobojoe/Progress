@@ -1,5 +1,8 @@
 {
-  "volume": 15,
+  "volume": 7,
+  "clientPlayerVolume": 100,
+  "otherPlayerVolume": 100,
+  "runningVolumeIncrease": 0,
   "stance": "UNKNOWN",
   "multiplayer": true,
   "global": true
