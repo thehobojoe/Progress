@@ -1,0 +1,6 @@
+version:2975
+renderDistance:24
+simulationDistance:12
+entityDistanceScaling:1.0
+resourcePacks:["vanilla","Fabric Mods","charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","file/Better-Leaves-6.2-1.13+.zip","lambdabettergrass/default"]
+incompatibleResourcePacks:["cullleaves/smartleaves"]
