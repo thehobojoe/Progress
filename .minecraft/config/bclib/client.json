@@ -3,15 +3,15 @@
     "suppressExperimentalDialogOnLoad [default: false]": false
   },
   "auto_sync": {
-    "enabled [default: true]": true,
-    "acceptConfigs [default: true]": true,
-    "acceptFiles [default: true]": true,
+    "enabled [default: true]": false,
+    "acceptConfigs [default: true]": false,
+    "acceptFiles [default: true]": false,
     "acceptMods [default: false]": false,
     "displayModInfo [default: true]": true,
     "debugHashes [default: false]": false
   },
   "rendering": {
-    "customFogRendering [default: true]": true,
-    "netherThickFog [default: true]": true
+    "customFogRendering [default: true]": false,
+    "netherThickFog [default: true]": false
   }
 }

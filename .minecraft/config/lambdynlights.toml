@@ -30,6 +30,7 @@ mode = "fancy"
 				skeleton = true
 				llama = true
 				bat = true
+				husk = true
 				hoglin = true
 				rabbit = true
 				silverfish = true
