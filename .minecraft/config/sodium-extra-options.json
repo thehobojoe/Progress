@@ -35,7 +35,7 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_distance": 32,
+    "fog_distance": 33,
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,

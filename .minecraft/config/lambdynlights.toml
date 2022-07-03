@@ -49,7 +49,10 @@ mode = "fancy"
 				ocelot = true
 				item_frame = true
 				horse = true
+				vindicator = true
 				phantom = true
+				ender_dragon = true
+				evoker = true
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
@@ -80,6 +83,7 @@ mode = "fancy"
 				potion = true
 				wolf = true
 				villager = true
+				skeleton_horse = true
 				zombie_villager = true
 				tnt_minecart = true
 				elder_guardian = true
@@ -92,17 +96,28 @@ mode = "fancy"
 				snow_golem = true
 				spider = true
 
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+				spark = true
+
 			[light_sources.settings.entities.charm]
 				moobloom = true
+				coral_squid = true
+
+			[light_sources.settings.entities.crabmod]
+				crab = true
 
 			[light_sources.settings.entities.aqupd]
 				grizzly_bear = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				snowy_creeper = true
+				bamboo_creeper = true
+				badlands_creeper = true
 				dripstone_creeper = true
 				cave_creeper = true
 				beach_creeper = true
+				savannah_creeper = true
 				spruce_creeper = true
 
 			[light_sources.settings.entities.lovely_snails]
