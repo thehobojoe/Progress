@@ -1,0 +1,1 @@
+key.lightoverlay.enable_overlay

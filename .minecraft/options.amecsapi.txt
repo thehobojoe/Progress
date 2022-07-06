@@ -53,6 +53,14 @@ key_modifiers_key.buildinggadgets.material_list:0,0,0
 key_modifiers_key.campanion.open_backpack:0,0,0
 key_modifiers_key.charm.open_atlas:0,0,0
 key_modifiers_key.charm.open_crafting_table:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.modded-tool.open:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.modded-tool.cycle.left:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.modded-tool.cycle.right:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.measuring-tape.reset:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.undo:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.redo:0,0,0
+key_modifiers_mod.chiselsandbits.keys.key.zoom:0,0,0
+key_modifiers_mod.chiselsandbits.keys.reset-caches:0,0,0
 key_modifiers_key.clienttweaks.hideOffhandItem:0,0,0
 key_modifiers_key.clienttweaks.disableStepAssist:0,0,0
 key_modifiers_key.clienttweaks.disableLogStripping:0,0,0
@@ -100,6 +108,7 @@ key_modifiers_key.journeymap.fullscreen.south:0,0,0
 key_modifiers_key.journeymap.fullscreen.east:0,0,0
 key_modifiers_key.journeymap.fullscreen.west:0,0,0
 key_modifiers_key.journeymap.fullscreen.disable_buttons:0,0,0
+key_modifiers_key.lightoverlay.enable_overlay:0,0,0
 key_modifiers_key.modmenu.open_menu:0,0,0
 key_modifiers_presencefootsteps.settings.key:0,0,0
 key_modifiers_key.simple_veinminer.veinminingKey:0,0,0

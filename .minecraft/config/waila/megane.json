@@ -20,10 +20,12 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane": 7408640
+      "megane": 7408640,
+      "alloy_forgery": 15684178
     },
     "units": {
-      "megane": "E"
+      "megane": "E",
+      "alloy_forgery": ""
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -33,7 +35,8 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane:default": 855385
+      "megane:default": 855385,
+      "minecraft:water": 4159204
     },
     "blacklist": []
   },

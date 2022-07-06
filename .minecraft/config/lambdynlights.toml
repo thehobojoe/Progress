@@ -87,6 +87,7 @@ mode = "fancy"
 				zombie_villager = true
 				tnt_minecart = true
 				elder_guardian = true
+				boat = true
 				strider = true
 				polar_bear = true
 				painting = true
@@ -109,6 +110,9 @@ mode = "fancy"
 
 			[light_sources.settings.entities.aqupd]
 				grizzly_bear = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				snowy_creeper = true

@@ -3,7 +3,8 @@
 		"favorites": [
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}"
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
+			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
