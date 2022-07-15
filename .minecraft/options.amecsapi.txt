@@ -90,7 +90,6 @@ key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_key.gravelminer.toggle:0,0,0
 key_modifiers_key.inmis.open_backpack:0,0,0
-key_modifiers_inventorytabs.key.next_tab:0,0,0
 key_modifiers_key.journeymap.zoom_in:0,0,0
 key_modifiers_key.journeymap.zoom_out:0,0,0
 key_modifiers_key.journeymap.minimap_type:0,0,0

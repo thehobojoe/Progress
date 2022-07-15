@@ -4,7 +4,9 @@
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
-			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}"
+			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}",
+			"{data:{Count:1b,id:\"minecraft:spruce_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:chiseled_quartz_block\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],

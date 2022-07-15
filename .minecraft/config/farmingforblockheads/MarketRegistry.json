@@ -1,1 +1,22 @@
-{}
+{
+  "customEntries": [
+    {
+      "output": {
+        "item": "spectrum:quitoxic_reeds"
+      },
+      "payment": {
+        "item": "adorn:sugar_cane_crate"
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:bamboo"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "progress"
+    }
+  ]
+}

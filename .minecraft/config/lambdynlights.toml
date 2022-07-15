@@ -23,6 +23,7 @@ mode = "fancy"
 				panda = true
 				bee = true
 				axolotl = true
+				egg = true
 				arrow = true
 				cow = true
 				magma_cube = true
@@ -32,8 +33,10 @@ mode = "fancy"
 				bat = true
 				husk = true
 				hoglin = true
+				experience_bottle = true
 				rabbit = true
 				silverfish = true
+				firework_rocket = true
 				armor_stand = true
 				drowned = true
 				experience_orb = true
@@ -41,9 +44,11 @@ mode = "fancy"
 				item = true
 				stray = true
 				turtle = true
+				shulker = true
 				salmon = true
 				wither_skeleton = true
 				vex = true
+				wandering_trader = true
 				piglin_brute = true
 				goat = true
 				ocelot = true
@@ -52,14 +57,18 @@ mode = "fancy"
 				vindicator = true
 				phantom = true
 				ender_dragon = true
+				leash_knot = true
 				evoker = true
+				spectral_arrow = true
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
+				shulker_bullet = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
 				enderman = true
+				dragon_fireball = true
 				chicken = true
 				ravager = true
 				trader_llama = true
@@ -71,16 +80,23 @@ mode = "fancy"
 				pillager = true
 				iron_golem = true
 				zombified_piglin = true
+				area_effect_cloud = true
 				piglin = true
 				blaze = true
+				endermite = true
 				cat = true
 				zombie = true
+				ender_pearl = true
 				guardian = true
 				ghast = true
 				sheep = true
+				fireball = true
 				player = true
 				pufferfish = true
 				potion = true
+				trident = true
+				eye_of_ender = true
+				wither_skull = true
 				wolf = true
 				villager = true
 				skeleton_horse = true
@@ -88,6 +104,7 @@ mode = "fancy"
 				tnt_minecart = true
 				elder_guardian = true
 				boat = true
+				small_fireball = true
 				strider = true
 				polar_bear = true
 				painting = true
@@ -96,6 +113,35 @@ mode = "fancy"
 				cod = true
 				snow_golem = true
 				spider = true
+				wither = true
+
+			[light_sources.settings.entities.crabmod]
+				crab = true
+
+			[light_sources.settings.entities.farmingforblockheads]
+				merchant = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				bamboo_creeper = true
+				badlands_creeper = true
+				desert_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				spruce_creeper = true
+				hills_creeper = true
+
+			[light_sources.settings.entities.transportables]
+				chest_carriage = true
+
+			[light_sources.settings.entities.lovely_snails]
+				snail = true
+
+			[light_sources.settings.entities.ae2]
+				charged_quartz = true
+				growing_crystal = true
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
@@ -103,27 +149,22 @@ mode = "fancy"
 
 			[light_sources.settings.entities.charm]
 				moobloom = true
+				chair = true
 				coral_squid = true
-
-			[light_sources.settings.entities.crabmod]
-				crab = true
 
 			[light_sources.settings.entities.aqupd]
 				grizzly_bear = true
 
+			[light_sources.settings.entities.spectrum]
+				invisible_item_frame = true
+				shooting_star = true
+
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
+				gantry_contraption = true
+				potato_projectile = true
 
-			[light_sources.settings.entities.creeperoverhaul]
-				snowy_creeper = true
-				bamboo_creeper = true
-				badlands_creeper = true
-				dripstone_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
-				spruce_creeper = true
-
-			[light_sources.settings.entities.lovely_snails]
-				snail = true
+			[light_sources.settings.entities.betterend]
+				shadow_walker = true
+				silk_moth = true
 

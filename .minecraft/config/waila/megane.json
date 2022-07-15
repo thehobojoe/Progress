@@ -21,11 +21,15 @@
     "expandWhenSneak": false,
     "colors": {
       "megane": 7408640,
-      "alloy_forgery": 15684178
+      "alloy_forgery": 15684178,
+      "extragenerators": 7408640,
+      "ae2": 6556063
     },
     "units": {
       "megane": "E",
-      "alloy_forgery": ""
+      "alloy_forgery": "",
+      "extragenerators": "E",
+      "ae2": "AE"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -36,7 +40,8 @@
     "expandWhenSneak": false,
     "colors": {
       "megane:default": 855385,
-      "minecraft:water": 4159204
+      "minecraft:water": 4159204,
+      "minecraft:lava": 13916690
     },
     "blacklist": []
   },

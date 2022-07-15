@@ -122,7 +122,9 @@
         "botania:baubles/third_eye",
         "botania:misc/cacophonium",
         "botania:functional_flowers/solegnolia",
-        "botania:tools/cobble_rod"
+        "botania:tools/cobble_rod",
+        "botania:basics/apothecary",
+        "botania:basics/pure_daisy"
       ],
       "bookmarks": [],
       "completedManualQuests": []
