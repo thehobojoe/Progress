@@ -77,3 +77,11 @@ craftingTable.addShaped("nethering_portal", <item:mining_dims:nethering_portal_b
 	[nether_bricks, nether_bricks, nether_bricks],
 	[nether_bricks, glowstone, nether_bricks],
 	[nether_bricks, nether_bricks, nether_bricks]]);
+
+
+// nether chest
+craftingTable.remove(<item:netherchest:nether_chest>);
+craftingTable.addShaped("nether_chest_alt", <item:netherchest:nether_chest>, [
+	[nether_bricks, nether_bricks, nether_bricks],
+	[nether_bricks, <item:minecraft:blaze_rod>, nether_bricks],
+	[nether_bricks, nether_bricks, nether_bricks]]);

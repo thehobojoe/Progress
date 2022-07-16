@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "spectrum:purple_log"
+    	}
+    ],
+	"results": [
+		{
+			"item": "spectrum:purple_pigment",
+			"count": 2,
+			"chance": 1.0
+        },
+        {"item": "spectrum:purple_pigment",
+							"count": 2,
+					"chance": 0.50
+}
+	],"processingTime":450
+}

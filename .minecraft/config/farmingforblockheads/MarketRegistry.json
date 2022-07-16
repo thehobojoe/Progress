@@ -17,6 +17,15 @@
         "item": "minecraft:emerald"
       },
       "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "progress"
     }
   ]
 }
