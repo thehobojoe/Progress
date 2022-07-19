@@ -49,14 +49,6 @@ key_modifiers_key.ae2.portable_item_cell:0,0,0
 key_modifiers_key.ae2.portable_fluid_cell:0,0,0
 key_modifiers_key.antighost.reveal:0,0,0
 key_modifiers_key.botania_corporea_request:0,0,0
-key_modifiers_key.buildinggadgets.settings_menu:0,0,0
-key_modifiers_key.buildinggadgets.range:0,0,0
-key_modifiers_key.buildinggadgets.undo:0,0,0
-key_modifiers_key.buildinggadgets.anchor:0,0,0
-key_modifiers_key.buildinggadgets.fuzzy:0,0,0
-key_modifiers_key.buildinggadgets.connected_area:0,0,0
-key_modifiers_key.buildinggadgets.rotate_mirror:0,0,0
-key_modifiers_key.buildinggadgets.material_list:0,0,0
 key_modifiers_key.campanion.open_backpack:0,0,0
 key_modifiers_key.charm.open_atlas:0,0,0
 key_modifiers_key.charm.open_crafting_table:0,0,0
