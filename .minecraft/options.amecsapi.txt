@@ -35,13 +35,6 @@ key_modifiers_key.hotbar.9:0,0,0
 key_modifiers_key.dynamicfps.toggle_forced:0,0,0
 key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
 key_modifiers_key.ellemes_container_lib.config:0,0,0
-key_modifiers_inventorio.keys.use_utility:0,0,0
-key_modifiers_inventorio.keys.next_utility:0,0,0
-key_modifiers_inventorio.keys.prev_utility:0,0,0
-key_modifiers_inventorio.keys.empty_utility:0,0,0
-key_modifiers_inventorio.keys.rocket_boost:0,0,0
-key_modifiers_inventorio.keys.open_player_settings:0,0,0
-key_modifiers_inventorio.keys.open_global_settings:0,0,0
 key_modifiers_key.toomanybinds.launcher:0,0,0
 key_modifiers_key.toomanybinds.favorite:0,0,0
 key_modifiers_key.ae2.wireless_terminal:0,0,0
@@ -89,6 +82,7 @@ key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_key.gravelminer.toggle:0,0,0
 key_modifiers_key.inmis.open_backpack:0,0,0
+key_modifiers_key.inventorysorter.sort:0,0,0
 key_modifiers_key.journeymap.zoom_in:0,0,0
 key_modifiers_key.journeymap.zoom_out:0,0,0
 key_modifiers_key.journeymap.minimap_type:0,0,0

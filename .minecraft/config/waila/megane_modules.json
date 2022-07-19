@@ -1,5 +1,8 @@
 {
   "modules": {
+    "megane-modern-dynamics": {
+      "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
+    },
     "megane-fabric-transfer": {
       "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true
     },
