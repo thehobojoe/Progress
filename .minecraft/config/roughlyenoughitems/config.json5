@@ -2,16 +2,13 @@
 	"basics": {
 		"favorites": [
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
-			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}",
-			"{data:{Count:1b,id:\"minecraft:spruce_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:chiseled_quartz_block\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {

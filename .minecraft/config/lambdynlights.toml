@@ -128,6 +128,7 @@ mode = "fancy"
 				badlands_creeper = true
 				desert_creeper = true
 				dripstone_creeper = true
+				jungle_creeper = true
 				cave_creeper = true
 				beach_creeper = true
 				savannah_creeper = true
@@ -140,13 +141,20 @@ mode = "fancy"
 			[light_sources.settings.entities.lovely_snails]
 				snail = true
 
+			[light_sources.settings.entities.adorn]
+				seat = true
+
 			[light_sources.settings.entities.ae2]
 				charged_quartz = true
 				growing_crystal = true
 
 			[light_sources.settings.entities.botania]
+				pixie = true
 				mana_burst = true
 				spark = true
+				magic_missile = true
+				doppleganger = true
+				magic_landmine = true
 
 			[light_sources.settings.entities.charm]
 				moobloom = true
@@ -159,6 +167,7 @@ mode = "fancy"
 			[light_sources.settings.entities.spectrum]
 				invisible_item_frame = true
 				shooting_star = true
+				invisible_glow_item_frame = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
