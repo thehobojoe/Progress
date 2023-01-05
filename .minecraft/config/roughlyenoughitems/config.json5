@@ -1,14 +1,19 @@
 {
 	"basics": {
 		"favorites": [
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
+			"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}",
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}"
+			"{mode:\"MORN\",type:\"roughlyenoughitems:time\"}",
+			"{mode:\"NIGHT\",type:\"roughlyenoughitems:time\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -56,15 +61,17 @@
 		"overlayVisible": true,
 		"cheatingStyle": "GRAB",
 		"motion": {
-			"favoritesAnimation": false
+			"favoritesAnimation": true
 		}
 	},
 	"advanced": {
 		"filtering": {
 			"shouldFilterDisplays": true,
 			"filteringRules": [
-				"{id:\"roughlyenoughitems:manual\",rule:{}}"
+				"{id:\"roughlyenoughitems:manual\",rule:{}}",
+				"{id:\"roughlyenoughitems:basic\",rule:{}}"
 			],
+			"filteringQuickCraftCategories": { },
 			"filteredStacks": []
 		},
 		"enableJeiCompatibilityLayer": true,
@@ -72,7 +79,8 @@
 			// Declares whether REI should append mod names to entries.
 			"appendModNames": true,
 			// Declares whether favorites tooltip should be displayed.
-			"displayFavoritesTooltip": false
+			"displayFavoritesTooltip": false,
+			"displayIMEHints": true
 		},
 		"layout": {
 			// The ordering of the items on the entry panel.
@@ -97,7 +105,7 @@
 			// Declares whether REI should use compact tabs for categories.
 			"useCompactTabs": true,
 			// Declares whether REI should use compact tab buttons for categories.
-			"useCompactTabButtons": true
+			"useCompactTabButtons": false
 		},
 		"search": {
 			// Declares whether search time should be debugged.
@@ -106,6 +114,7 @@
 			"asyncSearch": true,
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100,
+			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
 			"tagSearch": "PREFIX",
 			"identifierSearch": "ALWAYS",
@@ -126,16 +135,16 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": true
+			"cachingFastEntryRendering": false
 		}
 	},
 	"appearance": {
 		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
-		"theme": "DARK",
+		"theme": "LIGHT",
 		"layout": {
 			// Declares the position of the search field.
-			"searchFieldLocation": "CENTER",
+			"searchFieldLocation": "BOTTOM_SIDE",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
@@ -145,18 +154,19 @@
 		"recipeBorder": "DEFAULT",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
-		"horizontalEntriesBoundaries": 1.0,
+		"horizontalEntriesBoundaries": 0.75,
 		"verticalEntriesBoundaries": 1.0,
-		"horizontalEntriesBoundariesColumns": 50,
+		"horizontalEntriesBoundariesColumns": 10,
 		"verticalEntriesBoundariesRows": 1000,
-		"favoritesHorizontalEntriesBoundaries": 1.0,
-		"favoritesHorizontalEntriesBoundariesColumns": 50,
+		"favoritesHorizontalEntriesBoundaries": 0.75,
+		"favoritesHorizontalEntriesBoundariesColumns": 8,
 		"syntaxHighlightingMode": "COLORFUL",
 		"isFocusModeZoomed": false
 	},
 	"functionality": {
+		"inputMethod": null,
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": true,
+		"disableRecipeBook": false,
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.

@@ -9,7 +9,7 @@
 #Refills your hotbar from your inventory.
 "AutoRestock Enabled" = true
 #Unlocks all vanilla recipes.
-"AutomaticRecipeUnlock Enabled" = true
+"AutomaticRecipeUnlock Enabled" = false
 #Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
 "AzaleaWood Enabled" = true
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
@@ -17,6 +17,7 @@
 #Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
 "BeaconsHealMobs Enabled" = true
 #Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
+#Disabling will leave villagers of the profession in an unemployed state with decrepit data.
 "Beekeepers Enabled" = true
 #Ender pearl storage. A silverfish will be converted to an endermite upon touching an ender pearl block.
 #Eating a chorus fruit will teleport you to the nearest ender pearl block.
@@ -51,16 +52,18 @@
 "CoralSquids Enabled" = true
 #Playing a music disc in a jukebox prevents background music from playing at the same time.
 "DiscsStopBackgroundMusic Enabled" = true
+#Ebony is a very dark grey wood. Saplings can be found in Ancient City and Woodland Mansion chests.
+"EbonyWood Enabled" = true
 #Right-click on a sign with an empty hand to edit its text.
 "EditableSigns Enabled" = true
 #Endermites drop endermite powder that can be used to locate an End City.
 "EndermitePowder Enabled" = true
-#Adds crimson and warped wood boats.
-"ExtraBoats Enabled" = true
 #Adds custom recipes.
 "ExtraRecipes Enabled" = true
 #Adds more villager trades.
 "ExtraTrades Enabled" = true
+#Adds Charm items as trades for the Wandering Trader.
+"ExtraWanderingTrades Enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 #The player must pay a cost (in xp levels) to extract enchantments from the item.
 "ExtractEnchantments Enabled" = true
@@ -91,6 +94,7 @@
 #Use a noteblock while sneaking to lower its pitch by one semitone.
 "LowerNoteblockPitch Enabled" = true
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
+#Disabling will leave villagers of the profession in an unemployed state with decrepit data.
 "Lumberjacks Enabled" = true
 #A map's image is shown in the item tooltip when hovering over.
 "MapTooltip Enabled" = true
@@ -99,6 +103,9 @@
 "Mooblooms Enabled" = true
 #Crying obsidian can be used in the construction of nether portal frames.
 "MorePortalFrames Enabled" = true
+#Disables the 'Chat messages can't be verified' nag when the server does not enforce secure profile.
+#This is a controversial module and so is disabled by default.
+"NoChatVerifiedNag Enabled" = false
 #Removes trampling of farmland and crops.
 "NoCropTrampling Enabled" = true
 #Removes the trade discount applied when a villager is cured from zombification.
@@ -150,6 +157,8 @@
 "ShulkerBoxDragDrop Enabled" = true
 #A shulker box's contents is shown in the item tooltip when hovering over.
 "ShulkerBoxTooltip Enabled" = true
+#Smooth Glowstone
+"SmoothGlowstone Enabled" = true
 #Increases snow layers when snowing in cold biomes
 "SnowAccumulation Enabled" = true
 #Allows enchanted books to stack.
@@ -164,9 +173,9 @@
 "StraysSpawnUnderground Enabled" = true
 #Anvils are 50% less likely to take damage when used.
 "StrongerAnvils Enabled" = true
-#The player's inventory items will be held in the Totem of Preserving upon death.
-#By default, a new totem will always be spawned to hold items upon dying in Easy or Peaceful mode ('Grave mode').
-#In Normal and Hard mode, the player must be holding an empty Totem of Preserving in order for it to hold items upon death.
+#The player's inventory items will be preserved in the Totem of Preserving upon death.
+#By default, a new totem will always be spawned to preserve items upon dying ('Grave mode').
+#If Grave mode is not enabled, you must be holding a totem in order for it to preserve your items.
 "TotemOfPreserving Enabled" = true
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
 "TotemWorksFromInventory Enabled" = true
@@ -188,8 +197,6 @@
 "VariantMobTextures Enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
 "VillagersFollowEmeraldBlocks Enabled" = true
-#Wandering traders have a chance to sell maps to distant structures.
-"WanderingTraderMaps Enabled" = true
 #Iron rusts when in contact with water.
 "WeatheringIron Enabled" = true
 #A witch has a chance to drop a Potion of Luck when killed by a player.
@@ -234,6 +241,8 @@
 	Facing = true
 	#If true, shows the player's XYZ coordinates.
 	Co-ordinates = true
+	#If true, shows the player's biome.
+	Biome = true
 	#If true, only show the player's X and Z coordinates (not their height/depth).
 	"Only show X and Z" = false
 	#If true, only show the compass overlay if the player is sneaking.
@@ -333,10 +342,6 @@
 	#If true, a player or mob will trample crops unless wearing boots with feather falling enchantment.
 	"Require feather falling" = false
 
-[PlayerState]
-	#Interval (in ticks) on which additional player state will be synchronised to the client.
-	"Server state update interval" = 120
-
 [PortableCrafting]
 	#If true, sets a keybind for opening the portable crafting table (defaults to 'v').
 	"Enable keybind" = true
@@ -387,14 +392,16 @@
 	"Maximum drops" = 2
 
 [TotemOfPreserving]
-	#A list of game difficulties in which totems will behave in 'Grave mode'.
-	#In Grave mode, a totem will be dropped on death even if the player doesn't have an empty totem in their inventory.
-	"Grave mode game difficulties" = ["peaceful", "easy", "normal", "hard"]
+	#If true, a new totem will be spawned to preserve items upon dying.
+	#Players do NOT need to be holding a Totem of Preserving.
+	"Grave mode" = true
+	#If true, only the owner of the totem may pick it up.
+	"Owner only" = false
 	#Mobs that have a chance to drop a totem of preserving.
-	#This does not apply if Grave mode is active for the current game difficulty. See 'Grave mode game difficulties' to configure this.
+	#This does not apply if Grave mode is true.
 	"Mobs drop totems" = ["entities/witch", "entities/pillager"]
 	#Chest loot tables that will always contain a totem of preserving.
-	#This does not apply if Grave mode is active for the current game difficulty. See 'Grave mode game difficulties' to configure this.
+	#This does not apply if Grave mode is true.
 	"Chests contain totems" = ["chests/pillager_outpost", "chests/woodland_mansion"]
 	#If true, the totem will preserve the player's experience and restore when broken.
 	"Preserve XP" = false
@@ -406,6 +413,8 @@
 	"Variant cows" = true
 	#If true, chickens may spawn with different textures.
 	"Variant chickens" = true
+	#If true, dolphins may spawn with different textures.
+	"Variant dolphins" = true
 	#If true, pigs may spawn with different textures.
 	"Variant pigs" = true
 	#If true, sheep face and 'shorn' textures match their wool color.
@@ -414,19 +423,16 @@
 	"Variant snow golems" = true
 	#If true, squids may spawn with different textures.
 	"Variant squids" = true
+	#If true, turtles may spawn with different textures.
+	"Variant turtles" = true
 	#If true, wolves may spawn with different textures.
 	"Variant wolves" = true
+	#If true, wandering traders may spawn with different textures.
+	"Variant wandering traders" = true
 	#If true, all animals have a chance to spawn as a rare variant.
 	"Rare variants" = true
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
 	"Rarity of rare variants" = 1000
-
-[WanderingTraderMaps]
-	#List of structure IDs and structure tags.
-	Structures = ["#minecraft:village", "#minecraft:mineshaft", "minecraft:swamp_hut", "minecraft:igloo"]
-	#List of rarer structure IDs and structure tags.
-	#These are more expensive and less likely to be sold.
-	"Rare structures" = ["minecraft:desert_pyramid", "minecraft:jungle_temple", "#minecraft:ocean_ruin"]
 
 [WeatheringIron]
 	#The chance of weathering increases according to the number of block faces touching water.

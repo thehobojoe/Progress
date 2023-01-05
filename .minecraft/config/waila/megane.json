@@ -1,5 +1,5 @@
 {
-  "configVersion": 3,
+  "configVersion": 4,
   "inventory": {
     "enabled": true,
     "itemCount": true,
@@ -21,15 +21,11 @@
     "expandWhenSneak": false,
     "colors": {
       "megane": 7408640,
-      "alloy_forgery": 15684178,
-      "extragenerators": 7408640,
-      "ae2": 6556063
+      "indrev": 3885790
     },
     "units": {
       "megane": "E",
-      "alloy_forgery": "",
-      "extragenerators": "E",
-      "ae2": "AE"
+      "indrev": "LF"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -38,12 +34,6 @@
   "fluid": {
     "enabled": true,
     "expandWhenSneak": false,
-    "colors": {
-      "megane:default": 855385,
-      "minecraft:water": 4159204,
-      "minecraft:lava": 13916690,
-      "milk:still_milk": 855385
-    },
     "blacklist": []
   },
   "progress": {

@@ -4,177 +4,117 @@ mode = "fancy"
 
 # Light sources settings.
 [light_sources]
-	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
-	water_sensitive_check = true
-	# Enable block entities light source.
-	block_entities = true
 	# Enable entities light source.
 	entities = true
-	# TNT lighting mode. May be off, simple or fancy.
-	tnt = "off"
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
 	# Creeper lighting mode. May be off, simple or fancy.
 	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
 
 	[light_sources.settings]
 
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				panda = true
-				bee = true
-				axolotl = true
-				egg = true
-				arrow = true
-				cow = true
-				magma_cube = true
-				pig = true
-				skeleton = true
-				llama = true
-				bat = true
-				husk = true
-				hoglin = true
-				experience_bottle = true
-				rabbit = true
-				silverfish = true
-				firework_rocket = true
-				armor_stand = true
-				drowned = true
-				experience_orb = true
-				dolphin = true
-				item = true
-				stray = true
-				turtle = true
-				shulker = true
-				salmon = true
-				wither_skeleton = true
-				vex = true
-				wandering_trader = true
-				piglin_brute = true
-				goat = true
-				ocelot = true
-				item_frame = true
-				horse = true
-				vindicator = true
-				phantom = true
-				minecart = true
-				ender_dragon = true
-				leash_knot = true
-				evoker = true
-				spectral_arrow = true
-				glow_squid = true
 				glow_item_frame = false
-				squid = true
-				shulker_bullet = true
-				parrot = true
-				creeper = true
-				lightning_bolt = true
-				enderman = true
-				dragon_fireball = true
+				player = true
+				sheep = true
+				cow = true
+				horse = true
 				chicken = true
-				ravager = true
-				trader_llama = true
+				bee = true
+				turtle = true
+				glow_squid = true
+				bat = true
+				squid = true
+				zombie = true
+				skeleton = true
+				cave_spider = true
+				creeper = true
+				spider = true
+				salmon = true
+				pig = true
+				item = true
 				donkey = true
+				axolotl = true
+				zombie_villager = true
+				ocelot = true
+				enderman = true
+				tropical_fish = true
+				drowned = true
+				cod = true
+				dolphin = true
+				parrot = true
+				witch = true
+				villager = true
+				tnt_minecart = true
 				chest_minecart = true
 				fox = true
-				tropical_fish = true
-				slime = true
+				goat = true
+				armor_stand = true
+				wolf = true
+				rabbit = true
 				pillager = true
 				iron_golem = true
-				zombified_piglin = true
-				area_effect_cloud = true
-				piglin = true
-				blaze = true
-				endermite = true
 				cat = true
-				zombie = true
-				ender_pearl = true
-				guardian = true
-				ghast = true
-				sheep = true
-				fireball = true
-				player = true
-				pufferfish = true
-				potion = true
-				trident = true
-				eye_of_ender = true
-				wither_skull = true
-				wolf = true
-				villager = true
-				skeleton_horse = true
-				zombie_villager = true
-				tnt_minecart = true
-				elder_guardian = true
-				boat = true
-				small_fireball = true
-				strider = true
-				polar_bear = true
 				painting = true
-				cave_spider = true
-				witch = true
-				cod = true
-				snow_golem = true
-				spider = true
-				wither = true
-
-			[light_sources.settings.entities.crabmod]
-				crab = true
-
-			[light_sources.settings.entities.farmingforblockheads]
-				merchant = true
+				vindicator = true
+				slime = true
+				polar_bear = true
+				stray = true
+				llama = true
+				evoker = true
+				item_frame = true
+				arrow = true
+				husk = true
+				illusioner = true
+				wither_skeleton = true
+				frog = true
+				pufferfish = true
+				allay = true
+				hoglin = true
+				phantom = true
+				wandering_trader = true
+				trader_llama = true
+				llama_spit = true
 
 			[light_sources.settings.entities.creeperoverhaul]
-				snowy_creeper = true
-				bamboo_creeper = true
-				badlands_creeper = true
-				desert_creeper = true
+				cave_creeper = true
 				dripstone_creeper = true
 				jungle_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
-				spruce_creeper = true
+				dark_oak_creeper = true
+				bamboo_creeper = true
 				hills_creeper = true
+				snowy_creeper = true
+				spruce_creeper = true
+				savannah_creeper = true
+				desert_creeper = true
+				beach_creeper = true
+				swamp_creeper = true
+				badlands_creeper = true
 
-			[light_sources.settings.entities.transportables]
-				chest_carriage = true
+			[light_sources.settings.entities.wondrouswilds]
+				firefly = true
+				woodpecker = true
 
 			[light_sources.settings.entities.lovely_snails]
 				snail = true
 
-			[light_sources.settings.entities.adorn]
-				seat = true
-
-			[light_sources.settings.entities.ae2]
-				charged_quartz = true
-				growing_crystal = true
-
-			[light_sources.settings.entities.botania]
-				pixie = true
-				mana_burst = true
-				spark = true
-				magic_missile = true
-				doppleganger = true
-				magic_landmine = true
-
 			[light_sources.settings.entities.charm]
 				moobloom = true
-				chair = true
-				coral_squid = true
-
-			[light_sources.settings.entities.aqupd]
-				grizzly_bear = true
-
-			[light_sources.settings.entities.spectrum]
-				invisible_item_frame = true
-				shooting_star = true
-				invisible_glow_item_frame = true
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
-				gantry_contraption = true
-				potato_projectile = true
 
-			[light_sources.settings.entities.betterend]
-				shadow_walker = true
-				silk_moth = true
+			[light_sources.settings.entities.farmingforblockheads]
+				merchant = true
+
+			[light_sources.settings.entities.reaping]
+				reaping_pillager = true
 

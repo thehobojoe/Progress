@@ -78,6 +78,9 @@
     "patterns": {
       "export-path": "./chiselsandbits/patterns"
     },
+    "warnings": {
+      "show-cool-down-error": false
+    },
     "invert-pick-block-behaviour": false
   },
   "performance": {

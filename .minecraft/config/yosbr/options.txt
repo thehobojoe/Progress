@@ -1,7 +1,0 @@
-version:2975
-renderDistance:24
-simulationDistance:12
-entityDistanceScaling:1.0
-enableVsync:false
-resourcePacks:["vanilla","Fabric Mods","charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","lambdabettergrass/default"]
-incompatibleResourcePacks:["cullleaves/smartleaves"]

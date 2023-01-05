@@ -5,3 +5,4 @@ isOptIn = true
 rollFlintChance = true
 [client]
 isEnabled = true
+activation = "ALWAYS"

@@ -2,17 +2,6 @@
 	/* 
 	   
 	   ***********************
-	   Teleporters
-	    * disable check and place player
-	    possibly in middle of an ocean on
-	    a stone block.
-	    * be sure to be carrying a boat!
-	   ***********************
-	*/
-	"enableOceanCheck": true,
-	/* 
-	   
-	   ***********************
 	   Extra Overworld Deepslate Ores
 	    (Also affects the Mining, Climbing, & Caving Dims)
 	   ***********************

@@ -1,3 +1,0 @@
-key.lightoverlay.enable_overlay
-key.journeymap.zoom_out
-key.journeymap.zoom_in
