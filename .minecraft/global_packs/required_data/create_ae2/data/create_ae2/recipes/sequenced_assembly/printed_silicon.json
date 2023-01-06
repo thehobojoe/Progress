@@ -1,0 +1,70 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "ae2"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:silicon"
+  },
+  "transitionalItem": {
+    "item": "minecraft:iron_ingot"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "ae2:silicon_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:silicon_press",
+      "count": 2,
+      "chance": 100
+    }
+  ],
+  "loops": 1
+}

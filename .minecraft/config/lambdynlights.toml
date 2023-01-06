@@ -83,6 +83,10 @@ mode = "fancy"
 				wandering_trader = true
 				trader_llama = true
 				llama_spit = true
+				experience_orb = true
+				panda = true
+				boat = true
+				lightning_bolt = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true

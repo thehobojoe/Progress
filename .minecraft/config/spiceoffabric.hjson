@@ -60,13 +60,13 @@
 		// Default health in vanilla is 20 but that may change through mods like Origins.
 		// The resulting value will be floored before use.
 		// default: 0.6 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)
-		health-formula: 0.6 * baseHealth + max(floor(log2(uniqueFoodsEaten)), 0)
+		health-formula: baseHealth + max(floor((log2(uniqueFoodsEaten) - 2) * 2) , 0)
 		// Specifies the maximum number of health points (half hearts) a player can get to through carrot mode.
 		// When 0, carrot mode is effectively disabled. (Why would you do this? :P)
 		// When -1, you can gain a basically infinite amount of hearts.
 		// default: -1
 		// 	Must be inclusively between -1 and 200
-		max-health: 4
+		max-health: 20
 	}
 	// Settings concerning the items of this mod.
 	// 

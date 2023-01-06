@@ -35,3 +35,7 @@ mmc-pack.json
 .minecraft/mods/OpenTerrainGenerator/worlds
 .minecraft/realms_persistence.json
 /.minecraft/pfmUpdateInfo.json
+/.minecraft/toomanybinds_favorites.txt
+/.minecraft/toomanybinds_history.txt
+/.minecraft/options.amecsapi.txt
+/.minecraft/irisUpdateInfo.json

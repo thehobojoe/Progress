@@ -1,0 +1,27 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "indrev:indrev": {
+      "viewedEntries": [
+        "indrev:machines/factories",
+        "indrev:transportation/fluid_pipes",
+        "indrev:transportation/servos",
+        "indrev:tools/screwdriver",
+        "indrev:enhanced_ore_processing/quadrupling",
+        "indrev:machines/basic_machines"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "forgero:forgero_guide": {
+      "viewedEntries": [
+        "forgero:intro/getting_started_entry",
+        "forgero:intro/getting_started_easy_parts",
+        "forgero:intro/getting_started_schematics_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
