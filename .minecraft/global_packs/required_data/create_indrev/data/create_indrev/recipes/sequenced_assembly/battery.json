@@ -1,0 +1,93 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "indrev"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:copper_plates"
+  },
+  "transitionalItem": {
+    "item": "create:copper_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        },
+        {
+          "item": "indrev:nikolite_dust",
+          "count": 2
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:battery",
+      "count": 1,
+      "chance": 100
+    }
+  ],
+  "loops": 1
+}
