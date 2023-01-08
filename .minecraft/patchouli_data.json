@@ -9,7 +9,8 @@
         "indrev:transportation/servos",
         "indrev:tools/screwdriver",
         "indrev:enhanced_ore_processing/quadrupling",
-        "indrev:machines/basic_machines"
+        "indrev:machines/basic_machines",
+        "indrev:machines/generators"
       ],
       "bookmarks": [],
       "completedManualQuests": []

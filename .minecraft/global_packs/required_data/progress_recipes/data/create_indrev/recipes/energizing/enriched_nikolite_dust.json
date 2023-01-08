@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "indrev:diamond_dust"
+	},
+	{
+	  "item": "indrev:nikolite_dust"
+	}
+  ],
+  "energy": 50000,
+  "result": {
+	"item": "indrev:enriched_nikolite_dust",
+	"count": 1
+  }
+}

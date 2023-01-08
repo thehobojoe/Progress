@@ -1,0 +1,57 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "indrev",
+         "powah"
+       ]
+     }
+   ],
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+    "key":
+    {
+        "D":
+        {
+            "item": "powah:dialectric_casing"
+        },
+        "N":
+        {
+            "item": "indrev:nikolite_ingot"
+        },
+        "C":
+        {
+            "item": "indrev:circuit_mk1"
+        },
+        "W":
+        {
+            "item": "create:cogwheel"
+        },
+        "G":
+        {
+            "tag": "c:gold_plates"
+        },
+        "P":
+        {
+            "item": "ae2:engineering_processor"
+        },
+        "I":
+        {
+            "tag": "c:iron_plates"
+        }
+    },
+    "pattern":
+    [
+        " GPG ",
+        "IWNWI",
+        "INDNI",
+        "IWNWI",
+        " GCG "
+    ],
+    "result":
+    {
+        "count": 1,
+        "item": "indrev:machine_block"
+    }
+}

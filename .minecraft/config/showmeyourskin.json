@@ -4,7 +4,11 @@
   "fadeOutTime": 2.0,
   "global": {
     "pieces": {
-      "CHEST": {
+      "LEGS": {
+        "transparency": 100,
+        "enchantGlint": false
+      },
+      "HEAD": {
         "transparency": 100,
         "enchantGlint": false
       },
@@ -12,11 +16,7 @@
         "transparency": 100,
         "enchantGlint": false
       },
-      "LEGS": {
-        "transparency": 100,
-        "enchantGlint": false
-      },
-      "HEAD": {
+      "CHEST": {
         "transparency": 100,
         "enchantGlint": false
       }
@@ -29,7 +29,11 @@
   "overrides": {
     "0d103788-333d-484d-a403-c8b684ec541c": {
       "pieces": {
-        "CHEST": {
+        "LEGS": {
+          "transparency": 100,
+          "enchantGlint": true
+        },
+        "HEAD": {
           "transparency": 100,
           "enchantGlint": true
         },
@@ -37,11 +41,7 @@
           "transparency": 100,
           "enchantGlint": true
         },
-        "LEGS": {
-          "transparency": 100,
-          "enchantGlint": true
-        },
-        "HEAD": {
+        "CHEST": {
           "transparency": 100,
           "enchantGlint": true
         }
