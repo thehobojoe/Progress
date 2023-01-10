@@ -10,7 +10,10 @@
         "indrev:tools/screwdriver",
         "indrev:enhanced_ore_processing/quadrupling",
         "indrev:machines/basic_machines",
-        "indrev:machines/generators"
+        "indrev:machines/generators",
+        "indrev:machines/rancher",
+        "indrev:machines/farmer",
+        "indrev:machines/fisher"
       ],
       "bookmarks": [],
       "completedManualQuests": []

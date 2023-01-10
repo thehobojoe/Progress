@@ -22,6 +22,9 @@ craftingTable.remove(<item:indrev:solar_generator_mk1>);
 craftingTable.remove(<item:indrev:solar_generator_mk3>);
 craftingTable.removeByRegex("powah:crafting.*magmator_.+");
 craftingTable.removeByRegex("powah:crafting.*thermo_generator_.+");
+craftingTable.removeByRegex("powah:crafting.*chopper_.+");
+craftingTable.removeByRegex("powah:crafting.*farmer_.+");
+craftingTable.removeByRegex("powah:crafting.*slaughter_.+");
 
 
 

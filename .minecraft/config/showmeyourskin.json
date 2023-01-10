@@ -8,11 +8,11 @@
         "transparency": 100,
         "enchantGlint": false
       },
-      "HEAD": {
+      "FEET": {
         "transparency": 100,
         "enchantGlint": false
       },
-      "FEET": {
+      "HEAD": {
         "transparency": 100,
         "enchantGlint": false
       },
@@ -33,11 +33,11 @@
           "transparency": 100,
           "enchantGlint": true
         },
-        "HEAD": {
+        "FEET": {
           "transparency": 100,
           "enchantGlint": true
         },
-        "FEET": {
+        "HEAD": {
           "transparency": 100,
           "enchantGlint": true
         },
