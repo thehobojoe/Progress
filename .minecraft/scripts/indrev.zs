@@ -17,7 +17,6 @@ val steel_plate = <tag:items:c:steel_plates>;
 val gold_plate = <tag:items:c:gold_plates>;
 val tungsten_plate = <tag:items:c:tungsten_plates>;
 
-
 val battery = <item:indrev:battery>;
 
 val circuit_mk1 = <item:indrev:circuit_mk1>;
@@ -45,6 +44,10 @@ val trapdoor = <item:minecraft:iron_trapdoor>;
 val fan = <item:indrev:fan>;
 
 // upgrades
+craftingTable.remove(<item:indrev:tier_upgrade_mk2>);
+craftingTable.remove(<item:indrev:tier_upgrade_mk3>);
+craftingTable.remove(<item:indrev:tier_upgrade_mk4>);
+
 craftingTable.addShaped("mk2_upgrade", <item:indrev:tier_upgrade_mk2>, [
 	[empty, 		brass_plate, 	empty],
 	[brass_plate, 	circuit_mk2, 	brass_plate],
@@ -67,6 +70,20 @@ craftingTable.addShaped("flux_cell_mk1", flux_cell_mk1, [
 
 
 // machines
+craftingTable.remove(<item:indrev:electric_furnace_mk1>);
+craftingTable.remove(<item:indrev:pulverizer_mk1>);
+craftingTable.remove(<item:indrev:compressor_mk1>);
+craftingTable.remove(<item:indrev:compressor_factory_mk4>);
+craftingTable.remove(<item:indrev:solid_infuser_mk1>);
+craftingTable.remove(<item:indrev:sawmill_mk1>);
+craftingTable.remove(<item:indrev:smelter_mk4>);
+craftingTable.remove(<item:indrev:condenser_mk4>);
+craftingTable.remove(<item:indrev:mining_rig_mk4>);
+craftingTable.remove(<item:indrev:drill_bottom>);
+craftingTable.remove(fisher_basic);
+craftingTable.remove(fisher_imp);
+craftingTable.remove(fisher_adv);
+
 craftingTable.addShaped("furnace_mk1", <item:indrev:electric_furnace_mk1>, [
 	[furnace, 		circuit_mk1, 	furnace],
 	[brass_plate, 	machine_block, 	brass_plate],
@@ -137,6 +154,11 @@ craftingTable.addShaped("fisher_adv", fisher_adv, [
 
 
 // factory pieces
+craftingTable.remove(fan);
+craftingTable.remove(<item:indrev:controller>);
+craftingTable.remove(<item:indrev:duct>);
+craftingTable.remove(<item:indrev:intake>);
+
 craftingTable.addShaped("fan", fan, [
 	[empty, 		iron_plate, 	empty],
 	[iron_plate, 	empty, 			iron_plate],
@@ -163,6 +185,11 @@ val stone_drill = <item:indrev:stone_drill_head>;
 val iron_drill = <item:indrev:iron_drill_head>;
 val diamond_drill = <item:indrev:diamond_drill_head>;
 
+craftingTable.remove(<item:indrev:mining_drill_mk1>);
+craftingTable.remove(<item:indrev:mining_drill_mk2>);
+craftingTable.remove(<item:indrev:mining_drill_mk3>);
+craftingTable.remove(<item:indrev:mining_drill_mk4>);
+
 craftingTable.addShaped("mining_drill_mk1", <item:indrev:mining_drill_mk1>, [
 	[nikolite_dust, stone_drill, 	nikolite_dust],
 	[copper_plate, 	circuit_mk1, 	copper_plate],
@@ -186,6 +213,12 @@ craftingTable.addShaped("mining_drill_mk4", <item:indrev:mining_drill_mk4>, [
 
 // modules etc
 val bucket_coolant = <item:indrev:coolant_bucket>;
+
+craftingTable.remove(<item:indrev:empty_enhancer>);
+craftingTable.remove(<item:indrev:cooler_cell>);
+craftingTable.remove(<item:indrev:energy_reader>);
+craftingTable.remove(<item:indrev:heatsink>);
+
 craftingTable.addShaped("empty_enhancer", <item:indrev:empty_enhancer>, [
 	[iron_plate, 	iron_plate, empty],
 	[iron_plate, 	iron_plate, empty],

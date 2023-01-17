@@ -1,0 +1,93 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "indrev",
+         "powah"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:gold_plates"
+  },
+  "transitionalItem": {
+    "item": "create:golden_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        },
+        {
+          "item": "indrev:nikolite_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        },
+        {
+          "tag": "c:copper_plates"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        },
+        {
+          "item": "powah:capacitor_basic"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:circuit_mk1",
+      "count": 1,
+      "chance": 100
+    }
+  ],
+  "loops": 1
+}

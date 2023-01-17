@@ -26,6 +26,23 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_first_launch/your_first_rocket",
+        "ad_astra:the_first_launch/basic_materials",
+        "ad_astra:the_first_launch/oxygen",
+        "ad_astra:the_first_launch/fuel",
+        "ad_astra:the_first_launch/preparing_to_launch",
+        "ad_astra:the_first_launch/the_moon",
+        "ad_astra:the_moon/space_station",
+        "ad_astra:the_moon/solar_panel",
+        "ad_astra:the_moon/rover",
+        "ad_astra:the_moon/oxygen_distributor",
+        "ad_astra:the_moon/cables"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }
