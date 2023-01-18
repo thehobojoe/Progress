@@ -39,8 +39,7 @@
           "item": "create:copper_sheet"
         },
         {
-          "item": "indrev:nikolite_dust",
-          "count": 2
+          "item": "powah:capacitor_basic"
         }
       ],
       "results": [
@@ -50,7 +49,23 @@
       ],
       "keepHeldItem": false
     },
-    
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:copper_sheet"
+        },
+        {
+          "item": "indrev:nikolite_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "keepHeldItem": false
+    },
     {
       "type": "create:deploying",
       "ingredients": [

@@ -25,9 +25,9 @@ val circuit_mk3 = <item:indrev:circuit_mk3>;
 val circuit_mk4 = <item:indrev:circuit_mk4>;
 
 val flux_cell_mk1 = <item:indrev:lazuli_flux_container_mk1>;
-val flux_cell_mk2 = <item:indrev:lazuli_flux_container_mk1>;
-val flux_cell_mk3 = <item:indrev:lazuli_flux_container_mk1>;
-val flux_cell_mk4 = <item:indrev:lazuli_flux_container_mk1>;
+val flux_cell_mk2 = <item:indrev:lazuli_flux_container_mk2>;
+val flux_cell_mk3 = <item:indrev:lazuli_flux_container_mk3>;
+val flux_cell_mk4 = <item:indrev:lazuli_flux_container_mk4>;
 
 val fisher_basic = <item:indrev:fisher_mk2>;
 val fisher_imp = <item:indrev:fisher_mk3>;
@@ -67,6 +67,10 @@ craftingTable.addShaped("flux_cell_mk1", flux_cell_mk1, [
 	[brass_plate, 	circuit_mk1, 		brass_plate],
 	[battery, 		dielectric_casing, 	battery],
 	[nikolite_dust, battery, 			nikolite_dust]]);
+flux_cell_mk1.addTooltip("Energy cell, a battery to store power");
+flux_cell_mk2.addTooltip("Energy cell, a battery to store power");
+flux_cell_mk3.addTooltip("Energy cell, a battery to store power");
+flux_cell_mk4.addTooltip("Energy cell, a battery to store power");
 
 
 // machines

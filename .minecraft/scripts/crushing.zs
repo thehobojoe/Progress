@@ -31,6 +31,6 @@ var coal_dust = <item:indrev:coal_dust>;
 var diamond = <item:minecraft:diamond>;
 var diamond_dust = <item:indrev:diamond_dust>;
 
-addCreateCrushing("crush_coal_dust", coal, [coal_dust, coal_dust % 25, diamond_dust % 0.5]);
+addCreateCrushing("crush_coal_dust", coal, [coal_dust, coal_dust % 15, diamond_dust % 0.5]);
 addCreateCrushing("crush_diamond_dust", diamond, [diamond_dust, diamond_dust % 5]);
 
