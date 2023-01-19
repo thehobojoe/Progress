@@ -13,7 +13,9 @@
         "indrev:machines/generators",
         "indrev:machines/rancher",
         "indrev:machines/farmer",
-        "indrev:machines/fisher"
+        "indrev:machines/fisher",
+        "indrev:enhanced_ore_processing/doubling",
+        "indrev:enhanced_ore_processing/tripling"
       ],
       "bookmarks": [],
       "completedManualQuests": []

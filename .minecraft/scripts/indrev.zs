@@ -4,11 +4,17 @@ val flint = <item:minecraft:flint>;
 val glass = <item:minecraft:glass>;
 val packed_ice = <item:minecraft:packed_ice>;
 val redstone_dust = <item:minecraft:redstone>;
+val bucket = <item:minecraft:bucket>;
 
 val nikolite_ingot = <item:indrev:nikolite_ingot>;
 val nikolite_dust = <item:indrev:nikolite_dust>;
 val enriched_nikolite_ingot = <item:indrev:enriched_nikolite_ingot>;
 val enriched_nikolite_dust = <item:indrev:enriched_nikolite_dust>;
+
+val desh_ingot = <item:ad_astra:desh_ingot>;
+val desh_plate = <item:ad_astra:desh_plate>;
+val ostrum_ingot = <item:ad_astra:ostrum_ingot>;
+val ostrum_plate = <item:ad_astra:ostrum_plate>;
 
 val iron_plate = <tag:items:c:iron_plates>;
 val copper_plate = <tag:items:c:copper_plates>;
@@ -54,14 +60,14 @@ craftingTable.addShaped("mk2_upgrade", <item:indrev:tier_upgrade_mk2>, [
 	[nikolite_ingot, brass_plate, 	nikolite_ingot]]);
 
 craftingTable.addShaped("mk3_upgrade", <item:indrev:tier_upgrade_mk3>, [
-	[empty, 		gold_plate, 	empty],
-	[gold_plate, 	circuit_mk3, 	gold_plate],
-	[enriched_nikolite_dust, gold_plate, 	enriched_nikolite_dust]]);
+	[empty, 					desh_plate, 	empty],
+	[desh_plate, 				circuit_mk3, 	desh_plate],
+	[enriched_nikolite_dust, 	desh_plate, 	enriched_nikolite_dust]]);
 
 craftingTable.addShaped("mk4_upgrade", <item:indrev:tier_upgrade_mk4>, [
-	[empty, 					tungsten_plate, 	empty],
-	[tungsten_plate, 			circuit_mk4, 		tungsten_plate],
-	[enriched_nikolite_ingot, 	tungsten_plate, 	enriched_nikolite_ingot]]);
+	[empty, 					ostrum_plate, 	empty],
+	[ostrum_plate, 				circuit_mk4, 	ostrum_plate],
+	[enriched_nikolite_ingot, 	ostrum_plate, 	enriched_nikolite_ingot]]);
 
 craftingTable.addShaped("flux_cell_mk1", flux_cell_mk1, [
 	[brass_plate, 	circuit_mk1, 		brass_plate],
@@ -127,6 +133,11 @@ craftingTable.addShaped("condenser_mk4", <item:indrev:condenser_mk4>, [
 	[packed_ice, 	circuit_mk4, 	packed_ice],
 	[copper_plate, 	machine_block, 	copper_plate],
 	[copper_plate, 	battery, 		copper_plate]]);
+
+craftingTable.addShaped("fluid_infuser_mk1", <item:indrev:fluid_infuser_mk1>, [
+	[bucket, 		circuit_mk1, 	bucket],
+	[ostrum_plate, 	machine_block, 	ostrum_plate],
+	[ostrum_plate, 	battery, 		ostrum_plate]]);
 
 craftingTable.addShaped("mining_computer", <item:indrev:mining_rig_mk4>, [
 	[netherite_drill, 	circuit_mk4, 	netherite_drill],

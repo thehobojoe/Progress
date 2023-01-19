@@ -22,6 +22,7 @@ craftingTable.removeByRegex("indrev:shaped.*tin_.+");
 craftingTable.removeByRegex("indrev:shaped.*silver_.+");
 craftingTable.removeByRegex("indrev:shaped.*bronze_.+");
 craftingTable.removeByRegex("indrev:shaped.*lead_.+");
+craftingTable.removeByRegex("indrev:shaped.*servo_.+");
 
 // generators
 craftingTable.remove(<item:indrev:coal_generator_mk1>);
@@ -34,6 +35,21 @@ craftingTable.removeByRegex("powah:crafting.*solar_panel_.+");
 craftingTable.removeByRegex("powah:crafting.*chopper_.+");
 craftingTable.removeByRegex("powah:crafting.*farmer_.+");
 craftingTable.removeByRegex("powah:crafting.*slaughter_.+");
+craftingTable.removeByRegex("powah:crafting.*ender_cell_.+");
+craftingTable.removeByRegex("powah:crafting.*energy_cell_.+");
+craftingTable.removeByRegex("powah:crafting.*energy_cable_.+");
+craftingTable.removeByRegex("powah:crafting.*energy_gate_.+");
+
+craftingTable.remove(<item:ae2:controller>);
+craftingTable.removeByRegex("ae2:network.*energy_vibration_chamber");
+
+
+craftingTable.remove(<item:ad_astra:compressor>);
+craftingTable.remove(<item:ad_astra:coal_generator>);
+craftingTable.removeByRegex("ad_astra:hammering.*_plate");
+
+
+
 
 
 

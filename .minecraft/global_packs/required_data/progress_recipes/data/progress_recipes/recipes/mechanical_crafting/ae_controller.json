@@ -4,7 +4,8 @@
        "condition": "fabric:all_mods_loaded",
        "values": [
          "indrev",
-         "powah"
+         "powah",
+         "ae2"
        ]
      }
    ],
@@ -12,21 +13,21 @@
   "acceptMirrored": false,
     "key":
     {
-        "D":
+        "F":
         {
-            "item": "powah:dielectric_casing"
+            "item": "ae2:fluix_crystal"
         },
-        "N":
+        "S":
         {
-            "item": "indrev:nikolite_ingot"
+            "item": "ae2:smooth_sky_stone_block"
         },
         "C":
         {
-            "item": "indrev:circuit_mk1"
+            "item": "indrev:circuit_mk2"
         },
-        "W":
+        "D":
         {
-            "item": "create:cogwheel"
+            "item": "ad_astra:desh_plate"
         },
         "G":
         {
@@ -36,22 +37,22 @@
         {
             "item": "ae2:engineering_processor"
         },
-        "I":
+        "N":
         {
-            "tag": "c:desh_plates"
+            "item": "indrev:nikolite_ingot"
         }
     },
     "pattern":
     [
-        " GPG ",
-        "IWNWI",
-        "INDNI",
-        "IWNWI",
-        " GCG "
+        " DND ",
+        "GSCSG",
+        "NFPFN",
+        "GSCSG",
+        " DND "
     ],
     "result":
     {
         "count": 1,
-        "item": "indrev:machine_block"
+        "item": "ae2:controller"
     }
 }
