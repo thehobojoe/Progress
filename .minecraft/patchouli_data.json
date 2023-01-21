@@ -10,7 +10,12 @@
         "indrev:tools/screwdriver",
         "indrev:enhanced_ore_processing/quadrupling",
         "indrev:machines/basic_machines",
-        "indrev:machines/generators"
+        "indrev:machines/generators",
+        "indrev:machines/rancher",
+        "indrev:machines/farmer",
+        "indrev:machines/fisher",
+        "indrev:enhanced_ore_processing/doubling",
+        "indrev:enhanced_ore_processing/tripling"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -20,6 +25,23 @@
         "forgero:intro/getting_started_entry",
         "forgero:intro/getting_started_easy_parts",
         "forgero:intro/getting_started_schematics_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_first_launch/your_first_rocket",
+        "ad_astra:the_first_launch/basic_materials",
+        "ad_astra:the_first_launch/oxygen",
+        "ad_astra:the_first_launch/fuel",
+        "ad_astra:the_first_launch/preparing_to_launch",
+        "ad_astra:the_first_launch/the_moon",
+        "ad_astra:the_moon/space_station",
+        "ad_astra:the_moon/solar_panel",
+        "ad_astra:the_moon/rover",
+        "ad_astra:the_moon/oxygen_distributor",
+        "ad_astra:the_moon/cables"
       ],
       "bookmarks": [],
       "completedManualQuests": []

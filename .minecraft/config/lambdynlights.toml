@@ -87,6 +87,7 @@ mode = "fancy"
 				panda = true
 				boat = true
 				lightning_bolt = true
+				skeleton_horse = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -121,4 +122,10 @@ mode = "fancy"
 
 			[light_sources.settings.entities.reaping]
 				reaping_pillager = true
+
+			[light_sources.settings.entities.ad_astra]
+				tier_1_rocket = true
+				lander = true
+				lunarian = true
+				corrupted_lunarian = true
 

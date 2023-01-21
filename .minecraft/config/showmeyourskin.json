@@ -4,11 +4,11 @@
   "fadeOutTime": 2.0,
   "global": {
     "pieces": {
-      "LEGS": {
+      "HEAD": {
         "transparency": 100,
         "enchantGlint": false
       },
-      "HEAD": {
+      "LEGS": {
         "transparency": 100,
         "enchantGlint": false
       },
@@ -29,11 +29,11 @@
   "overrides": {
     "0d103788-333d-484d-a403-c8b684ec541c": {
       "pieces": {
-        "LEGS": {
+        "HEAD": {
           "transparency": 100,
           "enchantGlint": true
         },
-        "HEAD": {
+        "LEGS": {
           "transparency": 100,
           "enchantGlint": true
         },
