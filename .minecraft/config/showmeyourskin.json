@@ -8,11 +8,11 @@
         "transparency": 100,
         "enchantGlint": false
       },
-      "LEGS": {
+      "FEET": {
         "transparency": 100,
         "enchantGlint": false
       },
-      "FEET": {
+      "LEGS": {
         "transparency": 100,
         "enchantGlint": false
       },
@@ -33,11 +33,11 @@
           "transparency": 100,
           "enchantGlint": true
         },
-        "LEGS": {
+        "FEET": {
           "transparency": 100,
           "enchantGlint": true
         },
-        "FEET": {
+        "LEGS": {
           "transparency": 100,
           "enchantGlint": true
         },

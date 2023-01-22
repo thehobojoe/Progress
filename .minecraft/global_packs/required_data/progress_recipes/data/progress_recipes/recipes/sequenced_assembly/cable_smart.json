@@ -9,17 +9,17 @@
    ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "ae2:fluix_covered_dense_cable"
+    "item": "ae2:fluix_glass_cable"
   },
   "transitionalItem": {
-    "item": "ae2:fluix_covered_dense_cable"
+    "item": "ae2:fluix_glass_cable"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
         },
         {
           "tag": "c:dusts/redstone"
@@ -27,7 +27,7 @@
       ],
       "results": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
         }
       ],
       "keepHeldItem": false
@@ -36,7 +36,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
         },
         {
           "tag": "c:dusts/glowstone"
@@ -44,7 +44,24 @@
       ],
       "results": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
+        }
+      ],
+      "keepHeldItem": false
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:fluix_glass_cable"
+        },
+        {
+          "tag": "c:wools"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:fluix_glass_cable"
         }
       ],
       "keepHeldItem": false
@@ -53,22 +70,22 @@
       "type": "create:cutting",
       "ingredients": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
         }
       ],
       "results": [
         {
-          "item": "ae2:fluix_covered_dense_cable"
+          "item": "ae2:fluix_glass_cable"
         }
       ]
     }
   ],
   "results": [
     {
-      "item": "ae2:fluix_smart_dense_cable",
+      "item": "ae2:fluix_smart_cable",
       "chance": 100,
-      "count": 3
+      "count": 2
     }
   ],
-  "loops": 2
+  "loops": 1
 }

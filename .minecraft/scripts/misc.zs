@@ -1,13 +1,19 @@
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 
+val empty = <item:minecraft:air>;
+
 val stick = <item:minecraft:stick>;
 val air = <item:minecraft:air>;
 val planks = <tag:items:minecraft:planks>;
 val iron_ingot = <item:minecraft:iron_ingot>;
+val glass = <item:minecraft:glass>;
 val diamond = <item:minecraft:diamond>;
 val ender_eye = <item:minecraft:ender_eye>;
 val blaze_rod = <item:minecraft:blaze_rod>;
 val deepslate = <item:minecraft:deepslate>;
+
+val steel_plate = <tag:items:c:steel_plates>;
+val brass_plate = <tag:items:c:brass_plates>;
 
 
 furnace.addRecipe("fleshtoleather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 2.0, 100);
@@ -85,3 +91,15 @@ craftingTable.addShaped("nether_chest_alt", <item:netherchest:nether_chest>, [
 	[nether_bricks, nether_bricks, nether_bricks],
 	[nether_bricks, <item:minecraft:blaze_rod>, nether_bricks],
 	[nether_bricks, nether_bricks, nether_bricks]]);
+
+craftingTable.remove(<item:moderndynamics:item_pipe>);
+craftingTable.addShaped("item_pipe", <item:moderndynamics:item_pipe> * 4, [
+	[steel_plate, glass, steel_plate],
+	[empty, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:moderndynamics:fluid_pipe>);
+craftingTable.addShaped("fluid_pipe", <item:moderndynamics:fluid_pipe> * 4, [
+	[brass_plate, glass, brass_plate],
+	[empty, empty, empty],
+	[empty, empty, empty]]);

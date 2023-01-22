@@ -20,29 +20,3 @@ val proc_diamond = <item:ae2:engineering_processor>;
 ////////////////////////////
 //  Alternate AE Recipes  //
 ////////////////////////////
-
-
-//circuit recipes
-craftingTable.addShaped("proc_gold_alt",
-    proc_gold,
-   [[redstone, silicon, redstone],
-	[  iron,    gold,     iron 	],
-	[redstone, silicon, redstone]]);
-
-
-craftingTable.addShaped("proc_diamond_alt",
-    proc_diamond,
-   [[redstone, silicon, redstone],
-	[  iron,   diamond,   iron 	],
-	[redstone, silicon, redstone]]);
-
-
-craftingTable.addShaped("proc_quartz_alt",
-    proc_quartz,
-   [[redstone, silicon, redstone],
-	[ iron, charged_quartz, iron],
-	[redstone, silicon, redstone]]);
-
-
-//fluix crystal
-craftingTable.addShapeless("fluix_crystal_alt", fluix_dust * 2, [charged_quartz, nether_quartz, redstone]);

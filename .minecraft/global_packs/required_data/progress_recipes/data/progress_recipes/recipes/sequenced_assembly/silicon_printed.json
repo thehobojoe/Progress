@@ -9,49 +9,62 @@
    ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "ae2:quartz_fiber"
+    "tag": "c:silicon"
   },
   "transitionalItem": {
-    "item": "ae2:quartz_fiber"
+    "item": "ae2:silicon"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:quartz_fiber"
+          "item": "ae2:silicon"
         },
         {
-          "tag": "ae2:all_fluix"
+          "item": "ae2:engineering_processor_press"
         }
       ],
       "results": [
         {
-          "item": "ae2:quartz_fiber"
+          "item": "ae2:silicon"
         }
       ],
-      "keepHeldItem": false
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon"
+        }
+      ]
     },
     {
       "type": "create:cutting",
       "ingredients": [
         {
-          "item": "ae2:quartz_fiber"
+          "item": "ae2:silicon"
         }
       ],
       "results": [
         {
-          "item": "ae2:quartz_fiber"
+          "item": "ae2:silicon"
         }
       ]
     }
   ],
   "results": [
     {
-      "item": "ae2:fluix_glass_cable",
-      "chance": 100,
-      "count": 6
+      "item": "ae2:printed_silicon",
+      "count": 2,
+      "chance": 100
     }
   ],
-  "loops": 2
+  "loops": 1
 }

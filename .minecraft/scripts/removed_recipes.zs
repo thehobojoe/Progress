@@ -47,6 +47,8 @@ craftingTable.removeByRegex("ae2:network.*energy_vibration_chamber");
 craftingTable.remove(<item:ad_astra:compressor>);
 craftingTable.remove(<item:ad_astra:coal_generator>);
 craftingTable.removeByRegex("ad_astra:hammering.*_plate");
+<recipetype:ad_astra:compressing>.removeAll();
+<recipetype:minecraft:blasting>.removeByName("ad_astra:recipes/steel_ingot_from_blasting_iron_ingot");
 
 
 
