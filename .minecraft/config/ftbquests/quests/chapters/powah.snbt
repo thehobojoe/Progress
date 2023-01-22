@@ -1,0 +1,12 @@
+{
+	id: "7BD22FB4EFAACB9B"
+	group: "1256593D4F9EDDA4"
+	order_index: 3
+	filename: "powah"
+	title: "Powah!"
+	icon: "powah:capacitor_nitro"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

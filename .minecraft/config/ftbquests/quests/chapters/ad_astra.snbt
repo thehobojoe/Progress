@@ -1,0 +1,411 @@
+{
+	id: "42C95648B77D58B9"
+	group: "1256593D4F9EDDA4"
+	order_index: 2
+	filename: "ad_astra"
+	title: "Ad Astra!"
+	icon: {
+		id: "ad_astra:tier_4_rocket"
+		Count: 1b
+		tag: {
+			BotariumData: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["It's time to escape to the one place untouched by capitalism.\\n\\nAd Astra adds a number of planets, accessible by building stronger and stronger rockets. Get ready to strip the solar system bare of its resources."]
+			id: "5BD713537CF69D5E"
+			tasks: [{
+				id: "66B3109BBB956DAD"
+				type: "gamestage"
+				icon: "ad_astra:earth_globe"
+				stage: "Ad Astra Ready"
+			}]
+		}
+		{
+			icon: "ad_astra:moon_globe"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "That miner came from the moon"
+			id: "4728A77657E316B3"
+			tasks: [{
+				id: "07743C4F6BE39CFE"
+				type: "dimension"
+				title: "Visit the Moon"
+				dimension: "ad_astra:moon"
+			}]
+		}
+		{
+			icon: "ad_astra:mars_globe"
+			x: 0.0d
+			y: -11.0d
+			subtitle: "Mars for the privileged, Earth for the poor"
+			id: "70C7D5EF3CA4E209"
+			tasks: [{
+				id: "53A50FBB1A0D2600"
+				type: "dimension"
+				title: "Get your ass to Mars!"
+				dimension: "ad_astra:mars"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "487DDA68A6AA5DCE"
+			tasks: [{
+				id: "5D285C8453BD20A1"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			id: "0E0282D900E66680"
+			tasks: [
+				{
+					id: "51934ACBF343E5B8"
+					type: "item"
+					item: {
+						id: "ad_astra:tier_1_rocket"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "041768CB9A09BCA7"
+					type: "item"
+					item: "ad_astra:launch_pad"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "2D7ABA19FEE26AB7"
+			tasks: [{
+				id: "113B53CCD36DE76B"
+				type: "item"
+				item: "ad_astra:oxygen_loader"
+			}]
+		}
+		{
+			title: "Space Suit"
+			x: 1.0d
+			y: -1.0d
+			id: "7E94F9945E2215BA"
+			tasks: [
+				{
+					id: "0A868EE215625D9D"
+					type: "item"
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "1FD5C9214E44C373"
+					type: "item"
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "60D0C6317B26DACB"
+					type: "item"
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "280012DE3911AEEA"
+					type: "item"
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			id: "42A7DC289BE2BBCC"
+			tasks: [{
+				id: "1019DEC3D8175ECA"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			id: "760F0751DCA1E33C"
+			tasks: [{
+				id: "3A554332F8E614B8"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -12.0d
+			id: "36A88E0D45948214"
+			tasks: [
+				{
+					id: "1F07E7BA90D8889D"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "7FD79A290531C303"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "05D7E996571CC7C3"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "07177F4D6B52561E"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			id: "2AE5FD4226AD4F6B"
+			tasks: [{
+				id: "3632D4984BBEF271"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "14D6371296E81AFC"
+			tasks: [{
+				id: "25F5C4BAD5954A81"
+				type: "item"
+				item: "ad_astra:fuel_refinery"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			id: "4564DD5A2EECDA26"
+			tasks: [{
+				id: "42401FE4212038DA"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -12.0d
+			id: "1746E9EDC7F606EB"
+			tasks: [{
+				id: "14C023F750A30E5E"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -13.5d
+			id: "6420A672FF8CBFAA"
+			tasks: [{
+				id: "219B739848CBBA92"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Visit Mercury"
+			icon: "ad_astra:mercury_globe"
+			x: -0.5d
+			y: -17.0d
+			subtitle: "Say hi to Brother Vance for me"
+			id: "367D56639A00478D"
+			tasks: [{
+				id: "1AA46C122C370C75"
+				type: "dimension"
+				dimension: "ad_astra:mercury"
+			}]
+		}
+		{
+			title: "Visit Venus"
+			icon: "ad_astra:venus_globe"
+			x: 0.5d
+			y: -17.0d
+			id: "3B93DD7600533140"
+			tasks: [{
+				id: "052E41388DD0109C"
+				type: "dimension"
+				dimension: "ad_astra:venus"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -18.0d
+			id: "39AE785A32849C40"
+			tasks: [{
+				id: "593E11124C39A6F3"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+			}]
+		}
+		{
+			title: "Visit Glacio"
+			icon: "ad_astra:glacio_globe"
+			x: 0.0d
+			y: -23.5d
+			id: "5D9073D2113457CA"
+			tasks: [{
+				id: "110181FBBCD833F5"
+				type: "dimension"
+				dimension: "ad_astra:glacio"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -18.0d
+			id: "5BB5B5A9C77A2F54"
+			tasks: [
+				{
+					id: "192538E38691F2C1"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "69B1F7CAB4794099"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "4F09660275F1B5B7"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "5FB76C7EB2A53738"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -19.5d
+			id: "731F89822692DB14"
+			tasks: [{
+				id: "340135CB1EFE11D8"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

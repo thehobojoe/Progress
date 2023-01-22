@@ -1,7 +1,7 @@
 {
 	id: "47E0A634BAA76F34"
-	group: ""
-	order_index: 3
+	group: "6999621D5415A73F"
+	order_index: 0
 	filename: "mastery"
 	title: "Shitsco Inc. Certification"
 	icon: "minecraft:totem_of_undying"
@@ -13,6 +13,7 @@
 			icon: "create:flywheel"
 			x: -0.5d
 			y: -1.5d
+			shape: "gear"
 			description: ["It's time to really flex your mastery of Create's systems!"]
 			dependencies: ["230EA6192C7D02AE"]
 			id: "4ED2D4E232C36C5C"
@@ -86,6 +87,7 @@
 			title: "Master Botanist"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "0CC295EADE5FC267"
 			tasks: [{
@@ -201,6 +203,7 @@
 			title: "Master Chef"
 			x: -0.5d
 			y: 1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "75A334AC292F0BBF"
 			tasks: [{
@@ -215,6 +218,7 @@
 			icon: "indrev:modular_core_activated"
 			x: -3.5d
 			y: 1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "2CF4D8163AE42CEF"
 			tasks: [{
@@ -295,6 +299,7 @@
 			title: "Master Artist"
 			x: -4.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "58B5FA58B08EB991"
 			tasks: [{
@@ -361,6 +366,7 @@
 			title: "Powerful Provider"
 			x: -3.5d
 			y: -1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "5346C42716A6646A"
 			tasks: [{
@@ -407,6 +413,7 @@
 			title: "Master Admin"
 			x: -2.0d
 			y: -2.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "7CF85D5A401DBE4E"
 			tasks: [{
@@ -453,6 +460,7 @@
 			title: "Proven Hero"
 			x: -2.0d
 			y: 2.0d
+			shape: "gear"
 			description: ["This is a vanilla advancement requiring you to hunt all 34 hostile mobs."]
 			dependencies: ["230EA6192C7D02AE"]
 			id: "68E2CDD0954DD8C8"
