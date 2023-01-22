@@ -1,0 +1,19 @@
+{
+	id: "00FAD25DAB04D810"
+	group: "72E35E94B31A2F67"
+	order_index: 1
+	filename: "applied_energistics"
+	title: "Applied Energistics"
+	icon: {
+		id: "ae2:dense_energy_cell"
+		Count: 1b
+		tag: {
+			internalCurrentPower: 1600000.0d
+			internalMaxPower: 1600000.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

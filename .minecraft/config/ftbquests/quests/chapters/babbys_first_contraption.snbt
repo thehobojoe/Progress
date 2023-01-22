@@ -1,7 +1,7 @@
 {
 	id: "5D6491DEB0AD2786"
-	group: ""
-	order_index: 2
+	group: "1256593D4F9EDDA4"
+	order_index: 0
 	filename: "babbys_first_contraption"
 	title: "Babby's first contraption"
 	icon: "create:water_wheel"
@@ -1150,6 +1150,7 @@
 			icon: "create:flywheel"
 			x: 16.5d
 			y: -2.0d
+			shape: "gear"
 			subtitle: "I have Created"
 			description: ["You did it!"]
 			dependencies: [
@@ -1177,6 +1178,52 @@
 					xp_levels: 5
 				}
 			]
+		}
+		{
+			title: "Gears Spinning..."
+			icon: "indrev:enriched_nikolite_dust"
+			x: 8.5d
+			y: -3.5d
+			shape: "octagon"
+			description: ["All these spinning cogs really get the gears spinning in your head too. Maybe there's a better way to do things than with machinery bigger than you are...?\\n\\nIndustrial Revolution is now accessible!"]
+			dependencies: ["1DA6287751314C5F"]
+			id: "2749D6D9CC8E95F3"
+			tasks: [{
+				id: "0BEDBDE82F98CBB6"
+				type: "checkmark"
+				title: "Gears Spinning..."
+			}]
+			rewards: [{
+				id: "6D97D1A78E164956"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
+			}]
+		}
+		{
+			icon: "ad_astra:earth_globe"
+			x: 8.5d
+			y: -5.0d
+			shape: "octagon"
+			subtitle: "To the moon!"
+			description: ["It sounds preposterous, but after holding these big wheels in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
+			dependencies: ["3CE7CEF9229FB953"]
+			id: "27E0594DB6E9316A"
+			tasks: [{
+				id: "2A11E7F67BDEE5B2"
+				type: "checkmark"
+				title: "Dreams of the Stars"
+			}]
+			rewards: [{
+				id: "26FE3A3F49379444"
+				type: "gamestage"
+				icon: "ad_astra:earth_globe"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Ad Astra Ready"
+			}]
 		}
 	]
 	quest_links: [ ]
