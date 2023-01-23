@@ -47,7 +47,8 @@
 					id: "minecraft:leather_helmet"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_helmet"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -66,8 +67,7 @@
 								Name: "{\"text\":\"Shitsco Inc. Novelty Hat\"}"
 							}
 						}
-						id: "minecraft:leather_helmet"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -125,7 +125,8 @@
 					id: "minecraft:leather_chestplate"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_chestplate"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -145,8 +146,7 @@
 							}
 							selected: { }
 						}
-						id: "minecraft:leather_chestplate"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -173,7 +173,8 @@
 					id: "minecraft:leather_leggings"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_leggings"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -193,8 +194,7 @@
 							}
 							selected: { }
 						}
-						id: "minecraft:leather_leggings"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -229,8 +229,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}
@@ -253,8 +253,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}
@@ -270,7 +270,8 @@
 					id: "minecraft:leather_boots"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_boots"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -289,8 +290,7 @@
 								Name: "{\"text\":\"Shitsco Inc. Novelty Boots\"}"
 							}
 						}
-						id: "minecraft:leather_boots"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -331,7 +331,6 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:red_banner"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Banner\"}"
@@ -358,6 +357,7 @@
 								]
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -399,12 +399,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:red_bed"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Novelty Bed\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -446,12 +446,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:painting"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Signed Photo of Walter\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -493,12 +493,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:diamond_horse_armor"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Novelty Horse Cladding\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]

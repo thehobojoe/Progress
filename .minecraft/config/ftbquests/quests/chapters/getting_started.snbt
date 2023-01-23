@@ -56,7 +56,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["You're going to need a few of these"]
+			description: ["You're going to need a few of these."]
 			dependencies: ["21DEFE184F5E6DF8"]
 			id: "533C62494A7C1B3D"
 			tasks: [{
@@ -69,6 +69,143 @@
 				type: "item"
 				item: "expandedstorage:iron_chest"
 				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			subtitle: "Gear up"
+			description: ["It's dangerous out there, if you're not starving to death you're probably getting blown up"]
+			dependencies: [
+				"5D5D581F1A55EDC3"
+				"533C62494A7C1B3D"
+			]
+			id: "458C9745CF092969"
+			tasks: [
+				{
+					id: "4723560BD8359F4E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75DB5DE3E1A69F66"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6646EB2299E1DBC4"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43B6BE3F40575DC6"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "686E9D779CDC95A2"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4AF1C92FEA1FD433"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 48
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Getting hungry"
+			description: ["If you're not getting blown up, you're probably starving. You're going to need a varied food source"]
+			dependencies: [
+				"533C62494A7C1B3D"
+				"5D5D581F1A55EDC3"
+			]
+			id: "54A3FEC9DA82CC3B"
+			tasks: [{
+				id: "4486279441FB4B09"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "683BC416BAD2812C"
+					type: "item"
+					item: "minecraft:potato"
+					count: 5
+				}
+				{
+					id: "641EC6187BFADA35"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C76DF641DCDF2B0"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "I hope you figured this out on your own"
+			description: ["You have more quests now"]
+			dependencies: [
+				"5D5D581F1A55EDC3"
+				"533C62494A7C1B3D"
+			]
+			id: "2E2A435413B98D94"
+			tasks: [{
+				id: "137AB3DC44C6D505"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "260904B116E4BE83"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
 			}]
 		}
 	]
