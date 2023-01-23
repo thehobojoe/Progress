@@ -7,8 +7,6 @@
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
-			"{data:{Count:1b,id:\"powah:steel_energized\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"indrev:condenser_mk4\",tag:{},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
 		],
 		"hiddenFavorites": [],
