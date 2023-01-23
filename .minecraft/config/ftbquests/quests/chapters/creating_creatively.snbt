@@ -14,7 +14,7 @@
 			y: -2.0d
 			subtitle: "Darn, I like the funnel"
 			description: ["Now that you have some rotational power, we can use that to move items around for early automation.\\nBelts move items on top of them and will generally move things onto depots, basins, or other belts, but to be able to move items in or out of most containers, you want a funnel.\\n\\nAlso worth noting-- belts are smart about not overflowing, and if you place some machinery on top of a belt (like the Mechanical Press), the items will wait for the machine to operate on it before continuing.\\n\\nAs always, Ponder these items for more thorough visual examples."]
-			dependencies: ["5D8A7258D40CAC95"]
+			dependencies: ["5E7B0AFE76B9C023"]
 			id: "73CCFE4A980FB92E"
 			tasks: [
 				{
@@ -751,36 +751,13 @@
 			}]
 		}
 		{
-			title: "Gears Spinning..."
-			icon: "indrev:enriched_nikolite_dust"
-			x: 1.0d
-			y: -2.5d
-			shape: "octagon"
-			description: ["All these spinning cogs really get the gears spinning in your head too. Maybe there's a better way to do things than with machinery bigger than you are...?\\n\\nIndustrial Revolution is now accessible!"]
-			dependencies: ["1DA6287751314C5F"]
-			id: "2749D6D9CC8E95F3"
-			tasks: [{
-				id: "0BEDBDE82F98CBB6"
-				type: "checkmark"
-				title: "Gears Spinning..."
-			}]
-			rewards: [{
-				id: "6D97D1A78E164956"
-				type: "gamestage"
-				icon: "indrev:enriched_nikolite_dust"
-				auto: "invisible"
-				ignore_reward_blocking: true
-				stage: "Indrev Ready"
-			}]
-		}
-		{
 			icon: "ad_astra:earth_globe"
-			x: 1.0d
-			y: -4.0d
+			x: 2.5d
+			y: -7.0d
 			shape: "octagon"
 			subtitle: "To the moon!"
-			description: ["It sounds preposterous, but after holding these big wheels in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
-			dependencies: ["3CE7CEF9229FB953"]
+			description: ["It sounds preposterous, but after holding your first batch of steel in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
+			dependencies: ["63A62BA6A5B8B5C5"]
 			id: "27E0594DB6E9316A"
 			tasks: [{
 				id: "2A11E7F67BDEE5B2"
@@ -1092,6 +1069,20 @@
 				type: "item"
 				item: "indrev:steel_dust"
 				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			subtitle: "Babby's Second Contraption"
+			description: ["Ready to start making some serious Rube Goldberg machines?\\nLet's begin."]
+			id: "5E7B0AFE76B9C023"
+			tasks: [{
+				id: "059D09B7D74EF073"
+				type: "gamestage"
+				title: "Junior Engineer"
+				icon: "create:brass_encased_large_cogwheel"
+				stage: "Junior Engineer"
 			}]
 		}
 	]

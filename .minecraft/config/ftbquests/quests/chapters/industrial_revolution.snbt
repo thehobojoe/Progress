@@ -12,7 +12,6 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
-			dependencies: ["2749D6D9CC8E95F3"]
 			hide: true
 			id: "7A7BF548B60ADCE1"
 			tasks: [{
@@ -28,6 +27,7 @@
 			y: 0.0d
 			subtitle: "Oddly familiar"
 			description: ["You'll find nikolite fairly deep underground. Gather a lot of it-- it has many industrial applications."]
+			dependencies: ["7A7BF548B60ADCE1"]
 			id: "18697B037C9C90D5"
 			tasks: [{
 				id: "70152A379DFEE968"
@@ -692,8 +692,8 @@
 				Count: 1b
 				tag: {
 					selected: { }
-					Progress: 1.0f
 					energy: 10000L
+					Progress: 1.0f
 					Damage: 0
 					Active: 1b
 				}
@@ -718,8 +718,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						Progress: 1.0f
 						energy: 10000L
+						Progress: 1.0f
 						Damage: 0
 						Active: 1b
 					}

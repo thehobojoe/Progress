@@ -1,0 +1,33 @@
+{
+    "type": "create:mixing",
+    "ingredients":
+    [
+        {
+            "tag": "c:coal"
+        },
+        {
+            "tag": "c:coal"
+        },
+        {
+            "tag": "c:coal"
+        },
+		{
+			"item": "minecraft:clay_ball"
+		},
+		{
+			"item": "minecraft:clay_ball"
+		},
+		{
+			"fluid": "minecraft:lava",
+			"nbt": {},
+			"amount": 81000
+		}
+    ],
+    "results":
+    [
+        {
+            "item": "powah:dielectric_paste",
+            "count": 24
+        }
+    ]
+}
