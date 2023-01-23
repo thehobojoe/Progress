@@ -197,8 +197,10 @@
 			}]
 		}
 		{
+			icon: "create:brass_encased_large_cogwheel"
 			x: 2.0d
 			y: -3.0d
+			shape: "octagon"
 			subtitle: "Time to start the next chapter"
 			dependencies: ["110D70A2388AF8C5"]
 			id: "5D8A7258D40CAC95"
@@ -206,6 +208,15 @@
 				id: "2E7B9447FC035D03"
 				type: "checkmark"
 				title: "Ready to learn more?"
+			}]
+			rewards: [{
+				id: "40736A11FF6E83B0"
+				type: "gamestage"
+				title: "Junior Engineer"
+				icon: "create:brass_encased_large_cogwheel"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Advanced Create Ready"
 			}]
 		}
 	]
