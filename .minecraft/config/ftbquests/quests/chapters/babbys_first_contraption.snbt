@@ -208,27 +208,6 @@
 				title: "Ready to learn more?"
 			}]
 		}
-		{
-			title: "Steel"
-			x: 10.0d
-			y: -6.5d
-			subtitle: "Steel thyself"
-			description: ["With the power of our crushing wheels, we can turn even the mightiest materials into dust.\\nCombined with our blaze burner, we can now make some strong metals to improve the workshop. Try making steel with coal and iron."]
-			dependencies: ["3CE7CEF9229FB953"]
-			id: "63A62BA6A5B8B5C5"
-			tasks: [{
-				id: "1643324BA78331A1"
-				type: "item"
-				item: "indrev:steel_dust"
-				count: 8L
-			}]
-			rewards: [{
-				id: "5921A45D3CBA858F"
-				type: "item"
-				item: "indrev:steel_dust"
-				count: 4
-			}]
-		}
 	]
 	quest_links: [ ]
 }
