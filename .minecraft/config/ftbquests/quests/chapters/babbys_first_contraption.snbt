@@ -1180,36 +1180,13 @@
 			]
 		}
 		{
-			title: "Gears Spinning..."
-			icon: "indrev:enriched_nikolite_dust"
-			x: 8.5d
-			y: -3.5d
-			shape: "octagon"
-			description: ["All these spinning cogs really get the gears spinning in your head too. Maybe there's a better way to do things than with machinery bigger than you are...?\\n\\nIndustrial Revolution is now accessible!"]
-			dependencies: ["1DA6287751314C5F"]
-			id: "2749D6D9CC8E95F3"
-			tasks: [{
-				id: "0BEDBDE82F98CBB6"
-				type: "checkmark"
-				title: "Gears Spinning..."
-			}]
-			rewards: [{
-				id: "6D97D1A78E164956"
-				type: "gamestage"
-				icon: "indrev:enriched_nikolite_dust"
-				auto: "invisible"
-				ignore_reward_blocking: true
-				stage: "Indrev Ready"
-			}]
-		}
-		{
 			icon: "ad_astra:earth_globe"
 			x: 8.5d
-			y: -5.0d
+			y: -6.5d
 			shape: "octagon"
 			subtitle: "To the moon!"
-			description: ["It sounds preposterous, but after holding these big wheels in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
-			dependencies: ["3CE7CEF9229FB953"]
+			description: ["It sounds preposterous, but after holding your first batch of steel in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
+			dependencies: ["63A62BA6A5B8B5C5"]
 			id: "27E0594DB6E9316A"
 			tasks: [{
 				id: "2A11E7F67BDEE5B2"
@@ -1223,6 +1200,27 @@
 				auto: "invisible"
 				ignore_reward_blocking: true
 				stage: "Ad Astra Ready"
+			}]
+		}
+		{
+			title: "Steel"
+			x: 10.0d
+			y: -6.5d
+			subtitle: "Steel thyself"
+			description: ["With the power of our crushing wheels, we can turn even the mightiest materials into dust.\\nCombined with our blaze burner, we can now make some strong metals to improve the workshop. Try making steel with coal and iron."]
+			dependencies: ["3CE7CEF9229FB953"]
+			id: "63A62BA6A5B8B5C5"
+			tasks: [{
+				id: "1643324BA78331A1"
+				type: "item"
+				item: "indrev:steel_dust"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5921A45D3CBA858F"
+				type: "item"
+				item: "indrev:steel_dust"
+				count: 4
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: "7D048041070E8A25"
 	group: "1256593D4F9EDDA4"
-	order_index: 1
+	order_index: 2
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
 	icon: "indrev:lazuli_flux_container_mk4"
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create. Make sure you have a well-furnished workshop first!"]
+			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
 			id: "3FD0228D7D53A14A"
 			tasks: [{
 				id: "616F1D833AFE66E6"
@@ -247,30 +247,10 @@
 			}]
 		}
 		{
-			title: "Steel"
 			x: 7.5d
 			y: 0.0d
-			description: ["With our new infuser, we have a much better way of producing steel, using ground up coal and iron. "]
-			dependencies: ["057D0BD33BEEB0C9"]
-			id: "125E250FDEC58C8D"
-			tasks: [{
-				id: "3160D51FE5C688E7"
-				type: "item"
-				item: "indrev:steel_dust"
-				count: 2L
-			}]
-			rewards: [{
-				id: "7EB1BA5A2FE48CA0"
-				type: "item"
-				item: "indrev:steel_dust"
-				count: 4
-			}]
-		}
-		{
-			x: 9.0d
-			y: 0.0d
 			description: ["A much more convenient way to grind stuff up into other stuff. This is a much smaller replacement for those big crushing wheels!"]
-			dependencies: ["125E250FDEC58C8D"]
+			dependencies: ["057D0BD33BEEB0C9"]
 			id: "48F088A9B2CD6B88"
 			tasks: [{
 				id: "184AFFC7DDCD4F61"
@@ -280,7 +260,7 @@
 		}
 		{
 			title: "Enriched Nikolite Dust"
-			x: 10.5d
+			x: 9.0d
 			y: 0.0d
 			subtitle: "Don't breathe this"
 			description: ["Nikolite, but with extra pizzazz. Needed for tier 3 machines.\\nThe Solid Infuser lets us make this quite efficiently!"]
@@ -300,10 +280,10 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 6.0d
 			y: 1.5d
 			description: ["Time to retire another contraption. The compressor turns ingots into plates."]
-			dependencies: ["125E250FDEC58C8D"]
+			dependencies: ["6927FB52BF2DF8A3"]
 			id: "3251613C43F41CCF"
 			tasks: [{
 				id: "07D4D4E364173765"
@@ -319,7 +299,7 @@
 		}
 		{
 			title: "MK3 Circuits"
-			x: 10.5d
+			x: 9.0d
 			y: -1.5d
 			subtitle: "Middle child upgrade"
 			description: ["The latest, the greatest! Used for tier 3 machines, which is actually kind of a short list.\\nMore like a rest stop on our way to MK 4."]
@@ -339,7 +319,7 @@
 		}
 		{
 			title: "MK4 Circuits"
-			x: 12.0d
+			x: 10.5d
 			y: -1.5d
 			subtitle: "Mark for what?"
 			description: ["The final tier of circuits, far outstripping the rest. With this, a wide variety of powerful machines and gear are possible."]
@@ -358,7 +338,7 @@
 		}
 		{
 			x: 12.0d
-			y: 1.5d
+			y: 0.0d
 			subtitle: "Wet the drys"
 			description: ["The fluid infuser is similar to the solid infuser, but it mixes stuff with liquids to make other stuff.\\n\\nNotably, it can easily make coolant for making your machines run more efficiently, and also make sulfuric acid to help increase your ore yields even further."]
 			dependencies: ["3ABA576894F20950"]
@@ -367,30 +347,6 @@
 				id: "3CCF90E1711FB778"
 				type: "item"
 				item: "indrev:fluid_infuser_mk1"
-			}]
-		}
-		{
-			title: "Dreams of the Stars"
-			icon: "ad_astra:earth_globe"
-			x: 7.5d
-			y: 1.5d
-			shape: "octagon"
-			subtitle: "To the moon!"
-			description: ["Now that you have an efficient way of making steel, the stars themselves start to feel within your reach..."]
-			dependencies: ["125E250FDEC58C8D"]
-			id: "1FFADF8DA190659C"
-			tasks: [{
-				id: "4EC052C0237DB09D"
-				type: "checkmark"
-				title: "Dreams of Mars"
-			}]
-			rewards: [{
-				id: "67A7D3D514807B78"
-				type: "gamestage"
-				icon: "ad_astra:earth_globe"
-				auto: "invisible"
-				ignore_reward_blocking: true
-				stage: "Ad Astra Ready"
 			}]
 		}
 		{
@@ -414,7 +370,7 @@
 		}
 		{
 			title: "Enriched Nikolite Ingots"
-			x: 12.0d
+			x: 10.5d
 			y: 0.0d
 			description: ["Nikolite ingots, but with extra pizzazz. Needed for tier 4 machines, the final tier."]
 			dependencies: ["67AFC7706120D0AF"]
@@ -426,7 +382,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 9.0d
 			y: -3.0d
 			subtitle: "Biggerer, Badderer"
 			description: ["Just like the MK2 upgrade, slap this on to your MK2 machines to upgrade them to MK3, with all the efficiency boosts and power cost hikes that entails.\\n\\nMaking this seems to be beyond the power of terrestrial materials. Maybe the moon holds the answer?"]
@@ -445,7 +401,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.5d
 			y: -3.0d
 			description: ["The highest tier of machine upgrade. Stick one of these on a MK3 machine to upgrade it to the final tier.\\n\\nEven the moon metals don't seem to be enough to hold this kind of potential. Perhaps materials from Mars could hack it."]
 			dependencies: ["26944300C176F181"]
@@ -465,7 +421,7 @@
 		{
 			title: "Factory Upgrades"
 			icon: "indrev:electric_furnace_factory_mk4"
-			x: 12.0d
+			x: 10.5d
 			y: -4.5d
 			subtitle: "The factory shall expand to meet the needs of the factory"
 			description: ["In order to increase our throughput even further, single blocks aren't going to cut it anymore.\\n\\nMost MK4 machines can be upgraded to a Factory version, which requires a standard set of blocks to be placed around it. Once you've placed the factory machine, right click it to visualize the structure.\\n\\nNote that the orientation of the factory structure blocks matters! \\n\\nOnce up and running, our new factory machine can process five things at a time!"]
@@ -523,8 +479,8 @@
 		{
 			title: "Mining Rig"
 			icon: "indrev:mining_rig_mk4"
-			x: 13.5d
-			y: -1.5d
+			x: 12.0d
+			y: -3.0d
 			subtitle: "Mine no more"
 			description: ["In a perfect world, we would never have to mine in Minecraft.\\n\\nThe mining rig can make that possible, but ironically, requires a fair bit of mining to get set up.\\nMake the mining rig and a drill. The tier of drill head you use will affect the speed of the ore production, and higher tiers are vastly more efficient.\\n\\nWe'll talk next how to actually get rocks outta the thing."]
 			dependencies: ["26944300C176F181"]
@@ -561,8 +517,8 @@
 		}
 		{
 			title: "Programming the Mining Rig"
-			x: 15.0d
-			y: -1.5d
+			x: 13.5d
+			y: -3.0d
 			subtitle: "Gotta spend money to make money"
 			description: ["In order to get ores from the mining rig, we need to configure it. Putting an empty ore card lets us define a set of ores that card will enable the rig to produce.\\n\\n* Adding full stacks of ore enables that ore to be found, and more stacks increases the odds that ore will be generated.\\n* Adding stone will increase the number of cycles this card can be used for, without changing the yields or weights.* Enriched nikolite can be added to increase the richness of the ore veins, resulting in higher yields per cycle."]
 			dependencies: ["26C645E9855B179F"]
@@ -588,9 +544,11 @@
 		}
 		{
 			title: "Ore Tripling"
-			x: 9.0d
-			y: 3.0d
+			x: 12.0d
+			y: -1.5d
+			shape: "rsquare"
 			description: ["By smelting our ores into a liquid first, then solidifying them with a condenser, we can get purer ores, resulting in more yields per ore."]
+			dependencies: ["26944300C176F181"]
 			id: "4249C0B59801E66F"
 			tasks: [
 				{
@@ -607,8 +565,9 @@
 		}
 		{
 			title: "Ore Quadrupling"
-			x: 12.0d
-			y: 3.0d
+			x: 13.5d
+			y: -1.5d
+			shape: "rsquare"
 			description: ["Sulfuric acid can be used to quadruple our ores. Infuse each ore with a bucket of sulfuric acid first, then put it in the smelter for even more ore per ore."]
 			dependencies: [
 				"4249C0B59801E66F"
@@ -624,8 +583,8 @@
 		{
 			title: "Core of Modularity"
 			icon: "indrev:modular_core_activated"
-			x: 13.5d
-			y: 0.0d
+			x: 12.0d
+			y: 1.5d
 			subtitle: "Personality not included"
 			description: ["The Core of Modularity is a key piece of power armor and tools. Making them is dangerous-- you need to point a high-powered laser at them until they're charged.\\n\\nMake sure that if the laser is on, it's pointed at a core! Anything else is pretty dangerous.\\n\\nConsult the Indrev manual for more information. Safety not guaranteed."]
 			dependencies: ["3ABA576894F20950"]
@@ -660,8 +619,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 0.0d
+			x: 13.5d
+			y: 1.5d
 			subtitle: "With a box of scraps!"
 			description: ["You'll need a place to work on your fancy power armor. Make sure to provide it power, so you can install new modules!"]
 			dependencies: ["75C543638F76868B"]
@@ -674,8 +633,8 @@
 		}
 		{
 			title: "Modular Gear"
-			x: 16.5d
-			y: 0.0d
+			x: 15.0d
+			y: 1.5d
 			description: ["Highly customizable powerful gear. Skim through REI for the list of Modules you can plug in."]
 			dependencies: ["4209B13881B2D429"]
 			id: "3BA1640952AD4209"
@@ -737,7 +696,7 @@
 					Active: 1b
 				}
 			}
-			x: 18.0d
+			x: 15.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "I have revolved"

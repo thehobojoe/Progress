@@ -7,6 +7,93 @@
 	icon: "powah:capacitor_nitro"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["Powah! It does what it says on the tin: make power, and a lot of it! Each generator can be upgraded multiple times, increasing power yields each time. But, be aware that higher tier materials will need plenty of power to even make."]
+			id: "683E2DFF8C1ED379"
+			tasks: [{
+				id: "7658F6F2159AA5C9"
+				type: "checkmark"
+				title: "Powah!"
+			}]
+		}
+		{
+			title: "Dielectric Paste"
+			x: -1.5d
+			y: 1.5d
+			description: ["Dielectric paste is the glue that holds Powah machines together. You'll need a lot of it!\\n\\nHighly recommended to secure a source of lava, as it's much more efficient to make with lava rather than blaze powder."]
+			id: "24FD73103D4426A8"
+			tasks: [{
+				id: "2EF00D8EA10211F8"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 48L
+			}]
+			rewards: [{
+				id: "26FB1F409D286175"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+			}]
+		}
+		{
+			title: "Dielectric Casing"
+			x: -0.5d
+			y: 1.5d
+			description: ["Forms the core of just about every Powah device."]
+			id: "089B406D7B275554"
+			tasks: [{
+				id: "245FFBDFBD726AF3"
+				type: "item"
+				item: "powah:dielectric_casing"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6905C850CAA0B717"
+				type: "item"
+				item: "powah:dielectric_casing"
+				count: 2
+			}]
+		}
+		{
+			title: "Basic Capacitors"
+			x: 0.5d
+			y: 1.5d
+			description: ["Also used in just about every Powah device. When making higher tier gear, you'll upgrade these capacitors."]
+			id: "55A01B1AA0C33905"
+			tasks: [{
+				id: "4C2E454EC1A924F2"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 8L
+			}]
+			rewards: [{
+				id: "78E66903812D18D7"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 8
+			}]
+		}
+		{
+			icon: "powah:energizing_orb"
+			x: -0.5d
+			y: 3.0d
+			id: "0E7AE8D931961593"
+			tasks: [
+				{
+					id: "6C6E31692132AB15"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "0C8443C6BE726F1C"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }
