@@ -1,7 +1,7 @@
 {
 	id: "7D048041070E8A25"
 	group: "1256593D4F9EDDA4"
-	order_index: 1
+	order_index: 2
 	filename: "industrial_revolution"
 	title: "Industrial Revolution"
 	icon: "indrev:lazuli_flux_container_mk4"
@@ -12,6 +12,8 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create. Make sure you have a well-furnished workshop first!"]
+			dependencies: ["2749D6D9CC8E95F3"]
+			hide: true
 			id: "3FD0228D7D53A14A"
 			tasks: [{
 				id: "616F1D833AFE66E6"
@@ -591,6 +593,8 @@
 			x: 9.0d
 			y: 3.0d
 			description: ["By smelting our ores into a liquid first, then solidifying them with a condenser, we can get purer ores, resulting in more yields per ore."]
+			dependencies: ["4728A77657E316B3"]
+			hide: true
 			id: "4249C0B59801E66F"
 			tasks: [
 				{

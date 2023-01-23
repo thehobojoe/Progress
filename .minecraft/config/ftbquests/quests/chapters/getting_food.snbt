@@ -3,49 +3,15 @@
 	group: "1EA615118F0BB9C5"
 	order_index: 0
 	filename: "getting_food"
-	title: "Getting food"
+	title: "Getting Food"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 1.5d
-			y: 0.5d
-			description: ["Lets get things started, you're going to need a varied food source"]
-			id: "54A3FEC9DA82CC3B"
-			tasks: [{
-				id: "4486279441FB4B09"
-				type: "item"
-				item: "minecraft:wheat_seeds"
-			}]
-			rewards: [
-				{
-					id: "683BC416BAD2812C"
-					type: "item"
-					item: "minecraft:potato"
-					count: 5
-				}
-				{
-					id: "641EC6187BFADA35"
-					type: "item"
-					item: {
-						id: "minecraft:stone_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6C76DF641DCDF2B0"
-					type: "item"
-					item: "minecraft:bucket"
-				}
-			]
-		}
-		{
-			x: 1.5d
 			y: 2.0d
-			description: ["Prove that you have a green thumb"]
+			subtitle: "Prove that you have a green thumb"
+			dependencies: ["54A3FEC9DA82CC3B"]
 			id: "758C82FB6A185561"
 			tasks: [{
 				id: "6E50C38EE0D09817"
@@ -63,18 +29,158 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			description: ["Time to get a real kitchen going"]
+			subtitle: "Where are we gonna put all this food?"
+			description: ["How about the kitchen?"]
+			dependencies: [
+				"54A3FEC9DA82CC3B"
+				"758C82FB6A185561"
+			]
 			id: "3F7BDCE7A4B2A996"
 			tasks: [{
 				id: "12B28D9138551829"
 				type: "item"
 				item: "cookingforblockheads:cooking_table"
 			}]
-			rewards: [{
-				id: "35D53BE6BFA499D3"
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			subtitle: "Since when do we have plumbing?"
+			description: ["This provides an endless supply of water to your kitchen"]
+			dependencies: ["3F7BDCE7A4B2A996"]
+			id: "21A45A5B2D2F9E91"
+			tasks: [{
+				id: "1EBAA99D3BCAAD1E"
 				type: "item"
-				item: "cookingforblockheads:fridge"
+				item: "cookingforblockheads:sink"
 			}]
+			rewards: [
+				{
+					id: "0633D5DB9EF04D36"
+					type: "item"
+					item: "croptopia:soybean_seed"
+					count: 5
+				}
+				{
+					id: "7B99B9FCBF5BB782"
+					type: "item"
+					item: "croptopia:rice_seed"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "Smoking these meats"
+			dependencies: ["3F7BDCE7A4B2A996"]
+			id: "4A215F77B7B749D1"
+			tasks: [{
+				id: "5325051C31F4E51C"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "7E6BCEE692B6B19B"
+					type: "item"
+					item: "minecraft:beef"
+					count: 10
+				}
+				{
+					id: "629C81BBF789FFBE"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 10
+				}
+				{
+					id: "446E35CA38CCA93D"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			subtitle: "You don't really need this"
+			description: [
+				"But you want it, don't you?"
+				"Remember that you can make seeds from most fruits and veggies by sticking them in a crafting grid"
+			]
+			dependencies: ["3F7BDCE7A4B2A996"]
+			id: "61971AF91FE441F1"
+			tasks: [{
+				id: "02AB9B9C3C4517BF"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [
+				{
+					id: "69858DC2C1A1220E"
+					type: "item"
+					item: "croptopia:lettuce"
+					count: 10
+				}
+				{
+					id: "532EE9C55C3701EA"
+					type: "item"
+					item: "croptopia:spinach"
+					count: 10
+				}
+				{
+					id: "4466A8F2F3A1C9CE"
+					type: "item"
+					item: "croptopia:cucumber"
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "croptopia:cooking_pot"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Cooking implements"
+			description: ["Put these cooking tools on your stove, or counter, or a tool rack adjacent to any part of your kitchen, and you can use them for making food from your kitchen counter"]
+			dependencies: [
+				"4A215F77B7B749D1"
+				"21A45A5B2D2F9E91"
+				"61971AF91FE441F1"
+			]
+			id: "6466DD8423785472"
+			tasks: [
+				{
+					id: "0D4F8AF84D15DAD6"
+					type: "item"
+					item: "croptopia:cooking_pot"
+				}
+				{
+					id: "5A9F24D76C99E31B"
+					type: "item"
+					item: "croptopia:frying_pan"
+				}
+				{
+					id: "2FB1B7889F9D749E"
+					type: "item"
+					item: "croptopia:food_press"
+				}
+				{
+					id: "447A5C9C2D948A73"
+					type: "item"
+					item: "croptopia:knife"
+				}
+				{
+					id: "43C34D00A325DC18"
+					type: "item"
+					item: "croptopia:mortar_and_pestle"
+				}
+				{
+					id: "15E49A909B0444CC"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+			]
 		}
 	]
 	quest_links: [ ]
