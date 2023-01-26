@@ -25,3 +25,4 @@ function addCreateMixing(name as string, itemsIn as IIngredient[], itemOut as II
 }
 
 addCreateMixing("mix_steel_dust", [<tag:items:c:iron_dusts>, <tag:items:c:coal_dusts>], <item:indrev:steel_dust>);
+addCreateMixing("mix_nikolite_ingot", [<item:indrev:nikolite_dust>, <item:minecraft:iron_ingot>], <item:indrev:nikolite_ingot>);

@@ -34,6 +34,9 @@ mmc-pack.json
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/mods/OpenTerrainGenerator/worlds
 .minecraft/realms_persistence.json
+.minecraft/kubejs/exported
+.minecraft/kubejs/client_scripts
+.minecraft/kubejs/server_scripts
 /.minecraft/pfmUpdateInfo.json
 /.minecraft/toomanybinds_favorites.txt
 /.minecraft/toomanybinds_history.txt

@@ -12,11 +12,11 @@
         "transparency": 100,
         "enchantGlint": false
       },
-      "FEET": {
+      "CHEST": {
         "transparency": 100,
         "enchantGlint": false
       },
-      "CHEST": {
+      "FEET": {
         "transparency": 100,
         "enchantGlint": false
       }
@@ -37,11 +37,11 @@
           "transparency": 100,
           "enchantGlint": true
         },
-        "FEET": {
+        "CHEST": {
           "transparency": 100,
           "enchantGlint": true
         },
-        "CHEST": {
+        "FEET": {
           "transparency": 100,
           "enchantGlint": true
         }
