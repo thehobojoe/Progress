@@ -1,0 +1,167 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 25, 2023, 8:12:50 PM
+
+#spectrum:lagoon_rod_fishable_in
+- #minecraft:water (from Spectrum)
+- #spectrum:mud (from Spectrum)
+- #spectrum:liquid_crystal (from Spectrum)
+
+#c:fuel
+- #ad_astra:fuel (from Ad Astra!)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- ad_astra:fuel (from Ad Astra!)
+- ad_astra:flowing_fuel (from Ad Astra!)
+- ad_astra:oil (from Ad Astra!)
+- ad_astra:flowing_oil (from Ad Astra!)
+- ad_astra:cryo_fuel (from Ad Astra!)
+- ad_astra:flowing_cryo_fuel (from Ad Astra!)
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+- indrev:coolant_still (from Industrial Revolution)
+- indrev:coolant_flowing (from Industrial Revolution)
+- indrev:sulfuric_acid_still (from Industrial Revolution)
+- indrev:sulfuric_acid_flowing (from Industrial Revolution)
+- indrev:toxic_mud_still (from Industrial Revolution)
+- indrev:toxic_mud_flowing (from Industrial Revolution)
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+- xps:xp_fluid (from Xp Obelisk)
+- xps:flowing_xp (from Xp Obelisk)
+
+#createaddition:burnable_fuel_20000
+- minecraft:lava (from Create Crafts & Additions)
+- minecraft:flowing_lava (from Create Crafts & Additions)
+
+#spectrum:swimmable_fluid
+- #spectrum:liquid_crystal (from Spectrum)
+- #spectrum:mud (from Spectrum)
+- #spectrum:midnight_solution (from Spectrum)
+
+#ad_astra:oxygen
+- ad_astra:oxygen (from Ad Astra!)
+
+#ad_astra_platform:oil
+- #c:oil? (from Ad Astra!)
+- #forge:oil? (from Ad Astra!)
+
+#c:tea
+- create:flowing_tea (from Create)
+- create:tea (from Create)
+
+#c:oil
+- #ad_astra:oil (from Ad Astra!)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- indrev:molten_netherite_still (from Industrial Revolution)
+- indrev:molten_netherite_flowing (from Industrial Revolution)
+- indrev:molten_iron_still (from Industrial Revolution)
+- indrev:molten_iron_flowing (from Industrial Revolution)
+- indrev:molten_copper_still (from Industrial Revolution)
+- indrev:molten_copper_flowing (from Industrial Revolution)
+- indrev:molten_gold_still (from Industrial Revolution)
+- indrev:molten_gold_flowing (from Industrial Revolution)
+- indrev:molten_tin_still (from Industrial Revolution)
+- indrev:molten_tin_flowing (from Industrial Revolution)
+- indrev:molten_lead_still (from Industrial Revolution)
+- indrev:molten_lead_flowing (from Industrial Revolution)
+- indrev:molten_silver_still (from Industrial Revolution)
+- indrev:molten_silver_flowing (from Industrial Revolution)
+
+#create:bottomless/deny
+
+#spectrum:midnight_solution
+- spectrum:midnight_solution (from Spectrum)
+- spectrum:flowing_midnight_solution (from Spectrum)
+
+#c:honey
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+
+#ad_astra:fuel
+- ad_astra:fuel (from Ad Astra!)
+- ad_astra:flowing_fuel (from Ad Astra!)
+- #ad_astra:efficient_fuel (from Ad Astra!)
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel (from Ad Astra!)
+- ad_astra:flowing_cryo_fuel (from Ad Astra!)
+
+#create:bottomless/allow
+- minecraft:water (from Create)
+- minecraft:lava (from Create)
+
+#createaddition:burnable_fuel_4800
+- createaddition:bioethanol (from Create Crafts & Additions)
+- createaddition:flowing_bioethanol (from Create Crafts & Additions)
+
+#c:oxygen
+- #ad_astra:oxygen (from Ad Astra!)
+
+#ae2:blacklisted/annihilation_plane
+
+#spectrum:mud
+- spectrum:mud (from Spectrum)
+- spectrum:flowing_mud (from Spectrum)
+
+#c:milk
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#spectrum:molten_rod_fishable_in
+- #minecraft:water (from Spectrum)
+- #minecraft:lava (from Spectrum)
+- #spectrum:mud (from Spectrum)
+- #spectrum:liquid_crystal (from Spectrum)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)
+
+#spectrum:midnight_solution_converted
+- #spectrum:liquid_crystal (from Spectrum)
+
+#ad_astra_platform:fuel
+- #c:fuel? (from Ad Astra!)
+- #forge:fuel? (from Ad Astra!)
+
+#spectrum:bedrock_rod_fishable_in
+- #minecraft:water (from Spectrum)
+- #minecraft:lava (from Spectrum)
+- #spectrum:mud (from Spectrum)
+- #spectrum:liquid_crystal (from Spectrum)
+- #spectrum:midnight_solution (from Spectrum)
+
+#createaddition:burnable_fuel_1200
+- createaddition:seed_oil (from Create Crafts & Additions)
+- createaddition:flowing_seed_oil (from Create Crafts & Additions)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks)
+- decorative_blocks:flowing_thatch (from Decorative Blocks)
+
+#spectrum:liquid_crystal
+- spectrum:liquid_crystal (from Spectrum)
+- spectrum:flowing_liquid_crystal (from Spectrum)
+
+#c:chocolate
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+
+#ad_astra_platform:oxygen
+- #c:oxygen? (from Ad Astra!)
+- #forge:oxygen? (from Ad Astra!)
+
+#ad_astra:oil
+- ad_astra:oil (from Ad Astra!)
+- ad_astra:flowing_oil (from Ad Astra!)
+- techreborn:oil? (from Ad Astra!)
+- modern_industrialization:crude_oil? (from Ad Astra!)
+- #forge:crude_oil? (from Ad Astra!)
