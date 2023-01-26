@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "kubejs:zinc_chunk",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "kubejs:molten_zinc",
+    "amount": 9000
+  },
+  "processTime": 500
+}

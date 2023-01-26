@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "tag": "c:ostrum_ores"
+  },
+  "fluidOutput": {
+    "fluid": "kubejs:molten_ostrum",
+    "amount": 36000
+  },
+  "processTime": 600
+}

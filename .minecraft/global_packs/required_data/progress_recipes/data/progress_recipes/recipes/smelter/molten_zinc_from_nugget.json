@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "tag": "c:zinc_nuggets"
+  },
+  "fluidOutput": {
+    "fluid": "kubejs:molten_zinc",
+    "amount": 1000
+  },
+  "processTime": 600
+}

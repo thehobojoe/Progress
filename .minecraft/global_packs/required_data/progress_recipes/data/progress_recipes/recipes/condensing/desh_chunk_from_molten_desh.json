@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "kubejs:desh_chunk",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "kubejs:molten_desh",
+    "amount": 9000
+  },
+  "processTime": 500
+}
