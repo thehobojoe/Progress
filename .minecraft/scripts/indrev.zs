@@ -15,6 +15,7 @@ val desh_ingot = <item:ad_astra:desh_ingot>;
 val desh_plate = <item:ad_astra:desh_plate>;
 val ostrum_ingot = <item:ad_astra:ostrum_ingot>;
 val ostrum_plate = <item:ad_astra:ostrum_plate>;
+val ostrum_block = <item:ad_astra:ostrum_block>;
 
 val iron_plate = <tag:items:c:iron_plates>;
 val copper_plate = <tag:items:c:copper_plates>;
@@ -146,9 +147,9 @@ craftingTable.addShaped("mining_computer", <item:indrev:mining_rig_mk4>, [
 
 // TODO: make this a big shaped crafting recipe
 craftingTable.addShaped("mining_drill", <item:indrev:drill_bottom>, [
-	[steel_plate, 	tungsten_plate, 	steel_plate],
-	[steel_plate, 	tungsten_plate, 	steel_plate],
-	[empty, 		steel_plate, 		empty]]);
+	[steel_plate, 	ostrum_plate, 	steel_plate],
+	[steel_plate, 	ostrum_plate, 	steel_plate],
+	[empty, 		steel_plate, 	empty]]);
 
 
 // fisher, which is a special case for some reason
@@ -254,6 +255,10 @@ craftingTable.addShaped("heatsink", <item:indrev:heatsink>, [
 	[copper_plate, 	bucket_coolant, copper_plate],
 	[iron_plate, 	fan, 			iron_plate]]);
 
+// modules
 
-
-
+craftingTable.remove(<item:indrev:modular_core>);
+craftingTable.addShaped("modular_core", <item:indrev:modular_core>, [
+	[enriched_nikolite_ingot, 	circuit_mk4,	enriched_nikolite_ingot],
+	[tungsten_plate, 			ostrum_block,	tungsten_plate],
+	[tungsten_plate, 			circuit_mk4,	tungsten_plate]]);

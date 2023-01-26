@@ -6,6 +6,9 @@ val battery = <item:indrev:battery>;
 val dielectric_paste = <item:powah:dielectric_paste>;
 val dielectric_casing = <item:powah:dielectric_casing>;
 
+val desh_plate = <item:ad_astra:desh_plate>;
+val ostrum_plate = <item:ad_astra:ostrum_plate>;
+
 val capacitor_tiny = <item:powah:capacitor_basic_tiny>;
 val capacitor_basic = <item:powah:capacitor_basic>;
 val capacitor_large = <item:powah:capacitor_basic_large>;
@@ -70,3 +73,15 @@ craftingTable.addShaped("furnator_nitro", furnator_nitro, [
 	[crystal_nitro, 		battery, 			crystal_nitro],
 	[capacitor_nitro, 		dielectric_casing, 	capacitor_nitro],
 	[crystal_nitro, 		furnator_spirited, 	crystal_nitro]]);
+
+craftingTable.remove(<item:powah:reactor_starter>);
+craftingTable.addShaped("reactor_starter", <item:powah:reactor_starter>, [
+	[desh_plate, 		battery, 			desh_plate],
+	[capacitor_basic, 	dielectric_casing, 	capacitor_basic],
+	[desh_plate, 		capacitor_basic, 	desh_plate]]);
+
+craftingTable.remove(<item:powah:reactor_hardened>);
+craftingTable.addShaped("reactor_hardened", <item:powah:reactor_hardened>, [
+	[ostrum_plate, 			battery, 			ostrum_plate],
+	[capacitor_hardened, 	dielectric_casing, 	capacitor_hardened],
+	[ostrum_plate, 			capacitor_hardened, ostrum_plate]]);

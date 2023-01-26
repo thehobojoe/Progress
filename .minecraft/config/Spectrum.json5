@@ -16,7 +16,7 @@
 	"TopazGeodeMinFixedGenerationHeight": 82,
 	"TopazGeodeMaxBelowTopGenerationHeight": 0,
 	// Every x chunks there is a chance for a geode to generate, Moonstone geodes do not spawn in the Overworld
-	"TopazGeodeChunkChance": 7,
+	"TopazGeodeChunkChance": 8,
 	"CitrineGeodeChunkChance": 50,
 	"MoonstoneGeodeChunkChance": 45,
 	// The amount of colored tree patches to generate every X chunks
@@ -75,9 +75,9 @@
 	"InventoryInsertionEnchantmentEnabled": true,
 	"PestControlEnchantmentEnabled": true,
 	"TreasureHunterEnchantmentEnabled": true,
-	"DisarmingEnchantmentEnabled": true,
+	"DisarmingEnchantmentEnabled": false,
 	"FirstStrikeEnchantmentEnabled": true,
-	"ImprovedCriticalEnchantmentEnabled": true,
+	"ImprovedCriticalEnchantmentEnabled": false,
 	"InertiaEnchantmentEnabled": true,
 	"CloversFavorEnchantmentEnabled": true,
 	"SniperEnchantmentEnabled": true,
@@ -95,8 +95,8 @@
 	"TightGripMaxLevel": 2,
 	"BigCatchMaxLevel": 3,
 	// Exuberance increases experience gained when killing mobs. With 25% bonus XP and 5 levels this would mean 2,25x XP on max level
-	"ExuberanceMaxLevel": 5,
-	"ExuberanceBonusExperiencePercentPerLevel": 0.25,
+	"ExuberanceMaxLevel": 4,
+	"ExuberanceBonusExperiencePercentPerLevel": 0.20000000298023224,
 	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
 	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.5,
 	// Flat additional damage dealt with each level of the First Strike enchantment

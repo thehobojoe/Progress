@@ -1,0 +1,779 @@
+{
+	id: "42C95648B77D58B9"
+	group: "1256593D4F9EDDA4"
+	order_index: 3
+	filename: "ad_astra"
+	title: "Ad Astra!"
+	icon: {
+		id: "ad_astra:tier_4_rocket"
+		Count: 1b
+		tag: {
+			BotariumData: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ad Astra!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Space is the place for the human race"
+			description: ["It's time to escape to the one place untouched by capitalism.\\n\\nAd Astra adds a number of planets, accessible by building stronger and stronger rockets. Get ready to strip the solar system bare of its resources.\\n\\nYour first mission is to get to the moon."]
+			id: "5BD713537CF69D5E"
+			tasks: [{
+				id: "66B3109BBB956DAD"
+				type: "gamestage"
+				icon: "ad_astra:earth_globe"
+				stage: "Ad Astra Ready"
+			}]
+		}
+		{
+			icon: "ad_astra:moon_globe"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "That miner came from the moon"
+			description: ["In order to launch, place down the launch pad, and put the rocket on it.\\nShift+right click the rocket to open its inventory, where you can insert fuel and any extra supplies.\\n\\nThen, it's time to hop in the rocket. Hold space to launch, you'll pick your destination once you've left the atmosphere. Since the moon orbits Earth, it's listed under Earth.\\nOff you go!"]
+			dependencies: ["0E0282D900E66680"]
+			id: "4728A77657E316B3"
+			tasks: [{
+				id: "07743C4F6BE39CFE"
+				type: "dimension"
+				title: "Visit the Moon"
+				dimension: "ad_astra:moon"
+			}]
+		}
+		{
+			icon: "ad_astra:mars_globe"
+			x: 0.0d
+			y: -11.0d
+			subtitle: "Mars for the privileged, Earth for the poor"
+			description: ["Actually getting to Mars isn't too different from traveling to the moon, now that we have a tier 2 rocket."]
+			dependencies: ["760F0751DCA1E33C"]
+			id: "70C7D5EF3CA4E209"
+			tasks: [{
+				id: "53A50FBB1A0D2600"
+				type: "dimension"
+				title: "Get your ass to Mars!"
+				dimension: "ad_astra:mars"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "NASA is on your side"
+			description: ["In order to get to the moon, we're going to need a rocket. Build a NASA workbench so you have a spot to assemble it."]
+			dependencies: ["5BD713537CF69D5E"]
+			id: "487DDA68A6AA5DCE"
+			tasks: [{
+				id: "5D285C8453BD20A1"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+			rewards: [{
+				id: "405352BE35AC2083"
+				type: "item"
+				item: "indrev:steel_ingot"
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+				}
+			}
+			x: 0.0d
+			y: -2.5d
+			description: ["Now that we have some infrastructure set up, it's time to build our launch pad and rocket."]
+			dependencies: [
+				"14D6371296E81AFC"
+				"7E94F9945E2215BA"
+				"487DDA68A6AA5DCE"
+				"2D7ABA19FEE26AB7"
+			]
+			id: "0E0282D900E66680"
+			tasks: [
+				{
+					id: "51934ACBF343E5B8"
+					type: "item"
+					item: {
+						id: "ad_astra:tier_1_rocket"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "041768CB9A09BCA7"
+					type: "item"
+					item: "ad_astra:launch_pad"
+				}
+			]
+			rewards: [
+				{
+					id: "2CDFBB7889EF1582"
+					type: "item"
+					item: "ad_astra:fuel_bucket"
+				}
+				{
+					id: "66280E38F8A37CA8"
+					type: "item"
+					item: "ad_astra:white_flag"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Up where the air is rarified"
+			description: ["It turns out, there's very little to breathe in space, so you'll have to pack it with you. The oxygen loader extracts O2 from water you pump in, and can store it in tanks or your suit."]
+			dependencies: ["5BD713537CF69D5E"]
+			id: "2D7ABA19FEE26AB7"
+			tasks: [{
+				id: "113B53CCD36DE76B"
+				type: "item"
+				item: "ad_astra:oxygen_loader"
+			}]
+			rewards: [{
+				id: "393A7FBD5D984927"
+				type: "item"
+				item: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Space Suit"
+			x: 1.0d
+			y: -1.0d
+			description: ["You'll need special gear to survive in space. The space suit chest has tanks for storing oxygen, but besides that, it's unremarkable."]
+			dependencies: ["5BD713537CF69D5E"]
+			id: "7E94F9945E2215BA"
+			tasks: [
+				{
+					id: "0A868EE215625D9D"
+					type: "item"
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "1FD5C9214E44C373"
+					type: "item"
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "60D0C6317B26DACB"
+					type: "item"
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "280012DE3911AEEA"
+					type: "item"
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "612B3BB78B7ABC55"
+				type: "item"
+				item: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Desh"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Your guess is as good as mine"
+			description: ["Desh is an ore that only forms on the moon. Its material properties outpace many terrestrial metals, so we'll need a lot of it for making higher tier machinery and gear!"]
+			dependencies: ["4728A77657E316B3"]
+			id: "42A7DC289BE2BBCC"
+			tasks: [{
+				id: "1019DEC3D8175ECA"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "528B44F44335B1B6"
+				type: "item"
+				item: "ad_astra:moon_desh_ore"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: ["Now that we've got a healthy stockpile of Desh, it's time to move on to redder pastures.\\nAssemble the tier 2 rocket, and get your ass to Mars."]
+			dependencies: ["42A7DC289BE2BBCC"]
+			id: "760F0751DCA1E33C"
+			tasks: [{
+				id: "3A554332F8E614B8"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31BB6831A268C176"
+					type: "item"
+					item: "ad_astra:fuel_bucket"
+				}
+				{
+					id: "1BAB58EE2E04F01E"
+					type: "item"
+					item: "ad_astra:white_flag"
+				}
+			]
+		}
+		{
+			title: "Netherite Space Suit"
+			x: 1.0d
+			y: -12.0d
+			description: ["In order to visit the harsher climates of Venus and Mercury, we'll need a suit that can withstand the heat and pressure. Some combination of netherite and ostrum ought to do the trick.\\n\\nThe netherite space suit is also, well, suitable for exploring the nether. Go figure!"]
+			dependencies: ["4564DD5A2EECDA26"]
+			id: "36A88E0D45948214"
+			tasks: [
+				{
+					id: "1F07E7BA90D8889D"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "7FD79A290531C303"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "05D7E996571CC7C3"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "07177F4D6B52561E"
+					type: "item"
+					item: {
+						id: "ad_astra:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4525F416CBBC48CE"
+				type: "item"
+				item: "ad_astra:ostrum_plate"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["Because of the amount of Desh we'll require, it might be helpful to build a long-term outpost on the moon.\\n\\nThe Oxygen distributor can extract oxygen from water, but instead of filling a tank, it will disperse it into the surrounding space. You can use this to make a breathable room."]
+			dependencies: ["42A7DC289BE2BBCC"]
+			id: "2AE5FD4226AD4F6B"
+			tasks: [{
+				id: "3632D4984BBEF271"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			title: "Fuel Refinery"
+			icon: "ad_astra:fuel_refinery"
+			x: -2.0d
+			y: -1.0d
+			description: ["It takes a lot of thrust to slip the surly bonds of earth, so we're going to need specialized fuel. Build a refinery to make some.\\n\\nYou can spot oil spouts out on the ocean. Grab a tank and get bucketin'."]
+			dependencies: ["5BD713537CF69D5E"]
+			id: "14D6371296E81AFC"
+			tasks: [
+				{
+					id: "25F5C4BAD5954A81"
+					type: "item"
+					item: "ad_astra:oil_bucket"
+					count: 6L
+				}
+				{
+					id: "21BAF65613A8FA41"
+					type: "item"
+					item: "ad_astra:fuel_refinery"
+				}
+				{
+					id: "6124E2F18B4120C6"
+					type: "item"
+					item: "ad_astra:fuel_bucket"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "232E832BA3D8DB0C"
+				type: "item"
+				item: "ad_astra:fuel_bucket"
+				count: 3
+			}]
+		}
+		{
+			title: "Ostrum"
+			x: 0.0d
+			y: -12.0d
+			subtitle: "I hardly knew 'em!"
+			description: ["Ostrum! Like Desh before it, this mythical metal only appears on Mars, and will enable new tiers of machinery and better rockets. You'll want a good amount of it!"]
+			dependencies: ["70C7D5EF3CA4E209"]
+			id: "4564DD5A2EECDA26"
+			tasks: [{
+				id: "42401FE4212038DA"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4ADF217793ABB83C"
+				type: "item"
+				item: "ad_astra:mars_ostrum_ore"
+				count: 8
+			}]
+		}
+		{
+			icon: "ad_astra:cryo_freezer"
+			x: -1.0d
+			y: -12.0d
+			subtitle: "Cryo some more!"
+			description: ["In order to get even farther than Mars, we'll need a more potent fuel. Cryo fuel can be made from ice shards and will power our tier 3 rocket.\\n\\nWorth noting that loose Cryo fuel will freeze water. Considering ice can be made into more fuel..."]
+			dependencies: ["4564DD5A2EECDA26"]
+			id: "1746E9EDC7F606EB"
+			tasks: [
+				{
+					id: "14C023F750A30E5E"
+					type: "item"
+					item: "ad_astra:cryo_freezer"
+				}
+				{
+					id: "30FB7893F95763BB"
+					type: "item"
+					item: "ad_astra:cryo_fuel_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "448D06BA8CB8D46A"
+					type: "item"
+					item: "ad_astra:ice_shard"
+					count: 8
+				}
+				{
+					id: "41C9C37589C18EAA"
+					type: "item"
+					item: "ad_astra:cryo_fuel_bucket"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -13.5d
+			description: ["Using our supplies of ostrum, we can construct an even better rocket that can take us to Mercury or Venus. Make sure you have enough cryo fuel to operate it!"]
+			dependencies: [
+				"4564DD5A2EECDA26"
+				"36A88E0D45948214"
+				"1746E9EDC7F606EB"
+			]
+			id: "6420A672FF8CBFAA"
+			tasks: [{
+				id: "219B739848CBBA92"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "016AB1ABFD21F6CA"
+					type: "item"
+					item: "ad_astra:cryo_fuel_bucket"
+				}
+				{
+					id: "79134119D9DE9D97"
+					type: "item"
+					item: "ad_astra:white_flag"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Visit Mercury"
+			icon: "ad_astra:mercury_globe"
+			x: -0.5d
+			y: -17.0d
+			subtitle: "Say hi to Brother Vance for me"
+			description: ["Unfortunately, not a ton to do here. But, it only cost a single bucket of cryo fuel, and the views are quite striking!"]
+			dependencies: ["6420A672FF8CBFAA"]
+			id: "367D56639A00478D"
+			tasks: [{
+				id: "1AA46C122C370C75"
+				type: "dimension"
+				dimension: "ad_astra:mercury"
+			}]
+		}
+		{
+			title: "Visit Venus"
+			icon: "ad_astra:venus_globe"
+			x: 0.5d
+			y: -17.0d
+			subtitle: "I heard there's a holy yellow sky"
+			description: ["You know the drill by now. However, with our new tier 3 rocket, it only takes a single bucket of cryo fuel to get outta here.\\n\\nOnward!"]
+			dependencies: ["6420A672FF8CBFAA"]
+			id: "3B93DD7600533140"
+			tasks: [{
+				id: "052E41388DD0109C"
+				type: "dimension"
+				dimension: "ad_astra:venus"
+			}]
+		}
+		{
+			title: "Calorite"
+			x: 0.0d
+			y: -18.0d
+			subtitle: "Same great taste"
+			description: ["At last, calorite! With this metal, we could go anywhere.\\nUnfortunately, outside of more potent rockets and an excellent space suit, the industrial applications of calorite are limited."]
+			dependencies: ["3B93DD7600533140"]
+			id: "39AE785A32849C40"
+			tasks: [{
+				id: "593E11124C39A6F3"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7E40ABE7858E2473"
+				type: "item"
+				item: "ad_astra:venus_calorite_ore"
+				count: 8
+			}]
+		}
+		{
+			title: "Visit Glacio"
+			icon: "ad_astra:glacio_globe"
+			x: 0.0d
+			y: -23.5d
+			description: ["Glacio is our destination, and the final planet in this version of Ad Astra.\\nCovered in ice, there's not a whole lot to do on Glacio other than hobnob with the cute locals."]
+			dependencies: ["731F89822692DB14"]
+			id: "5D9073D2113457CA"
+			tasks: [{
+				id: "110181FBBCD833F5"
+				type: "dimension"
+				dimension: "ad_astra:glacio"
+			}]
+			rewards: [{
+				id: "09D02BDCB2B62CB1"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "Jet Suit"
+			x: 1.0d
+			y: -18.0d
+			subtitle: "Rocket maaaaaaaan!"
+			description: ["By augmenting our previous suit with calorite, it's possible to add in potent thrusters, allowing flight, no fuel required!"]
+			dependencies: ["39AE785A32849C40"]
+			id: "5BB5B5A9C77A2F54"
+			tasks: [
+				{
+					id: "192538E38691F2C1"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "69B1F7CAB4794099"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "4F09660275F1B5B7"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+				{
+					id: "5FB76C7EB2A53738"
+					type: "item"
+					item: {
+						id: "ad_astra:jet_suit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							BotariumData: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D53B4F2E6763C97"
+				type: "item"
+				item: "ad_astra:calorite_plate"
+				count: 4
+			}]
+		}
+		{
+			title: "Tier 4 Rocket"
+			x: 0.0d
+			y: -19.5d
+			description: ["The tier 4 rocket runs on cryo fuel, and is also capable of leaving the solar system and traveling to distant galaxies. It's the pinnacle of aerospace engineering."]
+			dependencies: ["39AE785A32849C40"]
+			id: "731F89822692DB14"
+			tasks: [{
+				id: "340135CB1EFE11D8"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C6194A01F994D91"
+					type: "item"
+					item: "ad_astra:cryo_fuel_bucket"
+				}
+				{
+					id: "277E8FE40639FC76"
+					type: "item"
+					item: "ad_astra:white_flag"
+				}
+			]
+		}
+		{
+			title: "Ice Shards"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Will we survive ice V?"
+			description: ["While you're in the neighborhood, pick up some ice shards. They're found on most planets, and you'll need them a bit later.\\n\\nMaster botanists also know the value of a well-formed ice shard."]
+			dependencies: ["4728A77657E316B3"]
+			id: "043B59326DA5F975"
+			tasks: [{
+				id: "151F55FDD1B31273"
+				type: "item"
+				item: "ad_astra:ice_shard"
+				count: 8L
+			}]
+			rewards: [{
+				id: "06EA478EE92FB296"
+				type: "item"
+				item: "ad_astra:ice_shard"
+				count: 4
+			}]
+		}
+		{
+			title: "Outpost Supplies"
+			x: -1.0d
+			y: -6.5d
+			description: ["The solar panel ain't a lot of power, but it's free, and suitable for powering your moon outpost.\\nA water pump using Desh is also a pretty simple way to turn water into breathable air."]
+			dependencies: ["2AE5FD4226AD4F6B"]
+			id: "1E582B267DF59C9E"
+			tasks: [
+				{
+					id: "7D20B660405800CA"
+					type: "item"
+					item: "ad_astra:solar_panel"
+				}
+				{
+					id: "1FCEED42BBB49BC2"
+					type: "item"
+					item: "ad_astra:water_pump"
+				}
+			]
+			rewards: [{
+				id: "634BD68D03952B17"
+				type: "item"
+				item: "ad_astra:desh_plate"
+				count: 4
+			}]
+		}
+		{
+			title: "Lunar Rover"
+			x: 1.0d
+			y: -6.5d
+			subtitle: "Watch out for turtle shells"
+			description: ["The rover is a pretty speedy land vehicle for you and a friend! It runs on the same fuel as the tier 1 rocket.\\n\\nIt handles hills pretty well-- might be fun to make a race course when you're done exploring the moon with it."]
+			dependencies: ["42A7DC289BE2BBCC"]
+			id: "59BBAB7255740437"
+			tasks: [{
+				id: "62737C8A10FB4690"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rover"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A10F8BD0271E179"
+					type: "item"
+					item: "ad_astra:iron_plating_stairs"
+					count: 16
+				}
+				{
+					id: "511EF0B3E41C64FD"
+					type: "item"
+					item: "ad_astra:glowing_iron_pillar"
+					count: 16
+				}
+				{
+					id: "0398B57FAC8EE73A"
+					type: "item"
+					item: "ad_astra:iron_pillar"
+					count: 16
+				}
+				{
+					id: "2C3CE1E06A7D1F71"
+					type: "item"
+					item: "ad_astra:fuel_bucket"
+				}
+			]
+		}
+		{
+			title: "Ad Astra Mastery"
+			icon: "ad_astra:cheese"
+			x: 0.0d
+			y: -26.0d
+			shape: "gear"
+			subtitle: "No rerouting, only countin' til we're done"
+			dependencies: ["5D9073D2113457CA"]
+			id: "53D4013ED09126A7"
+			tasks: [{
+				id: "3B758A20471117EB"
+				type: "checkmark"
+				title: "Ad Astra Mastery"
+			}]
+			rewards: [{
+				id: "757B4F1B8CB90ECA"
+				type: "gamestage"
+				icon: "ad_astra:cheese"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Ad Astra Mastered"
+			}]
+		}
+		{
+			title: "Visions of the Future"
+			icon: "indrev:enriched_nikolite_dust"
+			x: 2.5d
+			y: -6.0d
+			shape: "octagon"
+			description: ["After seeing all the applications of this strange moon metal, it starts to seem like getting everything done with cogs the size of your head isn't the only way..."]
+			dependencies: ["42A7DC289BE2BBCC"]
+			id: "5733F0AD76308FDA"
+			tasks: [{
+				id: "6E6CE06FF31BC32B"
+				type: "checkmark"
+				title: "Visions of the Future"
+			}]
+			rewards: [{
+				id: "4F60B467DB91F5B6"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

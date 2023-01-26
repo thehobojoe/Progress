@@ -1,0 +1,12 @@
+{
+	id: "732CDE9664BCC045"
+	group: "498F87092D420EC9"
+	order_index: 0
+	filename: "spectrum"
+	title: "Spectrum"
+	icon: "spectrum:midnight_aberration"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,128 @@
+{
+	id: "12FDD1AA40BC00F3"
+	group: "72E35E94B31A2F67"
+	order_index: 0
+	filename: "toms_simple_storage"
+	title: "Tom's Simple Storage"
+	icon: "toms_storage:ts.storage_terminal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Getting organized"
+			x: -1.0d
+			y: 1.5d
+			description: ["Simple Storage is a mod that will probably feel familiar, as it functions a lot like Applied Energistics. However, it's purely low-tech and takes no power, and provides a way to interface with a whole room full of chests at once, including crafting from them. \\n\\nOf course, it's powers of automation pale in comparison, so eventually you will want to upgrade! But first, lets figure out how to make this work."]
+			dependencies: ["2E2A435413B98D94"]
+			hide: true
+			id: "00A7B3E6805233FD"
+			tasks: [{
+				id: "44E30C32F848E93E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "Feeling the chests"
+			description: ["First thing's first, the inventory connector. This will not only allow you too interact with any chests it touches, but will also interact with any chests that those chests are touching! So basically, one of these placed properly can connect a whole room full of chests."]
+			dependencies: ["00A7B3E6805233FD"]
+			id: "2F34B5A950D28212"
+			tasks: [{
+				id: "5E086CEDC21FC7C0"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "744FA56DDD085A38"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Looking in the chests"
+			description: ["This is where the magic happens. Stick the storage terminal on your inventory connector, and all the items in the chests that your inventory connector is connected to will show up here! \\n\\nTaking items out will simply take items out of the chest that they're in. Putting items in will try to place the items intelligently into the chests that already have that item. If no chests have that item, it'll basically go anywhere it fits."]
+			dependencies: ["2F34B5A950D28212"]
+			id: "7A895D5FC31855A0"
+			tasks: [{
+				id: "0E68B6326E9D5A37"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "65B3594834596BFA"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Long-distance chesting"
+			description: ["The inventory cable lets you connect your storage network over long distances. This can do many things, like connecting multiple storage rooms (with their own inventory connectors) or placing storage terminals in remote locations so you can access your storage from anywhere you need it. \\n\\nThere is also a framed version, which lets you hide the cables easily to keep things pretty."]
+			dependencies: ["7A895D5FC31855A0"]
+			id: "70F510B905AD207E"
+			tasks: [{
+				id: "2CD796BD7B3BAB87"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Crafting from chests!"
+			description: ["The storage terminal, except now you can craft from it! This will pull both from the storage network, and your own inventory if necessary. No more fumbling through 20 chests to make the things you need."]
+			dependencies: ["7A895D5FC31855A0"]
+			id: "7CBE5A853DA1784C"
+			tasks: [{
+				id: "5B72619AD40F69D2"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			description: ["The cable connector is a required part to connect different parts of your network. The cable covers the distance, but the connector is what actually allows you to \"see\" the different parts of your network. This is required for connecting any chests, inventory connectors, or terminals via cables."]
+			dependencies: ["70F510B905AD207E"]
+			id: "2370026773C73596"
+			tasks: [{
+				id: "0B49040C974EF660"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "Connector-er"
+			description: ["The inventory trim is like an extension of your inventory connector. It allows the inventory connector to see chests that aren't directly touching each other, so long as they're touching some trim that is touching the connector. These have a limited range, so you'll also need to learn about the inventory cables."]
+			dependencies: ["2F34B5A950D28212"]
+			id: "74E4BE6AB6B416DA"
+			tasks: [{
+				id: "34B73D5D0E99830C"
+				type: "item"
+				item: "toms_storage:ts.trim"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			subtitle: "Active inventory"
+			description: ["The inventory hopper allows you to import and export from the network. A valuable automation tool, but it has limits."]
+			dependencies: ["7CBE5A853DA1784C"]
+			id: "7FD2232F6ECD8C10"
+			tasks: [{
+				id: "45A93C9152344321"
+				type: "item"
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

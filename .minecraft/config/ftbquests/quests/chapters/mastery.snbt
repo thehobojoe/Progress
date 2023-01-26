@@ -1,7 +1,7 @@
 {
 	id: "47E0A634BAA76F34"
-	group: ""
-	order_index: 3
+	group: "6999621D5415A73F"
+	order_index: 0
 	filename: "mastery"
 	title: "Shitsco Inc. Certification"
 	icon: "minecraft:totem_of_undying"
@@ -13,6 +13,7 @@
 			icon: "create:flywheel"
 			x: -0.5d
 			y: -1.5d
+			shape: "gear"
 			description: ["It's time to really flex your mastery of Create's systems!"]
 			dependencies: ["230EA6192C7D02AE"]
 			id: "4ED2D4E232C36C5C"
@@ -46,7 +47,8 @@
 					id: "minecraft:leather_helmet"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_helmet"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -65,8 +67,7 @@
 								Name: "{\"text\":\"Shitsco Inc. Novelty Hat\"}"
 							}
 						}
-						id: "minecraft:leather_helmet"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -86,6 +87,7 @@
 			title: "Master Botanist"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "0CC295EADE5FC267"
 			tasks: [{
@@ -123,7 +125,8 @@
 					id: "minecraft:leather_chestplate"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_chestplate"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -143,8 +146,7 @@
 							}
 							selected: { }
 						}
-						id: "minecraft:leather_chestplate"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -171,7 +173,8 @@
 					id: "minecraft:leather_leggings"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_leggings"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -191,8 +194,7 @@
 							}
 							selected: { }
 						}
-						id: "minecraft:leather_leggings"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -201,6 +203,7 @@
 			title: "Master Chef"
 			x: -0.5d
 			y: 1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "75A334AC292F0BBF"
 			tasks: [{
@@ -215,6 +218,7 @@
 			icon: "indrev:modular_core_activated"
 			x: -3.5d
 			y: 1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "2CF4D8163AE42CEF"
 			tasks: [{
@@ -225,8 +229,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}
@@ -249,8 +253,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}
@@ -266,7 +270,8 @@
 					id: "minecraft:leather_boots"
 					Count: 1b
 					tag: {
-						Count: 1b
+						Damage: 0
+						id: "minecraft:leather_boots"
 						tag: {
 							RepairCost: 3
 							Enchantments: [
@@ -285,8 +290,7 @@
 								Name: "{\"text\":\"Shitsco Inc. Novelty Boots\"}"
 							}
 						}
-						id: "minecraft:leather_boots"
-						Damage: 0
+						Count: 1b
 					}
 				}
 			}]
@@ -295,6 +299,7 @@
 			title: "Master Artist"
 			x: -4.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "58B5FA58B08EB991"
 			tasks: [{
@@ -326,7 +331,6 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:red_banner"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Banner\"}"
@@ -353,6 +357,7 @@
 								]
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -361,6 +366,7 @@
 			title: "Powerful Provider"
 			x: -3.5d
 			y: -1.5d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "5346C42716A6646A"
 			tasks: [{
@@ -393,12 +399,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:red_bed"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Novelty Bed\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -407,6 +413,7 @@
 			title: "Master Admin"
 			x: -2.0d
 			y: -2.0d
+			shape: "gear"
 			dependencies: ["230EA6192C7D02AE"]
 			id: "7CF85D5A401DBE4E"
 			tasks: [{
@@ -439,12 +446,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:painting"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Signed Photo of Walter\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]
@@ -453,6 +460,7 @@
 			title: "Proven Hero"
 			x: -2.0d
 			y: 2.0d
+			shape: "gear"
 			description: ["This is a vanilla advancement requiring you to hunt all 34 hostile mobs."]
 			dependencies: ["230EA6192C7D02AE"]
 			id: "68E2CDD0954DD8C8"
@@ -485,12 +493,12 @@
 					Count: 1b
 					tag: {
 						id: "minecraft:diamond_horse_armor"
-						Count: 1b
 						tag: {
 							display: {
 								Name: "{\"text\":\"Shitsco Inc. Novelty Horse Cladding\"}"
 							}
 						}
+						Count: 1b
 					}
 				}
 			}]

@@ -9,42 +9,25 @@
    ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "ae2:fluix_glass_cable"
+    "item": "ae2:quartz_fiber"
   },
   "transitionalItem": {
-    "item": "ae2:fluix_glass_cable"
+    "item": "ae2:quartz_fiber"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:fluix_glass_cable"
+          "item": "ae2:quartz_fiber"
         },
         {
-          "tag": "c:dusts/redstone"
+          "tag": "ae2:all_fluix"
         }
       ],
       "results": [
         {
-          "item": "ae2:fluix_glass_cable"
-        }
-      ],
-      "keepHeldItem": false
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "ae2:fluix_glass_cable"
-        },
-        {
-          "tag": "c:dusts/glowstone"
-        }
-      ],
-      "results": [
-        {
-          "item": "ae2:fluix_glass_cable"
+          "item": "ae2:quartz_fiber"
         }
       ],
       "keepHeldItem": false
@@ -53,22 +36,22 @@
       "type": "create:cutting",
       "ingredients": [
         {
-          "item": "ae2:fluix_glass_cable"
+          "item": "ae2:quartz_fiber"
         }
       ],
       "results": [
         {
-          "item": "ae2:fluix_glass_cable"
+          "item": "ae2:quartz_fiber"
         }
       ]
     }
   ],
   "results": [
     {
-      "item": "ae2:fluix_smart_cable",
+      "item": "ae2:fluix_glass_cable",
       "chance": 100,
       "count": 3
     }
   ],
-  "loops": 2
+  "loops": 1
 }
