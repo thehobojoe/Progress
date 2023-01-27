@@ -638,6 +638,14 @@
 					item: "minecraft:acacia_leaves"
 					count: 16
 				}
+				{
+					id: "1919A2E552525B6D"
+					type: "gamestage"
+					icon: "ad_astra:earth_globe"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "Ad Astra Ready"
+				}
 			]
 		}
 		{
@@ -1042,12 +1050,23 @@
 			y: -2.0d
 			subtitle: "The glorious Fing-Longer"
 			description: ["The deployer is a crucial piece of automation, both for production challenges as well as interacting with the world.\\n\\nYou can grab milk, harvest berries, and so much more!\\n\\nFrom this point, the possibilities become endless. Time to branch out and learn!"]
-			dependencies: ["343CADE41B0F6A39"]
+			dependencies: [
+				"343CADE41B0F6A39"
+				"7A7BF548B60ADCE1"
+			]
 			id: "1076ED1CFD732BC8"
 			tasks: [{
 				id: "690DD3B8F1847ED4"
 				type: "item"
 				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "62C09F3E8A561F11"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
 			}]
 		}
 		{
@@ -1076,6 +1095,8 @@
 			y: -2.0d
 			subtitle: "Babby's Second Contraption"
 			description: ["Ready to start making some serious Rube Goldberg machines?\\nLet's begin."]
+			dependencies: ["5D8A7258D40CAC95"]
+			hide: true
 			id: "5E7B0AFE76B9C023"
 			tasks: [{
 				id: "059D09B7D74EF073"

@@ -11,6 +11,7 @@ function addCreateCrushing(name as string, itemIn as IIngredient, itemsOut as Pe
   for output in itemsOut {
     results.add({
       item: output.data.registryName,
+      count: output.data.amount,
       chance: output.percentage
     });
   }
@@ -33,4 +34,5 @@ var diamond_dust = <item:indrev:diamond_dust>;
 
 addCreateCrushing("crush_coal_dust", coal, [coal_dust, coal_dust % 15, diamond_dust % 0.5]);
 addCreateCrushing("crush_diamond_dust", diamond, [diamond_dust, diamond_dust % 5]);
+addCreateCrushing("crush_nikolite", <tag:items:c:nikolite_ores>, [<item:indrev:nikolite_dust> * 6, <item:indrev:nikolite_dust> % 25]);
 

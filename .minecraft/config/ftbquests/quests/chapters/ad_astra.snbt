@@ -20,12 +20,19 @@
 			y: 0.0d
 			subtitle: "Space is the place for the human race"
 			description: ["It's time to escape to the one place untouched by capitalism.\\n\\nAd Astra adds a number of planets, accessible by building stronger and stronger rockets. Get ready to strip the solar system bare of its resources.\\n\\nYour first mission is to get to the moon."]
+			dependencies: ["55D2B8E90BD9FE28"]
+			hide: true
 			id: "5BD713537CF69D5E"
 			tasks: [{
 				id: "66B3109BBB956DAD"
 				type: "gamestage"
 				icon: "ad_astra:earth_globe"
 				stage: "Ad Astra Ready"
+			}]
+			rewards: [{
+				id: "2EF1A52CDE26ACC3"
+				type: "item"
+				item: "ad_astra:astrodux"
 			}]
 		}
 		{

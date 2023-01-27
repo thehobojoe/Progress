@@ -1,7 +1,7 @@
 {
 	id: "00FAD25DAB04D810"
 	group: "72E35E94B31A2F67"
-	order_index: 1
+	order_index: 2
 	filename: "applied_energistics"
 	title: "Applied Energistics"
 	icon: {
@@ -21,10 +21,17 @@
 			y: -2.5d
 			subtitle: "Digitize me!"
 			description: ["AE2 is the ultimate storage and automation mod. Store items, fluids, import and export, autocraft, and much, much more. This mod has limitless potential, but things will be a little different than you remember..."]
+			dependencies: ["5D8A7258D40CAC95"]
+			hide: true
 			id: "36BC1A6A258712BB"
 			tasks: [{
 				id: "4025A67DC4E1D2BB"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5E6FAAF3714F2F7C"
+				type: "item"
+				item: "ae2:guide"
 			}]
 		}
 		{
@@ -38,6 +45,12 @@
 				id: "2C037AA1029627B6"
 				type: "item"
 				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "6461FFCC1D1D56CC"
+				type: "item"
+				item: "ae2:quartz_glass"
+				count: 8
 			}]
 		}
 		{
@@ -77,7 +90,10 @@
 			y: 0.5d
 			subtitle: "Not looking so good..."
 			description: ["These budding blocks can be broken and moved, but you'll soon learn that they don't last forever! By charging them up you can reset them to a high-quality state. Not only that, but if you put them next to a crystal accelerator (or several accelerators), you can speed up their output. You can even make new ones! \\n\\nFlawless budding blocks cannot be created however, only found - and if you break them, they won't be flawless anymore! Eventually you might learn some secret knowledge to transport them, but for now I'd leave them be..."]
-			dependencies: ["0DACDD90A647E318"]
+			dependencies: [
+				"0DACDD90A647E318"
+				"742E7F06D521318A"
+			]
 			id: "6283C5B9D9B7A2A2"
 			tasks: [
 				{
@@ -165,6 +181,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "429FCA8B81FDD89B"
+				type: "item"
+				item: "ae2:cell_component_1k"
+				count: 2
+			}]
 		}
 		{
 			title: "Putting everything together"
@@ -198,6 +220,12 @@
 				type: "item"
 				item: "ae2:energy_acceptor"
 			}]
+			rewards: [{
+				id: "0BC45343B65E25E7"
+				type: "item"
+				item: "ae2:fluix_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -210,10 +238,16 @@
 				type: "item"
 				item: "ae2:crafting_terminal"
 			}]
+			rewards: [{
+				id: "3AE9EEC55AEDA124"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+				count: 8
+			}]
 		}
 		{
-			x: -2.0d
-			y: 11.0d
+			x: -3.0d
+			y: 12.5d
 			subtitle: "Pushing"
 			description: ["Now lets start to really take advantage of digital storage. The export bus will push items out of your digital storage and into external inventories or machines. Using upgrade cards, you can increase the speed or capacity."]
 			dependencies: ["2CC89513EA53A695"]
@@ -231,8 +265,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 12.0d
+			x: -3.0d
+			y: 13.5d
 			subtitle: "Pulling"
 			description: ["Now lets start to really take advantage of digital storage. The import bus will pull items into your digital storage from external inventories or machines. Using upgrade cards, you can increase the speed or capacity."]
 			dependencies: ["2CC89513EA53A695"]
@@ -250,8 +284,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 13.0d
+			x: -3.0d
+			y: 14.5d
 			subtitle: "Accepting"
 			description: ["Now lets start to really take advantage of digital storage. The interface will accept items from pipes, belts, hoppers and other devices that \"push\", and put them into the digital storage."]
 			dependencies: ["2CC89513EA53A695"]
@@ -270,10 +304,11 @@
 		}
 		{
 			x: 0.0d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "The heart of the machine"
 			description: ["You may have realized this AE setup is pretty limited, this is because of a limitation called \"channels\". Networks without a controller have a maximum of 8 channels, so you cannot add more than 8 active devices without things breaking (passive devices like the energy acceptor do not require a channel).\\n\\nWith a controller your number of channels is uncapped, and each side of the controller can supply 32 channels each. Basic cables can only support 8, so you'll need something fancier to get all 32 channels from a face. You can keep adding more controllers (they must be connected) for more channels, but they use a lot of power so use them carefully!"]
 			dependencies: ["4D7A2875328F6B89"]
+			size: 2.0d
 			id: "2CC89513EA53A695"
 			tasks: [{
 				id: "7E5CA2C3DAC7C951"
@@ -302,8 +337,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 10.0d
+			x: -3.0d
+			y: 11.5d
 			subtitle: "Use as a hammer in case of emergency"
 			description: ["This handy tool will let you inspect lots of things about your network, mostly power consumption. It also stores upgrade cards for easy insertion into devices."]
 			dependencies: ["2CC89513EA53A695"]
@@ -330,7 +365,7 @@
 		}
 		{
 			x: 0.0d
-			y: 14.5d
+			y: 16.0d
 			subtitle: "Recursive networking"
 			description: ["Networks within networks! P2P tunnels are the most complex mechanic in networks, but also one of the most powerful. Say you have a crafting room far from your controllers that needs dozens of channels - running multiple dense cables there would be really expensive! \\n\\nBut using a P2P tunnel, you can \"tunnel\" up to 32 channels through a single channel. Sound confusing? Well you're not alone, but read on. \\n\\nTunnels simply connect 2 points in your network, but this connection only takes a single channel. So if you put a P2P tunnel pointing at your controller, then pair it with another elsewhere in your network, those 32 channels from your controller will be \"tunneled\" through that one channel and connected directly to the other side. It will probably only make sense until you've tried it, so test it out!"]
 			dependencies: ["2CC89513EA53A695"]
@@ -348,7 +383,7 @@
 		}
 		{
 			x: 1.0d
-			y: 14.5d
+			y: 16.0d
 			subtitle: "Itty bitty power cable"
 			description: ["It's time to learn about subnets! Remember how a network without a controller only has 8 channels? Well, you can abuse this fact. Quartz fiber will connect ME cables and transfer power, but it will NOT connect channels. So anything on the other side of the fiber will be a \"subnet\" with 8 free channels. \\n\\nThis allows you to create isolated crafting networks for all sorts of things without consuming channels from the main network, as well as not worrying about any interactions with your main network (like exporting items to processing, for example)."]
 			dependencies: ["2CC89513EA53A695"]
@@ -360,8 +395,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 13.0d
+			x: -4.0d
+			y: 14.5d
 			subtitle: "See within"
 			description: ["A storage bus is a very handy tool, it will look into external storage (like a chest) and provide access to everything in it in the network. Items can be taken out and put into this external storage. \\n\\nThis can become very powerful when combined with \"subnets\" and interfaces (if you don't know what this is yet, other quests will teach you). If you point a storage bus at an interface from another network or subnet, it will allow you full access to that network, but only 1 way! So the network with the storage bus can see everything from the main network, but the main network cannot see anything from the subnet."]
 			dependencies: ["04B40C94433936A1"]
@@ -379,7 +414,7 @@
 		}
 		{
 			x: 1.5d
-			y: 15.5d
+			y: 17.0d
 			description: ["Cable anchors will prevent cables from connecting when placed between them. This is really useful when cables from separate networks are close to each other, or when you don't want to overload a certain cable with extra channels."]
 			dependencies: ["746572E4370B9A4C"]
 			id: "2794FBCF31B51DB9"
@@ -391,7 +426,7 @@
 		}
 		{
 			x: 0.0d
-			y: 15.5d
+			y: 17.0d
 			dependencies: ["21A3EAC32E737B42"]
 			id: "201C145F8A928F25"
 			tasks: [{
@@ -412,7 +447,7 @@
 		}
 		{
 			x: 0.0d
-			y: 16.5d
+			y: 18.0d
 			subtitle: "One to many"
 			description: ["P2P tunnels can do more than just fancy channel tricks! They can also be used for power, items, fluids, redstone signals, and even outputting light! You can figure out most of these on your own, but there's one more thing to learn, and we'll use the energy tunnel to do it. Place your energy tunnel on an energy source like a battery, then place 2 or more tunnels on energy consumers. Shift-right click the input energy tunnel with a memory card, then right-click all the output energy tunnels with the same memory card. They will all receive power from the single input!"]
 			dependencies: ["201C145F8A928F25"]
@@ -431,7 +466,7 @@
 		}
 		{
 			x: -1.0d
-			y: 14.5d
+			y: 16.0d
 			subtitle: "It's got LED's"
 			description: ["Tired of not knowing how many channels a cable is using? No more! Smart cables will light up with how many channels are going through them."]
 			dependencies: ["2CC89513EA53A695"]
@@ -450,7 +485,7 @@
 		}
 		{
 			x: -1.5d
-			y: 15.5d
+			y: 17.0d
 			subtitle: "Thicc"
 			description: ["Dense cables will carry up to 32 channels. Smart ones will show you how many channels are being used."]
 			dependencies: ["0085872B6F59AD45"]
@@ -494,8 +529,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 12.0d
+			x: -4.0d
+			y: 13.5d
 			subtitle: "Digital fluids"
 			description: ["Just about everything you can do with items you can also do with fluids! Import, export, craft, all that good stuff."]
 			dependencies: ["2CC89513EA53A695"]
@@ -517,7 +552,7 @@
 		}
 		{
 			x: 4.0d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "Digital crafting"
 			description: ["You can automate a fair bit with the other devices available to you, but there's something that those can't do - it's time to unlock the power of autocrafting! There's going to be some setup required, so strap in."]
 			dependencies: ["2CC89513EA53A695"]
@@ -536,7 +571,7 @@
 		}
 		{
 			x: 5.5d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "Like setting up a server rack"
 			description: ["The first thing you need is a \"crafting processor\", and it's made out of a few different parts. These blocks must be placed adjacent to each other, and they must form a contiguous cuboid. That's a fancy way of saying it has to full rectangular shape - so 1x4, 2x2, or 2x2x2 (or bigger). You can't have empty spaces in that cube. \\n\\nEach separate set of these blocks is its own crafting processor, and can run 1 crafting job. Multiple crafting processor setups can run simultaneous crafting processes, you probably won't need that at first but eventually you'll probably need 2, 4, or 10 of these! \\n\\nThe crafting storage determines how \"big\" the crafting job can be - if your craft has 10 steps and each step takes 9 items, that's 90 items total that have to be kept in memory. Very large jobs will require bigger crafting storage. \\n\\nCrafting co-processors determine how many steps of the process can run simultaneously - so if you need to smelt 10 items for a crafting job, that will take a while and will \"block\" the crafting process, unless you have more co-processors that can run other parts of the crafting process simultaneously. \\n\\nLastly and most simply, the crafting monitor will display what the crafting processor is currently working on, and how many items need to be made before the job is done."]
 			dependencies: ["4BE06E5EB0354F6B"]
@@ -569,7 +604,7 @@
 		}
 		{
 			x: 7.0d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "Just like punch cards"
 			description: ["You need to tell your computer how to make stuff. The pattern encoding terminal lets you encode recipes onto blank patterns. \\n\\nThe simplest thing you can create here is a crafting table recipe. First, put some blank patterns in the top-right slot, this is what your recipes will be recorded into. Put a log into the crafting grid on the left, and you'll see it outputs planks. Press the arrow, and that recipe will be recorded in the pattern. In the next step you'll learn how to use these!"]
 			dependencies: ["562F35E625A15514"]
@@ -595,7 +630,7 @@
 		}
 		{
 			x: 8.5d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "Finally making stuff"
 			description: ["The molecular assembler is the magic box that actually crafts things together. The pattern provider is the thing that gives recipes to nearby blocks. \\n\\nPlace down the molecular assembler, and the pattern provider adjacent to it, and make sure to connect them both to the network. Put the crafting pattern you made in the last step into this pattern provider. Then, go to a terminal and look for planks (setting the terminal to \"craftable\" with the button on the left will let you make some even if you already have some in your network). Click on them and start a crafting job! If you craft a few at once you should be able to see the molecular assembler working. \\n\\nMolecular assemblers can get recipes from multiple pattern providers, and pattern providers can provide recipes to multiple molecular assemblers, use this to your advantage to make lots of parallel crafting!"]
 			dependencies: ["4E993A77A6BEF24C"]
@@ -621,7 +656,7 @@
 		}
 		{
 			x: 10.0d
-			y: 11.5d
+			y: 13.0d
 			subtitle: "Remote access"
 			description: ["This terminal allows you to see into all the pattern providers in your network remotely, and add/remove patterns, very handy when setting up lots of recipes. \\n\\nIt can be very helpful to set up a dedicated area for autocrafting setups. Besides the crafting processors, it's great to have the pattern access terminal, a crafting terminal, a second ME terminal set to \"craftable\" for seeing only items you can autocraft, and a requester terminal."]
 			dependencies: ["6F7967DD98406EDF"]
@@ -639,7 +674,7 @@
 		}
 		{
 			x: 10.0d
-			y: 10.5d
+			y: 12.0d
 			subtitle: "Top me off"
 			description: ["These tools will allow you to control thresholds for any item, and craft new ones if the number ever goes below a certain level."]
 			dependencies: ["6F7967DD98406EDF"]
@@ -659,7 +694,7 @@
 		}
 		{
 			x: 10.0d
-			y: 12.5d
+			y: 14.0d
 			subtitle: "Autocrafting bigger"
 			description: ["Autocrafting can do a lot more than just crafting table recipes! By setting the recipe type to \"processing\" in the pattern encoding terminal, you can set any input and output you want. The simplest example is just smelting ingots - if you need iron, you can put raw iron as an input, and an iron ingot as the output. Put that pattern in a pattern provider next to a terminal, and whenever you \"craft\" ingots, raw iron will be sent to the furnace, and once taken out of the furnace and put back into the network (automatically, you can figure that out yourself), the job will be marked as done. \\n\\nBut don't think small, you can output items to entire elaborate processing setups, and just stick the final result back into the network. Like making a bunch of processors, for example!"]
 			dependencies: ["6F7967DD98406EDF"]

@@ -12,6 +12,7 @@
 			y: 2.0d
 			subtitle: "Prove that you have a green thumb"
 			dependencies: ["54A3FEC9DA82CC3B"]
+			hide: true
 			id: "758C82FB6A185561"
 			tasks: [{
 				id: "6E50C38EE0D09817"
@@ -31,10 +32,7 @@
 			y: 3.5d
 			subtitle: "Where are we gonna put all this food?"
 			description: ["How about the kitchen?"]
-			dependencies: [
-				"54A3FEC9DA82CC3B"
-				"758C82FB6A185561"
-			]
+			dependencies: ["758C82FB6A185561"]
 			id: "3F7BDCE7A4B2A996"
 			tasks: [{
 				id: "12B28D9138551829"

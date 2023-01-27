@@ -12,11 +12,18 @@
 			x: -0.5d
 			y: 0.0d
 			description: ["Powah! It does what it says on the tin: make power, and a lot of it! Each generator can be upgraded multiple times, increasing power yields each time. But, be aware that higher tier materials will need plenty of power to even make."]
+			dependencies: ["5D8A7258D40CAC95"]
+			hide: true
 			id: "683E2DFF8C1ED379"
 			tasks: [{
 				id: "7658F6F2159AA5C9"
 				type: "checkmark"
 				title: "Powah!"
+			}]
+			rewards: [{
+				id: "1E0038033B609893"
+				type: "item"
+				item: "powah:book"
 			}]
 		}
 		{
@@ -24,6 +31,7 @@
 			x: -1.5d
 			y: 1.5d
 			description: ["Dielectric paste is the glue that holds Powah machines together. You'll need a lot of it!\\n\\nHighly recommended to secure a source of lava, as it's much more efficient to make with lava rather than blaze powder."]
+			dependencies: ["683E2DFF8C1ED379"]
 			id: "24FD73103D4426A8"
 			tasks: [{
 				id: "2EF00D8EA10211F8"
@@ -43,6 +51,7 @@
 			x: -0.5d
 			y: 1.5d
 			description: ["Forms the core of just about every Powah device."]
+			dependencies: ["683E2DFF8C1ED379"]
 			id: "089B406D7B275554"
 			tasks: [{
 				id: "245FFBDFBD726AF3"
@@ -62,6 +71,7 @@
 			x: 0.5d
 			y: 1.5d
 			description: ["Also used in just about every Powah device. When making higher tier gear, you'll upgrade these capacitors."]
+			dependencies: ["683E2DFF8C1ED379"]
 			id: "55A01B1AA0C33905"
 			tasks: [{
 				id: "4C2E454EC1A924F2"
@@ -80,6 +90,11 @@
 			icon: "powah:energizing_orb"
 			x: -0.5d
 			y: 3.0d
+			dependencies: [
+				"24FD73103D4426A8"
+				"089B406D7B275554"
+				"55A01B1AA0C33905"
+			]
 			id: "0E7AE8D931961593"
 			tasks: [
 				{
