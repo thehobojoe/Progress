@@ -7,6 +7,29 @@
 	icon: "botania:blacker_lotus"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		subtitle: "The flower mod"
+		id: "716255B06329D35E"
+		tasks: [{
+			id: "7961379ECBD2FDB8"
+			type: "item"
+			item: "botania:white_mystical_flower"
+		}]
+		rewards: [
+			{
+				id: "3A7C3DC76629D833"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+			}
+			{
+				id: "11890DF7EE94E6C6"
+				type: "item"
+				item: "botania:lexicon"
+			}
+		]
+	}]
 	quest_links: [ ]
 }

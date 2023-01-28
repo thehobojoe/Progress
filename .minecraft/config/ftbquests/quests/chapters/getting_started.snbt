@@ -208,6 +208,28 @@
 				count: 16
 			}]
 		}
+		{
+			title: "Ready to learn more?"
+			icon: "create:cogwheel"
+			x: -2.5d
+			y: 7.5d
+			shape: "octagon"
+			subtitle: "Alright, so you've played minecraft before"
+			dependencies: ["2E2A435413B98D94"]
+			id: "68CF7D7D21207279"
+			tasks: [{
+				id: "0A3A218F8CC65196"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0937F3C399D88BC0"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Intern"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

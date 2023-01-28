@@ -9,11 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Technology"
 			x: 0.0d
 			y: 0.0d
+			subtitle: "Oh my god, it's all blocks"
 			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
-			dependencies: ["1076ED1CFD732BC8"]
 			hide: true
+			invisible: true
 			id: "7A7BF548B60ADCE1"
 			tasks: [{
 				id: "616F1D833AFE66E6"
@@ -698,8 +700,8 @@
 				Count: 1b
 				tag: {
 					selected: { }
-					energy: 10000L
 					Progress: 1.0f
+					energy: 10000L
 					Damage: 0
 					Active: 1b
 				}
@@ -724,8 +726,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}

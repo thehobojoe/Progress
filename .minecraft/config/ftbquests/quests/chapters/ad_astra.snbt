@@ -20,8 +20,7 @@
 			y: 0.0d
 			subtitle: "Space is the place for the human race"
 			description: ["It's time to escape to the one place untouched by capitalism.\\n\\nAd Astra adds a number of planets, accessible by building stronger and stronger rockets. Get ready to strip the solar system bare of its resources.\\n\\nYour first mission is to get to the moon."]
-			dependencies: ["55D2B8E90BD9FE28"]
-			hide: true
+			invisible: true
 			id: "5BD713537CF69D5E"
 			tasks: [{
 				id: "66B3109BBB956DAD"

@@ -119,6 +119,7 @@
 			]
 		}
 		{
+			icon: "botania:cosmetic_thinking_hand"
 			x: -2.5d
 			y: -7.0d
 			subtitle: "But what do I do?"
@@ -549,6 +550,7 @@
 			subtitle: "Impressive Machinery"
 			description: ["Our first machine that does something! The metal press makes plates. It needs a source of rotational power to work, so hook it up to a shaft.\\n\\nAdditionally, you'll need a depot underneath it. Create machines will often do their job on items placed onto a depot, basin, or belt."]
 			dependencies: ["73CCFE4A980FB92E"]
+			size: 1.5d
 			id: "343CADE41B0F6A39"
 			tasks: [
 				{
@@ -1054,6 +1056,7 @@
 				"343CADE41B0F6A39"
 				"7A7BF548B60ADCE1"
 			]
+			size: 1.8d
 			id: "1076ED1CFD732BC8"
 			tasks: [{
 				id: "690DD3B8F1847ED4"
@@ -1104,6 +1107,27 @@
 				title: "Junior Engineer"
 				icon: "create:brass_encased_large_cogwheel"
 				stage: "Junior Engineer"
+			}]
+		}
+		{
+			icon: "indrev:enriched_nikolite_dust"
+			x: 1.0d
+			y: -2.5d
+			shape: "octagon"
+			dependencies: ["1DA6287751314C5F"]
+			id: "2E062E066885A7DD"
+			tasks: [{
+				id: "7C1E0979744CA490"
+				type: "checkmark"
+				title: "Advanced technology"
+			}]
+			rewards: [{
+				id: "1F26C3EB595B3639"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
 			}]
 		}
 	]

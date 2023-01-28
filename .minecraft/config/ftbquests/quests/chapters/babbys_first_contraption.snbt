@@ -140,17 +140,18 @@
 			}]
 		}
 		{
+			title: "Create begin"
 			x: -6.0d
 			y: -2.0d
 			subtitle: "The ungoogleable mod"
 			description: ["It is time to make things spin.\\n\\nCreate is a wild mod built around rotational power. It features plenty of low-tech machinery and all the cogs, gears, and belts you can handle.\\nThe centerpiece of the mod is the ability to make giant multiblock contraptions that actually move and spin, allowing for clever rube goldberg farms and rideable machines and trains."]
-			dependencies: ["2E2A435413B98D94"]
-			hide: true
+			invisible: true
 			id: "0A58F7107F1FEE05"
 			tasks: [{
-				id: "51D0D5D51258F1CE"
-				type: "checkmark"
-				title: "Create!"
+				id: "2C2F472124575EA0"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				stage: "Intern"
 			}]
 			rewards: [{
 				id: "2CFDF8CF40BA1F8F"

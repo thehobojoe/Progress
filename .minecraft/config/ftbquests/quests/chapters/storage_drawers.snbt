@@ -12,15 +12,16 @@
 			title: "Getting started"
 			x: 0.0d
 			y: 0.0d
+			shape: "pentagon"
 			subtitle: "A drawer for your drawers"
 			description: ["Drawers are basically a big box that can hold one type of item, but it can hold a lot of that item. More space-efficient than a chest full of cobblestone, and probably cheaper too. \\n\\nThere are capacity upgrades, auto-voiding excess, and central access points that make this mod a great addition to your storage setup."]
-			dependencies: ["2E2A435413B98D94"]
-			hide: true
+			invisible: true
 			id: "3CD0E59EC9FFDB3F"
 			tasks: [{
-				id: "28E0C8F2861F1374"
-				type: "checkmark"
-				title: "A drawer for your drawers"
+				id: "7E40A0255622D4E1"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				stage: "Intern"
 			}]
 			rewards: [{
 				id: "5423A0AF2482304C"
@@ -39,11 +40,7 @@
 			y: 1.5d
 			subtitle: "What did you expect?"
 			description: ["The titular drawer. It holds a lot of one thing. Woo. \\n\\nRight click on it to deposit items, punch it to get items out (while crouching to get more out)."]
-			dependencies: [
-				"6F7967DD98406EDF"
-				"6B439E638F1E2155"
-				"3CD0E59EC9FFDB3F"
-			]
+			dependencies: ["3CD0E59EC9FFDB3F"]
 			id: "4289B04B5643EDB4"
 			tasks: [{
 				id: "2CFF713302865AD6"
