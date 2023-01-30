@@ -48,6 +48,14 @@
 				title: "Visit the Moon"
 				dimension: "ad_astra:moon"
 			}]
+			rewards: [{
+				id: "0B1C8F045407E680"
+				type: "gamestage"
+				icon: "ad_astra:moon_globe"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Lunar Visitor"
+			}]
 		}
 		{
 			icon: "ad_astra:mars_globe"
@@ -62,6 +70,14 @@
 				type: "dimension"
 				title: "Get your ass to Mars!"
 				dimension: "ad_astra:mars"
+			}]
+			rewards: [{
+				id: "2FD192CABD6150E8"
+				type: "gamestage"
+				icon: "ad_astra:mars_globe"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Interplanetary"
 			}]
 		}
 		{

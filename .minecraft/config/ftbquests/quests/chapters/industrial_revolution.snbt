@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Technology"
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 			subtitle: "Oh my god, it's all blocks"
 			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
@@ -31,7 +31,7 @@
 		}
 		{
 			title: "Nikolite"
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 			subtitle: "Oddly familiar"
 			description: ["You'll find nikolite fairly deep underground. Gather a lot of it-- it has many industrial applications."]
@@ -52,7 +52,7 @@
 		}
 		{
 			title: "Nikolite Ingots"
-			x: 3.0d
+			x: 1.5d
 			y: 0.0d
 			subtitle: "This Ingot Does Not Exist"
 			description: ["For now, you'll have to make Nikolite using your blaze burner setup.\\n\\nDon't turn all your nikolite dust into ingots, you'll need a good stock of both."]
@@ -73,7 +73,7 @@
 		}
 		{
 			title: "MK1 Circuits"
-			x: 3.0d
+			x: 1.5d
 			y: 1.0d
 			subtitle: "Running laps around the competition"
 			description: ["Your first electronics! MK1 circuits will be used nigh constantly. Keep that production line running!"]
@@ -94,7 +94,7 @@
 		}
 		{
 			title: "Batteries"
-			x: 3.0d
+			x: 1.5d
 			y: -1.0d
 			subtitle: "Not included, sorry"
 			description: ["A common component of the heavy machinery you're about to make. You'll need a good supply of these, so keep that production line running!"]
@@ -118,11 +118,7 @@
 			y: 0.0d
 			subtitle: "On this rock, I build my factory"
 			description: ["Machine blocks will be the core to every machine you make. Assembling one is a complex process, and you'll need a good number of them, so leave the line up!"]
-			dependencies: [
-				"15FFC41A3FD55CDB"
-				"6A4950E0EDC757BD"
-				"6D0886FAFBA087B0"
-			]
+			dependencies: ["77DE5B902EE8B34B"]
 			id: "6927FB52BF2DF8A3"
 			tasks: [{
 				id: "0665D0191976A7E3"
@@ -206,8 +202,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 			subtitle: "Hot box of rocks"
 			description: ["You're going to need a place to store all that power.\\nRemember that a screwdriver can be used to adjust the input and output sides. Indrev's power cables are also pretty reasonable to make and upgrade.\\n\\nAs for getting power... Indrev has a few power options, but for serious production you might want some more Powah!"]
 			dependencies: [
@@ -739,8 +735,8 @@
 		}
 		{
 			title: "A Special Offer"
-			x: 5.0d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 			shape: "pentagon"
 			subtitle: "Seems like a bad idea"
 			description: ["Psst... Hey kid! Yeah, you!\\n\\nYou wanna fly? I bet you do, kid. I bet you do.\\nYou didn't hear it from me, but this thing'll take you way up high!\\n\\nJust uh, make sure you got your landing sorted out first, eh? Wouldn't want you to have an accident or nothin'."]
@@ -764,6 +760,28 @@
 					xp_levels: 5
 				}
 			]
+		}
+		{
+			icon: "powah:energizing_rod_starter"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Zap"
+			description: ["Now that you have somewhere to put your energy, you're going to need to generate some."]
+			dependencies: ["77DE5B902EE8B34B"]
+			id: "2CC558FF6D8C09BC"
+			tasks: [{
+				id: "38056C29E4599FFB"
+				type: "checkmark"
+				title: "Power time!"
+			}]
+			rewards: [{
+				id: "65008688A2BDA5A4"
+				type: "gamestage"
+				icon: "powah:energizing_rod_starter"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Power Generation"
+			}]
 		}
 	]
 	quest_links: [ ]

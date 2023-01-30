@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "createaddition",
+         "powah"
+       ]
+     }
+   ],
+  "type": "create:mechanical_crafting",
+  "key": {
+  	"A": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "createaddition:copper_spool"
+    },
+    "B": {
+      "tag": "c:brass_plates"
+    },
+    "E": {
+      "item": "powah:steel_energized"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "pattern": [
+    "  A  ",
+    " BSB ",
+    "BSESB",
+    " BCB "
+  ],
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

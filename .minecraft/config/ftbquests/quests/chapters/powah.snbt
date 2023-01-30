@@ -12,13 +12,14 @@
 			x: -0.5d
 			y: 0.0d
 			description: ["Powah! It does what it says on the tin: make power, and a lot of it! Each generator can be upgraded multiple times, increasing power yields each time. But, be aware that higher tier materials will need plenty of power to even make."]
-			dependencies: ["5D8A7258D40CAC95"]
 			hide: true
+			invisible: true
 			id: "683E2DFF8C1ED379"
 			tasks: [{
-				id: "7658F6F2159AA5C9"
-				type: "checkmark"
-				title: "Powah!"
+				id: "2344C00CD6072626"
+				type: "gamestage"
+				icon: "powah:energizing_rod_starter"
+				stage: "Power Generation"
 			}]
 			rewards: [{
 				id: "1E0038033B609893"
@@ -27,74 +28,16 @@
 			}]
 		}
 		{
-			title: "Dielectric Paste"
-			x: -1.5d
-			y: 1.5d
-			description: ["Dielectric paste is the glue that holds Powah machines together. You'll need a lot of it!\\n\\nHighly recommended to secure a source of lava, as it's much more efficient to make with lava rather than blaze powder."]
-			dependencies: ["683E2DFF8C1ED379"]
-			id: "24FD73103D4426A8"
-			tasks: [{
-				id: "2EF00D8EA10211F8"
-				type: "item"
-				item: "powah:dielectric_paste"
-				count: 48L
-			}]
-			rewards: [{
-				id: "26FB1F409D286175"
-				type: "item"
-				item: "powah:dielectric_paste"
-				count: 16
-			}]
-		}
-		{
-			title: "Dielectric Casing"
-			x: -0.5d
-			y: 1.5d
-			description: ["Forms the core of just about every Powah device."]
-			dependencies: ["683E2DFF8C1ED379"]
-			id: "089B406D7B275554"
-			tasks: [{
-				id: "245FFBDFBD726AF3"
-				type: "item"
-				item: "powah:dielectric_casing"
-				count: 2L
-			}]
-			rewards: [{
-				id: "6905C850CAA0B717"
-				type: "item"
-				item: "powah:dielectric_casing"
-				count: 2
-			}]
-		}
-		{
-			title: "Basic Capacitors"
-			x: 0.5d
-			y: 1.5d
-			description: ["Also used in just about every Powah device. When making higher tier gear, you'll upgrade these capacitors."]
-			dependencies: ["683E2DFF8C1ED379"]
-			id: "55A01B1AA0C33905"
-			tasks: [{
-				id: "4C2E454EC1A924F2"
-				type: "item"
-				item: "powah:capacitor_basic"
-				count: 8L
-			}]
-			rewards: [{
-				id: "78E66903812D18D7"
-				type: "item"
-				item: "powah:capacitor_basic"
-				count: 8
-			}]
-		}
-		{
 			icon: "powah:energizing_orb"
 			x: -0.5d
 			y: 3.0d
+			subtitle: "Do you feel energized?"
+			description: ["A lot of things you'll need require an infusion of power, this is going to be very important."]
 			dependencies: [
-				"24FD73103D4426A8"
-				"089B406D7B275554"
-				"55A01B1AA0C33905"
+				"58184A27B7F58B2D"
+				"02AA4D8F080423AA"
 			]
+			dependency_requirement: "one_completed"
 			id: "0E7AE8D931961593"
 			tasks: [
 				{
@@ -108,6 +51,175 @@
 					item: "powah:energizing_rod_starter"
 				}
 			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Make power from coal"
+			dependencies: ["683E2DFF8C1ED379"]
+			id: "58184A27B7F58B2D"
+			tasks: [{
+				id: "2B2D948A3FF0BFE0"
+				type: "item"
+				item: "indrev:coal_generator_mk1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "... Also make power from coal"
+			dependencies: ["683E2DFF8C1ED379"]
+			id: "02AA4D8F080423AA"
+			tasks: [{
+				id: "6BD780D63E7190DC"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Renewable energy"
+			dependencies: ["683E2DFF8C1ED379"]
+			id: "380DE426FD46AE6D"
+			tasks: [{
+				id: "21E26E52B128D156"
+				type: "item"
+				item: "indrev:biomass"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Burn it in a furnace, or for power!"
+			dependencies: ["380DE426FD46AE6D"]
+			id: "57E219BC2A112CE6"
+			tasks: [{
+				id: "6BD9B9A78FD1861F"
+				type: "item"
+				item: "createaddition:biomass_pellet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Liquid fuel"
+			dependencies: ["380DE426FD46AE6D"]
+			id: "787AD553244F730C"
+			tasks: [{
+				id: "69E8408B8133003C"
+				type: "item"
+				item: "kubejs:biofuel_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Rocket fuel!"
+			dependencies: ["787AD553244F730C"]
+			id: "7261C5CC8DBB35E8"
+			tasks: [{
+				id: "26D8E7630E38D480"
+				type: "item"
+				item: "ad_astra:fuel_bucket"
+			}]
+		}
+		{
+			icon: "ad_astra:mars_globe"
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["5F96BA7DE7E3AA6A"]
+			id: "1DE82C39E36FC339"
+			tasks: [{
+				id: "087EB2F50325EAEE"
+				type: "gamestage"
+				icon: "ad_astra:mars_globe"
+				stage: "Interplanetary"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["683E2DFF8C1ED379"]
+			id: "5F96BA7DE7E3AA6A"
+			tasks: [{
+				id: "2FA19B7E5C655DB7"
+				type: "gamestage"
+				icon: "ad_astra:moon_globe"
+				stage: "Lunar Visitor"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Radioactive"
+			description: ["Nuclear power! Why make water hot with coal, when you can make water hot with fission."]
+			dependencies: ["5F96BA7DE7E3AA6A"]
+			id: "4BC0041A5534D625"
+			tasks: [{
+				id: "63FCA5220BB4D408"
+				type: "item"
+				item: "powah:reactor_starter"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "Maybe this one has some shielding"
+			dependencies: ["4BC0041A5534D625"]
+			id: "2EB50B63591388B2"
+			tasks: [{
+				id: "668B30D091EC72C6"
+				type: "item"
+				item: "powah:reactor_basic"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			subtitle: "I wonder if this is more radioactive"
+			dependencies: ["1DE82C39E36FC339"]
+			id: "67573A2AC647FF49"
+			tasks: [{
+				id: "36CD65718DD323EE"
+				type: "item"
+				item: "powah:reactor_hardened"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "This is what they call greenwashing"
+			dependencies: ["380DE426FD46AE6D"]
+			id: "465701F2AD463E12"
+			tasks: [{
+				id: "5C61352CAE8C8232"
+				type: "item"
+				item: "indrev:biomass_generator_mk3"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Power from motion"
+			description: ["Tired of being limited by the power options available to you? Well now you can generate power from massive industrial machinery."]
+			id: "522D1F8A2BCB6A0E"
+			tasks: [{
+				id: "1E1951D14E9E0E5A"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "Motion from power"
+			id: "70B14290F1350AB6"
+			tasks: [{
+				id: "02EB8D847BCD0C53"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
 		}
 	]
 	quest_links: [ ]

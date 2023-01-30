@@ -40,8 +40,7 @@ craftingTable.removeByRegex("powah:crafting.*energy_cable_.+");
 craftingTable.removeByRegex("powah:crafting.*energy_gate_.+");
 
 craftingTable.remove(<item:ae2:controller>);
-//craftingTable.removeByRegex("ae2:network.*energy_vibration_chamber");
-
+craftingTable.removeByRegex("ae2:network.*energy_vibration_chamber");
 
 craftingTable.remove(<item:ad_astra:compressor>);
 craftingTable.remove(<item:ad_astra:coal_generator>);
@@ -60,8 +59,5 @@ craftingTable.removeByRegex("ad_astra:hammering.*_plate");
 <recipetype:create:mixing>.removeByName("createaddition:mixing/biomass_from_sticks");
 <recipetype:create:mixing>.removeByName("createaddition:mixing/biomass_from_saplings");
 
-
-
-
-
-
+<recipetype:create:mechanical_crafting>.removeByName("createaddition:mechanical_crafting/alternator");
+<recipetype:create:mechanical_crafting>.removeByName("createaddition:mechanical_crafting/electric_motor");
