@@ -103,3 +103,8 @@ craftingTable.addShaped("fluid_pipe", <item:moderndynamics:fluid_pipe> * 4, [
 	[brass_plate, glass, brass_plate],
 	[empty, empty, empty],
 	[empty, empty, empty]]);
+	
+// ye olde exploding jetpack
+craftingTable.addShapeless("shitsco_jetpack", <item:kubejs:shitsco_jetpack>, [
+	<item:minecraft:potato>, <item:indrev:lazuli_flux_container_mk1>
+]);

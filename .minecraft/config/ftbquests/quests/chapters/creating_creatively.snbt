@@ -1109,27 +1109,6 @@
 				stage: "Junior Engineer"
 			}]
 		}
-		{
-			icon: "indrev:enriched_nikolite_dust"
-			x: 1.0d
-			y: -2.5d
-			shape: "octagon"
-			dependencies: ["1DA6287751314C5F"]
-			id: "2E062E066885A7DD"
-			tasks: [{
-				id: "7C1E0979744CA490"
-				type: "checkmark"
-				title: "Advanced technology"
-			}]
-			rewards: [{
-				id: "1F26C3EB595B3639"
-				type: "gamestage"
-				icon: "indrev:enriched_nikolite_dust"
-				auto: "invisible"
-				ignore_reward_blocking: true
-				stage: "Indrev Ready"
-			}]
-		}
 	]
 	quest_links: [ ]
 }

@@ -737,6 +737,34 @@
 				stage: "Indrev Mastered"
 			}]
 		}
+		{
+			title: "A Special Offer"
+			x: 5.0d
+			y: -2.5d
+			shape: "pentagon"
+			subtitle: "Seems like a bad idea"
+			description: ["Psst... Hey kid! Yeah, you!\\n\\nYou wanna fly? I bet you do, kid. I bet you do.\\nYou didn't hear it from me, but this thing'll take you way up high!\\n\\nJust uh, make sure you got your landing sorted out first, eh? Wouldn't want you to have an accident or nothin'."]
+			dependencies: ["77DE5B902EE8B34B"]
+			optional: true
+			id: "714622492C935C80"
+			tasks: [{
+				id: "7086D58666ADB807"
+				type: "item"
+				item: "kubejs:shitsco_jetpack"
+			}]
+			rewards: [
+				{
+					id: "306AEA3F4A2A319F"
+					type: "item"
+					item: "indrev:lazuli_flux_container_mk1"
+				}
+				{
+					id: "7FB68EF3E7542D33"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

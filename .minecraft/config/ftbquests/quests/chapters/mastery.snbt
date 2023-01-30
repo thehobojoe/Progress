@@ -42,32 +42,11 @@
 			rewards: [{
 				id: "261CB5155FF6AF96"
 				type: "item"
-				title: "Shitsco Inc. Novelty Cap"
 				item: {
-					id: "minecraft:leather_helmet"
+					id: "kubejs:shitsco_hat"
 					Count: 1b
 					tag: {
 						Damage: 0
-						id: "minecraft:leather_helmet"
-						tag: {
-							RepairCost: 3
-							Enchantments: [
-								{
-									id: "minecraft:binding_curse"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-							]
-							Damage: 0
-							display: {
-								color: 11546150
-								Name: "{\"text\":\"Shitsco Inc. Novelty Hat\"}"
-							}
-						}
-						Count: 1b
 					}
 				}
 			}]
@@ -120,33 +99,11 @@
 			rewards: [{
 				id: "244C2F60B7FAFDB0"
 				type: "item"
-				title: "Shitsco Inc. Novelty Shirt"
 				item: {
-					id: "minecraft:leather_chestplate"
+					id: "kubejs:shitsco_chestplate"
 					Count: 1b
 					tag: {
 						Damage: 0
-						id: "minecraft:leather_chestplate"
-						tag: {
-							RepairCost: 3
-							Enchantments: [
-								{
-									id: "minecraft:binding_curse"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-							]
-							Damage: 0
-							display: {
-								color: 11546150
-								Name: "{\"text\":\"Shitsco Inc. Novelty Shirt\"}"
-							}
-							selected: { }
-						}
-						Count: 1b
 					}
 				}
 			}]
@@ -170,31 +127,10 @@
 				type: "item"
 				title: "Shitsco Inc. Novelty Pants"
 				item: {
-					id: "minecraft:leather_leggings"
+					id: "kubejs:shitsco_leggings"
 					Count: 1b
 					tag: {
 						Damage: 0
-						id: "minecraft:leather_leggings"
-						tag: {
-							RepairCost: 3
-							Enchantments: [
-								{
-									id: "minecraft:binding_curse"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-							]
-							Damage: 0
-							display: {
-								color: 11546150
-								Name: "{\"text\":\"Shitsco Inc. Novelty Pants\"}"
-							}
-							selected: { }
-						}
-						Count: 1b
 					}
 				}
 			}]
@@ -265,32 +201,11 @@
 			rewards: [{
 				id: "21294C9892B113AD"
 				type: "item"
-				title: "Shitsco Inc. Novelty Boots"
 				item: {
-					id: "minecraft:leather_boots"
+					id: "kubejs:shitsco_badge"
 					Count: 1b
 					tag: {
 						Damage: 0
-						id: "minecraft:leather_boots"
-						tag: {
-							RepairCost: 3
-							Enchantments: [
-								{
-									id: "minecraft:binding_curse"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-							]
-							Damage: 0
-							display: {
-								color: 11546150
-								Name: "{\"text\":\"Shitsco Inc. Novelty Boots\"}"
-							}
-						}
-						Count: 1b
 					}
 				}
 			}]
@@ -325,41 +240,7 @@
 			rewards: [{
 				id: "6717A558882CF4E4"
 				type: "item"
-				title: "Shitsco Inc. Banner"
-				item: {
-					id: "minecraft:red_banner"
-					Count: 1b
-					tag: {
-						id: "minecraft:red_banner"
-						tag: {
-							display: {
-								Name: "{\"text\":\"Shitsco Inc. Banner\"}"
-							}
-							BlockEntityTag: {
-								id: "minecraft:banner"
-								Patterns: [
-									{
-										Pattern: "drs"
-										Color: 0
-									}
-									{
-										Pattern: "ts"
-										Color: 0
-									}
-									{
-										Pattern: "bs"
-										Color: 0
-									}
-									{
-										Pattern: "bo"
-										Color: 14
-									}
-								]
-							}
-						}
-						Count: 1b
-					}
-				}
+				item: "kubejs:shitsco_trophy"
 			}]
 		}
 		{
@@ -393,20 +274,7 @@
 			rewards: [{
 				id: "545A6262B5F58A38"
 				type: "item"
-				title: "Shitsco Inc. Novelty Bed"
-				item: {
-					id: "minecraft:red_bed"
-					Count: 1b
-					tag: {
-						id: "minecraft:red_bed"
-						tag: {
-							display: {
-								Name: "{\"text\":\"Shitsco Inc. Novelty Bed\"}"
-							}
-						}
-						Count: 1b
-					}
-				}
+				item: "kubejs:shitsco_jetpack_premium"
 			}]
 		}
 		{
@@ -440,20 +308,7 @@
 			rewards: [{
 				id: "71142DFA31C83ABC"
 				type: "item"
-				title: "Signed Photo of Walter"
-				item: {
-					id: "minecraft:painting"
-					Count: 1b
-					tag: {
-						id: "minecraft:painting"
-						tag: {
-							display: {
-								Name: "{\"text\":\"Signed Photo of Walter\"}"
-							}
-						}
-						Count: 1b
-					}
-				}
+				item: "kubejs:signed_photo"
 			}]
 		}
 		{
@@ -487,18 +342,11 @@
 			rewards: [{
 				id: "71ECF08DA8164C8E"
 				type: "item"
-				title: "Shitsco Inc. Novelty Horse Cladding"
 				item: {
-					id: "minecraft:diamond_horse_armor"
+					id: "kubejs:shitsco_boots"
 					Count: 1b
 					tag: {
-						id: "minecraft:diamond_horse_armor"
-						tag: {
-							display: {
-								Name: "{\"text\":\"Shitsco Inc. Novelty Horse Cladding\"}"
-							}
-						}
-						Count: 1b
+						Damage: 0
 					}
 				}
 			}]
