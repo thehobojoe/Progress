@@ -8,6 +8,7 @@ const materials = [
 	"ostrum",
 	"calorite",
 ];
+
 const types = [
 	"chunk",
 	"dust",
@@ -35,6 +36,6 @@ StartupEvents.registry('fluid', event => {
 		event.create(`molten_${material}`)
 			.stillTexture(`kubejs:block/${material}_molten`)
 			.flowingTexture(`kubejs:block/${material}_molten`)
-			.luminosity(8);
+			.noBucket()
 	});
 });

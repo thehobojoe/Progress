@@ -7,6 +7,7 @@ craftingTable.remove(<item:toms_storage:ts.open_crate>);
 val stick = <tag:items:c:wooden_rods>;
 val planks = <tag:items:minecraft:planks>;
 val copper_plate = <tag:items:c:copper_plates>;
+val copper_ingot = <item:minecraft:copper_ingot>;
 val wood_chest = <tag:items:c:wooden_chests>;
 val steel_plate = <tag:items:c:steel_plates>;
 
@@ -33,6 +34,6 @@ craftingTable.addShaped("inventory_proxy", <item:toms_storage:ts.inventory_proxy
 
 craftingTable.remove(storage_terminal);
 craftingTable.addShaped("storage_terminal", storage_terminal, [
-	[steel_plate,	comparator,		glass],
-	[steel_plate,	redstone_lamp,	glass],
-	[steel_plate,	comparator,		glass]]);
+	[copper_plate,	comparator,		glass],
+	[copper_plate,	redstone_lamp,	glass],
+	[copper_plate,	comparator,		glass]]);

@@ -1,0 +1,54 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "indrev",
+         "createaddition"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "indrev:biomass"
+  },
+  "transitionalItem": {
+    "item": "indrev:biomass"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "indrev:biomass"
+        }
+      ],
+      "results": [
+        {
+          "item": "indrev:biomass"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "indrev:biomass"
+        }
+      ],
+      "results": [
+        {
+          "item": "indrev:biomass"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:biomass_pellet",
+      "count": 2,
+      "chance": 100
+    }
+  ],
+  "loops": 1
+}

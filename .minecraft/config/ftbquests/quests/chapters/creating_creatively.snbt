@@ -1109,6 +1109,27 @@
 				stage: "Junior Engineer"
 			}]
 		}
+		{
+			icon: "indrev:enriched_nikolite_dust"
+			x: 1.0d
+			y: -2.5d
+			shape: "octagon"
+			subtitle: "The Technology Age"
+			dependencies: ["1DA6287751314C5F"]
+			id: "1D6A4C621F4123D1"
+			tasks: [{
+				id: "2479D778DCBD8BBE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FF1F2782E6BCC8A"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

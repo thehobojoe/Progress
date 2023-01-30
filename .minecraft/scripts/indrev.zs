@@ -79,6 +79,17 @@ flux_cell_mk2.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk3.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk4.addTooltip("Energy cell, a battery to store power");
 
+// generators
+craftingTable.remove(<item:indrev:coal_generator_mk1>);
+craftingTable.addShaped("coal_generator_mk1", <item:indrev:coal_generator_mk1>, [
+	[furnace, 		circuit_mk1, 		furnace],
+	[iron_plate, 	dielectric_casing, 	iron_plate],
+	[iron_plate, 	battery, 			iron_plate]]);
+
+craftingTable.addShaped("biomass_generator_mk3", <item:indrev:biomass_generator_mk3>, [
+	[furnace, 		circuit_mk2, 		furnace],
+	[steel_plate, 	dielectric_casing, 	steel_plate],
+	[steel_plate, 	battery, 			steel_plate]]);
 
 // machines
 craftingTable.remove(<item:indrev:electric_furnace_mk1>);

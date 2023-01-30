@@ -26,12 +26,12 @@
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
-			"minecraft:magma_block": 800,
+			"minecraft:lava": 1000,
 			"powah:blazing_crystal_block": 2800,
-			"minecraft:lava": 1000
+			"minecraft:magma_block": 800
 		},
 		// Energy produced per fuel tick in the Furnator.
-		"energy_per_fuel_tick": 3,
+		"energy_per_fuel_tick": 4,
 		"energizing_range": 4,
 		/* Multiplier to the required energy applied after an energizing recipe is read.
 		   Use this to adjust the cost of ALL energizing recipes.
