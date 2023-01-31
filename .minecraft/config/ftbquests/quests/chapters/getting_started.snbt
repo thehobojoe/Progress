@@ -10,6 +10,7 @@
 		{
 			x: -2.5d
 			y: -0.5d
+			subtitle: "You have to do this first"
 			description: ["Here we learn if you have basic reading comprehension"]
 			id: "480059C17A77C44C"
 			tasks: [{
@@ -21,6 +22,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
+			subtitle: "The only time you should punch down"
 			description: ["Lets move on to punching things"]
 			dependencies: ["480059C17A77C44C"]
 			id: "21DEFE184F5E6DF8"
@@ -39,6 +41,7 @@
 		{
 			x: -4.0d
 			y: 2.5d
+			subtitle: "[note to self: include long and interesting anecdote here]"
 			description: ["Make a table"]
 			dependencies: ["21DEFE184F5E6DF8"]
 			id: "5D5D581F1A55EDC3"
@@ -56,7 +59,8 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["You're going to need a few of these."]
+			subtitle: "You're going to need a few of these"
+			description: ["If you end up with a Charm chest, craft it by itself to get a vanilla chest."]
 			dependencies: ["21DEFE184F5E6DF8"]
 			id: "533C62494A7C1B3D"
 			tasks: [{
