@@ -34,6 +34,7 @@ mmc-pack.json
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/local
 .minecraft/mods/OpenTerrainGenerator/worlds
+.minecraft/patchouli_data.json
 .minecraft/realms_persistence.json
 .minecraft/rhino.local.properties
 .minecraft/kubejs/exported
