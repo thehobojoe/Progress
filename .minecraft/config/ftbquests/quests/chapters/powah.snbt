@@ -203,6 +203,7 @@
 			y: 4.5d
 			subtitle: "Power from motion"
 			description: ["Tired of being limited by the power options available to you? Well now you can generate power from massive industrial machinery."]
+			dependencies: ["0E7AE8D931961593"]
 			id: "522D1F8A2BCB6A0E"
 			tasks: [{
 				id: "1E1951D14E9E0E5A"
@@ -214,6 +215,8 @@
 			x: 0.5d
 			y: 4.5d
 			subtitle: "Motion from power"
+			description: ["Tired of having to build complex shafts everywhere? Well now you can generate motion from electricity!"]
+			dependencies: ["0E7AE8D931961593"]
 			id: "70B14290F1350AB6"
 			tasks: [{
 				id: "02EB8D847BCD0C53"

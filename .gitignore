@@ -32,8 +32,10 @@ mmc-pack.json
 .minecraft/config/splash.properties
 .minecraft/config/JEI/worldSettings.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+.minecraft/local
 .minecraft/mods/OpenTerrainGenerator/worlds
 .minecraft/realms_persistence.json
+.minecraft/rhino.local.properties
 .minecraft/kubejs/exported
 .minecraft/kubejs/client_scripts
 .minecraft/kubejs/server_scripts
