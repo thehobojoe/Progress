@@ -1,3 +1,4 @@
+*.iml
 /patches
 /natives
 /.idea/
