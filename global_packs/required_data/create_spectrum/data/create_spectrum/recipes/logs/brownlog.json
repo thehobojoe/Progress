@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "spectrum:brown_log"
+    	}
+    ],
+	"results": [
+		{
+			"item": "spectrum:brown_pigment",
+			"count": 2,
+			"chance": 1.0
+        },
+        {"item": "spectrum:brown_pigment",
+							"count": 2,
+					"chance": 0.50
+}
+	],"processingTime":450
+}
