@@ -1,0 +1,80 @@
+{
+  "customEntries": [
+    {
+      "output": {
+        "item": "spectrum:quitoxic_reeds"
+      },
+      "payment": {
+        "item": "adorn:sugar_cane_crate"
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:bamboo"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:turtle_spawn_egg"
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:chicken_spawn_egg"
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 2
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:sheep_spawn_egg"
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:cow_spawn_egg"
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
+        "item": "minecraft:cat_spawn_egg"
+      },
+      "payment": {
+        "item": "minecraft:emerald_block"
+      },
+      "category": "progress"
+    }
+  ]
+}
