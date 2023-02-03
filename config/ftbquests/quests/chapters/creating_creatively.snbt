@@ -1130,6 +1130,16 @@
 				stage: "Indrev Ready"
 			}]
 		}
+		{
+			x: -2.5d
+			y: -12.0d
+			id: "249D9D535D7249CB"
+			tasks: [{
+				id: "7BC04B462814BBCB"
+				type: "gamestage"
+				stage: "Master Chef"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

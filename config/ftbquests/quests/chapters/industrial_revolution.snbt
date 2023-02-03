@@ -696,8 +696,8 @@
 				Count: 1b
 				tag: {
 					selected: { }
-					Progress: 1.0f
 					energy: 10000L
+					Progress: 1.0f
 					Damage: 0
 					Active: 1b
 				}
@@ -722,8 +722,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						Progress: 1.0f
 						energy: 10000L
+						Progress: 1.0f
 						Damage: 0
 						Active: 1b
 					}

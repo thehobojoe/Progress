@@ -11,6 +11,7 @@
 			x: 1.5d
 			y: 2.0d
 			subtitle: "Prove that you have a green thumb"
+			description: ["You may have already noticed by now that food doesn't seem as good as it once did! You'll need a varied diet, otherwise you'll quickly starve. Make a farm, and make sure you're growing more than just wheat!"]
 			dependencies: ["54A3FEC9DA82CC3B"]
 			hide: true
 			id: "758C82FB6A185561"
@@ -21,11 +22,19 @@
 				count: 10L
 				consume_items: true
 			}]
-			rewards: [{
-				id: "612D132CC30A688E"
-				type: "item"
-				item: "cookingforblockheads:crafting_book"
-			}]
+			rewards: [
+				{
+					id: "612D132CC30A688E"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+				{
+					id: "50C09CD49D16B186"
+					type: "item"
+					item: "minecraft:beef"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -179,6 +188,70 @@
 					item: "cookingforblockheads:tool_rack"
 				}
 			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Carry your lunch around"
+			description: ["The paper bag will hold several types of food items, and you can eat from it without taking up a bunch of inventory slots. Pack it full of food, then just hold-right-click while holding the bag and you'll eat the food out of it that's most closely matched to your current hunger needs. That is, you won't eat a huge fancer burger when you're only missing one bar of hunger, unless there's nothing else available."]
+			dependencies: ["758C82FB6A185561"]
+			id: "41123F8C9183CF26"
+			tasks: [{
+				id: "5BAC492E3C9ADAC5"
+				type: "item"
+				item: {
+					id: "spiceoffabric:paper_bag"
+					Count: 1b
+					tag: {
+						inventory: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E1A6300110EBF99"
+				type: "item"
+				item: "croptopia:strawberry_seed"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			subtitle: "A bigger box"
+			description: ["Hold more food."]
+			min_required_dependencies: 1
+			dependencies: ["41123F8C9183CF26"]
+			id: "57A75FA244CBFD3C"
+			tasks: [
+				{
+					id: "17039B460D9EAB11"
+					type: "item"
+					item: {
+						id: "spiceoffabric:picnic_basket"
+						Count: 1b
+						tag: {
+							inventory: { }
+						}
+					}
+				}
+				{
+					id: "15D6A4369F3BC557"
+					type: "item"
+					item: {
+						id: "spiceoffabric:lunch_box"
+						Count: 1b
+						tag: {
+							inventory: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5B30930C75DB27A8"
+				type: "item"
+				item: "croptopia:coffee_seed"
+				count: 4
+			}]
 		}
 	]
 	quest_links: [ ]
