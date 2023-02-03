@@ -28,3 +28,5 @@ val diamond_dust = <item:indrev:diamond_dust>;
 addPowahEnergizing("energized_steel", [<tag:items:c:steel_ingots>, <item:minecraft:gold_ingot>], <item:powah:steel_energized> * 2, 10000);
 addPowahEnergizing("energized_nikolite_dust", [diamond_dust, nikolite_dust], nikolite_dust_rich, 50000);
 addPowahEnergizing("energized_nikolite_ingot", [nikolite_ingot, nikolite_dust_rich], nikolite_ingot_rich, 100000);
+addPowahEnergizing("erergized_certus", [<item:ae2:certus_quartz_crystal>], <item:ae2:charged_certus_quartz_crystal>, 16000);
+addPowahEnergizing("energizing_meteor_compass", [<item:minecraft:compass>], <item:ae2:meteorite_compass>, 16000);
