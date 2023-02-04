@@ -253,13 +253,7 @@
 			rewards: [{
 				id: "6A16A470614ACFE5"
 				type: "item"
-				item: {
-					id: "botania:mana_tablet"
-					Count: 1b
-					tag: {
-						mana: 500000
-					}
-				}
+				item: "botania:blacker_lotus"
 			}]
 		}
 		{
@@ -294,17 +288,52 @@
 			dependencies: ["2709A0DD13D62CAB"]
 			hide: true
 			id: "0236CBA8BCA8C9BE"
-			tasks: [{
-				id: "733470A3B21C508D"
-				type: "item"
-				item: {
-					id: "botania:manasteel_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "733470A3B21C508D"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "5FF2B38038AC478A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CD4FE3B9CDACF73"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F1A678353A32AE5"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "4DFD6B2A6B1500C4"
 				type: "item"
@@ -322,24 +351,12 @@
 				type: "item"
 				item: "botania:runic_altar"
 			}]
-			rewards: [
-				{
-					id: "3975E24BBA2AD35C"
-					type: "item"
-					item: "botania:mana_spreader"
-				}
-				{
-					id: "7E02A6A19D12F4D8"
-					type: "item"
-					item: "botania:mana_pool"
-				}
-				{
-					id: "6F89F1936AE9C92D"
-					type: "item"
-					item: "botania:mana_powder"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "6F89F1936AE9C92D"
+				type: "item"
+				item: "botania:mana_powder"
+				count: 16
+			}]
 		}
 		{
 			x: 2.0d
@@ -356,18 +373,6 @@
 				item: "botania:terra_plate"
 			}]
 			rewards: [
-				{
-					id: "7B476AF2789CB6DD"
-					type: "item"
-					item: "minecraft:lapis_block"
-					count: 4
-				}
-				{
-					id: "017220913E1757DC"
-					type: "item"
-					item: "botania:livingrock"
-					count: 5
-				}
 				{
 					id: "6711AEEF93334F4B"
 					type: "item"
@@ -442,8 +447,8 @@
 			rewards: [{
 				id: "3EFEA21895BAB06F"
 				type: "item"
-				item: "botania:spark"
-				count: 8
+				item: "minecraft:blaze_rod"
+				count: 2
 			}]
 		}
 		{
@@ -454,17 +459,52 @@
 			dependencies: ["221B37BA73D73FAB"]
 			hide: true
 			id: "2CF2049FA65E2DC0"
-			tasks: [{
-				id: "01D93A0296F20122"
-				type: "item"
-				item: {
-					id: "botania:elementium_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "01D93A0296F20122"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "7D20339B5705FAB5"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40C0E5319E62A602"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "734E1A2DF51ABBD4"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "01E5FD0F59A82B1A"
 				type: "item"
@@ -541,9 +581,9 @@
 				item: "botania:elven_spreader"
 			}]
 			rewards: [{
-				id: "3B5F6C77369B59E8"
+				id: "70B28D41C4F6B1EB"
 				type: "item"
-				item: "botania:elven_spreader"
+				item: "botania:lens_normal"
 				count: 4
 			}]
 		}
@@ -558,28 +598,12 @@
 				type: "item"
 				item: "botania:pixie_dust"
 			}]
-			rewards: [
-				{
-					id: "4A6892E4C5CD6B66"
-					type: "item"
-					item: "botania:spark_upgrade_dispersive"
-				}
-				{
-					id: "5F55A95D1AD1CE7E"
-					type: "item"
-					item: "botania:spark_upgrade_dominant"
-				}
-				{
-					id: "6DFA1CC3B7FD2BA6"
-					type: "item"
-					item: "botania:spark_upgrade_recessive"
-				}
-				{
-					id: "06B8700F1D5ACD54"
-					type: "item"
-					item: "botania:spark_upgrade_isolated"
-				}
-			]
+			rewards: [{
+				id: "57298A3CD896BDC5"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: -3.0d
@@ -646,28 +670,11 @@
 				type: "item"
 				item: "botania:rune_mana"
 			}]
-			rewards: [
-				{
-					id: "13B56B6F6DEBA64D"
-					type: "item"
-					item: "botania:rune_water"
-				}
-				{
-					id: "17E86025C890F3A1"
-					type: "item"
-					item: "botania:rune_fire"
-				}
-				{
-					id: "3ABCDD02F175DA26"
-					type: "item"
-					item: "botania:rune_earth"
-				}
-				{
-					id: "6E6B5122E4DD0D4A"
-					type: "item"
-					item: "botania:rune_air"
-				}
-			]
+			rewards: [{
+				id: "6E6B5122E4DD0D4A"
+				type: "item"
+				item: "botania:rune_air"
+			}]
 		}
 		{
 			x: -5.0d
@@ -697,6 +704,7 @@
 				id: "325ABE4CF23C2EF8"
 				type: "item"
 				item: "botania:gaia_pylon"
+				count: 4L
 			}]
 			rewards: [
 				{
