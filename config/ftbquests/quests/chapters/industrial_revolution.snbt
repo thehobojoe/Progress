@@ -708,6 +708,7 @@
 			subtitle: "I have revolved"
 			description: ["You did it!"]
 			dependencies: ["3BA1640952AD4209"]
+			size: 1.5d
 			id: "7F6590A0C757C5AF"
 			tasks: [{
 				id: "36181338357CA7D0"

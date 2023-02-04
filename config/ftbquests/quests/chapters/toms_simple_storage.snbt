@@ -89,6 +89,7 @@
 		{
 			x: -3.0d
 			y: 7.5d
+			subtitle: "Multi-track chesting"
 			description: ["The cable connector is a required part to connect different parts of your network. The cable covers the distance, but the connector is what actually allows you to \"see\" the different parts of your network. This is required for connecting any chests, inventory connectors, or terminals via cables."]
 			dependencies: ["70F510B905AD207E"]
 			id: "2370026773C73596"

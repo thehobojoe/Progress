@@ -1,0 +1,212 @@
+{
+	id: "001DAA73D3BAE99A"
+	group: "6999621D5415A73F"
+	order_index: 1
+	filename: "shame_corner"
+	title: "Employee Performance Metrics"
+	icon: "ae2:biometric_card"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Died a lot"
+			icon: {
+				id: "ae2:facade"
+				Count: 1b
+				tag: {
+					item: "architects_palette:osseous_skull"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: ["Keep trying, you're doing great!"]
+			dependencies: ["406287A073655976"]
+			id: "3146C1EC2AB46A8F"
+			tasks: [{
+				id: "24FB136609B01E11"
+				type: "stat"
+				icon: "minecraft:dead_bush"
+				stat: "minecraft:deaths"
+				value: 100
+			}]
+			rewards: [{
+				id: "3761830450685CF0"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
+		}
+		{
+			title: "Wandered"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "and I would walk 500 more!"
+			dependencies: ["406287A073655976"]
+			id: "785E7ACCF47CCB65"
+			tasks: [{
+				id: "019AE3AF6290A3CF"
+				type: "stat"
+				icon: "spectrum:seven_league_boots"
+				stat: "minecraft:walk_one_cm"
+				value: 804672
+			}]
+			rewards: [{
+				id: "1D37D5760ECC353E"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+		}
+		{
+			title: "Highly Productive"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Those are rookie numbers!"
+			dependencies: ["406287A073655976"]
+			id: "44626C05C3AA1968"
+			tasks: [{
+				id: "792BA7000D67A549"
+				type: "stat"
+				icon: "pfm:basic_toilet"
+				stat: "pfm:toilet_used"
+				value: 1000
+			}]
+			rewards: [{
+				id: "6A5721C7BAB803C9"
+				type: "item"
+				item: "ae2:quartz_fiber"
+			}]
+		}
+		{
+			title: "JUST WALK OUT"
+			icon: "minecraft:oak_leaves"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "you can leave!!!"
+			description: ["IF IT SUCKS...\\nHIT DA BRICKS!"]
+			dependencies: ["406287A073655976"]
+			id: "4150D358D0B861BC"
+			tasks: [{
+				id: "548B8622B145A344"
+				type: "stat"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:leave_game"
+				value: 100
+			}]
+			rewards: [{
+				id: "2AB4C6A15F2E5523"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			title: "The ptroll Award"
+			icon: "spectrum:shulker_purple_head"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "it's easy if you never go outside"
+			description: ["Should be about 100 hours.\\n\\nDo what I do-- if you would do something that leads to your death, stop and do something else instead."]
+			dependencies: ["406287A073655976"]
+			id: "30BDDF97EC551811"
+			tasks: [{
+				id: "7534043644DA319B"
+				type: "stat"
+				icon: "minecraft:clock"
+				stat: "minecraft:time_since_death"
+				value: 7200000
+			}]
+			rewards: [{
+				id: "5E22EAEB7E3B808D"
+				type: "item"
+				item: "croptopia:nutty_cookie"
+			}]
+		}
+		{
+			title: "Team Player"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Murderer!"
+			description: ["How could you?"]
+			dependencies: ["406287A073655976"]
+			id: "7B8AB9B7B4652955"
+			tasks: [{
+				id: "6252D9F3AC02B250"
+				type: "stat"
+				icon: "minecraft:player_head"
+				stat: "minecraft:player_kills"
+				value: 1
+			}]
+			rewards: [{
+				id: "53BB7316EAA3B459"
+				type: "gamestage"
+				icon: "botania:rune_lust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Bloodlust"
+			}]
+		}
+		{
+			title: "Cutthroat Worker"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "RIP AND TEAR"
+			dependencies: ["406287A073655976"]
+			id: "6EEC8465659DB5ED"
+			tasks: [{
+				id: "09150BBCFD48E3C7"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1000
+			}]
+			rewards: [{
+				id: "5227B4D30623130B"
+				type: "item"
+				item: "croptopia:raisin_oatmeal_cookie"
+			}]
+		}
+		{
+			title: "Popular at the Office"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "You're a real Michael Scott!"
+			description: ["I've never seen the show. Do people like him?"]
+			dependencies: ["406287A073655976"]
+			id: "05D81CB9E049EE03"
+			tasks: [{
+				id: "0050DCDF26BE32B7"
+				type: "stat"
+				icon: "spectrum:villager_head"
+				stat: "minecraft:traded_with_villager"
+				value: 100
+			}]
+			rewards: [{
+				id: "2C9D781D391136D2"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "S.H.I.T."
+			icon: "kubejs:signed_photo"
+			x: 1.5d
+			y: -1.5d
+			description: ["By checking this box, you agree not to hold Shitsco Inc. liable for any damages, loss of life or limb, or other misfortune that may befall you as a result of opting in to the new and improved Shitsco Heuristic Information Tracking system (S.H.I.T.). \\n\\nAdditionally, you also waive the right to your image and likeness, which will be used in promotional material, as well as any other use the company sees fit.\\n\\nThanks!"]
+			id: "406287A073655976"
+			tasks: [{
+				id: "6603CE596D880371"
+				type: "checkmark"
+				title: "EULA"
+			}]
+			rewards: [{
+				id: "1D24BF5304FFC567"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}

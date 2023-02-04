@@ -133,11 +133,19 @@
 					item: "create:andesite_casing"
 				}
 			]
-			rewards: [{
-				id: "11B3FB93933B46DD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "11B3FB93933B46DD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "09EC669ABF340059"
+					type: "item"
+					item: "indrev:gold_plate"
+					count: 3
+				}
+			]
 		}
 		{
 			title: "Create begin"
@@ -204,6 +212,7 @@
 			shape: "octagon"
 			subtitle: "Time to start the next chapter"
 			dependencies: ["110D70A2388AF8C5"]
+			size: 1.5d
 			id: "5D8A7258D40CAC95"
 			tasks: [{
 				id: "2E7B9447FC035D03"
@@ -627,6 +636,11 @@
 				id: "19B74B5A77C9B4F7"
 				type: "item"
 				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "20D21EF2E993A085"
+				type: "item"
+				item: "croptopia:roasted_nuts"
 			}]
 		}
 	]

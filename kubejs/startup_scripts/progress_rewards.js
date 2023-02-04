@@ -103,6 +103,15 @@ StartupEvents.registry('item', event => {
 		.texture('kubejs:item/badge_chestplate')
 		.group('combat')
 		.tier('badge');
+		
+	event.create('certificate')
+		.displayName('Shitsco Inc. Certificate of Achievement')
+		.tooltip('Redeemable for one (1) fifteen minute break. Great work!')
+		.unstackable()
+		.rarity('epic')
+		.glow(true)
+		.texture('kubejs:item/certificate')
+		.group('tools');
 });
 
 StartupEvents.registry("block", event => {

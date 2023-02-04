@@ -220,6 +220,7 @@
 			shape: "octagon"
 			subtitle: "Alright, so you've played minecraft before"
 			dependencies: ["2E2A435413B98D94"]
+			size: 1.5d
 			id: "68CF7D7D21207279"
 			tasks: [{
 				id: "0A3A218F8CC65196"

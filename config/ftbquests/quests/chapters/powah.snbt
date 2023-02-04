@@ -224,6 +224,29 @@
 				item: "createaddition:electric_motor"
 			}]
 		}
+		{
+			x: -0.5d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "You cannot handle my strongest capacitor, traveler"
+			description: ["It's a long road to the most potent capacitor, requiring ever more costly materials and a dizzying amount of raw energy. But, if you can make it here, your raw output must be unmatched."]
+			dependencies: ["0E7AE8D931961593"]
+			size: 1.5d
+			id: "6B7D117B6142ACA9"
+			tasks: [{
+				id: "60541CF9223B0119"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+			rewards: [{
+				id: "20794AC1155791DC"
+				type: "gamestage"
+				icon: "powah:energizing_rod_nitro"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Powah Mastered"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
