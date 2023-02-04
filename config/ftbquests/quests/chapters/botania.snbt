@@ -10,7 +10,7 @@
 	quests: [
 		{
 			x: -6.0d
-			y: 4.0d
+			y: 5.5d
 			subtitle: "The flower mod"
 			id: "716255B06329D35E"
 			tasks: [{
@@ -43,16 +43,26 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
-			rewards: [{
-				id: "68BB90805622B1E3"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "68BB90805622B1E3"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "395A56A1A4DD5C69"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 5.5d
 			dependencies: ["4F9A7F938BFF6F02"]
+			hide: true
+			size: 1.5d
 			id: "7C0209357D1AD3CC"
 			tasks: [{
 				id: "1349A779981C8D6A"
@@ -69,6 +79,8 @@
 			x: -3.0d
 			y: 8.5d
 			dependencies: ["7C0209357D1AD3CC"]
+			hide: true
+			size: 1.5d
 			id: "6FF8371A330F9E20"
 			tasks: [{
 				id: "67CCDFB2FF33A964"
@@ -86,6 +98,8 @@
 			x: -3.0d
 			y: 3.5d
 			dependencies: ["7C0209357D1AD3CC"]
+			hide: true
+			size: 1.5d
 			id: "1E25DBB285BF3094"
 			tasks: [{
 				id: "2C2C4A23D05F07C9"
@@ -104,16 +118,23 @@
 			y: 2.0d
 			dependencies: ["1E25DBB285BF3094"]
 			hide: true
+			size: 1.5d
 			id: "4DA4CDC376DBA463"
 			tasks: [{
 				id: "5303368E00B1D208"
 				type: "item"
 				item: "botania:mana_pool"
 			}]
+			rewards: [{
+				id: "5C162B2CCF393290"
+				type: "item"
+				item: "botania:black_lotus"
+				count: 4
+			}]
 		}
 		{
 			x: -2.0d
-			y: 7.5d
+			y: 6.5d
 			subtitle: "Pew Pew"
 			description: ["Tip: Spreaders will fire mana at a pool missing even one mana point. Use comparators or similar to turn off your spreaders until the target pool can accept a full shot."]
 			dependencies: ["6FF8371A330F9E20"]
@@ -124,12 +145,18 @@
 				type: "item"
 				item: "botania:mana_spreader"
 			}]
+			rewards: [{
+				id: "750CD187970E9BFD"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
 		}
 		{
 			x: -1.0d
-			y: 6.5d
+			y: 5.5d
 			subtitle: "Babby's first mana"
 			dependencies: ["452EE27DCD7A93FF"]
+			hide: true
 			id: "244323B38150C0AE"
 			tasks: [{
 				id: "6B0AABCFCFCCF249"
@@ -151,53 +178,95 @@
 					id: "6D4D5DD4C8A9DC3A"
 					type: "item"
 					item: "minecraft:redstone"
+					count: 3
 				}
 				{
 					id: "02DC2336329A0A9C"
 					type: "item"
 					item: "minecraft:coal"
-					count: 16
+					count: 64
+				}
+				{
+					id: "7F19B84BFC84DAFA"
+					type: "item"
+					item: "botania:livingwood_slab"
+					count: 2
 				}
 			]
 		}
 		{
+			title: "Flowerception"
 			x: 0.5d
-			y: 6.0d
+			y: 4.5d
 			subtitle: "Seriously, make this ASAP"
 			dependencies: ["244323B38150C0AE"]
+			hide: true
 			id: "19CB64044BF4DCB1"
 			tasks: [{
 				id: "0251CA1FC5EB9BD9"
 				type: "item"
 				item: "botania:jaded_amaranthus"
 			}]
+			rewards: [
+				{
+					id: "4DC1CD6E4B81D634"
+					type: "item"
+					item: "botania:black_lotus"
+					count: 4
+				}
+				{
+					id: "07FD6E8F86BCEBAD"
+					type: "item"
+					item: "botania:drum_wild"
+				}
+			]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 			dependencies: ["4DA4CDC376DBA463"]
+			hide: true
 			id: "2709A0DD13D62CAB"
 			tasks: [{
 				id: "2B0860A7003E3E35"
 				type: "item"
 				item: "botania:manasteel_ingot"
 			}]
+			rewards: [{
+				id: "7725C23EA80EC800"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: -4.5d
+			y: 1.5d
 			dependencies: ["4DA4CDC376DBA463"]
+			hide: true
 			id: "4359266C8F94CECC"
 			tasks: [{
 				id: "1448581FA09F1C50"
 				type: "item"
 				item: "botania:mana_tablet"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A16A470614ACFE5"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+					}
+				}
 			}]
 		}
 		{
 			x: -6.0d
-			y: -2.0d
+			y: 0.0d
 			dependencies: ["4359266C8F94CECC"]
+			hide: true
 			id: "60F2C43E82F22349"
 			tasks: [{
 				id: "7AF8480F77425699"
@@ -219,10 +288,11 @@
 		}
 		{
 			title: "Very Slightly Anime"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.5d
 			subtitle: "Yeah, I saw Cowboy Bebop once"
 			dependencies: ["2709A0DD13D62CAB"]
+			hide: true
 			id: "0236CBA8BCA8C9BE"
 			tasks: [{
 				id: "733470A3B21C508D"
@@ -235,11 +305,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4DFD6B2A6B1500C4"
+				type: "item"
+				item: "botania:manasteel_block"
+			}]
 		}
 		{
-			x: -3.5d
-			y: 0.5d
+			x: -6.5d
+			y: -2.0d
 			dependencies: ["4DA4CDC376DBA463"]
+			hide: true
 			id: "2F57AF46DB97D33A"
 			tasks: [{
 				id: "47539A1E645DBF1E"
@@ -266,12 +342,13 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 			dependencies: [
 				"67B7DE9690F5D811"
 				"6D7418B2E70BA199"
 			]
+			hide: true
 			id: "37CB8552705CD277"
 			tasks: [{
 				id: "6101C7363EE670F3"
@@ -291,23 +368,45 @@
 					item: "botania:livingrock"
 					count: 5
 				}
+				{
+					id: "6711AEEF93334F4B"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "1DB38A1D85C3B9AA"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "33159B4E8EEBC9E7"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -1.5d
+			y: -3.5d
 			dependencies: ["37CB8552705CD277"]
+			hide: true
 			id: "27EFAC66FB06096A"
 			tasks: [{
 				id: "40AEAE855C91235E"
 				type: "item"
 				item: "botania:terrasteel_ingot"
 			}]
+			rewards: [{
+				id: "2B36BE0C6029BB63"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 2
+			}]
 		}
 		{
 			title: "Maximum Anime"
-			x: -4.0d
-			y: -3.5d
+			x: -3.5d
+			y: -2.5d
 			dependencies: [
 				"27EFAC66FB06096A"
 				"043B59326DA5F975"
@@ -324,9 +423,14 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "05C0D730592B8B81"
+				type: "item"
+				item: "botania:terrasteel_block"
+			}]
 		}
 		{
-			x: -2.0d
+			x: 1.0d
 			y: 0.5d
 			dependencies: ["4DA4CDC376DBA463"]
 			id: "67B7DE9690F5D811"
@@ -335,12 +439,20 @@
 				type: "item"
 				item: "botania:spark"
 			}]
+			rewards: [{
+				id: "3EFEA21895BAB06F"
+				type: "item"
+				item: "botania:spark"
+				count: 8
+			}]
 		}
 		{
 			title: "So Anime We Don't Talk About It"
-			x: -2.0d
-			y: -4.0d
+			x: -4.0d
+			y: -1.0d
+			subtitle: "Let me show you my figurine collection"
 			dependencies: ["221B37BA73D73FAB"]
+			hide: true
 			id: "2CF2049FA65E2DC0"
 			tasks: [{
 				id: "01D93A0296F20122"
@@ -353,12 +465,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "01E5FD0F59A82B1A"
+				type: "item"
+				item: "botania:elementium_block"
+			}]
 		}
 		{
 			title: "Portal Time"
 			x: 0.5d
 			y: -1.0d
 			dependencies: ["27EFAC66FB06096A"]
+			hide: true
 			id: "7F875ABD08CA1A43"
 			tasks: [
 				{
@@ -393,32 +511,47 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: -2.5d
+			y: 0.5d
 			dependencies: ["7F875ABD08CA1A43"]
+			hide: true
 			id: "221B37BA73D73FAB"
 			tasks: [{
 				id: "53191ED9C81A8406"
 				type: "item"
 				item: "botania:elementium_ingot"
 			}]
+			rewards: [{
+				id: "6F8812FD9DB98861"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 4
+			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: -1.0d
+			y: 0.5d
 			subtitle: "PEW PEW"
 			dependencies: ["221B37BA73D73FAB"]
+			hide: true
 			id: "7C5C9E8675AC240B"
 			tasks: [{
 				id: "0733B6D1D1AE449E"
 				type: "item"
 				item: "botania:elven_spreader"
 			}]
+			rewards: [{
+				id: "3B5F6C77369B59E8"
+				type: "item"
+				item: "botania:elven_spreader"
+				count: 4
+			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: -2.0d
+			y: -2.5d
 			dependencies: ["7F875ABD08CA1A43"]
+			hide: true
 			id: "592BDEFE5089E05B"
 			tasks: [{
 				id: "62054B2BBB4A0A4A"
@@ -449,19 +582,44 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -3.0d
+			y: -3.5d
 			dependencies: ["6D7418B2E70BA199"]
+			hide: true
 			id: "346A2E672FF0F53E"
 			tasks: [{
 				id: "3985DE56DC2E1560"
 				type: "item"
 				item: "botania:brewery"
 			}]
+			rewards: [
+				{
+					id: "13E4D1C348FD16F4"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:healing"
+						}
+					}
+				}
+				{
+					id: "53E5B68365D541A7"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:regen_weak"
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: -5.5d
+			y: 3.0d
 			description: ["A hovering hourlgass is a great device to control the speed of some of the other Botania items"]
 			dependencies: ["4DA4CDC376DBA463"]
 			id: "4471CF8DD400AE84"
@@ -478,20 +636,45 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: -2.0d
+			y: -5.0d
 			dependencies: ["2F57AF46DB97D33A"]
+			hide: true
 			id: "6D7418B2E70BA199"
 			tasks: [{
 				id: "5EBCD9E540E3E8EB"
 				type: "item"
 				item: "botania:rune_mana"
 			}]
+			rewards: [
+				{
+					id: "13B56B6F6DEBA64D"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "17E86025C890F3A1"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "3ABCDD02F175DA26"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "6E6B5122E4DD0D4A"
+					type: "item"
+					item: "botania:rune_air"
+				}
+			]
 		}
 		{
-			x: -4.5d
-			y: -1.0d
+			x: -5.0d
+			y: -2.0d
+			description: ["The reward is you don't have to deal with auto jump anymore. You're welcome."]
 			dependencies: ["2F57AF46DB97D33A"]
+			hide: true
 			id: "11D4ECB93C819B69"
 			tasks: [{
 				id: "3B88A70620B25B3B"
@@ -500,18 +683,78 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Buckle up for butt rock"
 			dependencies: [
 				"592BDEFE5089E05B"
 				"221B37BA73D73FAB"
 			]
+			hide: true
+			size: 2.0d
 			id: "46BBC861541E41D2"
 			tasks: [{
 				id: "325ABE4CF23C2EF8"
 				type: "item"
 				item: "botania:gaia_pylon"
 			}]
+			rewards: [
+				{
+					id: "77151920BC9CC945"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:healing"
+						}
+					}
+				}
+				{
+					id: "63366637ABBBB584"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:regen"
+						}
+					}
+				}
+				{
+					id: "533EDF413038960B"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:strength"
+						}
+					}
+				}
+				{
+					id: "7285A1FA01E31306"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:resistance"
+						}
+					}
+				}
+				{
+					id: "6ECC9E8ADE857AF0"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:speed"
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]
