@@ -9,14 +9,20 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Botania"
+			icon: "botania:yellow_shiny_flower"
 			x: -6.0d
 			y: 5.5d
+			shape: "pentagon"
 			subtitle: "The flower mod"
+			description: ["Botania is a deep magic mod centered around the power of the natural world-- namely flowers!\\n\\nIt's notable for powerful tools and gear, as well as how it relies entirely on in-world interactions. Get busy growing!"]
+			invisible: true
 			id: "716255B06329D35E"
 			tasks: [{
-				id: "7961379ECBD2FDB8"
-				type: "item"
-				item: "botania:white_mystical_flower"
+				id: "752E347A61DD3A50"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				stage: "Intern"
 			}]
 			rewards: [
 				{
@@ -692,6 +698,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
+			shape: "gear"
 			subtitle: "Buckle up for butt rock"
 			dependencies: [
 				"592BDEFE5089E05B"
@@ -761,6 +768,14 @@
 							brewKey: "botania:speed"
 						}
 					}
+				}
+				{
+					id: "2EF1A66E37956989"
+					type: "gamestage"
+					icon: "botania:flugel_eye"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "Botania Mastered"
 				}
 			]
 		}

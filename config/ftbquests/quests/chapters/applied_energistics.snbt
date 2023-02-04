@@ -705,6 +705,31 @@
 				title: "Processing recipes"
 			}]
 		}
+		{
+			title: "AE2 Mastery"
+			icon: "ae2:singularity"
+			x: 2.0d
+			y: 14.5d
+			shape: "gear"
+			subtitle: "Can you fix my laptop?"
+			description: ["Well, close enough to mastered."]
+			dependencies: ["2CC89513EA53A695"]
+			size: 1.5d
+			id: "57239C56F08B6FF4"
+			tasks: [{
+				id: "7C41363100EC27F6"
+				type: "checkmark"
+				title: "AE2 Mastered"
+			}]
+			rewards: [{
+				id: "0C192E409193C6D6"
+				type: "gamestage"
+				icon: "ae2:singularity"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "AE2 Mastered"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

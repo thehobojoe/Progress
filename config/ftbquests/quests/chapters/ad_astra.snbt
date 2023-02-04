@@ -37,10 +37,11 @@
 		{
 			icon: "ad_astra:moon_globe"
 			x: 0.0d
-			y: -5.0d
+			y: -4.5d
 			subtitle: "That miner came from the moon"
 			description: ["In order to launch, place down the launch pad, and put the rocket on it.\\nShift+right click the rocket to open its inventory, where you can insert fuel and any extra supplies.\\n\\nThen, it's time to hop in the rocket. Hold space to launch, you'll pick your destination once you've left the atmosphere. Since the moon orbits Earth, it's listed under Earth.\\nOff you go!"]
 			dependencies: ["0E0282D900E66680"]
+			size: 1.5d
 			id: "4728A77657E316B3"
 			tasks: [{
 				id: "07743C4F6BE39CFE"
@@ -60,10 +61,11 @@
 		{
 			icon: "ad_astra:mars_globe"
 			x: 0.0d
-			y: -11.0d
+			y: -10.5d
 			subtitle: "Mars for the privileged, Earth for the poor"
 			description: ["Actually getting to Mars isn't too different from traveling to the moon, now that we have a tier 2 rocket."]
 			dependencies: ["760F0751DCA1E33C"]
+			size: 1.5d
 			id: "70C7D5EF3CA4E209"
 			tasks: [{
 				id: "53A50FBB1A0D2600"
@@ -495,11 +497,12 @@
 		{
 			title: "Visit Mercury"
 			icon: "ad_astra:mercury_globe"
-			x: -0.5d
-			y: -17.0d
+			x: -1.0d
+			y: -16.5d
 			subtitle: "Say hi to Brother Vance for me"
 			description: ["Unfortunately, not a ton to do here. But, it only cost a single bucket of cryo fuel, and the views are quite striking!"]
 			dependencies: ["6420A672FF8CBFAA"]
+			size: 1.5d
 			id: "367D56639A00478D"
 			tasks: [{
 				id: "1AA46C122C370C75"
@@ -510,11 +513,12 @@
 		{
 			title: "Visit Venus"
 			icon: "ad_astra:venus_globe"
-			x: 0.5d
-			y: -17.0d
+			x: 0.75d
+			y: -16.5d
 			subtitle: "I heard there's a holy yellow sky"
 			description: ["You know the drill by now. However, with our new tier 3 rocket, it only takes a single bucket of cryo fuel to get outta here.\\n\\nOnward!"]
 			dependencies: ["6420A672FF8CBFAA"]
+			size: 1.5d
 			id: "3B93DD7600533140"
 			tasks: [{
 				id: "052E41388DD0109C"
@@ -550,6 +554,7 @@
 			y: -23.5d
 			description: ["Glacio is our destination, and the final planet in this version of Ad Astra.\\nCovered in ice, there's not a whole lot to do on Glacio other than hobnob with the cute locals."]
 			dependencies: ["731F89822692DB14"]
+			size: 1.5d
 			id: "5D9073D2113457CA"
 			tasks: [{
 				id: "110181FBBCD833F5"
@@ -758,6 +763,7 @@
 			shape: "gear"
 			subtitle: "No rerouting, only countin' til we're done"
 			dependencies: ["5D9073D2113457CA"]
+			size: 1.5d
 			id: "53D4013ED09126A7"
 			tasks: [{
 				id: "3B758A20471117EB"

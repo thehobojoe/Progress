@@ -35,7 +35,7 @@
 				id: "27615F33BBA1961F"
 				type: "item"
 				item: "create:blaze_cake"
-				count: 2560L
+				count: 4096L
 				consume_items: true
 				only_from_crafting: false
 			}]
@@ -86,14 +86,8 @@
 			tasks: [{
 				id: "717BB155562DDB1D"
 				type: "item"
-				item: {
-					id: "botania:mana_tablet"
-					Count: 1b
-					tag: {
-						mana: 500000
-					}
-				}
-				count: 128L
+				item: "botania:life_essence"
+				count: 512L
 				consume_items: true
 			}]
 			rewards: [{
@@ -119,7 +113,7 @@
 				id: "5957E948E6452182"
 				type: "item"
 				item: "croptopia:the_big_breakfast"
-				count: 256L
+				count: 4096L
 				consume_items: true
 			}]
 			rewards: [{
@@ -146,7 +140,7 @@
 				id: "5D9E2E90DABE2BB0"
 				type: "gamestage"
 				icon: "croptopia:macaron"
-				stage: "Food Mastered"
+				stage: "Master Chef"
 			}]
 		}
 		{
@@ -175,29 +169,48 @@
 			}]
 		}
 		{
+			icon: {
+				id: "indrev:gamer_axe"
+				Count: 1b
+				tag: {
+					selected: { }
+					Progress: 1.0f
+					energy: 10000L
+					Damage: 0
+					Active: 1b
+				}
+			}
 			x: -4.5d
 			y: 2.5d
 			subtitle: "They targeted gamers."
 			description: ["Shitsco Inc's CEO still has his full range of vision. Let's fix that with some LEDs!"]
 			dependencies: ["2CF4D8163AE42CEF"]
 			id: "0F28E52F02DD3C05"
-			tasks: [{
-				id: "7B8376A3BBED807F"
-				type: "item"
-				item: {
-					id: "indrev:gamer_axe"
-					Count: 1b
-					tag: {
-						selected: { }
-						energy: 10000L
-						Progress: 1.0f
-						Damage: 0
-						Active: 1b
+			tasks: [
+				{
+					id: "7B8376A3BBED807F"
+					type: "item"
+					item: {
+						id: "indrev:gamer_axe"
+						Count: 1b
+						tag: {
+							selected: { }
+							energy: 10000L
+							Progress: 1.0f
+							Damage: 0
+							Active: 1b
+						}
 					}
+					count: 16L
+					consume_items: true
 				}
-				count: 16L
-				consume_items: true
-			}]
+				{
+					id: "7F3D84F4937439B3"
+					type: "item"
+					item: "indrev:modular_core_activated"
+					count: 16L
+				}
+			]
 			rewards: [{
 				id: "21294C9892B113AD"
 				type: "item"
@@ -215,6 +228,7 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["Keep that bottle safe, yeah?"]
 			dependencies: ["230EA6192C7D02AE"]
 			id: "58B5FA58B08EB991"
 			tasks: [{
@@ -223,18 +237,24 @@
 				icon: "spectrum:paintbrush"
 				stage: "Spectrum Mastered"
 			}]
+			rewards: [{
+				id: "19DAF2FCEB4643A4"
+				type: "item"
+				item: "spectrum:bottle_of_decay_away"
+			}]
 		}
 		{
 			x: -5.5d
 			y: 0.0d
 			subtitle: "PC load letter?"
-			description: ["Shitsco Inc's CEO is feeling whimsical. "]
+			description: ["Shitsco Inc's CEO is feeling whimsical.\\n\\nJust uh, be VERY careful. Read the warning labels on that thing, and don't leave it unattended, OK? Seriously, this process might completely annihilate your base, and your neighbor's base.\\n\\nShitsco Inc. is not responsible for any loss of life, limb, or property as a result of pursuing this goal!"]
 			dependencies: ["58B5FA58B08EB991"]
 			id: "3323DCB9FDD784CF"
 			tasks: [{
 				id: "2B40FD20791DB3B7"
 				type: "item"
-				item: "spectrum:pigment_palette"
+				item: "spectrum:bedrock_storage_block"
+				count: 16L
 				consume_items: true
 			}]
 			rewards: [{
@@ -302,7 +322,7 @@
 				id: "4A35834352011DCC"
 				type: "item"
 				item: "ae2:cell_component_256k"
-				count: 64L
+				count: 256L
 				consume_items: true
 			}]
 			rewards: [{
@@ -349,6 +369,38 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Shitsco Certified"
+			x: -2.0d
+			y: -6.0d
+			shape: "heart"
+			description: ["You've done it. You've done it all. It's a heroic achievement, worthy of the next great Shitsco Inc. intern!\\n\\nPlease look forward to a followup call to schedule your second interview. In the meantime, take a break! Maybe look at a tree or something."]
+			hide_dependency_lines: true
+			dependencies: [
+				"308527D7306B95FC"
+				"724238321E44EEC9"
+				"20922D32D2FA1C48"
+				"49DBC6F894580D49"
+				"4E3A813ACCA0B510"
+				"3323DCB9FDD784CF"
+				"0F28E52F02DD3C05"
+				"629055185114B2F1"
+			]
+			hide: true
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "38E756E54E15338A"
+			tasks: [{
+				id: "66647E56B0E99DA9"
+				type: "checkmark"
+				title: "I hereby pledge to go outside"
+			}]
+			rewards: [{
+				id: "16D4B1B59A04C026"
+				type: "item"
+				item: "kubejs:certificate"
 			}]
 		}
 	]
