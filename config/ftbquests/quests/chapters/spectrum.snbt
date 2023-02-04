@@ -7,6 +7,239 @@
 	icon: "spectrum:midnight_aberration"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.5d
+			y: -2.0d
+			description: [
+				"Spectrum is a very exploration-driven mod. This questline won't necessarily give explicit spoilers but should provide breadcrumbs if the intended sequence of steps proves too obtuse."
+				""
+				"You will consult the mod's achievements and your book every step of the way. Craft your book (and make a note of every geode you find - you'll need lots of shards) and we'll get started."
+			]
+			id: "09B63D6FE0AE42A5"
+			tasks: [{
+				id: "53E9642E0994B438"
+				type: "item"
+				item: "spectrum:guidebook"
+			}]
+			rewards: [
+				{
+					id: "08C7EA2ECA7D6D9F"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+					count: 8
+				}
+				{
+					id: "108F92C2FA7B8DA0"
+					type: "item"
+					item: "spectrum:topaz_shard"
+					count: 8
+				}
+				{
+					id: "4B3A1F26084E2A63"
+					type: "item"
+					item: "spectrum:citrine_shard"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"Your pigment pedestal is where you will be doing the majority of your Spectrum crafting. You will need lots of powdered gemstones."
+				""
+				"Be sure to leave plenty of space around your pedestal - you'll be upgrading it into ever larger multiblocks as you progress. Now go craft something in it!"
+			]
+			dependencies: ["09B63D6FE0AE42A5"]
+			hide: true
+			id: "0B1A7A1EAA1390F0"
+			tasks: [
+				{
+					id: "4F81BC2A89A57697"
+					type: "advancement"
+					title: "A New Way to Craft"
+					advancement: "spectrum:place_pedestal"
+					criterion: ""
+				}
+				{
+					id: "3F25931669131FE3"
+					type: "item"
+					item: "spectrum:paintbrush"
+				}
+			]
+			rewards: [
+				{
+					id: "7278AB0B0E95C660"
+					type: "item"
+					item: "spectrum:topaz_powder"
+					count: 8
+				}
+				{
+					id: "0399FF0E86F25160"
+					type: "item"
+					item: "spectrum:amethyst_powder"
+					count: 8
+				}
+				{
+					id: "09C43F641F777BBA"
+					type: "item"
+					item: "spectrum:citrine_powder"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"Don't feel like you need to rush this one. There are a few neat things you can craft before this point. You'll need to upgrade (and then open) your pigment pedestal and locate some newly-revealed ore to progress, however."
+				""
+				"The new ore that is now visible was always present, you just couldn't notice it before. It might be worth it to retread your steps."
+			]
+			dependencies: ["0B1A7A1EAA1390F0"]
+			hide: true
+			id: "12446B5684614717"
+			tasks: [
+				{
+					id: "5193D9AD40648ABF"
+					type: "advancement"
+					advancement: "spectrum:build_basic_pedestal_structure"
+					criterion: ""
+				}
+				{
+					id: "3517E4AEBD6AF577"
+					type: "advancement"
+					advancement: "spectrum:collect_shimmerstone"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "1E804E75AFB508D0"
+				type: "item"
+				item: "spectrum:shimmerstone_gem"
+				count: 8
+			}]
+		}
+		{
+			icon: "minecraft:oak_leaves"
+			x: 4.0d
+			y: -2.0d
+			description: [
+				"Your book tells you that you're ready to start creating life but only gives you cryptic hints about things that are \"easy to digest\". What could that mean, I wonder?"
+				""
+				"You'll need a lot of this stuff. Set and forget for a while."
+			]
+			dependencies: ["12446B5684614717"]
+			id: "76DC065DC1E3776A"
+			tasks: [{
+				id: "16E9A993E7759A7E"
+				type: "item"
+				item: "spectrum:vegetal"
+			}]
+			rewards: [{
+				id: "02BDC283D0EAB35A"
+				type: "item"
+				item: "spectrum:vegetal"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["76DC065DC1E3776A"]
+			id: "4576192D1AC284CE"
+			tasks: [{
+				id: "7433AADA7FCB0232"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments_besides_brown"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: [
+				"You may have realized that a few colored saplings were uncraftable. Once you're done playing with your glistering melon seeds and all the other stuff you unlocked, this quest remedies that and more."
+				""
+				"Plonk down a complete fusion shrine then make some onyx. You'll need a lot of this."
+				""
+				"Sorry about the whole \"only at midnight on a new moon\" thing."
+			]
+			dependencies: ["4576192D1AC284CE"]
+			id: "2263B1680960E026"
+			tasks: [
+				{
+					id: "374F0ABEF7368914"
+					type: "advancement"
+					advancement: "spectrum:build_fusion_shrine"
+					criterion: ""
+				}
+				{
+					id: "2C4144D1C97A9C97"
+					type: "advancement"
+					advancement: "spectrum:create_onyx_shard"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "6EF7FCDD8CF5C3C0"
+				type: "item"
+				item: "spectrum:onyx_shard"
+				count: 16
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["2263B1680960E026"]
+			id: "4F9AEC0AFE940496"
+			tasks: [{
+				id: "1511B80BC8988D45"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_advanced_pedestal_structure"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: ["If you see endermen carrying cobblestone, kill 'em. Thank me later."]
+			dependencies: ["09B63D6FE0AE42A5"]
+			id: "321B0550974D7DAD"
+			tasks: [{
+				id: "156A1A99EFAA6CFD"
+				type: "item"
+				item: "spectrum:radiating_ender"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: ["Poke around in the Nether, sailing around an ocean, or tooling around in swamps for three brand new resources that have been revealed to you."]
+			dependencies: ["4F9AEC0AFE940496"]
+			id: "35807A7204025C2A"
+			tasks: [
+				{
+					id: "1E817DBF2FD671D6"
+					type: "advancement"
+					advancement: "spectrum:midgame/collect_stratine"
+					criterion: ""
+				}
+				{
+					id: "206E4C4C069DE2AA"
+					type: "advancement"
+					advancement: "spectrum:collect_mermaids_gem"
+					criterion: ""
+				}
+				{
+					id: "78B474D62E8F18F6"
+					type: "advancement"
+					advancement: "spectrum:midgame/enter_liquid_crystal"
+					criterion: ""
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }
