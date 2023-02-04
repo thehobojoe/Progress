@@ -5,6 +5,10 @@ val glass = <item:minecraft:glass>;
 val packed_ice = <item:minecraft:packed_ice>;
 val redstone_dust = <item:minecraft:redstone>;
 val bucket = <item:minecraft:bucket>;
+val bucket_milk = <item:minecraft:milk_bucket>;
+val gold_axe = <item:minecraft:golden_axe>;
+val gold_hoe = <item:minecraft:golden_hoe>;
+val diamond_sword = <item:minecraft:diamond_sword>;
 
 val nikolite_ingot = <item:indrev:nikolite_ingot>;
 val nikolite_dust = <item:indrev:nikolite_dust>;
@@ -162,6 +166,25 @@ craftingTable.addShaped("mining_drill", <item:indrev:drill_bottom>, [
 	[steel_plate, 	ostrum_plate, 	steel_plate],
 	[empty, 		steel_plate, 	empty]]);
 
+craftingTable.addShaped("chopper_mk1", <item:indrev:chopper_mk1>, [
+	[gold_axe, 		circuit_mk1, 	gold_axe],
+	[copper_plate, 	machine_block, 	copper_plate],
+	[copper_plate, 	battery, 		copper_plate]]);
+
+craftingTable.addShaped("farmer_mk1", <item:indrev:farmer_mk1>, [
+	[gold_hoe, 		circuit_mk1, 	gold_hoe],
+	[iron_plate, 	machine_block, 	iron_plate],
+	[iron_plate, 	battery, 		iron_plate]]);
+
+craftingTable.addShaped("slaughter_mk1", <item:indrev:slaughter_mk1>, [
+	[diamond_sword, 	circuit_mk1, 	diamond_sword],
+	[brass_plate, 		machine_block, 	brass_plate],
+	[brass_plate, 		battery, 		brass_plate]]);
+
+craftingTable.addShaped("rancher_mk1", <item:indrev:rancher_mk1>, [
+	[bucket_milk, 	circuit_mk1, 	bucket_milk],
+	[brass_plate, 	machine_block, 	brass_plate],
+	[brass_plate, 	battery, 		brass_plate]]);
 
 // fisher, which is a special case for some reason
 craftingTable.addShaped("fisher_basic", fisher_basic, [
