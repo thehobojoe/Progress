@@ -19,6 +19,12 @@
 				icon: "create:cogwheel"
 				stage: "Intern"
 			}]
+			rewards: [{
+				id: "0C86B453C5395FB6"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
 		}
 		{
 			title: "Time to get dank"
@@ -52,6 +58,12 @@
 				id: "38C076F41EE234BB"
 				type: "item"
 				item: "inmis:frayed_backpack"
+			}]
+			rewards: [{
+				id: "65803B89C971E53E"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 16
 			}]
 		}
 		{

@@ -47,6 +47,11 @@
 				type: "item"
 				item: "extended_drawers:single_drawer"
 			}]
+			rewards: [{
+				id: "2F368D5C36D273A2"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
 		}
 		{
 			x: -1.5d
@@ -85,6 +90,12 @@
 				id: "50280376107A372B"
 				type: "item"
 				item: "extended_drawers:access_point"
+			}]
+			rewards: [{
+				id: "6162CEC531F8DAC4"
+				type: "item"
+				item: "extended_drawers:t2_upgrade"
+				count: 2
 			}]
 		}
 		{
@@ -154,6 +165,11 @@
 			id: "213AB06BD63708AA"
 			tasks: [{
 				id: "62D5E7F2D3EF8DE6"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "0BFE1BAADE55D1C8"
 				type: "item"
 				item: "minecraft:lava_bucket"
 			}]

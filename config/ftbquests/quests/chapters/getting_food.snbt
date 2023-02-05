@@ -48,6 +48,12 @@
 				type: "item"
 				item: "cookingforblockheads:cooking_table"
 			}]
+			rewards: [{
+				id: "39A5675EF7486A88"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -92,19 +98,19 @@
 					id: "7E6BCEE692B6B19B"
 					type: "item"
 					item: "minecraft:beef"
-					count: 10
+					count: 5
 				}
 				{
 					id: "629C81BBF789FFBE"
 					type: "item"
 					item: "minecraft:porkchop"
-					count: 10
+					count: 5
 				}
 				{
 					id: "446E35CA38CCA93D"
 					type: "item"
 					item: "minecraft:mutton"
-					count: 10
+					count: 5
 				}
 			]
 		}
@@ -188,6 +194,11 @@
 					item: "cookingforblockheads:tool_rack"
 				}
 			]
+			rewards: [{
+				id: "21CBBCD169E02776"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
 		}
 		{
 			x: 3.5d

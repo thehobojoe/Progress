@@ -72,6 +72,12 @@
 				type: "item"
 				item: "toms_storage:ts.inventory_cable"
 			}]
+			rewards: [{
+				id: "49EF8CADD75A7308"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 32
+			}]
 		}
 		{
 			x: 0.0d
@@ -84,6 +90,11 @@
 				id: "5B72619AD40F69D2"
 				type: "item"
 				item: "toms_storage:ts.crafting_terminal"
+			}]
+			rewards: [{
+				id: "5C052FF5AB89515A"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{

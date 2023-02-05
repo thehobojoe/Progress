@@ -16,11 +16,13 @@
 				""
 				"You will consult the mod's achievements and your book every step of the way. Craft your book (and make a note of every geode you find - you'll need lots of shards) and we'll get started."
 			]
+			invisible: true
 			id: "09B63D6FE0AE42A5"
 			tasks: [{
-				id: "53E9642E0994B438"
-				type: "item"
-				item: "spectrum:guidebook"
+				id: "2C5B7EED685907FE"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				stage: "Intern"
 			}]
 			rewards: [
 				{
@@ -30,16 +32,9 @@
 					count: 8
 				}
 				{
-					id: "108F92C2FA7B8DA0"
+					id: "2BCB375A22B21B05"
 					type: "item"
-					item: "spectrum:topaz_shard"
-					count: 8
-				}
-				{
-					id: "4B3A1F26084E2A63"
-					type: "item"
-					item: "spectrum:citrine_shard"
-					count: 8
+					item: "spectrum:guidebook"
 				}
 			]
 		}
@@ -73,19 +68,19 @@
 					id: "7278AB0B0E95C660"
 					type: "item"
 					item: "spectrum:topaz_powder"
-					count: 8
+					count: 4
 				}
 				{
 					id: "0399FF0E86F25160"
 					type: "item"
 					item: "spectrum:amethyst_powder"
-					count: 8
+					count: 4
 				}
 				{
 					id: "09C43F641F777BBA"
 					type: "item"
 					item: "spectrum:citrine_powder"
-					count: 8
+					count: 4
 				}
 			]
 		}
