@@ -20,8 +20,8 @@ val storage_terminal = <item:toms_storage:ts.storage_terminal>;
 val crafting_terminal = <item:toms_storage:ts.crafting_terminal>;
 
 
-craftingTable.remove(<item:toms_storage:ts.inventory_cable> * 6);
-craftingTable.addShaped("inventory_cable", <item:toms_storage:ts.inventory_cable>, [
+craftingTable.remove(<item:toms_storage:ts.inventory_cable>;
+craftingTable.addShaped("inventory_cable", <item:toms_storage:ts.inventory_cable> * 6, [
 	[stick,			planks,		stick],
 	[copper_plate,	wood_chest, copper_plate],
 	[stick,			planks,		stick]]);
