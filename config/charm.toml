@@ -176,9 +176,9 @@
 #The player's inventory items will be preserved in the Totem of Preserving upon death.
 #By default, a new totem will always be spawned to preserve items upon dying ('Grave mode').
 #If Grave mode is not enabled, you must be holding a totem in order for it to preserve your items.
-"TotemOfPreserving Enabled" = true
+"TotemOfPreserving Enabled" = false
 #A totem will work from anywhere in the player's inventory as well as held in the main or offhand.
-"TotemWorksFromInventory Enabled" = true
+"TotemWorksFromInventory Enabled" = false
 #Barrels available in all types of vanilla wood.
 "VariantBarrels Enabled" = true
 #Variant bars crafted from vanilla metal ingots.
@@ -394,7 +394,7 @@
 [TotemOfPreserving]
 	#If true, a new totem will be spawned to preserve items upon dying.
 	#Players do NOT need to be holding a Totem of Preserving.
-	"Grave mode" = true
+	"Grave mode" = false
 	#If true, only the owner of the totem may pick it up.
 	"Owner only" = false
 	#Mobs that have a chance to drop a totem of preserving.

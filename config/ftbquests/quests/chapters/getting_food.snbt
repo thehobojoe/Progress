@@ -230,7 +230,6 @@
 			y: 2.0d
 			subtitle: "A bigger box"
 			description: ["Hold more food."]
-			min_required_dependencies: 1
 			dependencies: ["41123F8C9183CF26"]
 			id: "57A75FA244CBFD3C"
 			tasks: [

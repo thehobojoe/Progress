@@ -188,21 +188,22 @@
 			}]
 		}
 		{
+			title: "Nothing comes for free"
+			icon: "create:wrench"
 			x: 0.5d
 			y: -2.0d
-			subtitle: "Ol' Reliable"
-			description: ["No more smacking machinery with a pickaxe like a caveman.\\n\\nNot only does the wrench let you instantly dismantle most things from Create, it also allows you to finely configure certain blocks like the Windmill Bearing. Right clicking on almost any create block will rotate it."]
+			subtitle: "Well, except this wrench"
+			description: ["No more smacking machinery with a pickaxe like a caveman.\\n\\nNot only does the wrench let you instantly dismantle most things from Create, it also allows you to finely configure certain blocks like the Windmill Bearing. Right clicking on almost any create block will rotate it.\\n\\nYou'll need this wrench for the following tutorials, so you're getting a free handout. Don't expect that to keep up."]
 			dependencies: ["2EA3BDC919F9A499"]
 			id: "110D70A2388AF8C5"
 			tasks: [{
-				id: "2B53274DBD295178"
-				type: "item"
-				item: "create:wrench"
+				id: "4921D89C91858D4D"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "25D3C8ACE3007243"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "002807791F17E9C9"
+				type: "item"
+				item: "create:wrench"
 			}]
 		}
 		{
@@ -627,10 +628,7 @@
 			y: -3.5d
 			subtitle: "When you're really desperate"
 			description: ["Need just a little bit of power occasionally? A hand crank can power devices, but its very inefficient and has low capacity, and is certainly not automatic. Good for little one-off things, like making a few plates early on."]
-			dependencies: [
-				"6F7967DD98406EDF"
-				"6B439E638F1E2155"
-			]
+			dependencies: ["6B439E638F1E2155"]
 			id: "6D2F42B7AE3CBB10"
 			tasks: [{
 				id: "19B74B5A77C9B4F7"

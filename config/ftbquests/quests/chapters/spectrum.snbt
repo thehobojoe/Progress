@@ -19,24 +19,17 @@
 			invisible: true
 			id: "09B63D6FE0AE42A5"
 			tasks: [{
-				id: "2C5B7EED685907FE"
-				type: "gamestage"
-				icon: "create:cogwheel"
-				stage: "Intern"
+				id: "679CB393013BE381"
+				type: "advancement"
+				advancement: "spectrum:spectrum"
+				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "08C7EA2ECA7D6D9F"
-					type: "item"
-					item: "minecraft:amethyst_shard"
-					count: 8
-				}
-				{
-					id: "2BCB375A22B21B05"
-					type: "item"
-					item: "spectrum:guidebook"
-				}
-			]
+			rewards: [{
+				id: "08C7EA2ECA7D6D9F"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d

@@ -1155,6 +1155,18 @@
 				stage: "Master Chef"
 			}]
 		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Just in case you forgot already"
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "1FE96F6E7681A78E"
+			tasks: [{
+				id: "6B008478313596A8"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
