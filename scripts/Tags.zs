@@ -11,3 +11,9 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:clay>);
 
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:glowstone>);
+
+<tag:items:c:diamond_dusts>.add(<item:createaddition:diamond_grit>);
+
+<tag:blocks:ae2:growth_acceleratable>.add(<block:spectrum:budding_topaz>);
+<tag:blocks:ae2:growth_acceleratable>.add(<block:spectrum:budding_citrine>);
+<tag:blocks:ae2:growth_acceleratable>.add(<block:spectrum:budding_onyx>);

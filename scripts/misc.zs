@@ -108,3 +108,8 @@ craftingTable.addShaped("fluid_pipe", <item:moderndynamics:fluid_pipe> * 4, [
 craftingTable.addShapeless("shitsco_jetpack", <item:kubejs:shitsco_jetpack>, [
 	<item:minecraft:potato>, <item:indrev:lazuli_flux_container_mk1>
 ]);
+
+
+craftingTable.remove(<item:createaddition:diamond_grit_sandpaper>);
+craftingTable.addShapeless("diamond_sandpaper", <item:createaddition:diamond_grit_sandpaper>, [
+	<item:minecraft:paper>, <tag:items:c:diamond_dusts>]);
