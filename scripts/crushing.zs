@@ -32,8 +32,12 @@ var coal_dust = <item:indrev:coal_dust>;
 var diamond = <item:minecraft:diamond>;
 var diamond_dust = <item:indrev:diamond_dust>;
 
+
+
 addCreateCrushing("crush_coal_dust", coal, [coal_dust, coal_dust % 15, diamond_dust % 0.5]);
 addCreateCrushing("crush_diamond_dust", diamond, [diamond_dust, diamond_dust % 5]);
 addCreateCrushing("crush_nikolite", <tag:items:c:nikolite_ores>, [<item:indrev:nikolite_dust> * 6, <item:indrev:nikolite_dust> % 25]);
 addCreateCrushing("crush_iron",<item:minecraft:iron_ingot>, [<item:indrev:iron_dust>]);
 
+addCreateCrushing("crush_certus", <item:ae2:certus_quartz_crystal>, [<item:ae2:certus_quartz_dust>, <item:ae2:certus_quartz_dust> % 10]);
+addCreateCrushing("crush_charged_certus", <item:ae2:charged_certus_quartz_crystal>, [<item:ae2:certus_quartz_dust>, <item:ae2:certus_quartz_dust> % 10]);

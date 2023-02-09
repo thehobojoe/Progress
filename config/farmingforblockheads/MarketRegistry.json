@@ -11,6 +11,17 @@
     },
     {
       "output": {
+        "item": "spectrum:mermaids_brush",
+        "count": 4
+      },
+      "payment": {
+        "item": "spectrum:light_blue_pigment",
+        "count": 8
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
         "item": "minecraft:bamboo"
       },
       "payment": {
