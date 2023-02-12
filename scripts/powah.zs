@@ -26,6 +26,14 @@ val furnator_niotic = <item:powah:furnator_niotic>;
 val furnator_spirited = <item:powah:furnator_spirited>;
 val furnator_nitro = <item:powah:furnator_nitro>;
 
+val reactor_starter = <item:powah:reactor_starter>;
+val reactor_basic = <item:powah:reactor_basic>;
+val reactor_hardened = <item:powah:reactor_hardened>;
+val reactor_blazing = <item:powah:reactor_blazing>;
+val reactor_niotic = <item:powah:reactor_niotic>;
+val reactor_spirited = <item:powah:reactor_spirited>;
+val reactor_nitro = <item:powah:reactor_nitro>;
+
 val crystal_blazing = <item:powah:crystal_blazing>;
 val crystal_niotic = <item:powah:crystal_niotic>;
 val crystal_spirited = <item:powah:crystal_spirited>;
@@ -74,14 +82,14 @@ craftingTable.addShaped("furnator_nitro", furnator_nitro, [
 	[capacitor_nitro, 		dielectric_casing, 	capacitor_nitro],
 	[crystal_nitro, 		furnator_spirited, 	crystal_nitro]]);
 
-craftingTable.remove(<item:powah:reactor_starter>);
-craftingTable.addShaped("reactor_starter", <item:powah:reactor_starter>, [
+craftingTable.remove(reactor_starter);
+craftingTable.addShaped("reactor_starter", reactor_starter * 4, [
 	[desh_plate, 		battery, 			desh_plate],
 	[capacitor_basic, 	dielectric_casing, 	capacitor_basic],
 	[desh_plate, 		capacitor_basic, 	desh_plate]]);
 
-craftingTable.remove(<item:powah:reactor_hardened>);
-craftingTable.addShaped("reactor_hardened", <item:powah:reactor_hardened>, [
-	[ostrum_plate, 			battery, 			ostrum_plate],
-	[capacitor_hardened, 	dielectric_casing, 	capacitor_hardened],
-	[ostrum_plate, 			capacitor_hardened, ostrum_plate]]);
+craftingTable.remove(reactor_hardened);
+craftingTable.addShaped("reactor_hardened", reactor_hardened * 4, [
+	[reactor_basic, 		battery, 			reactor_basic],
+	[capacitor_hardened, 	ostrum_plate, 		capacitor_hardened],
+	[reactor_basic, 		capacitor_hardened, reactor_basic]]);

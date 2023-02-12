@@ -78,6 +78,19 @@ craftingTable.addShaped("flux_cell_mk1", flux_cell_mk1, [
 	[brass_plate, 	circuit_mk1, 		brass_plate],
 	[battery, 		dielectric_casing, 	battery],
 	[nikolite_dust, battery, 			nikolite_dust]]);
+craftingTable.addShaped("flux_cell_mk2", flux_cell_mk2, [
+	[brass_plate, 	circuit_mk2, 		brass_plate],
+	[battery, 		flux_cell_mk1, 		battery],
+	[nikolite_ingot, battery, 			nikolite_ingot]]);
+craftingTable.addShaped("flux_cell_mk3", flux_cell_mk3, [
+	[gold_plate, 				circuit_mk3, 	gold_plate],
+	[battery, 					flux_cell_mk2, 	battery],
+	[enriched_nikolite_dust, 	battery, 		enriched_nikolite_dust]]);
+craftingTable.addShaped("flux_cell_mk4", flux_cell_mk4, [
+	[tungsten_plate, 			circuit_mk4, 	tungsten_plate],
+	[battery, 					flux_cell_mk3, 	battery],
+	[enriched_nikolite_ingot, 	battery, 		enriched_nikolite_ingot]]);
+
 flux_cell_mk1.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk2.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk3.addTooltip("Energy cell, a battery to store power");

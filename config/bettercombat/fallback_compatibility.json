@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "blacklist_item_id_regex": "pickaxe|farmersdelight",
+  "blacklist_item_id_regex": "pickaxe|farmersdelight|terra_sword",
   "fallback_compatibility": [
     {
       "item_id_regex": "claymore|great_sword|greatsword",
@@ -77,10 +77,6 @@
     {
       "item_id_regex": "mace|hammer|flail",
       "weapon_attributes": "bettercombat:mace"
-    },
-    {
-      "item_id_regex": "axe",
-      "weapon_attributes": "bettercombat:axe"
     },
     {
       "item_id_regex": "coral_blade",

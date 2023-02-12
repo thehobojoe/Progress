@@ -1,7 +1,7 @@
 {
   "patches": {
     "applyPatches [default: true]": true,
-    "repairBiomesOnLoad [default: false]": false
+    "repairBiomesOnLoad [default: false]": true
   },
   "infos": {
     "verbose [default: true]": true
