@@ -228,6 +228,30 @@
 				}
 			]
 		}
+		{
+			title: "Spectrum Mastered"
+			icon: "spectrum:paintbrush"
+			x: 15.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Is that everything?"
+			description: ["Not really, but close enough."]
+			dependencies: ["35807A7204025C2A"]
+			size: 2.0d
+			id: "7431697C688A81E9"
+			tasks: [{
+				id: "229026D41465192F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0185445DF1FCA3A7"
+				type: "gamestage"
+				icon: "spectrum:paintbrush"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Spectrum Mastered"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

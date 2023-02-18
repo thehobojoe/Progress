@@ -61,3 +61,5 @@ craftingTable.removeByRegex("ad_astra:hammering.*_plate");
 
 <recipetype:create:mechanical_crafting>.removeByName("createaddition:mechanical_crafting/alternator");
 <recipetype:create:mechanical_crafting>.removeByName("createaddition:mechanical_crafting/electric_motor");
+
+<recipetype:spectrum:fusion_shrine>.removeByName("spectrum:fusion_shrine/onyx_shard");

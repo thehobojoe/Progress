@@ -260,7 +260,7 @@
 			x: 6.5d
 			y: -1.0d
 			subtitle: "The spinny bit"
-			description: ["Place the radial chassis directly under the bearing, so that it's between the dirt and the bearing.\\n\\nRight click the chassis with an empty hand, and watch it spin! Right clicking again will stop it."]
+			description: ["Place the radial chassis directly under the bearing, so that it's between the dirt and the bearing.\\n\\nRight click the bearing with an empty hand, and watch it spin! Right clicking again will stop it."]
 			dependencies: ["3024C17649CC6733"]
 			id: "7EFBCD79470BC1B0"
 			tasks: [

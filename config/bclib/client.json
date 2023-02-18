@@ -21,7 +21,7 @@
   "rendering": {
     "customFogRendering [default: true]": true,
     "netherThickFog [default: true]": true,
-    "FogDensity [default: 1.0]": 1.0
+    "FogDensity [default: 1.0]": 0.75
   },
   "infos": {
     "survives_on_hint [default: true]": true

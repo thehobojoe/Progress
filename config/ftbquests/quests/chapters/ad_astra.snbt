@@ -375,16 +375,10 @@
 			icon: "ad_astra:fuel_refinery"
 			x: -2.0d
 			y: -1.0d
-			description: ["It takes a lot of thrust to slip the surly bonds of earth, so we're going to need specialized fuel. Build a refinery to make some.\\n\\nYou can spot oil spouts out on the ocean. Grab a tank and get bucketin'."]
+			description: ["It takes a lot of thrust to slip the surly bonds of earth, so we're going to need specialized fuel. Build a refinery to make some.\\n\\nYou can spot oil spouts out on the ocean. Grab a tank and get bucketin'. If you can't find oil or don't want to desecrate the environment, you can make biofuel from plant matter!"]
 			dependencies: ["5BD713537CF69D5E"]
 			id: "14D6371296E81AFC"
 			tasks: [
-				{
-					id: "25F5C4BAD5954A81"
-					type: "item"
-					item: "ad_astra:oil_bucket"
-					count: 6L
-				}
 				{
 					id: "21BAF65613A8FA41"
 					type: "item"

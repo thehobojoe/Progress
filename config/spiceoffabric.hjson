@@ -5,7 +5,7 @@
 	// If set to EXTENDED, there'll also be information on how many other foods the player needs to eat to restore the nutrition value.
 	// With NONE this tooltip is hidden.
 	// default: NONE
-	show-last-eaten-tips: NONE
+	show-last-eaten-tips: SIMPLE
 	// Edit the expressions that are used for calculating the player stats after respawning.
 	// Expressions are mathematical terms with the following variables:
 	// 	hunger is the amount of hunger the player had when dying
@@ -44,11 +44,11 @@
 		// Expression that determines the time requited to consume an item, given in ticks
 		// default: consumeDuration * power(1.3, timesEaten)
 		// 	Must be a valid expression
-		consume-duration: consumeDuration * power(1.2, timesEaten)
+		consume-duration: consumeDuration * power(1.1, timesEaten)
 		// Sets the amount of last eaten foods to use for the calculations in this category
 		// default: 20
 		// 	Must be greater or equal to 0
-		history-length: 9
+		history-length: 8
 	}
 	// The good ol' carrot style.
 	// Carrot style means, that you start with a certain amount of hearts and gain more by eating unique foods.
@@ -60,7 +60,7 @@
 		// Default health in vanilla is 20 but that may change through mods like Origins.
 		// The resulting value will be floored before use.
 		// default: 0.6 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)
-		health-formula: baseHealth + max(floor((log2(uniqueFoodsEaten) - 2) * 2) , 0)
+		health-formula: baseHealth + max(floor((log2(uniqueFoodsEaten) - 3) * 4) , 0)
 		// Specifies the maximum number of health points (half hearts) a player can get to through carrot mode.
 		// When 0, carrot mode is effectively disabled. (Why would you do this? :P)
 		// When -1, you can gain a basically infinite amount of hearts.
