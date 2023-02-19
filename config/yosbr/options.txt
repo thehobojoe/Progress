@@ -1,2 +1,0 @@
-resourcePacks:["vanilla","Fabric Mods","charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","lambdabettergrass/default","walllanterns/moddedlanternscompat","ED: Alternative Textures","file/simplyswords-vanilla-style.zip","file/Unity-1.19.X-Base-2.4.1.zip","file/Default-Dark-Mode-1.19.2-v1.4.0.zip","file/Unity-1.19.X-Dark-0.9.1.zip"]
-key_iris.keybind.toggleShaders:key.keyboard.k

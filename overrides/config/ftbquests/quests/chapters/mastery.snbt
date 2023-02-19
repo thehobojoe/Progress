@@ -1,0 +1,408 @@
+{
+	id: "47E0A634BAA76F34"
+	group: "6999621D5415A73F"
+	order_index: 0
+	filename: "mastery"
+	title: "Shitsco Inc. Certification"
+	icon: "minecraft:totem_of_undying"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Master Machinist"
+			icon: "create:flywheel"
+			x: -0.5d
+			y: -1.5d
+			shape: "gear"
+			description: ["It's time to really flex your mastery of Create's systems!"]
+			dependencies: ["230EA6192C7D02AE"]
+			id: "4ED2D4E232C36C5C"
+			tasks: [{
+				id: "2C36715CCFD8B733"
+				type: "gamestage"
+				icon: "create:flywheel"
+				stage: "Create Mastered"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "Get set... bake!"
+			description: ["Shitsco Inc's CEO has an insatiable craving for sweets."]
+			dependencies: ["4ED2D4E232C36C5C"]
+			id: "4E3A813ACCA0B510"
+			tasks: [{
+				id: "27615F33BBA1961F"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 4096L
+				consume_items: true
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "261CB5155FF6AF96"
+				type: "item"
+				item: {
+					id: "kubejs:shitsco_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Do you have what it takes to beat Shitsco Inc. at their own game? Corner the market by setting up large production lines, and earn some branded merch."]
+			id: "230EA6192C7D02AE"
+			tasks: [{
+				id: "6B44D7C316971706"
+				type: "checkmark"
+				title: "Master of the Universe"
+			}]
+		}
+		{
+			title: "Master Botanist"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["230EA6192C7D02AE"]
+			id: "0CC295EADE5FC267"
+			tasks: [{
+				id: "7EB87C971F37F463"
+				type: "gamestage"
+				icon: "botania:flugel_eye"
+				stage: "Botania Mastered"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Just you wait 'til I get ten mana!"
+			description: ["Shitsco Inc's CEO just built a new swimming pool, and wants to fill it with mana."]
+			dependencies: ["0CC295EADE5FC267"]
+			id: "49DBC6F894580D49"
+			tasks: [{
+				id: "717BB155562DDB1D"
+				type: "item"
+				item: "botania:life_essence"
+				count: 512L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "244C2F60B7FAFDB0"
+				type: "item"
+				item: {
+					id: "kubejs:shitsco_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "I just saw this mod does a big breakfast."
+			description: ["Shitsco Inc's CEO is gonna regret ordering the big breakfast."]
+			dependencies: ["75A334AC292F0BBF"]
+			id: "724238321E44EEC9"
+			tasks: [{
+				id: "5957E948E6452182"
+				type: "item"
+				item: "croptopia:the_big_breakfast"
+				count: 4096L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6513DF3BC258E02D"
+				type: "item"
+				title: "Shitsco Inc. Novelty Pants"
+				item: {
+					id: "kubejs:shitsco_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Master Chef"
+			x: -0.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["230EA6192C7D02AE"]
+			id: "75A334AC292F0BBF"
+			tasks: [{
+				id: "5D9E2E90DABE2BB0"
+				type: "gamestage"
+				icon: "croptopia:macaron"
+				stage: "Master Chef"
+			}]
+		}
+		{
+			title: "Master Industrialist"
+			icon: "indrev:modular_core_activated"
+			x: -3.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["230EA6192C7D02AE"]
+			id: "2CF4D8163AE42CEF"
+			tasks: [{
+				id: "1E69A713FEAC78E1"
+				type: "gamestage"
+				icon: {
+					id: "indrev:gamer_axe"
+					Count: 1b
+					tag: {
+						selected: { }
+						Progress: 1.0f
+						energy: 10000L
+						Damage: 0
+						Active: 1b
+					}
+				}
+				stage: "Indrev Mastered"
+			}]
+		}
+		{
+			icon: {
+				id: "indrev:gamer_axe"
+				Count: 1b
+				tag: {
+					selected: { }
+					energy: 10000L
+					Progress: 1.0f
+					Damage: 0
+					Active: 1b
+				}
+			}
+			x: -4.5d
+			y: 2.5d
+			subtitle: "They targeted gamers."
+			description: ["Shitsco Inc's CEO still has his full range of vision. Let's fix that with some LEDs!"]
+			dependencies: ["2CF4D8163AE42CEF"]
+			id: "0F28E52F02DD3C05"
+			tasks: [
+				{
+					id: "7B8376A3BBED807F"
+					type: "item"
+					item: {
+						id: "indrev:gamer_axe"
+						Count: 1b
+						tag: {
+							selected: { }
+							Progress: 1.0f
+							energy: 10000L
+							Damage: 0
+							Active: 1b
+						}
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7F3D84F4937439B3"
+					type: "item"
+					item: "indrev:modular_core_activated"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "21294C9892B113AD"
+				type: "item"
+				item: {
+					id: "kubejs:shitsco_badge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Master Artist"
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Keep that bottle safe, yeah?"]
+			dependencies: ["230EA6192C7D02AE"]
+			id: "58B5FA58B08EB991"
+			tasks: [{
+				id: "39271BCE4CED06E2"
+				type: "gamestage"
+				icon: "spectrum:paintbrush"
+				stage: "Spectrum Mastered"
+			}]
+			rewards: [{
+				id: "19DAF2FCEB4643A4"
+				type: "item"
+				item: "spectrum:bottle_of_decay_away"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "PC load letter?"
+			description: ["Shitsco Inc's CEO is feeling whimsical.\\n\\nJust uh, be VERY careful. Read the warning labels on that thing, and don't leave it unattended, OK? Seriously, this process might completely annihilate your base, and your neighbor's base.\\n\\nShitsco Inc. is not responsible for any loss of life, limb, or property as a result of pursuing this goal!"]
+			dependencies: ["58B5FA58B08EB991"]
+			id: "3323DCB9FDD784CF"
+			tasks: [{
+				id: "2B40FD20791DB3B7"
+				type: "item"
+				item: "spectrum:bedrock_storage_block"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6717A558882CF4E4"
+				type: "item"
+				item: "kubejs:shitsco_trophy"
+			}]
+		}
+		{
+			title: "Powerful Provider"
+			x: -3.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["230EA6192C7D02AE"]
+			id: "5346C42716A6646A"
+			tasks: [{
+				id: "5BC88F5C692BB095"
+				type: "gamestage"
+				icon: "powah:energizing_rod_nitro"
+				stage: "Powah Mastered"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			subtitle: "Unlimited powah!"
+			description: ["Shitsco Inc's CEO demands more power!"]
+			dependencies: ["5346C42716A6646A"]
+			id: "20922D32D2FA1C48"
+			tasks: [{
+				id: "1F9202D3DEECAFD9"
+				type: "item"
+				item: "powah:nitro_crystal_block"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "545A6262B5F58A38"
+				type: "item"
+				item: "kubejs:shitsco_jetpack_premium"
+			}]
+		}
+		{
+			title: "Master Admin"
+			x: -2.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["230EA6192C7D02AE"]
+			id: "7CF85D5A401DBE4E"
+			tasks: [{
+				id: "616AF786509C35D1"
+				type: "gamestage"
+				icon: "ae2:singularity"
+				stage: "AE2 Mastered"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Three HUNDRED megabytes of hard drive capacity!"
+			description: ["Shitsco Inc's CEO needs more hard drive space for all the pictures of his dog."]
+			dependencies: ["7CF85D5A401DBE4E"]
+			id: "308527D7306B95FC"
+			tasks: [{
+				id: "4A35834352011DCC"
+				type: "item"
+				item: "ae2:cell_component_256k"
+				count: 256L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71142DFA31C83ABC"
+				type: "item"
+				item: "kubejs:signed_photo"
+			}]
+		}
+		{
+			title: "Proven Hero"
+			x: -2.0d
+			y: 2.0d
+			shape: "gear"
+			description: ["This is a vanilla advancement requiring you to hunt all 34 hostile mobs."]
+			dependencies: ["230EA6192C7D02AE"]
+			id: "68E2CDD0954DD8C8"
+			tasks: [{
+				id: "41BB37143BB033B3"
+				type: "advancement"
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Desire sensor active"
+			description: ["Shitsco Inc's CEO wants blood."]
+			dependencies: ["68E2CDD0954DD8C8"]
+			id: "629055185114B2F1"
+			tasks: [{
+				id: "021F7242D7E1EEA1"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 64L
+			}]
+			rewards: [{
+				id: "71ECF08DA8164C8E"
+				type: "item"
+				item: {
+					id: "kubejs:shitsco_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Shitsco Certified"
+			x: -2.0d
+			y: -6.0d
+			shape: "heart"
+			description: ["You've done it. You've done it all. It's a heroic achievement, worthy of the next great Shitsco Inc. intern!\\n\\nPlease look forward to a followup call to schedule your second interview. In the meantime, take a break! Maybe look at a tree or something."]
+			hide_dependency_lines: true
+			dependencies: [
+				"308527D7306B95FC"
+				"724238321E44EEC9"
+				"20922D32D2FA1C48"
+				"49DBC6F894580D49"
+				"4E3A813ACCA0B510"
+				"3323DCB9FDD784CF"
+				"0F28E52F02DD3C05"
+				"629055185114B2F1"
+			]
+			hide: true
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "38E756E54E15338A"
+			tasks: [{
+				id: "66647E56B0E99DA9"
+				type: "checkmark"
+				title: "I hereby pledge to go outside"
+			}]
+			rewards: [{
+				id: "16D4B1B59A04C026"
+				type: "item"
+				item: "kubejs:certificate"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,789 @@
+{
+	id: "7D048041070E8A25"
+	group: "1256593D4F9EDDA4"
+	order_index: 2
+	filename: "industrial_revolution"
+	title: "Industrial Revolution"
+	icon: "indrev:lazuli_flux_container_mk4"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Technology"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Oh my god, it's all blocks"
+			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
+			hide: true
+			invisible: true
+			id: "7A7BF548B60ADCE1"
+			tasks: [{
+				id: "616F1D833AFE66E6"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				stage: "Indrev Ready"
+			}]
+			rewards: [{
+				id: "6339C80649535836"
+				type: "item"
+				item: "indrev:guide_book"
+			}]
+		}
+		{
+			title: "Nikolite"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Oddly familiar"
+			description: ["You'll find nikolite fairly deep underground. Gather a lot of it-- it has many industrial applications."]
+			dependencies: ["7A7BF548B60ADCE1"]
+			id: "18697B037C9C90D5"
+			tasks: [{
+				id: "70152A379DFEE968"
+				type: "item"
+				item: "indrev:nikolite_dust"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4006DC1117F94530"
+				type: "item"
+				item: "indrev:nikolite_dust"
+				count: 32
+			}]
+		}
+		{
+			title: "Nikolite Ingots"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "This Ingot Does Not Exist"
+			description: ["For now, you'll have to make Nikolite using your blaze burner setup.\\n\\nDon't turn all your nikolite dust into ingots, you'll need a good stock of both."]
+			dependencies: ["18697B037C9C90D5"]
+			id: "6D0886FAFBA087B0"
+			tasks: [{
+				id: "4D618A419C28F9BB"
+				type: "item"
+				item: "indrev:nikolite_ingot"
+				count: 16L
+			}]
+			rewards: [{
+				id: "35209EBAB830381E"
+				type: "item"
+				item: "indrev:nikolite_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "MK1 Circuits"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Running laps around the competition"
+			description: ["Your first electronics! MK1 circuits will be used nigh constantly. Keep that production line running!"]
+			dependencies: ["18697B037C9C90D5"]
+			id: "6A4950E0EDC757BD"
+			tasks: [{
+				id: "570BF25CB0F80B57"
+				type: "item"
+				item: "indrev:circuit_mk1"
+				count: 4L
+			}]
+			rewards: [{
+				id: "480F26F8DDBE8F1E"
+				type: "item"
+				item: "indrev:circuit_mk1"
+				count: 4
+			}]
+		}
+		{
+			title: "Batteries"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Not included, sorry"
+			description: ["A common component of the heavy machinery you're about to make. You'll need a good supply of these, so keep that production line running!"]
+			dependencies: ["18697B037C9C90D5"]
+			id: "15FFC41A3FD55CDB"
+			tasks: [{
+				id: "7B83BA93F6A932F1"
+				type: "item"
+				item: "indrev:battery"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3081B87A321700C5"
+				type: "item"
+				item: "indrev:battery"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "On this rock, I build my factory"
+			description: ["Machine blocks will be the core to every machine you make. Assembling one is a complex process, and you'll need a good number of them, so leave the line up!"]
+			dependencies: ["77DE5B902EE8B34B"]
+			id: "6927FB52BF2DF8A3"
+			tasks: [{
+				id: "0665D0191976A7E3"
+				type: "item"
+				item: "indrev:machine_block"
+			}]
+			rewards: [{
+				id: "52A9D2F214F58663"
+				type: "item"
+				item: "indrev:machine_block"
+			}]
+		}
+		{
+			title: "Tools of the Trade"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "In every mod, a wrench"
+			description: ["As you start to assemble Indrev machines, you'll need its two trusty tools.\\n\\nThe wrench is used to spin and pick up machines.\\nThe screwdriver is used to configure machines. Right clicking a machine with it lets you define input and output sides and settings."]
+			dependencies: ["6927FB52BF2DF8A3"]
+			id: "2AE52096283A4647"
+			tasks: [
+				{
+					id: "257863FBADB0C230"
+					type: "item"
+					item: "indrev:wrench"
+				}
+				{
+					id: "4C9AD9F583B7FA48"
+					type: "item"
+					item: "indrev:screwdriver"
+				}
+			]
+			rewards: [{
+				id: "5745F82422E7B06E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Mix the drys"
+			description: ["The Solid Infuser combines dusts with other materials, mainly to make more refined nikolite blends and alloys, some of which you were unable to make before.\\nAdditionally, it can be used to grow some plants by infusing them with bonemeal, and help turn rotten flesh into leather."]
+			dependencies: ["6927FB52BF2DF8A3"]
+			id: "057D0BD33BEEB0C9"
+			tasks: [{
+				id: "3CA9DD6DB707B26F"
+				type: "item"
+				item: "indrev:solid_infuser_mk1"
+			}]
+			rewards: [{
+				id: "58042312BF21321D"
+				type: "item"
+				item: "indrev:nikolite_dust"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			subtitle: "No more shoveling coal"
+			description: ["Works like a furnace, but runs on power! Coal is for clowns.\\n\\nThe sawmill also helps multiply your wood-- it turns logs into 6 planks, and makes delicious sawdust."]
+			dependencies: ["6927FB52BF2DF8A3"]
+			id: "5D4B2B2E2A260268"
+			tasks: [
+				{
+					id: "017E68937878E75A"
+					type: "item"
+					item: "indrev:electric_furnace_mk1"
+				}
+				{
+					id: "4767D26C38632396"
+					type: "item"
+					item: "indrev:sawmill_mk1"
+				}
+			]
+			rewards: [{
+				id: "3FB9C9D476D41227"
+				type: "item"
+				item: "indrev:machine_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Hot box of rocks"
+			description: ["You're going to need a place to store all that power.\\nRemember that a screwdriver can be used to adjust the input and output sides. Indrev's power cables are also pretty reasonable to make and upgrade.\\n\\nAs for getting power... Indrev has a few power options, but for serious production you might want some more Powah!"]
+			dependencies: [
+				"15FFC41A3FD55CDB"
+				"6A4950E0EDC757BD"
+				"6D0886FAFBA087B0"
+			]
+			id: "77DE5B902EE8B34B"
+			tasks: [
+				{
+					id: "55053191633367FF"
+					type: "item"
+					item: "indrev:lazuli_flux_container_mk1"
+				}
+				{
+					id: "125C42963805EDC1"
+					type: "item"
+					item: "indrev:cable_mk1"
+				}
+			]
+			rewards: [{
+				id: "2DBD53070EB135B5"
+				type: "item"
+				item: "indrev:battery"
+				count: 4
+			}]
+		}
+		{
+			title: "MK2 Circuits"
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Son of circuit"
+			description: ["After having these machines running for a while, we're due for an upgrade.\\nMK2 circuits will let us build more advanced machines, as well as make upgrades to speed up our existing ones."]
+			dependencies: ["057D0BD33BEEB0C9"]
+			id: "5655FA6995792289"
+			tasks: [{
+				id: "66A40A3B1F496DF7"
+				type: "item"
+				item: "indrev:circuit_mk2"
+			}]
+			rewards: [{
+				id: "20DC32058F0DD278"
+				type: "item"
+				item: "indrev:circuit_mk2"
+				count: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["A much more convenient way to grind stuff up into other stuff. This is a much smaller replacement for those big crushing wheels!"]
+			dependencies: ["057D0BD33BEEB0C9"]
+			id: "48F088A9B2CD6B88"
+			tasks: [{
+				id: "184AFFC7DDCD4F61"
+				type: "item"
+				item: "indrev:pulverizer_mk1"
+			}]
+		}
+		{
+			title: "Enriched Nikolite Dust"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "Don't breathe this"
+			description: ["Nikolite, but with extra pizzazz. Needed for tier 3 machines.\\nThe Solid Infuser lets us make this quite efficiently!"]
+			dependencies: ["48F088A9B2CD6B88"]
+			id: "67AFC7706120D0AF"
+			tasks: [{
+				id: "181AD028599329B6"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+				count: 2L
+			}]
+			rewards: [{
+				id: "70A4BFF762CF1E23"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["Time to retire another contraption. The compressor turns ingots into plates."]
+			dependencies: ["6927FB52BF2DF8A3"]
+			id: "3251613C43F41CCF"
+			tasks: [{
+				id: "07D4D4E364173765"
+				type: "item"
+				item: "indrev:compressor_mk1"
+			}]
+			rewards: [{
+				id: "7961C4FA9A2E98CC"
+				type: "item"
+				item: "indrev:steel_plate"
+				count: 2
+			}]
+		}
+		{
+			title: "MK3 Circuits"
+			x: 9.0d
+			y: -1.5d
+			subtitle: "Middle child upgrade"
+			description: ["The latest, the greatest! Used for tier 3 machines, which is actually kind of a short list.\\nMore like a rest stop on our way to MK 4."]
+			dependencies: ["67AFC7706120D0AF"]
+			id: "3B936741A7C7B519"
+			tasks: [{
+				id: "7065308541017A7E"
+				type: "item"
+				item: "indrev:circuit_mk3"
+			}]
+			rewards: [{
+				id: "3A587E4F6802A49A"
+				type: "item"
+				item: "indrev:circuit_mk3"
+				count: 2
+			}]
+		}
+		{
+			title: "MK4 Circuits"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Mark for what?"
+			description: ["The final tier of circuits, far outstripping the rest. With this, a wide variety of powerful machines and gear are possible."]
+			dependencies: ["3ABA576894F20950"]
+			id: "26944300C176F181"
+			tasks: [{
+				id: "5AAEA201E334A6D5"
+				type: "item"
+				item: "indrev:circuit_mk4"
+			}]
+			rewards: [{
+				id: "595BF8E17942E91D"
+				type: "item"
+				item: "indrev:circuit_mk4"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Wet the drys"
+			description: ["The fluid infuser is similar to the solid infuser, but it mixes stuff with liquids to make other stuff.\\n\\nNotably, it can easily make coolant for making your machines run more efficiently, and also make sulfuric acid to help increase your ore yields even further."]
+			dependencies: ["3ABA576894F20950"]
+			id: "7A3895E579804374"
+			tasks: [{
+				id: "3CCF90E1711FB778"
+				type: "item"
+				item: "indrev:fluid_infuser_mk1"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			subtitle: "Bigger, badder"
+			description: ["Smack one of these on a machine and watch its efficiency climb! Just make sure you're keeping up with the power requirements."]
+			dependencies: ["5655FA6995792289"]
+			id: "450F37D2143DC25F"
+			tasks: [{
+				id: "15070EA5A61A5707"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+			}]
+			rewards: [{
+				id: "18AFB762CB22B2F4"
+				type: "item"
+				item: "indrev:nikolite_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "Enriched Nikolite Ingots"
+			x: 10.5d
+			y: 0.0d
+			description: ["Nikolite ingots, but with extra pizzazz. Needed for tier 4 machines, the final tier."]
+			dependencies: ["67AFC7706120D0AF"]
+			id: "3ABA576894F20950"
+			tasks: [{
+				id: "62709F261A839C06"
+				type: "item"
+				item: "indrev:enriched_nikolite_ingot"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			subtitle: "Biggerer, Badderer"
+			description: ["Just like the MK2 upgrade, slap this on to your MK2 machines to upgrade them to MK3, with all the efficiency boosts and power cost hikes that entails.\\n\\nMaking this seems to be beyond the power of terrestrial materials. Maybe the moon holds the answer?"]
+			dependencies: ["3B936741A7C7B519"]
+			id: "5651D2EC7F55C41F"
+			tasks: [{
+				id: "3BE35E58E03265D3"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+			}]
+			rewards: [{
+				id: "604A97A59578F6D6"
+				type: "item"
+				item: "ad_astra:desh_plate"
+				count: 4
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			description: ["The highest tier of machine upgrade. Stick one of these on a MK3 machine to upgrade it to the final tier.\\n\\nEven the moon metals don't seem to be enough to hold this kind of potential. Perhaps materials from Mars could hack it."]
+			dependencies: ["26944300C176F181"]
+			id: "181875D044931160"
+			tasks: [{
+				id: "319C246F0F9C1DC8"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+			}]
+			rewards: [{
+				id: "4DB86344E1983B9C"
+				type: "item"
+				item: "ad_astra:ostrum_plate"
+				count: 4
+			}]
+		}
+		{
+			title: "Factory Upgrades"
+			icon: "indrev:electric_furnace_factory_mk4"
+			x: 10.5d
+			y: -4.5d
+			subtitle: "The factory shall expand to meet the needs of the factory"
+			description: ["In order to increase our throughput even further, single blocks aren't going to cut it anymore.\\n\\nMost MK4 machines can be upgraded to a Factory version, which requires a standard set of blocks to be placed around it. Once you've placed the factory machine, right click it to visualize the structure.\\n\\nNote that the orientation of the factory structure blocks matters! \\n\\nOnce up and running, our new factory machine can process five things at a time!"]
+			dependencies: ["181875D044931160"]
+			id: "73004E70918806AA"
+			tasks: [
+				{
+					id: "24455B26D614EF4E"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "6F6CF511FC8C655D"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "38EEC13CF67EE502"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "6D73580BD7E9B55B"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "7A5AE69D9DAA742A"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "00BB8A52D734166A"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "6E05CF5305479008"
+					type: "item"
+					item: "indrev:controller"
+				}
+			]
+			rewards: [{
+				id: "3A999A25340E231C"
+				type: "item"
+				item: "indrev:steel_plate"
+				count: 64
+			}]
+		}
+		{
+			title: "Mining Rig"
+			icon: "indrev:mining_rig_mk4"
+			x: 12.0d
+			y: -3.0d
+			subtitle: "Mine no more"
+			description: ["In a perfect world, we would never have to mine in Minecraft.\\n\\nThe mining rig can make that possible, but ironically, requires a fair bit of mining to get set up.\\nMake the mining rig and a drill. The tier of drill head you use will affect the speed of the ore production, and higher tiers are vastly more efficient.\\n\\nWe'll talk next how to actually get rocks outta the thing."]
+			dependencies: ["26944300C176F181"]
+			id: "26C645E9855B179F"
+			tasks: [
+				{
+					id: "7FA38D83A24A4789"
+					type: "item"
+					item: "indrev:mining_rig_mk4"
+				}
+				{
+					id: "532BBD71B59FCC9A"
+					type: "item"
+					item: "indrev:drill_bottom"
+				}
+				{
+					id: "345F487BEAF3006E"
+					type: "item"
+					item: {
+						id: "indrev:diamond_drill_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "33038EA11E3C2DFC"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 32
+			}]
+		}
+		{
+			title: "Programming the Mining Rig"
+			x: 13.5d
+			y: -3.0d
+			subtitle: "Gotta spend money to make money"
+			description: ["In order to get ores from the mining rig, we need to configure it. Putting an empty ore card lets us define a set of ores that card will enable the rig to produce.\\n\\n* Adding full stacks of ore enables that ore to be found, and more stacks increases the odds that ore will be generated.\\n* Adding stone will increase the number of cycles this card can be used for, without changing the yields or weights.* Enriched nikolite can be added to increase the richness of the ore veins, resulting in higher yields per cycle."]
+			dependencies: ["26C645E9855B179F"]
+			id: "35FFFD8F07A20C67"
+			tasks: [
+				{
+					id: "333B9044532B9645"
+					type: "item"
+					item: "indrev:ore_data_card"
+				}
+				{
+					id: "7136CF3FCE3B5AFD"
+					type: "item"
+					item: "indrev:data_card_writer_mk4"
+				}
+			]
+			rewards: [{
+				id: "1E5C066A13B26F2E"
+				type: "item"
+				item: "minecraft:stone"
+				count: 128
+			}]
+		}
+		{
+			title: "Ore Tripling"
+			x: 12.0d
+			y: -1.5d
+			shape: "rsquare"
+			description: ["By smelting our ores into a liquid first, then solidifying them with a condenser, we can get purer ores, resulting in more yields per ore."]
+			dependencies: ["4728A77657E316B3"]
+			hide: true
+			id: "4249C0B59801E66F"
+			tasks: [
+				{
+					id: "2414BCE3DA6B01FA"
+					type: "item"
+					item: "indrev:smelter_mk4"
+				}
+				{
+					id: "3A632125B7B0E44D"
+					type: "item"
+					item: "indrev:condenser_mk4"
+				}
+			]
+		}
+		{
+			title: "Ore Quadrupling"
+			x: 13.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: ["Sulfuric acid can be used to quadruple our ores. Infuse each ore with a bucket of sulfuric acid first, then put it in the smelter for even more ore per ore."]
+			dependencies: [
+				"4249C0B59801E66F"
+				"7A3895E579804374"
+			]
+			id: "6B4D1EC436BAEF49"
+			tasks: [{
+				id: "0EC76CE514600266"
+				type: "item"
+				item: "indrev:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			title: "Core of Modularity"
+			icon: "indrev:modular_core_activated"
+			x: 12.0d
+			y: 1.5d
+			subtitle: "Personality not included"
+			description: ["The Core of Modularity is a key piece of power armor and tools. Making them is dangerous-- you need to point a high-powered laser at them until they're charged.\\n\\nMake sure that if the laser is on, it's pointed at a core! Anything else is pretty dangerous.\\n\\nConsult the Indrev manual for more information. Safety not guaranteed."]
+			dependencies: ["3ABA576894F20950"]
+			id: "75C543638F76868B"
+			tasks: [
+				{
+					id: "57A114C0BFF35D60"
+					type: "item"
+					item: "indrev:modular_core"
+				}
+				{
+					id: "6C5FF20CB630C9A0"
+					type: "item"
+					item: "indrev:laser_emitter_mk4"
+				}
+				{
+					id: "1FFA0EEA9374DC17"
+					type: "item"
+					item: "indrev:capsule"
+				}
+				{
+					id: "0A648F305C54773B"
+					type: "item"
+					item: "indrev:modular_core_activated"
+				}
+			]
+			rewards: [{
+				id: "7E1366B7A8342ACF"
+				type: "item"
+				item: "indrev:tungsten_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			subtitle: "With a box of scraps!"
+			description: ["You'll need a place to work on your fancy power armor. Make sure to provide it power, so you can install new modules!"]
+			dependencies: ["75C543638F76868B"]
+			id: "4209B13881B2D429"
+			tasks: [{
+				id: "7BBD68456D053CE4"
+				type: "item"
+				item: "indrev:modular_workbench_mk4"
+			}]
+		}
+		{
+			title: "Modular Gear"
+			x: 15.0d
+			y: 1.5d
+			description: ["Highly customizable powerful gear. Skim through REI for the list of Modules you can plug in."]
+			dependencies: ["4209B13881B2D429"]
+			id: "3BA1640952AD4209"
+			tasks: [
+				{
+					id: "2B0F5E4D38EE0519"
+					type: "item"
+					item: {
+						id: "indrev:modular_armor_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "04B45F20C41EB60E"
+					type: "item"
+					item: {
+						id: "indrev:modular_armor_chest"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "13A0B5F659C70051"
+					type: "item"
+					item: {
+						id: "indrev:modular_armor_legs"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "209BFC6BA62A436E"
+					type: "item"
+					item: {
+						id: "indrev:modular_armor_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "48755623955B9D4E"
+				type: "item"
+				item: "indrev:tungsten_plate"
+				count: 32
+			}]
+		}
+		{
+			title: "Indrev Mastered"
+			icon: {
+				id: "indrev:gamer_axe"
+				Count: 1b
+				tag: {
+					selected: { }
+					Progress: 1.0f
+					energy: 10000L
+					Damage: 0
+					Active: 1b
+				}
+			}
+			x: 15.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "I have revolved"
+			description: ["You did it!"]
+			dependencies: ["3BA1640952AD4209"]
+			size: 1.5d
+			id: "7F6590A0C757C5AF"
+			tasks: [{
+				id: "36181338357CA7D0"
+				type: "checkmark"
+				title: "Indrev Mastered"
+			}]
+			rewards: [{
+				id: "069474459C145CD6"
+				type: "gamestage"
+				icon: {
+					id: "indrev:gamer_axe"
+					Count: 1b
+					tag: {
+						selected: { }
+						Progress: 1.0f
+						energy: 10000L
+						Damage: 0
+						Active: 1b
+					}
+				}
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Mastered"
+			}]
+		}
+		{
+			title: "A Special Offer"
+			x: 3.0d
+			y: -1.5d
+			shape: "pentagon"
+			subtitle: "Seems like a bad idea"
+			description: ["Psst... Hey kid! Yeah, you!\\n\\nYou wanna fly? I bet you do, kid. I bet you do.\\nYou didn't hear it from me, but this thing'll take you way up high!\\n\\nJust uh, make sure you got your landing sorted out first, eh? Wouldn't want you to have an accident or nothin'."]
+			dependencies: ["77DE5B902EE8B34B"]
+			optional: true
+			id: "714622492C935C80"
+			tasks: [{
+				id: "7086D58666ADB807"
+				type: "item"
+				item: "kubejs:shitsco_jetpack"
+			}]
+			rewards: [
+				{
+					id: "306AEA3F4A2A319F"
+					type: "item"
+					item: "indrev:lazuli_flux_container_mk1"
+				}
+				{
+					id: "7FB68EF3E7542D33"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			icon: "powah:energizing_rod_starter"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Zap"
+			description: ["Now that you have somewhere to put your energy, you're going to need to generate some."]
+			dependencies: ["77DE5B902EE8B34B"]
+			id: "2CC558FF6D8C09BC"
+			tasks: [{
+				id: "38056C29E4599FFB"
+				type: "checkmark"
+				title: "Power time!"
+			}]
+			rewards: [{
+				id: "65008688A2BDA5A4"
+				type: "gamestage"
+				icon: "powah:energizing_rod_starter"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Power Generation"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+#Modifier key required to be held to allow for scrolling through cycle slots.
+#Setting to "NONE" will overwrite vanilla hotbar scrolling, making the hotbar only usable with number keys.
+#Allowed Values: DISABLED, NONE, CONTROL, SHIFT, ALT
+scrolling_modifier_key = "ALT"
+#Offset of cycle slots display from screen bottom.
+#Allows for compatibility with mods that move the hotbar upwards such as the Raised mod (Raised has built-in support on Fabric).
+#Range: > -2147483648
+slots_offset = 0
+#Choose when the cycle slots display is shown next to the hotbar: Always, never, or only when the modifier key for scrolling is held. Doesn't disable cycling itself though.
+#Allowed Values: ALWAYS, KEY, NEVER
+slots_display_state = "KEY"
+

@@ -1,0 +1,1172 @@
+{
+	id: "336E9524C25DF66C"
+	group: "1256593D4F9EDDA4"
+	order_index: 1
+	filename: "creating_creatively"
+	title: "Creating Creatively"
+	icon: "create:goggles"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Moving Items"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "Darn, I like the funnel"
+			description: ["Now that you have some rotational power, we can use that to move items around for early automation.\\nBelts move items on top of them and will generally move things onto depots, basins, or other belts, but to be able to move items in or out of most containers, you want a funnel.\\n\\nAlso worth noting-- belts are smart about not overflowing, and if you place some machinery on top of a belt (like the Mechanical Press), the items will wait for the machine to operate on it before continuing.\\n\\nAs always, Ponder these items for more thorough visual examples."]
+			dependencies: ["5E7B0AFE76B9C023"]
+			id: "73CCFE4A980FB92E"
+			tasks: [
+				{
+					id: "657AC51630E264F5"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "0AD7D24BFF0E8BD0"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "474EE08C1E60F834"
+					type: "item"
+					item: "create:chute"
+				}
+			]
+			rewards: [{
+				id: "6FB0FA931F36A1DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Stressin'"
+			x: -5.5d
+			y: -0.5d
+			subtitle: "#relatable"
+			description: ["These two devices (which can be crafted into each other freely) measure the speed and stress placed on your mess of shafts and cogs.\\n\\nSources of rotational force, like the windmill and waterwheel, will set the stress capacity of your network, while machines like the press, mixer, and grindstone, will contribute stress to the network based on how fast they're spinning. Too much stress, and the whole thing grinds to a halt.\\n\\nUsing the stressometer and goggles, you can measure how each piece contributes. Don't forget that you can manually gear up or down using large and small cogs, to fine-tune how fast (and how stressful) a machine runs."]
+			dependencies: ["343CADE41B0F6A39"]
+			id: "7BA51A9B269CB44B"
+			tasks: [
+				{
+					id: "35153572704D6428"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "59ECD17B5558CD57"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+		}
+		{
+			title: "Bearings"
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Moving Parts"
+			description: ["Here's where the real magic starts!\\n\\nEach of these movement anchors allows you to turn rotational force into actual blocks moving in the world, in different ways.\\nCertain machines, like saws, drills, and plows, will function differently when on a moving contraption, allowing for powerful (and goofy) farms or digging machines!\\n\\n* Mechanical bearings rotate the attached blocks. Handy for making automatic farms!\\n* Mechanical Pistons will push (or pull) the attached structure. You must attach the extension poles to the back to set the length it works over.\\n* Rope pulleys will raise or lower the attached structure. Combine with a Gearshift to make a simple elevator!"]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "418EE571FAC1ED00"
+			tasks: [
+				{
+					id: "4DD3A124A9175098"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "09D227DA9A35DEC6"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+				{
+					id: "38A47F1F6ADC3FE6"
+					type: "item"
+					item: "create:piston_extension_pole"
+					count: 8L
+				}
+				{
+					id: "2448A2CD525AFBBC"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+			]
+			rewards: [{
+				id: "40DBE8FC24AA8A6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Chassis"
+			x: -2.5d
+			y: -5.5d
+			subtitle: "I hardly know he"
+			description: ["Chassis blocks help keep your contraption together. Most chassis blocks connect to each other, and move as a unit.\\n\\nEach type of chassis will also move other attached blocks (Ponder for more details!)"]
+			dependencies: ["418EE571FAC1ED00"]
+			id: "0F01B15F312E023B"
+			tasks: [
+				{
+					id: "32ACEA054FF72A3B"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "50799605545F6870"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+		}
+		{
+			icon: "botania:cosmetic_thinking_hand"
+			x: -2.5d
+			y: -7.0d
+			subtitle: "But what do I do?"
+			description: ["The following quests should provide some ideas for contraptions to make.\\nAs always, make heavy use of Ponder to understand how the pieces fit together!"]
+			dependencies: ["0F01B15F312E023B"]
+			id: "4E955863939B3974"
+			tasks: [{
+				id: "5C78273ECA3B8770"
+				type: "checkmark"
+				title: "Ideas"
+			}]
+			rewards: [{
+				id: "08ED5CEA8D91B1E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Automatic Farm"
+			icon: "create:mechanical_saw"
+			x: -4.0d
+			y: -9.5d
+			subtitle: "All the trees and wheat"
+			description: ["Using a mechanical bearing (or a windmill bearing!), one can make an automatic circular farm.\\n\\nAttach chassis blocks to the bearing to make an arm, and attach the saws (for trees) or ploughs (for crops) to the leading edge of one arm. These will harvest the crops or chop the trees.\\nThen to the back side of the arm, attach deployers to replant the saplings or crops.\\n\\nAttach a barrel (or other container) to the whole structure, and it will place the harvested blocks in it, and use stored items to replant.\\nThen, attach a portable storage interface somewhere to the structure. When it passes another storage interface, it will stop and try to deposit items into it, letting you get items out of the contraption. \\n\\nDefinitely Ponder the storage interface, it can be finnicky!"]
+			dependencies: ["4E955863939B3974"]
+			id: "788D4EF3F7C90645"
+			tasks: [
+				{
+					id: "71EC433D02C26CEF"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "03FF07005C3D7C9C"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+				{
+					id: "78085FEE9E67E883"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "2D7FC95079047C25"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "04D2B3B8919EDE89"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "0DB2FF640AF14168"
+					type: "item"
+					item: "create:portable_storage_interface"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "23249CBC97A2CF32"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Elevator"
+			icon: "create:rope_pulley"
+			x: -4.0d
+			y: -8.5d
+			subtitle: "Going up!"
+			description: ["Using a rope pulley, one can make a simple and speedy elevator from one floor to another.\\n\\nWhen spun one direction, the pulley will raise the attached structure, and when spun the other direction will lower it. Chassis blocks make a good elevator floor, and a seat will prevent any workplace injuries.\\nTo change the rotation direction, you can use a gearshift, which will swap direction when powered by a redstone signal. Using a toggle latch, we can use redstone pulses (like from a button) to move the elevator.\\nRedstone links allow for transmitting a redstone signal wirelessly, so we can use one at each end to call the elevator back and forth.\\n\\nMaking it stop at multiple floors, however... is an exercise for the reader."]
+			dependencies: ["4E955863939B3974"]
+			id: "2E0C7A7EAF0C50EC"
+			tasks: [
+				{
+					id: "2861FB6D57441BCF"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+				{
+					id: "428C42C45E61780F"
+					type: "item"
+					item: "create:gearshift"
+				}
+				{
+					id: "27DFF053906ADCA4"
+					type: "item"
+					item: "create:redstone_link"
+				}
+				{
+					id: "5254B11D77048C24"
+					type: "item"
+					item: "create:powered_toggle_latch"
+				}
+				{
+					id: "0C208ECF0CE21897"
+					type: "item"
+					item: "create:white_seat"
+				}
+			]
+			rewards: [{
+				id: "70D0230CD1369F3B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Food Factory"
+			x: -2.5d
+			y: -10.5d
+			subtitle: "Come with me, and you'll see...!"
+			description: ["Create comes with a few foodstuffs with special recipes. Try making a factory line to mass produce these foods!"]
+			dependencies: ["4E955863939B3974"]
+			id: "045DFBBC94BCB57F"
+			tasks: [
+				{
+					id: "5D1A2F5840D4F12B"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "6D02BD2004F47E09"
+					type: "item"
+					item: "create:bar_of_chocolate"
+				}
+				{
+					id: "2E6CE81342449E79"
+					type: "item"
+					item: "create:sweet_roll"
+				}
+			]
+			rewards: [{
+				id: "1344C9F798AC0A01"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Cable Car"
+			icon: "create:gantry_carriage"
+			x: -3.0d
+			y: -8.5d
+			subtitle: "Bridges are for cowards"
+			description: ["Gantries move the attached structure along a gantry shaft. We could build a bridge... or we could build a nonsense contraption instead.\\n\\nMuch like the elevator, we can use a gearshift to change the direction the gantry travels, and a few redstone links to do it remotely. We can also use a linked controller to change directions from inside the car, wirelessly!"]
+			dependencies: ["4E955863939B3974"]
+			id: "1B4D684EF3836BFA"
+			tasks: [
+				{
+					id: "039FFEBD360F0F42"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "557D3FF90B78575C"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+				{
+					id: "7D4A685FB6ABBC4F"
+					type: "item"
+					item: "create:gearshift"
+				}
+				{
+					id: "5D7971259643F515"
+					type: "item"
+					item: "create:redstone_link"
+				}
+				{
+					id: "2941ACF44BF11DE6"
+					type: "item"
+					item: "create:linked_controller"
+				}
+				{
+					id: "092E560C71DC85E4"
+					type: "item"
+					item: "create:white_seat"
+				}
+			]
+		}
+		{
+			title: "Cobblestone Generator"
+			icon: "create:mechanical_drill"
+			x: -3.0d
+			y: -9.5d
+			subtitle: "Nothin' beats rock"
+			description: ["Using a drill, one can make an automatic cobblestone farm.\\n\\nDrills will slowly break blocks in front of them, but you need to move them into the block to break. So, we can use a mechanical bearing to spin a drill into the blocks created by a normal cobblestone generator, using lava and water.\\nAttach a barrel and a portable storage interface to get the blocks out of the contraption."]
+			dependencies: ["4E955863939B3974"]
+			id: "5B719727D57D67D1"
+			tasks: [
+				{
+					id: "3C73C32E09374455"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+				{
+					id: "1786335E7742570C"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "3FD9DB3734BA4541"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "5269CD2767FA675E"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "577E12DD7EB715D9"
+					type: "item"
+					item: "create:portable_storage_interface"
+				}
+			]
+			rewards: [{
+				id: "36063A6833B44BBB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Ore Processor"
+			icon: "create:crushing_wheel"
+			x: -2.0d
+			y: -9.5d
+			subtitle: "Rocks into better, cooler rocks"
+			description: ["Ore processing in Create is fairly straightforward, and can be done a few ways to get better yields or extra items.\\n\\n1. Run a belt to a pair of crushing wheels. Crushing wheels can be placed horizontally, and a pair of vertical gearboxes can help get them spinning against each other.\\n2. Add a container with a funnel to serve as an input buffer to the start of the belt. Add your ores here! The funnel won't extract more than the belt can handle, and items on the belt will stop while ores ahead of them get processed by the wheels.\\n3. Your ores should now be crushed! Next we can either wash them to get bonus resources, or smelt them as is.\\n\\nFor washing:\\n1. Place a depot after the crushing wheels, and put a block of water level with the depot. Use glass, trapdoors, etc. to contain it. Behind the liquid, place a fan, and make sure it is blowing out!\\n2. Place a container next in line with the depot, and attach a funnel (brass is better!). Then, using a filter, we can whitelist what items will be allowed in, or blacklist the crushed ores by tag.\\n3. Next, extract the nuggets into a basin with a mechanical press. Once nine nuggets make it in, it should compact them into an ingot. Extract and store as desired.\\n\\nFor smelting:\\n1. Place a depot after the crushing wheels, and put a block of lava level with the depot. Use glass, trapdoors, etc. to contain it. Behind the liquid, place a fan, and make sure it is blowing out!\\n2. Place a container next in line with the depot, and attach a funnel (brass is better!). Then, using a filter, we can whitelist just the ingots to be allowed in. Store as desired!"]
+			dependencies: ["4E955863939B3974"]
+			id: "226E8AED8C1EA6BE"
+			tasks: [
+				{
+					id: "337B337D3171D4FE"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2L
+				}
+				{
+					id: "3C8FFD65EC01C4E9"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "76AE5F791DF28C14"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "2139795030F1E954"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "73D8DC00A86B3480"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7802FAC60E3D9ADC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Drawbridge"
+			icon: "create:sequenced_gearshift"
+			x: -2.0d
+			y: -8.5d
+			subtitle: "I'm no artist..."
+			description: ["Using the sequenced gearshift, we could easily make a drawbridge that toggles between a raised and lowered state.\\n\\nSet the sequenced gearshift as follows:\\n1. Turn by angle 90 degrees, input speed, forwards.\\n2. Await new redstone pulse.\\n3. Turn by angle 90 degrees, input speed, reversed.\\n4. End.\\n\\nThen, attach the mechanical bearing and build your drawbridge. When the gearshift receives a redstone pulse, it will flip between rotating down 90 degrees, and returning to the original angle.\\n"]
+			dependencies: ["4E955863939B3974"]
+			id: "7D3644E497E8656C"
+			tasks: [
+				{
+					id: "3E87DB9B199BA099"
+					type: "item"
+					item: "create:sequenced_gearshift"
+				}
+				{
+					id: "34CE1322A7C6926B"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "41B957897536A377"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+			]
+			rewards: [{
+				id: "3FC6A469968D5267"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Clock Tower"
+			x: -1.0d
+			y: -8.5d
+			subtitle: "BONG"
+			description: ["The clockwork bearing is good at one thing: making a big clock with an hour hand and minute hand.\\n\\nPondering this will give all the details, but two separate structures can be attached to the face of this bearing, which it will then rotate to the correct positions for an hour hand and minute hand (in-game time).\\nCombine with redstone contacts and you can trigger a series of note blocks, bells, or steam whistles to mark the hours with a lovely tune."]
+			dependencies: ["4E955863939B3974"]
+			id: "599DF7EFF3246ABC"
+			tasks: [
+				{
+					id: "5522E764ED16968E"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+				{
+					id: "36CE33277868DB2D"
+					type: "item"
+					item: "create:redstone_contact"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "77BC9B2B3682629A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Tunnel Boring Machine"
+			icon: "create:cart_assembler"
+			x: -1.0d
+			y: -9.5d
+			subtitle: "Chunkfucker if you're nasty"
+			description: ["Using a cart assembler and a contraption with some drills, one can make an automatic miner.\\n\\nTo be frank, I haven't played with this much myself. But the cart assembler lets you attach entire contraptions to minecarts, which means you could build the tunnel boring machine of your dreams with some drills and some ingenuity."]
+			dependencies: ["4E955863939B3974"]
+			id: "60E74C7782AA0CA5"
+			tasks: [
+				{
+					id: "36E4C635C05AB07E"
+					type: "item"
+					item: "create:cart_assembler"
+				}
+				{
+					id: "1193CC3EF7CA3956"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+				{
+					id: "70388397067C1C3E"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
+			rewards: [{
+				id: "2E0E7182C08E283C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "Do not eat"
+			description: ["Superglue lets you stick multiple blocks together, so that when they are attached to a contraption (for example, the Windmill Bearing), they will move as a single unit.\\n\\nWhy not try making your windmill even fancier now that you can use more than just the sails?"]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "326B958E0061BB59"
+			tasks: [{
+				id: "2552BC8CD340238C"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "22CF28938E428FE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Toolboxes"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Ol' Other Reliable"
+			description: ["Toolboxes are incredibly handy and absolutely worth making multiples of.\\nWhen placed, a toolbox has slots for 8 different items, and it keeps its contents when broken. Handy enough already, but if you hold down the hotkey while a toolbox is nearby, you can quickly swap between these items and keep them stocked on your hotbar! There's even a button to quickly return all items back to the toolbox.\\n\\nHere's some useful ideas for toolbox contents:\\n* Cogs, shafts, gearboxes, casings, and belts\\n* Pipes, wires, tubes\\n* Building blocks as an architect's palette\\n"]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "4E64DA28958AED76"
+			tasks: [{
+				id: "15FB4A93E322F554"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [{
+				id: "6765F2BFA7FFABE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "My brand!"
+			description: ["Wearing the goggles on your head (or head trinket slot) lets you see extra information about your contraptions, like the precise stress values from a Stressometer."]
+			dependencies: ["343CADE41B0F6A39"]
+			id: "4641715FE8B658D4"
+			tasks: [{
+				id: "6DAB6C3C9D3D607A"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "4A92B0466BCAF98B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:mechanical_press"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "Impressive Machinery"
+			description: ["Our first machine that does something! The metal press makes plates. It needs a source of rotational power to work, so hook it up to a shaft.\\n\\nAdditionally, you'll need a depot underneath it. Create machines will often do their job on items placed onto a depot, basin, or belt."]
+			dependencies: ["73CCFE4A980FB92E"]
+			size: 1.5d
+			id: "343CADE41B0F6A39"
+			tasks: [
+				{
+					id: "042474FBD4F96FA5"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "3157F5E15EB82D1E"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "{2}, {T}: Target player mills two cards."
+			description: ["It grinds things into other things. Try putting wheat in to make flour!"]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "1129D52F667A70ED"
+			tasks: [{
+				id: "50E5B86D90A00601"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "191BF9FC726306F4"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 8
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "See?"
+			description: ["When stationary, it cuts stuff up, mostly wood. Turns logs into stripped logs, and stripped logs into planks. \\n\\nRight click the little yellow square to filter the item it will try to create (or use a fancy Filter item), otherwise it might not make what you expect.\\n\\nWhen on a moving contraption, it will halt the contraption and cut down trees!"]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "54062BA0A124ECE9"
+			tasks: [{
+				id: "1A21EB7637AC224D"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "1477A299D311F820"
+				type: "item"
+				item: "minecraft:stripped_spruce_log"
+				count: 8
+			}]
+		}
+		{
+			icon: "create:mechanical_mixer"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "A boxy blender"
+			description: ["When placed above a basin, it'll mix the stuff in the basin together!\\nIt needs to be running at a high enough speed or it won't do anything. Try using large cogs to gear up the speed!\\n\\nThere are several mixer-specific recipes, including ones involving fluids, but it can also automate crafting most shapeless recipes. Use the little yellow filter square to specify what to make."]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "55D2B8E90BD9FE28"
+			tasks: [
+				{
+					id: "300C4A562E4D75F5"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "587655D52BF64B8D"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "2B0B8F7658768DD4"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "3A6239E7A7405B85"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "75456A07C268FE47"
+					type: "item"
+					item: "minecraft:acacia_leaves"
+					count: 16
+				}
+				{
+					id: "1919A2E552525B6D"
+					type: "gamestage"
+					icon: "ad_astra:earth_globe"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "Ad Astra Ready"
+				}
+			]
+		}
+		{
+			title: "Pipes"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Better than the screensaver"
+			description: ["Create pipes are a little funky, but offer a low-power way to move fluids around.\\n\\nPumps are required to move things from one tank to another, and have a limited range. Right click a pipe with a wrench to make a window so you can see what you're doing.\\nNotably, a pipe with a pump can extract fluid from the world if placed against source blocks. Great for getting water in."]
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "5FC1EE27344EB819"
+			tasks: [
+				{
+					id: "2AA8E1657CDA6B10"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "5438BD8D32D9546A"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "22B5F8C10F90FDD9"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "45A80DB357F40DD5"
+					type: "item"
+					item: "create:copper_casing"
+				}
+			]
+			rewards: [{
+				id: "4B0F90449F91F80C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:hose_pulley"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "The biggest straw"
+			description: ["A hose pulley will suck up fluids from the world. Most importantly, if it's draining a large enough body of water, it treats it as infinite. Try pumping lava from the Nether!\\nThe hose needs to be lowered into the fluid before it can work. Use a valve and manually crank it to get it in the drink."]
+			dependencies: ["5FC1EE27344EB819"]
+			id: "514531B1262F4577"
+			tasks: [
+				{
+					id: "30C40AD68720FA35"
+					type: "item"
+					item: "create:hose_pulley"
+				}
+				{
+					id: "03F9016653295B31"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [{
+				id: "571108511AF12680"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "I hope it was worth the wait."
+			description: ["Steam boilers are a beefy source of rotational power, provided you can meet their demands!\\nPonder the steam engine for more details, but the general idea is you put a heat source below copper tanks filled with water. If the conditions are right it will start to actuate the piston on the steam engine!\\n\\nA simple boiler setup is four campfires under a 2x2x2 cube of tanks, which is receiving a steady supply of water. This can be scaled up with a bigger tank, more steam engines, and well-fed blaze burners.\\nTry setting up a factory that produces blaze cakes for a potent heat source for massive power!"]
+			dependencies: [
+				"5FC1EE27344EB819"
+				"1DA6287751314C5F"
+			]
+			id: "76D4FFBC2DEEE4C3"
+			tasks: [{
+				id: "7D12FD8D31242923"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "60D22BBE4B62DFB5"
+				type: "item"
+				item: "create:steam_whistle"
+			}]
+		}
+		{
+			title: "Blaze Burner"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Help wanted"
+			description: ["Our mixer works pretty well, but it could use a little more oomph. Why not hire some of the locals to heat things up?\\nMake an empty blaze burner, then take it to the Nether. Either find a Blaze or a Blaze Spawner, and use the burner on it to make it a job offer.\\n\\nWhen placed below a mixer's basin, you can provide the burner solid fuel like coal to temporarily heat it and enable new and exciting recipes."]
+			dependencies: ["55D2B8E90BD9FE28"]
+			id: "1DA6287751314C5F"
+			tasks: [
+				{
+					id: "71418F05CC48CA79"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "5665E79AA14F3B9B"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [{
+				id: "21FFAABA88C1539F"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 16
+			}]
+		}
+		{
+			icon: "ad_astra:earth_globe"
+			x: 2.5d
+			y: -7.0d
+			shape: "octagon"
+			subtitle: "To the moon!"
+			description: ["It sounds preposterous, but after holding your first batch of steel in your hands, it starts to seem like anything could be possible, even going to space.\\nYou might want some more sophisticated tech, but where there's a will, there's a way...!"]
+			dependencies: ["63A62BA6A5B8B5C5"]
+			id: "27E0594DB6E9316A"
+			tasks: [{
+				id: "2A11E7F67BDEE5B2"
+				type: "checkmark"
+				title: "Dreams of the Stars"
+			}]
+			rewards: [{
+				id: "26FE3A3F49379444"
+				type: "gamestage"
+				icon: "ad_astra:earth_globe"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Ad Astra Ready"
+			}]
+		}
+		{
+			title: "Crushing Wheels"
+			x: 2.5d
+			y: -4.0d
+			subtitle: "Me am play god"
+			description: ["Crushing wheels grind stuff into other stuff. You count as stuff, so don't fall in! Most useful for increasing your ore yields, but also can turn cobble into gravel, gravel into sand... etc.\\nThese MUST be made using a large number of mechanical crafters, but you get two for the price of one. A bargain!\\n"]
+			dependencies: ["1050D4A9803DB488"]
+			id: "3CE7CEF9229FB953"
+			tasks: [{
+				id: "12C59C5489E588A8"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "792CBBD80AF2A1A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Mechanical Crafting"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "AI stealing our jobs!"
+			description: ["Mechanical crafters are used to craft things automatically. Definitely one to Ponder!\\nEach crafter represents one square in a shaped crafting recipe, and can be used in recipes involving more than the normal number of ingredients.\\n\\nTroubleshooting tips:\\n* Make sure each crafter leads to the other crafters. You can think of them as combining the item they hold with the one(s) next in line. The final crafter can lead to a belt, chest, etc.\\n* Items can be automatically inserted into a crafter. You can also right click the back with a wrench to join adjacent crafters together-- this means items inserted into one will also flow into the other joined crafters. Useful for repeated ingredients.\\n* You can use covers in case a recipe has gaps, but you still want a crafter there.\\n* Crafting is stressful! You may want to gear these down."]
+			dependencies: ["3F86E4742F44DF54"]
+			id: "1050D4A9803DB488"
+			tasks: [{
+				id: "57183EE5B48EA3F8"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+			rewards: [{
+				id: "0B13DC5E99E6EBD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Brass"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Your ass is brass, pal"
+			description: ["One of the new things our new Blaze Burner can help us make are metal alloys, like brass!\\nGet some copper and zinc, heat up the burner, and mix them together. \\n\\nBrass is used in several upgraded blocks and items, and you'll need a good supply."]
+			dependencies: ["1DA6287751314C5F"]
+			id: "3F86E4742F44DF54"
+			tasks: [{
+				id: "54E8DAB509971907"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7FDD03362A7B0FFF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Spooky action at a distance"
+			description: ["It's wireless redstone, with no fuss!\\nSet the channels using items, and wrench the one you want to receive the signal so that it shows a little satellite dish. "]
+			dependencies: ["3F86E4742F44DF54"]
+			id: "0C8FF225A76271AF"
+			tasks: [{
+				id: "792045201A29DDD8"
+				type: "item"
+				item: "create:redstone_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "4D2AEF5964846E3E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Pass me that spanner"
+			description: ["Mechanical arms are tricky, but powerful.\\nBefore you place one, you define the inputs and outputs. Then as long as it is powered, it will attempt to move items from the inputs to the outputs. Funnels work great for both of these, and output funnels can be filtered to route items correctly.\\n\\nArms are most useful when stocking a bank of mechanical crafters, or when you need to move items across the room without a cumbersome conveyor belt."]
+			dependencies: ["1A5428B428A1FC63"]
+			id: "0EAC32FB6DAEDF8D"
+			tasks: [{
+				id: "1F64B8333A99FF6C"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "4EFE8A6D7510D67D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:precision_mechanism"
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Precision Engineering"
+			description: ["Precision Mechanisms are used for crafting high end items in Create, and must be done with sequenced assembly!\\nEssentially, you'll be building an assembly line with deployers to add things to your work in progress one at a time. The recipe shows the steps, and how many times to repeat it, so you'll want to build a loop of conveyor belts.\\n\\nUsing a funnel and a filter, you can have only the finished product extracted automatically. Be careful though, sequenced assembly has a chance to fail and make... other stuff."]
+			dependencies: ["3F86E4742F44DF54"]
+			id: "1A5428B428A1FC63"
+			tasks: [
+				{
+					id: "007A84F02670122F"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+				{
+					id: "081A1222F41C687A"
+					type: "item"
+					item: "create:deployer"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "23D82644A41C08CB"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Cheat to win"
+			description: ["Mathing out gear ratios is for nerds. With the rotation speed controller, you can set the speed directly! Goes great with a stressometer to set the precise max speed your workshop can run at."]
+			dependencies: ["1A5428B428A1FC63"]
+			id: "6A8C1C070007A493"
+			tasks: [{
+				id: "651F9685B5775C12"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "0E6D6D21D62D7647"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			subtitle: "Train good, car bad"
+			description: ["Another sequenced assembly recipe, this time involving lava and a spout!\\nSturdy sheets are used in Train Casings. You like trains, you're playing Minecraft."]
+			dependencies: ["3CE7CEF9229FB953"]
+			id: "1A172BA7821C7CFD"
+			tasks: [{
+				id: "08F931E4625B2429"
+				type: "item"
+				item: "create:sturdy_sheet"
+			}]
+			rewards: [{
+				id: "2CB164AAFDF961DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			subtitle: "Chugga chugga chugga..."
+			description: ["Create trains require this controller to function. \\nUnlike piddly minecarts, Create trains can be massive multiblock contraptions!\\n\\nPonder for more information."]
+			dependencies: [
+				"1A5428B428A1FC63"
+				"1A172BA7821C7CFD"
+			]
+			id: "6022BCDFA310EBFF"
+			tasks: [{
+				id: "42657B19D4BB8B79"
+				type: "item"
+				item: "create:controls"
+			}]
+			rewards: [
+				{
+					id: "06DF1AF283A5DE16"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "220C20D97EDF72C3"
+					type: "item"
+					item: "create:steam_whistle"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "Choo choo!"
+			description: ["A wide train needs a wide-gauge rail. Create tracks have some fancy placement modes, including automatic support structures.\\n\\nPonder for more information."]
+			dependencies: ["6022BCDFA310EBFF"]
+			id: "53EAD0AA2D7A7876"
+			tasks: [{
+				id: "1D5C38FABBCAD56D"
+				type: "item"
+				item: "create:track"
+			}]
+			rewards: [{
+				id: "455D10C45EF6984F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:flywheel"
+			x: 9.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "I have Created"
+			description: ["You did it!"]
+			dependencies: [
+				"4EE6621FB08C0CE6"
+				"53EAD0AA2D7A7876"
+			]
+			size: 1.5d
+			id: "5907B01296FBAC14"
+			tasks: [{
+				id: "43DB1808E7CC30D7"
+				type: "checkmark"
+				title: "Create Mastery"
+			}]
+			rewards: [
+				{
+					id: "70C968F4A2FE07D6"
+					type: "gamestage"
+					icon: "create:flywheel"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "Create Mastered"
+				}
+				{
+					id: "76EB6FBAED4FCE60"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			subtitle: "OpenTTD, eat your heart out"
+			description: ["Signals and stations are important for defining stops and safety procedures for your trains.\\nSince they can operate outside of loaded chunks of the world, they need some extra signalling to work!"]
+			dependencies: ["6022BCDFA310EBFF"]
+			id: "4EE6621FB08C0CE6"
+			tasks: [
+				{
+					id: "169F95333F50CF2E"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "2F3E8BECCF1BD2DD"
+					type: "item"
+					item: "create:track_signal"
+				}
+			]
+			rewards: [{
+				id: "06A4C49665B6CFB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "The glorious Fing-Longer"
+			description: ["The deployer is a crucial piece of automation, both for production challenges as well as interacting with the world.\\n\\nYou can grab milk, harvest berries, and so much more!\\n\\nFrom this point, the possibilities become endless. Time to branch out and learn!"]
+			dependencies: [
+				"343CADE41B0F6A39"
+				"343CADE41B0F6A39"
+			]
+			size: 1.8d
+			id: "1076ED1CFD732BC8"
+			tasks: [{
+				id: "690DD3B8F1847ED4"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "62C09F3E8A561F11"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
+			}]
+		}
+		{
+			title: "Steel"
+			x: 2.5d
+			y: -5.5d
+			subtitle: "Steel thyself"
+			description: ["With the power of our crushing wheels, we can turn even the mightiest materials into dust.\\nCombined with our blaze burner, we can now make some strong metals to improve the workshop. Try making steel with coal and iron."]
+			dependencies: ["3CE7CEF9229FB953"]
+			id: "63A62BA6A5B8B5C5"
+			tasks: [{
+				id: "1643324BA78331A1"
+				type: "item"
+				item: "indrev:steel_dust"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5921A45D3CBA858F"
+				type: "item"
+				item: "indrev:steel_dust"
+				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			subtitle: "Babby's Second Contraption"
+			description: ["Ready to start making some serious Rube Goldberg machines?\\nLet's begin."]
+			dependencies: ["5D8A7258D40CAC95"]
+			hide: true
+			id: "5E7B0AFE76B9C023"
+			tasks: [{
+				id: "059D09B7D74EF073"
+				type: "gamestage"
+				title: "Junior Engineer"
+				icon: "create:brass_encased_large_cogwheel"
+				stage: "Junior Engineer"
+			}]
+		}
+		{
+			icon: "indrev:enriched_nikolite_dust"
+			x: 1.0d
+			y: -2.5d
+			shape: "octagon"
+			subtitle: "The Technology Age"
+			description: ["You're able to make things spin, no problem. But what if you could like, store that spin for later?\\n\\nThere's gotta be a way..."]
+			dependencies: ["1DA6287751314C5F"]
+			id: "1D6A4C621F4123D1"
+			tasks: [{
+				id: "2479D778DCBD8BBE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FF1F2782E6BCC8A"
+				type: "gamestage"
+				icon: "indrev:enriched_nikolite_dust"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Indrev Ready"
+			}]
+		}
+		{
+			title: "Master Chef"
+			icon: "croptopia:macaron"
+			x: -2.5d
+			y: -12.0d
+			shape: "gear"
+			subtitle: "Finish the fight"
+			dependencies: ["045DFBBC94BCB57F"]
+			id: "249D9D535D7249CB"
+			tasks: [{
+				id: "2E7B90A640FB2311"
+				type: "checkmark"
+				title: "I know how to cook, honest"
+			}]
+			rewards: [{
+				id: "5871C6BD1002E8C9"
+				type: "gamestage"
+				icon: "croptopia:macaron"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Master Chef"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Just in case you forgot already"
+			dependencies: ["1076ED1CFD732BC8"]
+			id: "1FE96F6E7681A78E"
+			tasks: [{
+				id: "6B008478313596A8"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

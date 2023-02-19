@@ -1,0 +1,240 @@
+{
+	id: "7E6AFD95597D7CB2"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "You have to do this first"
+			description: ["Here we learn if you have basic reading comprehension"]
+			id: "480059C17A77C44C"
+			tasks: [{
+				id: "7303FB2B9AB9C56D"
+				type: "checkmark"
+				title: "Pressing the button"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "The only time you should punch down"
+			description: ["Lets move on to punching things"]
+			dependencies: ["480059C17A77C44C"]
+			id: "21DEFE184F5E6DF8"
+			tasks: [{
+				id: "181DED1096CFE4B7"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "5C6D7249F36418F5"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "[note to self: include long and interesting anecdote here]"
+			description: ["Make a table"]
+			dependencies: ["21DEFE184F5E6DF8"]
+			id: "5D5D581F1A55EDC3"
+			tasks: [{
+				id: "1BC39DC99D37292E"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "3DCECB4B4F25C9AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "You're going to need a few of these"
+			description: ["If you end up with a Charm chest, craft it by itself to get a vanilla chest."]
+			dependencies: ["21DEFE184F5E6DF8"]
+			id: "533C62494A7C1B3D"
+			tasks: [{
+				id: "02A0883E745373A4"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "544EBF99A907C155"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			subtitle: "Gear up"
+			description: ["It's dangerous out there, if you're not starving to death you're probably getting blown up"]
+			dependencies: [
+				"5D5D581F1A55EDC3"
+				"533C62494A7C1B3D"
+			]
+			id: "458C9745CF092969"
+			tasks: [
+				{
+					id: "4723560BD8359F4E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75DB5DE3E1A69F66"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6646EB2299E1DBC4"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43B6BE3F40575DC6"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "686E9D779CDC95A2"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4AF1C92FEA1FD433"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 24
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Getting hungry"
+			description: ["If you're not getting blown up, you're probably starving. You're going to need a varied food source"]
+			dependencies: [
+				"533C62494A7C1B3D"
+				"5D5D581F1A55EDC3"
+			]
+			id: "54A3FEC9DA82CC3B"
+			tasks: [{
+				id: "4486279441FB4B09"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "683BC416BAD2812C"
+					type: "item"
+					item: "minecraft:potato"
+					count: 5
+				}
+				{
+					id: "641EC6187BFADA35"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C76DF641DCDF2B0"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "I hope you figured this out on your own"
+			description: ["You have more quests now"]
+			dependencies: [
+				"5D5D581F1A55EDC3"
+				"533C62494A7C1B3D"
+			]
+			id: "2E2A435413B98D94"
+			tasks: [{
+				id: "137AB3DC44C6D505"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "260904B116E4BE83"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			title: "Ready to learn more?"
+			icon: "create:cogwheel"
+			x: -2.5d
+			y: 7.5d
+			shape: "octagon"
+			subtitle: "Alright, so you've played minecraft before"
+			dependencies: ["2E2A435413B98D94"]
+			size: 1.5d
+			id: "68CF7D7D21207279"
+			tasks: [{
+				id: "0A3A218F8CC65196"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0937F3C399D88BC0"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "Intern"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

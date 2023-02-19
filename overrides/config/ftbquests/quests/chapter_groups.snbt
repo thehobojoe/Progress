@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "1EA615118F0BB9C5", title: "Survival" }
+		{ id: "72E35E94B31A2F67", title: "Storage" }
+		{ id: "1256593D4F9EDDA4", title: "Technology" }
+		{ id: "498F87092D420EC9", title: "Magic" }
+		{ id: "6999621D5415A73F", title: "Mastery" }
+	]
+}

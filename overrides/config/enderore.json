@@ -1,0 +1,16 @@
+{
+  //If mining ender ore should spawn endermen
+  "spawnsEnderman": true,
+  //Chance that an enderman will spawn
+  "endermanChance": 20,
+  //Should ore generate
+  "generatesOre": true,
+  //Ore clusters per chunk
+  "clusterAmount": 6,
+  //Ores per cluster
+  "oresPerCluster": 4,
+  //Minimum height to generate ore
+  "minHeight": 5,
+  //Maximum height to generate ore
+  "maxHeight": 20
+}
