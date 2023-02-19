@@ -59,3 +59,8 @@ addCreateCrushing("crush_raw_desh", <item:ad_astra:raw_desh>, [crushed_desh, xp_
 addCreateCrushing("crush_raw_ostrum", <item:ad_astra:raw_ostrum>, [crushed_ostrum, xp_nugget % 75]);
 addCreateCrushing("crush_raw_calorite", <item:ad_astra:raw_calorite>, [crushed_calorite, xp_nugget % 75]);
 
+addCreateCrushing("crush_rocket_t1", <item:ad_astra:tier_1_rocket>, [<item:indrev:steel_dust> * 50]);
+addCreateCrushing("crush_rocket_t2", <item:ad_astra:tier_2_rocket>, [<item:indrev:steel_dust> * 15, <item:kubejs:desh_dust> * 40]);
+addCreateCrushing("crush_rocket_t3", <item:ad_astra:tier_3_rocket>, [<item:indrev:steel_dust> * 15, <item:kubejs:ostrum_dust> * 40]);
+addCreateCrushing("crush_rocket_t4", <item:ad_astra:tier_4_rocket>, [<item:indrev:steel_dust> * 15, <item:kubejs:calorite_dust> * 40]);
+
