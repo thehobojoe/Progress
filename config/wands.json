@@ -30,7 +30,7 @@
   "paste_outlines": true,
   "no_lines": false,
   "fat_lines": true,
-  "render_last": false,
+  "render_last": true,
   "show_tools_info": true,
   "check_advancements": false,
   "advancement_allow_stone_wand": "",
@@ -44,7 +44,7 @@
   "tool_use_color": "240,240,0,255",
   "start_color": "0,200,200,255",
   "end_color": "0,200,0,255",
-  "line_color": "200,0,200,200",
+  "line_color": "200,0,200,255",
   "paste_bb_color": "80,40,0,255",
   "block_color": "255,255,255,255",
   "str_pickaxe_allowed": [

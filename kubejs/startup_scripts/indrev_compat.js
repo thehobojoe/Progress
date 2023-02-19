@@ -12,7 +12,7 @@ const materials = [
 const types = [
 	"chunk",
 	"dust",
-	"purified_ore"
+	"purified_ore",
 ];
 
 StartupEvents.registry('item', event => {
@@ -28,6 +28,17 @@ StartupEvents.registry('item', event => {
 				.group("indrev.indrev_group");
 		});
 	});
+	// Another loop to avoid zinc problems
+	const type = "crushed";
+	const crushedMats = materials.slice(1);
+	crushedMats.forEach(material => {
+		event.create(`${type}_${material}`)
+			.texture(`kubejs:item/${material}_${type}`)
+			.textureJson({
+				layer0: `kubejs:item/${material}_${type}`
+			})
+			.group("indrev.indrev_group");
+	})
 });
 
 StartupEvents.registry('fluid', event => {
