@@ -145,8 +145,18 @@
 -- "did some other stuff i think i forgot already despite just doing this."
 
 
+- Chisels & Bits: 1.3.126 -> 1.3.129
+-- Update to the latest scena.
+-- Fix a threading issue when loading a single player world. Switch to copy on write backend storage for the state entry storage bit set, levering the batch mechanics of block entities. Add line chisel mode Add drawn chisel group. Add wall chisel mode Fix an issue where the useBlock and useItem state where not respected on forge.
+	
+
 - Chunks Fade In: 3.0.7 -> 3.0.8
 -- Improved Iris compatibility even more
+
+
+- ChoiceTheorem's Overhauled Village: 3.1.4 -> 3.1.5
+-- Add supports for Immersive Engineering and Incubation mod.
+-- Fixes bugs with the bountiful mod.
 
 
 - Collective: 6.43 -> 6.48
@@ -345,6 +355,12 @@ v.Beta5
 - IKnowWhatImDoing: 4.1.0 -> 4.1.1
 -- Updated to 1.19.3
 
+
+- Immediately Fast: 1.1.8 -> 1.1.9
+-- Fixed depth test issues
+-- Fixed crash when Iris is installed
+-- Improved performance in combination with Iris
+-- 
 
 - JourneyMap: 5.9.2 -> 5.9.3
 -- Fixed: Mod Villager texture exception.
@@ -560,6 +576,10 @@ v.Beta5
 - Too Many Binds: 
 -- Add support for 1.19.3
 -- No longer hard-depend on Amecs
+
+
+-Trash Cans: 0.0.1 -> 0.0.2
+-- Removed unnecessary mixin
 
 - Trinkets: 3.4.1 -> 3.4.2
 -- Backported command
