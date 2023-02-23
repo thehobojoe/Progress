@@ -697,8 +697,8 @@
 				Count: 1b
 				tag: {
 					selected: { }
-					energy: 10000L
 					Progress: 1.0f
+					energy: 10000L
 					Damage: 0
 					Active: 1b
 				}
@@ -724,8 +724,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 10000L
 						Progress: 1.0f
+						energy: 10000L
 						Damage: 0
 						Active: 1b
 					}
@@ -767,6 +767,7 @@
 			icon: "powah:energizing_rod_starter"
 			x: 3.0d
 			y: 1.5d
+			shape: "octagon"
 			subtitle: "Zap"
 			description: ["Now that you have somewhere to put your energy, you're going to need to generate some."]
 			dependencies: ["77DE5B902EE8B34B"]

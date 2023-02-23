@@ -129,59 +129,59 @@
 						items: [
 							{
 								id: "minecraft:shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:wooden_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:golden_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:diamond_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:netherite_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:bronze_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "basicshields:steel_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "twilightforest:knightmetal_shield"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -402,31 +402,31 @@
 						items: [
 							{
 								id: "reaping:iron_reaping_tool"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "reaping:gold_reaping_tool"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "reaping:diamond_reaping_tool"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "reaping:netherite_reaping_tool"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -458,94 +458,94 @@
 						items: [
 							{
 								id: "simplyswords:iron_scythe"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_twinblade"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_longsword"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_sai"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_rapier"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_katana"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_glaive"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_warglaive"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_cutlass"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_claymore"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_greathammer"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_greataxe"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_chakram"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 						]
 					}
@@ -602,94 +602,94 @@
 						items: [
 							{
 								id: "vanilla-hammers:diamond_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:emerald_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:ender_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:fiery_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:golden_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:iron_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:lapis_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:netherite_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:wooden_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:stone_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:slime_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:quartz_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "vanilla-hammers:prismarine_hammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -721,31 +721,31 @@
 						items: [
 							{
 								id: "wands:stone_wand"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "wands:iron_wand"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "wands:diamond_wand"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "wands:netherite_wand"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}

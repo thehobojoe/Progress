@@ -36,11 +36,11 @@
 		}
 		{
 			title: "Stressin'"
-			x: -6.5d
-			y: -3.5d
+			x: -5.0d
+			y: -4.0d
 			subtitle: "#relatable"
 			description: ["These two devices (which can be crafted into each other freely) measure the speed and stress placed on your mess of shafts and cogs.\\n\\nSources of rotational force, like the windmill and waterwheel, will set the stress capacity of your network, while machines like the press, mixer, and grindstone, will contribute stress to the network based on how fast they're spinning. Too much stress, and the whole thing grinds to a halt.\\n\\nUsing the stressometer and goggles, you can measure how each piece contributes. Don't forget that you can manually gear up or down using large and small cogs, to fine-tune how fast (and how stressful) a machine runs."]
-			dependencies: ["5E7B0AFE76B9C023"]
+			dependencies: ["343CADE41B0F6A39"]
 			id: "7BA51A9B269CB44B"
 			tasks: [
 				{
@@ -138,7 +138,7 @@
 			x: -4.0d
 			y: -9.5d
 			subtitle: "All the trees and wheat"
-			description: ["Using a mechanical bearing (or a windmill bearing!), one can make an automatic circular farm.\\n\\nAttach chassis blocks to the bearing to make an arm, and attach the saws (for trees) or ploughs (for crops) to the leading edge of one arm. These will harvest the crops or chop the trees.\\nThen to the back side of the arm, attach deployers to replant the saplings or crops.\\n\\nAttach a barrel (or other container) to the whole structure, and it will place the harvested blocks in it, and use stored items to replant.\\nThen, attach a portable storage interface somewhere to the structure. When it passes another storage interface, it will stop and try to deposit items into it, letting you get items out of the contraption. \\n\\nDefinitely Ponder the storage interface, it can be finnicky!"]
+			description: ["Using a mechanical bearing (or a windmill bearing!), one can make an automatic circular farm.\\n\\nAttach chassis blocks to the bearing to make an arm, and attach the saws (for trees) or harvesters (for crops) to the leading edge of one arm. These will harvest the crops or chop the trees.\\nThen to the back side of the arm, attach deployers to replant the saplings. For crops, the harvester is smart enough to replant crops on its own.\\n\\nAttach a barrel (or other container) to the whole structure, and it will place the harvested blocks in it, and use stored items to replant.\\nThen, attach a portable storage interface somewhere to the structure. When it passes another storage interface, it will stop and try to deposit items into it, letting you get items out of the contraption. \\n\\nDefinitely Ponder the storage interface, it can be finnicky!"]
 			dependencies: ["4E955863939B3974"]
 			id: "788D4EF3F7C90645"
 			tasks: [
@@ -150,7 +150,7 @@
 				{
 					id: "03FF07005C3D7C9C"
 					type: "item"
-					item: "create:mechanical_plough"
+					item: "create:mechanical_harvester"
 				}
 				{
 					id: "78085FEE9E67E883"
@@ -503,8 +503,8 @@
 		}
 		{
 			title: "Toolboxes"
-			x: -5.0d
-			y: -3.5d
+			x: -5.5d
+			y: -3.0d
 			subtitle: "Ol' Other Reliable"
 			description: ["Toolboxes are incredibly handy and absolutely worth making multiples of.\\nWhen placed, a toolbox has slots for 8 different items, and it keeps its contents when broken. Handy enough already, but if you hold down the hotkey while a toolbox is nearby, you can quickly swap between these items and keep them stocked on your hotbar! There's even a button to quickly return all items back to the toolbox.\\n\\nHere's some useful ideas for toolbox contents:\\n* Cogs, shafts, gearboxes, casings, and belts\\n* Pipes, wires, tubes\\n* Building blocks as an architect's palette\\n"]
 			dependencies: ["343CADE41B0F6A39"]
@@ -634,14 +634,6 @@
 					type: "item"
 					item: "minecraft:acacia_leaves"
 					count: 16
-				}
-				{
-					id: "1919A2E552525B6D"
-					type: "gamestage"
-					icon: "ad_astra:earth_globe"
-					auto: "invisible"
-					ignore_reward_blocking: true
-					stage: "Ad Astra Ready"
 				}
 			]
 		}
