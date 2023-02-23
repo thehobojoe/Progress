@@ -232,35 +232,41 @@
 			description: ["Hold more food."]
 			dependencies: ["41123F8C9183CF26"]
 			id: "57A75FA244CBFD3C"
-			tasks: [
-				{
-					id: "17039B460D9EAB11"
-					type: "item"
-					item: {
-						id: "spiceoffabric:picnic_basket"
-						Count: 1b
-						tag: {
-							inventory: { }
-						}
+			tasks: [{
+				id: "15D6A4369F3BC557"
+				type: "item"
+				item: {
+					id: "spiceoffabric:lunch_box"
+					Count: 1b
+					tag: {
+						inventory: { }
 					}
 				}
-				{
-					id: "15D6A4369F3BC557"
-					type: "item"
-					item: {
-						id: "spiceoffabric:lunch_box"
-						Count: 1b
-						tag: {
-							inventory: { }
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "5B30930C75DB27A8"
 				type: "item"
 				item: "croptopia:coffee_seed"
 				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "ACME Seal of Quality"
+			description: ["This will slowly fill up with milk over time, and if you place it in your kitchen, it'll provide milk to recipes.\\n\\nMaking it is as looney tunes as possible-- place down a jar, coax a cow to stand on that jar, and then drop an anvil on it."]
+			dependencies: ["3F7BDCE7A4B2A996"]
+			id: "3C972D2C04F0222F"
+			tasks: [{
+				id: "6D6258FD6952B188"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "4D3B9DCBE5163404"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 3
 			}]
 		}
 	]

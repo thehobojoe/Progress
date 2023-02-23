@@ -19,14 +19,17 @@
 			title: "Getting even more organized"
 			x: 0.0d
 			y: -2.5d
+			shape: "pentagon"
 			subtitle: "Digitize me!"
 			description: ["AE2 is the ultimate storage and automation mod. Store items, fluids, import and export, autocraft, and much, much more. This mod has limitless potential, but things will be a little different than you remember..."]
 			dependencies: ["5D8A7258D40CAC95"]
 			hide: true
 			id: "36BC1A6A258712BB"
 			tasks: [{
-				id: "4025A67DC4E1D2BB"
-				type: "checkmark"
+				id: "741E71DBD5F51683"
+				type: "gamestage"
+				icon: "create:brass_encased_large_cogwheel"
+				stage: "Junior Engineer"
 			}]
 			rewards: [{
 				id: "5E6FAAF3714F2F7C"

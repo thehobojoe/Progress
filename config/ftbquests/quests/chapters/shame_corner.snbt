@@ -47,7 +47,7 @@
 				type: "stat"
 				icon: "spectrum:seven_league_boots"
 				stat: "minecraft:walk_one_cm"
-				value: 804672
+				value: 80467200
 			}]
 			rewards: [{
 				id: "1D37D5760ECC353E"
@@ -60,7 +60,9 @@
 			x: 2.0d
 			y: 1.0d
 			subtitle: "Those are rookie numbers!"
+			description: ["C'mon, are you even trying?!"]
 			dependencies: ["406287A073655976"]
+			optional: true
 			id: "44626C05C3AA1968"
 			tasks: [{
 				id: "792BA7000D67A549"
@@ -205,6 +207,25 @@
 				id: "1D24BF5304FFC567"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "You're a real professional!"
+			description: ["I don't want to know how or why you arrived at this, but Shitsco Inc. salutes you."]
+			dependencies: ["7B8AB9B7B4652955"]
+			invisible: true
+			id: "66A7257172402F90"
+			tasks: [{
+				id: "412C0CB90F7E9C3A"
+				type: "item"
+				item: "reaping:human_meat"
+			}]
+			rewards: [{
+				id: "2A337B76362E8127"
+				type: "item"
+				item: "farmersdelight:milk_bottle"
 			}]
 		}
 	]

@@ -11,6 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
+			shape: "pentagon"
 			description: ["Powah! It does what it says on the tin: make power, and a lot of it! Each generator can be upgraded multiple times, increasing power yields each time. But, be aware that higher tier materials will need plenty of power to even make."]
 			hide: true
 			invisible: true

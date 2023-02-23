@@ -1,0 +1,825 @@
+{
+	id: "2DD6D7BAB2232420"
+	group: "1EA615118F0BB9C5"
+	order_index: 1
+	filename: "thriving"
+	title: "Thriving"
+	icon: "minecraft:golden_horse_armor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Thriving"
+			icon: "create:cogwheel"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "Remember the Shitsco motto: \"Whole ass, never half.\""
+			description: ["Shitsco Inc. invites you to live it up.\\n\\nGone are the days of scrabbling for basic resources, breaking your blocky fingers to eke out a living.\\n\\nIn this chapter, we'll highlight some miscellaneous things you have access to, in order to make your (likely short) life better."]
+			id: "2BF52FBBC4A3321E"
+			tasks: [{
+				id: "1653F4087D0B5103"
+				type: "gamestage"
+				icon: "create:cogwheel"
+				stage: "Intern"
+			}]
+			rewards: [{
+				id: "62B784A9766F9750"
+				type: "item"
+				item: "croptopia:beer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			subtitle: "Black Market Box"
+			description: ["Nether chests behave like the ender chest you might be familiar with. However, instead of just belonging to you, the contents are shared with the entire world!\\n\\nUse it to arrange backroom deals, send letter bombs to your friends, or leave joke items for others to shake their heads at."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "1545F0B5CAE339F6"
+			tasks: [{
+				id: "51E3C3057E442CB8"
+				type: "item"
+				item: "netherchest:nether_chest"
+			}]
+			rewards: [{
+				id: "5291BC0843474C3E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "The Mining Dimension"
+			icon: "mining_dims:mining_portal_block"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Gonna take your pick to another dimension"
+			description: ["The mining dimension is a world with only rolling hills and deserts, where it's always sunny.\\n\\nOf course, such a pristine paradise is made to be despoiled-- feel free to strip mine the earth here.\\n\\nIt's formed just like a nether portal, but lit with the Portal Lighter."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "0CFFCB07AB830565"
+			tasks: [
+				{
+					id: "216D433DBCC0E415"
+					type: "item"
+					item: "mining_dims:mining_portal_block"
+					count: 10L
+				}
+				{
+					id: "6484EDF55579E9B8"
+					type: "item"
+					item: "mining_dims:flint_and_diamond"
+				}
+			]
+			rewards: [{
+				id: "19D78CCED4C707BD"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16
+			}]
+		}
+		{
+			title: "The Nethering Dimension"
+			icon: "mining_dims:nethering_portal_block"
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Actually, is your grandpa's hell"
+			description: ["The nethering dimension looks... familiar. \\nInside is another nether, but without any of the fancy extras that make finding fortresses difficult.\\n\\nIt's formed just like a nether portal, but lit with the Portal Lighter."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "4C257327ED8F06A4"
+			tasks: [
+				{
+					id: "1E93D10716A581B9"
+					type: "item"
+					item: "mining_dims:nethering_portal_block"
+					count: 10L
+				}
+				{
+					id: "25E7B0380FDC72BD"
+					type: "item"
+					item: "mining_dims:flint_and_diamond"
+				}
+			]
+			rewards: [{
+				id: "2176A3D3E08C45C1"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Shields"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Skellie-B-Gone"
+			description: ["Seriously, make a dang shield!\\n\\nSkeletons are brutal on higher difficulties, but a shield goes a long way to making them easier to handle."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "46FC452008BB7046"
+			tasks: [{
+				id: "1942E0EBB022ACD0"
+				type: "item"
+				title: "Any Shield"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:wooden_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:golden_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:diamond_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:netherite_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:bronze_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "basicshields:steel_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "twilightforest:knightmetal_shield"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "042BCA3604DDC863"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+		}
+		{
+			title: "Sleeping Bags"
+			x: 2.0d
+			y: 2.5d
+			subtitle: "show yourself, coward. i will never log off"
+			description: ["Sleeping bags are a portable bed. Handy when the rest of the world is begging you to go to bed, but you're miles from home."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "32BC21DD01350538"
+			tasks: [{
+				id: "21D2581F49C0BBB2"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "721F9C1B67D46132"
+				type: "item"
+				item: "croptopia:tea"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Extra nice!"
+			description: ["Besides being tasty, rice also has some useful byproducts.\\nIf you've found rice from Farmer's Delight, you can plant it in water and grow more. After harvesting, you'll have rice panicles.\\n\\nBy using a cutting board and knife, you can get rice, as well as straw, which can be used to make canvas, which replaces leather in some recipes. "]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "0AD571F768A70D75"
+			tasks: [{
+				id: "7C9A6DF36AD7C7C9"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+			rewards: [{
+				id: "0D1A1C855908010E"
+				type: "item"
+				item: "farmersdelight:straw"
+				count: 4
+			}]
+		}
+		{
+			title: "Waystones"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Return ticket not included"
+			description: ["Waystones allow travel to any previously discovered waystone in exchange for some XP levels.\\n\\nIf you make and place a waystone, on the second tab you can click the little globe to make it automatically available to all other players!"]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "37754BBD5D767FA1"
+			tasks: [{
+				id: "68459A3885F692DB"
+				type: "item"
+				item: "fwaystones:waystone"
+			}]
+			rewards: [{
+				id: "5D11DC64D3E57AF9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+		}
+		{
+			title: "Magnum Torches"
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Peace and quiet at last"
+			description: ["Each of the different varieties of Magnum Torch block monster spawns around it. Place one down to finally get some shuteye without the locals kicking down your door."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "20232DC12DE7BAC2"
+			tasks: [{
+				id: "43765CBF511D1F64"
+				type: "item"
+				title: "Any Magnum Torch"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "magnumtorch:diamond_magnum_torch"
+								Count: 1b
+							}
+							{
+								id: "magnumtorch:emerald_magnum_torch"
+								Count: 1b
+							}
+							{
+								id: "magnumtorch:amethyst_magnum_torch"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "073D697510C824AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Modern Dynamics Pipes"
+			icon: "moderndynamics:item_pipe"
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Ce n'est pas un tapis roulant"
+			description: ["Belts are cool and all, but sometimes you just need to move a thing into another thing.\\n\\nThese pipes are simple and slow, but effective. You'll want an extractor to get stuff out of the inventory you attach them to."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "20691CB9FA1594E1"
+			tasks: [
+				{
+					id: "41350A32812D6FDB"
+					type: "item"
+					item: "moderndynamics:item_pipe"
+				}
+				{
+					id: "1FAC466C164BB286"
+					type: "item"
+					item: "moderndynamics:fluid_pipe"
+				}
+				{
+					id: "1ADDC9573A02EABF"
+					type: "item"
+					item: "moderndynamics:extractor"
+				}
+			]
+			rewards: [{
+				id: "2B95CE8FF81B9361"
+				type: "item"
+				item: "moderndynamics:wrench"
+			}]
+		}
+		{
+			title: "Kitchen Sinks"
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Free drinks"
+			description: ["Sinks have a tradition of being absolutely magic.\\nA kitchen sink filled with water will provide infinite water, which you can pipe out and provide to your various boilers, machines, and water park rides."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "26476630E30A4DB6"
+			tasks: [{
+				id: "6D302169A715E25A"
+				type: "item"
+				title: "Any Adorn Kitchen Sink"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "adorn:oak_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:spruce_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:birch_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:jungle_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:acacia_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:dark_oak_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:mangrove_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:crimson_kitchen_sink"
+								Count: 1b
+							}
+							{
+								id: "adorn:warped_kitchen_sink"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4419FF5D168B52AF"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "Won't fill your soul gauge, unfortunately"
+			description: ["Slaughtering animals is inelegant work. We live in an enlightened age, we need tools to match!\\n\\nWhen swung at livestock, Reapers will harvest the animal's drops, but attempt to leave it alive, reverting it to a baby. Higher tier scythes have a better chance of not killing the animal outright."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "3B143BF231304B61"
+			tasks: [{
+				id: "21981FE2315E4A9E"
+				type: "item"
+				title: "Any Reaper"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "reaping:iron_reaping_tool"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "reaping:gold_reaping_tool"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "reaping:diamond_reaping_tool"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "reaping:netherite_reaping_tool"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ECDA0CD824D4A64"
+				type: "item"
+				item: "minecraft:leather"
+				count: 3
+			}]
+		}
+		{
+			title: "Simply Swords"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "While you were crafting, I was studying the blade"
+			description: ["Simply swords adds a ton of weapons to your arsenal. Each one features custom animations and attack chains, making combat flow much more smoothly. \\n\\nWorth highlighting here are the various two-handed great weapons and the chakrams, which have a wide reach to their attacks."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "0F1841BF5C079FE8"
+			tasks: [{
+				id: "757DFC8CDA9CB117"
+				type: "item"
+				title: "Any Iron Simply Swords Weapon"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:iron_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_warglaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3199DC746DEE2AD0"
+				type: "item"
+				item: "croptopia:limeade"
+			}]
+		}
+		{
+			title: "The Twilight Forest"
+			x: -2.0d
+			y: -4.0d
+			subtitle: "Old Growth Mods"
+			description: ["The Twilight Forest is somehow still hanging around, waiting for fearless adventurers to battle their way through.\\n\\nIt still works like it has for years. To get there, surround a 2x2 pool of water with flowers, and toss a diamond in.\\n\\nNothing in the pack requires it, but it's still a fun diversion."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "73E162F0C01D965B"
+			tasks: [{
+				id: "6E9CA2517B4FACC1"
+				type: "dimension"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "3E204FDA6030211F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hammers"
+			x: 2.0d
+			y: 1.5d
+			subtitle: "And when it arrives? Ahaha, I'll smash it with a hammer!"
+			description: ["Hammers from the wonderfully named Vanilla Hammers mod mines in a 3x3 area. Excellent for carving out your new mountain fastness, or strip mining deep beneath the earth."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "3C054CCF186636C9"
+			tasks: [{
+				id: "6985861E2F42D4E9"
+				type: "item"
+				title: "Any Vanilla Hammer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "vanilla-hammers:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:emerald_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:ender_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:fiery_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:golden_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:lapis_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:wooden_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:slime_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:quartz_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "vanilla-hammers:prismarine_hammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "68CE739D81DBBF12"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Building Wands"
+			x: 3.5d
+			y: 2.5d
+			subtitle: "Swish and flick"
+			description: ["Building wands are a full featured tool to assist with block placement. It has multiple modes-- make sure to check the key bindings."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "3B2C6D0907D2A717"
+			tasks: [{
+				id: "7FDA3FAAC66AD5F1"
+				type: "item"
+				title: "Any Building Wand"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "wands:stone_wand"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "wands:iron_wand"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "wands:diamond_wand"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "wands:netherite_wand"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FF2E6EB08910BE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "xps:block_xp_obelisk"
+			x: 2.0d
+			y: -4.0d
+			subtitle: "No more hiding levels under the mattress"
+			description: ["Dying is a drag. On top of having to go get all that garbage you lug around back, you lose lots of your hard-earned experience!\\n\\nNo more-- with an XP Storage, you can bank your levels for later use. You need an XP Transfer item to make deposits or withdrawals."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "6FA95E848697BB3A"
+			tasks: [
+				{
+					id: "0C83CD4F8248BAED"
+					type: "item"
+					item: "xps:block_xp_obelisk"
+				}
+				{
+					id: "332D3C1A7EE52764"
+					type: "item"
+					item: "xps:xp_remover"
+				}
+			]
+			rewards: [{
+				id: "18353441BD8BAD06"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "The Invisible Hand"
+			description: ["The Market block allows you to barter for some useful items, crops, and critters, without ever having to leave home or set foot in a village.\\n\\nIf you just cannot find a certain farm animal, crop, or magic macguffin, chances are good the market can fix you up."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "1676BCE25FA3E083"
+			tasks: [{
+				id: "5EAE9AE5A477B426"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "70CF0A3E588BE612"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Flax is string."
+			description: ["Flax is a handy crop that can be turned into string when fully grown. Much better than smashing hundreds of spiders."]
+			dependencies: ["2BF52FBBC4A3321E"]
+			id: "15AEADECA895EC50"
+			tasks: [{
+				id: "03735694030212A8"
+				type: "item"
+				item: "supplementaries:flax_seeds"
+			}]
+			rewards: [{
+				id: "33A981D6A71021FD"
+				type: "item"
+				item: "minecraft:string"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
