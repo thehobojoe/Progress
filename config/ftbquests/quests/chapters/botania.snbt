@@ -41,6 +41,8 @@
 		{
 			x: -4.5d
 			y: 5.0d
+			subtitle: "Magic bird bath"
+			description: ["It makes new flowers!"]
 			dependencies: ["716255B06329D35E"]
 			hide: true
 			id: "4F9A7F938BFF6F02"
@@ -66,6 +68,7 @@
 		{
 			x: -3.0d
 			y: 5.5d
+			description: ["It turns stuff into more magic stuff!\\n\\nUsed to make Livingrock and Livingwood."]
 			dependencies: ["4F9A7F938BFF6F02"]
 			hide: true
 			size: 1.5d
@@ -84,6 +87,7 @@
 		{
 			x: -3.0d
 			y: 8.5d
+			subtitle: "Wood+"
 			dependencies: ["7C0209357D1AD3CC"]
 			hide: true
 			size: 1.5d
@@ -103,6 +107,7 @@
 		{
 			x: -3.0d
 			y: 3.5d
+			subtitle: "Rocks 2, the sequel to rocks"
 			dependencies: ["7C0209357D1AD3CC"]
 			hide: true
 			size: 1.5d
@@ -122,6 +127,8 @@
 		{
 			x: -2.5d
 			y: 2.0d
+			subtitle: "({T}: Add {G}.)"
+			description: ["It holds your mana! Point your mana spreaders at it to fill it.\\n\\nMana pools hold a comical amount of mana at a time. You might not see much of a difference until you leave your generating flora running for a while."]
 			dependencies: ["1E25DBB285BF3094"]
 			hide: true
 			size: 1.5d
@@ -161,6 +168,7 @@
 			x: -1.0d
 			y: 5.5d
 			subtitle: "Babby's first mana"
+			description: ["Endoflames are like a furnace, but also a flower. Drop solid fuel near one and it'll eat it up. \\n\\nThe classic automation trick for them is to pipe fuel into an open crate with a hopper, so the fuel lands on a pressure plate. Then, run some redstone from the plate to the hopper, and it'll only drop fuel when none remains on the pressure plate. That way, you never waste fuel."]
 			dependencies: ["452EE27DCD7A93FF"]
 			hide: true
 			id: "244323B38150C0AE"
@@ -205,6 +213,7 @@
 			x: 0.5d
 			y: 4.5d
 			subtitle: "Seriously, make this ASAP"
+			description: ["Give it mana, and it'll make more mystical flowers for you."]
 			dependencies: ["244323B38150C0AE"]
 			hide: true
 			id: "19CB64044BF4DCB1"
@@ -230,6 +239,8 @@
 		{
 			x: -0.5d
 			y: 2.5d
+			subtitle: "The cooler iron"
+			description: ["It's a useful metal! Throw iron into your mana pool to make it blue and cool."]
 			dependencies: ["4DA4CDC376DBA463"]
 			hide: true
 			id: "2709A0DD13D62CAB"
@@ -247,6 +258,8 @@
 		{
 			x: -4.5d
 			y: 1.5d
+			subtitle: "got any games on your mana rock"
+			description: ["It holds mana, but as an item. Use it to fuel your trinkets, or to easily move your mana pools without losing the precious blue juice."]
 			dependencies: ["4DA4CDC376DBA463"]
 			hide: true
 			id: "4359266C8F94CECC"
@@ -264,6 +277,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
+			description: ["Holds mana for your trinkets, but without taking up an inventory slot."]
 			dependencies: ["4359266C8F94CECC"]
 			hide: true
 			id: "60F2C43E82F22349"
@@ -284,6 +298,7 @@
 			x: 1.5d
 			y: 1.5d
 			subtitle: "Yeah, I saw Cowboy Bebop once"
+			description: ["A little bit better than iron, and it enchants well. Plus, manasteel armor and tools will repair themselves with mana from your tablets and rings."]
 			dependencies: ["2709A0DD13D62CAB"]
 			hide: true
 			id: "0236CBA8BCA8C9BE"
@@ -342,6 +357,8 @@
 		{
 			x: -6.5d
 			y: -2.0d
+			subtitle: "Rune DMC"
+			description: ["Plenty of useful gear needs magic runes to work. Duh, it's magic, of course it needs runes.\\n\\nDrop rune components on it, wait for it to fill with mana, and then drop a livingrock on it and right click with your wand to finish the craft.\\nWhen making runes, runes in the recipe won't be consumed. Collect 'em all!"]
 			dependencies: ["4DA4CDC376DBA463"]
 			hide: true
 			id: "2F57AF46DB97D33A"
@@ -360,6 +377,8 @@
 		{
 			x: 2.0d
 			y: -1.5d
+			subtitle: "Terrasteel factory"
+			description: ["Oh hey, this thing needs a spark to function!\\n\\nThe terrestrial agglomeration plate (say it five times fast) makes terrasteel, an incredibly powerful metal. However, it takes half of a mana pool to make! Plan accordingly."]
 			dependencies: [
 				"67B7DE9690F5D811"
 				"6D7418B2E70BA199"
@@ -392,6 +411,7 @@
 		{
 			x: -1.5d
 			y: -3.5d
+			description: ["Expensive, but potent!"]
 			dependencies: ["37CB8552705CD277"]
 			hide: true
 			id: "27EFAC66FB06096A"
@@ -411,6 +431,8 @@
 			title: "Maximum Anime"
 			x: -3.5d
 			y: -2.5d
+			subtitle: "I have strong opinions re: subs vs dubs"
+			description: ["Wildly powerful armor. Wearing the full set grants you extra bonuses, like passive mana generation for your tools and trinkets. It's also sturdy as hell.\\n\\nIf you decide that being maximum anime is too much, Phantom Ink can be used to de-anime you."]
 			dependencies: [
 				"27EFAC66FB06096A"
 				"043B59326DA5F975"
@@ -436,6 +458,8 @@
 		{
 			x: 1.0d
 			y: 0.5d
+			subtitle: "Spooky action at a distance"
+			description: ["Sparks transfer mana from point to point. Some devices need one to function, and later you'll be able to set up networks of mana to move stuff around using these."]
 			dependencies: ["4DA4CDC376DBA463"]
 			id: "67B7DE9690F5D811"
 			tasks: [{
@@ -455,6 +479,7 @@
 			x: -4.0d
 			y: -1.0d
 			subtitle: "Let me show you my figurine collection"
+			description: ["Like manasteel armor, but better. It also comes with friends if you wear the full set."]
 			dependencies: ["221B37BA73D73FAB"]
 			hide: true
 			id: "2CF2049FA65E2DC0"
@@ -514,6 +539,8 @@
 			title: "Portal Time"
 			x: 0.5d
 			y: -1.0d
+			subtitle: "Alright, listen to me you knife-eared piece of shit!"
+			description: ["Time to give those elves an earful.\\n\\nFollow the book for the correct portal shape, but once active you can convert some ingredients into their fancy elf versions.\\n\\nDon't forget to toss your book in to get back a cooler book."]
 			dependencies: ["27EFAC66FB06096A"]
 			hide: true
 			id: "7F875ABD08CA1A43"
@@ -552,6 +579,8 @@
 		{
 			x: -2.5d
 			y: 0.5d
+			subtitle: "Elementium, my dear"
+			description: ["Basically the elven equivalent to manasteel. It is better than manasteel, but terrasteel outclasses it stats-wise. However, it is way easier to get!"]
 			dependencies: ["7F875ABD08CA1A43"]
 			hide: true
 			id: "221B37BA73D73FAB"
@@ -571,6 +600,7 @@
 			x: -1.0d
 			y: 0.5d
 			subtitle: "PEW PEW"
+			description: ["A way better mana spreader. It can send more mana at a time, so you need it if you intend to use the more powerful generating flora."]
 			dependencies: ["221B37BA73D73FAB"]
 			hide: true
 			id: "7C5C9E8675AC240B"
@@ -607,6 +637,8 @@
 		{
 			x: -3.0d
 			y: -3.5d
+			subtitle: "Magic moonshine"
+			description: ["The botanical brewery makes the usual complement of potions, plus some new unique potion types.\\n\\nThe real benefit here is that potions brewed here have multiple doses, so you can actually keep a stock of handy potions without filling your pockets.\\nAlso, later you can craft pendants here that grant you a potion effect passively."]
 			dependencies: ["6D7418B2E70BA199"]
 			hide: true
 			id: "346A2E672FF0F53E"
@@ -661,6 +693,7 @@
 		{
 			x: -2.0d
 			y: -5.0d
+			subtitle: "Magic symbol of magic"
 			dependencies: ["2F57AF46DB97D33A"]
 			hide: true
 			id: "6D7418B2E70BA199"
@@ -693,6 +726,7 @@
 			y: -1.0d
 			shape: "gear"
 			subtitle: "Buckle up for butt rock"
+			description: ["Let's kill a minor deity!\\n\\nThe ritual of gaia summons a powerful foe, but the rewards are well worth it. You will want to prepare heavily for the fight!"]
 			dependencies: [
 				"592BDEFE5089E05B"
 				"221B37BA73D73FAB"

@@ -12,6 +12,7 @@
 			title: "Getting organized"
 			x: -1.0d
 			y: 1.5d
+			shape: "pentagon"
 			description: ["Simple Storage is a mod that will probably feel familiar, as it functions a lot like Applied Energistics. However, it's purely low-tech and takes no power, and provides a way to interface with a whole room full of chests at once, including crafting from them. \\n\\nOf course, its powers of automation pale in comparison, so eventually you will want to upgrade! But first, lets figure out how to make this work."]
 			invisible: true
 			id: "00A7B3E6805233FD"

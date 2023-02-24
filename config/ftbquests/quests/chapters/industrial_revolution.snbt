@@ -12,6 +12,7 @@
 			title: "Technology"
 			x: -1.5d
 			y: 0.0d
+			shape: "pentagon"
 			subtitle: "Oh my god, it's all blocks"
 			description: ["Industrial Revolution (or Indrev) is a sort of 'greatest hits' of tech mods. It's a workhorse mod full of familiar metal boxes that turn stuff into other stuff, as well as providing power armor, tools, mining machines, and ore processing.\\n\\nIn this pack, Indrev is gated behind Create and Ad Astra. Make sure you have a well-furnished workshop first, and can fetch resources from other planets!"]
 			hide: true
@@ -553,7 +554,7 @@
 			y: -1.5d
 			shape: "rsquare"
 			description: ["By smelting our ores into a liquid first, then solidifying them with a condenser, we can get purer ores, resulting in more yields per ore."]
-			dependencies: ["4728A77657E316B3"]
+			dependencies: ["26944300C176F181"]
 			hide: true
 			id: "4249C0B59801E66F"
 			tasks: [
@@ -738,7 +739,7 @@
 			title: "A Special Offer"
 			x: 3.0d
 			y: -1.5d
-			shape: "pentagon"
+			shape: "diamond"
 			subtitle: "Seems like a bad idea"
 			description: ["Psst... Hey kid! Yeah, you!\\n\\nYou wanna fly? I bet you do, kid. I bet you do.\\nYou didn't hear it from me, but this thing'll take you way up high!\\n\\nJust uh, make sure you got your landing sorted out first, eh? Wouldn't want you to have an accident or nothin'."]
 			dependencies: ["77DE5B902EE8B34B"]
@@ -766,6 +767,7 @@
 			icon: "powah:energizing_rod_starter"
 			x: 3.0d
 			y: 1.5d
+			shape: "octagon"
 			subtitle: "Zap"
 			description: ["Now that you have somewhere to put your energy, you're going to need to generate some."]
 			dependencies: ["77DE5B902EE8B34B"]

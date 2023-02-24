@@ -87,7 +87,7 @@
 				id: "717BB155562DDB1D"
 				type: "item"
 				item: "botania:life_essence"
-				count: 512L
+				count: 256L
 				consume_items: true
 			}]
 			rewards: [{
@@ -322,7 +322,7 @@
 				id: "4A35834352011DCC"
 				type: "item"
 				item: "ae2:cell_component_256k"
-				count: 256L
+				count: 128L
 				consume_items: true
 			}]
 			rewards: [{
