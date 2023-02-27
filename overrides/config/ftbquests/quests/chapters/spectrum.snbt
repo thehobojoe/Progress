@@ -78,8 +78,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 1.0d
+			y: -0.5d
 			description: [
 				"Don't feel like you need to rush this one. There are a few neat things you can craft before this point. You'll need to upgrade (and then open) your pigment pedestal and locate some newly-revealed ore to progress, however."
 				""
@@ -111,8 +111,8 @@
 		}
 		{
 			icon: "minecraft:oak_leaves"
-			x: 4.0d
-			y: -2.0d
+			x: 2.0d
+			y: -3.5d
 			description: [
 				"Your book tells you that you're ready to start creating life but only gives you cryptic hints about things that are \"easy to digest\". What could that mean, I wonder?"
 				""
@@ -133,8 +133,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 3.0d
+			y: -1.0d
 			dependencies: ["76DC065DC1E3776A"]
 			id: "4576192D1AC284CE"
 			tasks: [{
@@ -145,14 +145,13 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 4.0d
+			y: -2.5d
 			description: [
 				"You may have realized that a few colored saplings were uncraftable. Once you're done playing with your glistering melon seeds and all the other stuff you unlocked, this quest remedies that and more."
 				""
 				"Plonk down a complete fusion shrine then make some onyx. You'll need a lot of this."
 				""
-				"Sorry about the whole \"only at midnight on a new moon\" thing."
 			]
 			dependencies: ["4576192D1AC284CE"]
 			id: "2263B1680960E026"
@@ -178,8 +177,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -2.0d
+			x: 5.0d
+			y: 0.0d
 			dependencies: ["2263B1680960E026"]
 			id: "4F9AEC0AFE940496"
 			tasks: [{
@@ -202,8 +201,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -2.0d
+			x: 6.0d
+			y: -4.0d
 			description: ["Poke around in the Nether, sailing around an ocean, or tooling around in swamps for three brand new resources that have been revealed to you."]
 			dependencies: ["4F9AEC0AFE940496"]
 			id: "35807A7204025C2A"
@@ -231,12 +230,12 @@
 		{
 			title: "Spectrum Mastered"
 			icon: "spectrum:paintbrush"
-			x: 15.0d
+			x: 9.0d
 			y: -2.0d
 			shape: "gear"
 			subtitle: "Is that everything?"
 			description: ["Not really, but close enough."]
-			dependencies: ["35807A7204025C2A"]
+			dependencies: ["210C14FC4ECFC2FA"]
 			size: 2.0d
 			id: "7431697C688A81E9"
 			tasks: [{
@@ -250,6 +249,19 @@
 				auto: "invisible"
 				ignore_reward_blocking: true
 				stage: "Spectrum Mastered"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["Before we can grant you the rank of master, you'll need to find a way to do the impossible-- break the very bedrock underpinning this world."]
+			dependencies: ["35807A7204025C2A"]
+			id: "210C14FC4ECFC2FA"
+			tasks: [{
+				id: "240E25F0E4B1E4FD"
+				type: "advancement"
+				advancement: "spectrum:midgame/break_decayed_bedrock"
+				criterion: ""
 			}]
 		}
 	]

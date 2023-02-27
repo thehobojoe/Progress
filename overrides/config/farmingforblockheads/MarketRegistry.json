@@ -22,6 +22,15 @@
     },
     {
       "output": {
+        "item": "supplementaries:flax_seeds"
+      },
+      "payment": {
+        "item": "minecraft:emerald"
+      },
+      "category": "progress"
+    },
+    {
+      "output": {
         "item": "minecraft:bamboo"
       },
       "payment": {
