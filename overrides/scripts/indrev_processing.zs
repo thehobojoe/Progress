@@ -4,20 +4,24 @@ import crafttweaker.api.ingredient.IIngredientWithAmount;
 import crafttweaker.api.data.IData;
 
 val zinc_ore = <tag:items:c:zinc_ores>;
+val zinc_raw = <tag:items:c:zinc_raw_materials>;
 val zinc_ingot = <item:create:zinc_ingot>;
 val zinc_chunk = <item:kubejs:zinc_chunk>;
 val zinc_dust = <item:kubejs:zinc_dust>;
 val desh_ore = <tag:items:c:desh_ores>;
+val desh_raw = <tag:items:c:raw_desh_ores>;
 val desh_ingot = <item:ad_astra:desh_ingot>;
 val desh_chunk = <item:kubejs:desh_chunk>;
 val desh_dust = <item:kubejs:desh_dust>;
 val desh_crushed = <item:kubejs:crushed_desh>;
 val ostrum_ore = <tag:items:c:ostrum_ores>;
+val ostrum_raw = <tag:items:c:raw_ostrum_ores>;
 val ostrum_ingot = <item:ad_astra:ostrum_ingot>;
 val ostrum_chunk = <item:kubejs:ostrum_chunk>;
 val ostrum_dust = <item:kubejs:ostrum_dust>;
 val ostrum_crushed = <item:kubejs:crushed_ostrum>;
 val calorite_ore = <tag:items:c:calorite_ores>;
+val calorite_raw = <tag:items:c:raw_calorite_ores>;
 val calorite_ingot = <item:ad_astra:calorite_ingot>;
 val calorite_chunk = <item:kubejs:calorite_chunk>;
 val calorite_dust = <item:kubejs:calorite_dust>;
@@ -42,6 +46,11 @@ addPulverizing("zinc_dust_from_ore", zinc_ore, zinc_dust * 3);
 addPulverizing("desh_dust_from_ore", desh_ore, desh_dust * 3);
 addPulverizing("ostrum_dust_from_ore", ostrum_ore, ostrum_dust * 3);
 addPulverizing("calorite_dust_from_ore", calorite_ore, calorite_dust * 3);
+
+addPulverizing("zinc_dust_from_raw", zinc_raw, zinc_dust);
+addPulverizing("desh_dust_from_raw", desh_raw, desh_dust);
+addPulverizing("ostrum_dust_from_raw", ostrum_raw, ostrum_dust);
+addPulverizing("calorite_dust_from_raw", calorite_raw, calorite_dust);
 
 furnace.addRecipe("smelt_zinc_ingot_from_dust", zinc_ingot, zinc_dust, 0.2, 200);
 furnace.addRecipe("smelt_desh_ingot_from_dust", desh_ingot, desh_dust, 0.2, 200);

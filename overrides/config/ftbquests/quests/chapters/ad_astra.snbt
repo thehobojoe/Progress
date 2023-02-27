@@ -18,6 +18,7 @@
 			title: "Ad Astra!"
 			x: 0.0d
 			y: 0.0d
+			shape: "pentagon"
 			subtitle: "Space is the place for the human race"
 			description: ["It's time to escape to the one place untouched by capitalism.\\n\\nAd Astra adds a number of planets, accessible by building stronger and stronger rockets. Get ready to strip the solar system bare of its resources.\\n\\nYour first mission is to get to the moon."]
 			invisible: true

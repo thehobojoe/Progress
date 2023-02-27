@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "pentagon"
 			invisible: true
 			id: "2E53306C3198EB5E"
 			tasks: [{

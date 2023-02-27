@@ -11,6 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
+			shape: "pentagon"
 			description: ["Powah! It does what it says on the tin: make power, and a lot of it! Each generator can be upgraded multiple times, increasing power yields each time. But, be aware that higher tier materials will need plenty of power to even make."]
 			hide: true
 			invisible: true
@@ -80,6 +81,7 @@
 			x: 3.0d
 			y: 0.0d
 			subtitle: "Renewable energy"
+			description: ["\"But I don't want to pillage the earth for natural resources, and ruin the atmosphere forever!\" I hear you cry. \"Renewable energy is the future!\"\\n\\nAbsolutely baffling, and definitely not in the Shitsco Inc. spirit. But I guess there's some merit to turning your excess crops into biofuel for renewable power."]
 			dependencies: ["683E2DFF8C1ED379"]
 			id: "380DE426FD46AE6D"
 			tasks: [{
@@ -87,11 +89,18 @@
 				type: "item"
 				item: "indrev:biomass"
 			}]
+			rewards: [{
+				id: "39360F93FDBE18B2"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 8
+			}]
 		}
 		{
 			x: 4.0d
 			y: 1.5d
 			subtitle: "Burn it in a furnace, or for power!"
+			description: ["Biomass pellets are a good replacement for coal in a furnace, or other solid-fuel generator. \\n\\nIt also tastes great to blazes-- you could reasonably feed a blaze burner with this!"]
 			dependencies: ["380DE426FD46AE6D"]
 			id: "57E219BC2A112CE6"
 			tasks: [{
@@ -99,29 +108,25 @@
 				type: "item"
 				item: "createaddition:biomass_pellet"
 			}]
+			rewards: [{
+				id: "429FB0C5E0ACD94B"
+				type: "item"
+				item: "indrev:biomass"
+				count: 4
+			}]
 		}
 		{
 			x: 3.0d
-			y: 1.5d
+			y: 2.5d
 			subtitle: "Liquid fuel"
+			description: ["Biomass can be juiced into a nice base for rocket fuel production. It's not as efficient as processing sweet Texas tea, but it's completely renewable."]
 			dependencies: ["380DE426FD46AE6D"]
+			size: 1.25d
 			id: "787AD553244F730C"
 			tasks: [{
 				id: "69E8408B8133003C"
 				type: "item"
 				item: "kubejs:biofuel_bucket"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 3.0d
-			subtitle: "Rocket fuel!"
-			dependencies: ["787AD553244F730C"]
-			id: "7261C5CC8DBB35E8"
-			tasks: [{
-				id: "26D8E7630E38D480"
-				type: "item"
-				item: "ad_astra:fuel_bucket"
 			}]
 		}
 		{
@@ -190,12 +195,19 @@
 			x: 2.0d
 			y: 1.5d
 			subtitle: "This is what they call greenwashing"
+			description: ["Take your coward fuel and burn it in here! The biomass generator burns biomass to generate energy."]
 			dependencies: ["380DE426FD46AE6D"]
 			id: "465701F2AD463E12"
 			tasks: [{
 				id: "5C61352CAE8C8232"
 				type: "item"
 				item: "indrev:biomass_generator_mk3"
+			}]
+			rewards: [{
+				id: "6E9C70E0ADF2BF34"
+				type: "item"
+				item: "indrev:biomass"
+				count: 8
 			}]
 		}
 		{

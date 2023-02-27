@@ -1,0 +1,651 @@
+#API Added
+- Faux Custom Entity Data: 2.0.2
+-- Required by CraftTweaker
+
+- Midnightlib: 1.0.0
+-- Required By Cam
+
+
+# Mod Loader Updated:
+- Fabric ML: 0.14.12 -> 0.14.14
+-- No Changelog Provided
+
+# API / Library Updates:
+- Architectury API: 6.5.62 -> 6.5.69
+-- No chanagelog provided.
+
+
+- BCLib: 2.1.5 -> 2.1.6
+-- Updated Dependencies
+-- Removed biome logging to from non-verbose logs
+-- Simplified Method to find POIs in a region
+
+
+- Bookshelf: 16.2.16 -> 16.2.17
+-- Fixed registry deserializers returning null rather than failing early. (d31bc49f)
+-- Fix BlockState deserializer throwing a null pointer when an invalid or missing block ID is provided. (9ce82a11)
+
+
+- Fabric Language Kotlin 1.9.0 -> 1.9.1
+-- Bump version (modmuss50)
+-- Kotlin 1.8.10 (github-actions[bot])
+-- Update readme (github-actions)
+
+
+- Forge Config API Port: 4.2.9 -> 4.2.11
+- v.4.2.10
+-- Update fuzs.forgeconfigapiport.impl.util.ReflectionHelper to fix crash with the Configured mod when editing a value that does not have a valid net.minecraftforge.common.ForgeConfigSpec$Range
+- v.4.2.11
+-- Backported some changes to the /config command making it fully client-side to fix issues with command argument serialization
+
+- FTB Library: 166 -> 175
+- v.170
+-- Merge pull request #60 from FTBTeam/1.19/dev - desht
+-- fix: don't try to relativize paths on SNBT load failure - Des Herriott
+-- chore: version -> 1902.3.12 - Des Herriott
+-- fix: null-check for screen in BaseScreen#setFullScreen() - Des Herriott
+- v.175
+-- Merge pull request #61 from FTBTeam/1.19/dev - desht
+-- fix: use correct import paths for numeric classification methods - Des Herriott
+-- build: version -> 1902.3.13 - Des Herriott
+-- chore: convert existing "tests" to proper JUnit tests - Des Herriott
+-- fix: use standard numeric classification methods - Des Herriott
+
+
+- GeckoLib: 3.1.38 -> 3.1.40
+- v.3.1.39
+-- Blacklists gigeresque animation namespace to fix crash.
+- v.3.1.40
+-- Adds enchantment glint to Geckolib Armors.
+-- Adds enchantment glint to Geckolib Items.
+
+- JamLib: 0.5.0 -> 0.6.0
+-- Add a logger that is only active in development environments.
+-- Automatically register entity attributes for entity types registered through JamLib.
+-- Add JamLibCompatibilityModuleHandler.
+-- JamLibLogger now takes varargs to it's logging methods.
+-- Use SL4J rather than Log4J.
+-- Add JavaDoc.
+-- More overhauls.
+
+
+- Moonnlight Lib: 2.2.2 -> 2.2.8
+- v.2.2.3
+-- Added a new "optional_item" loot pool entry, used to add modded items to your loot table without hard dependencies
+- v.2.2.4
+-- added some loot conditions fixed item burn times
+- v.2.2.5
+-- fixed loot conditions added API to register animal food
+- v.2.2.6
+-- improved configs
+- v.2.2.7
+-- more configs improvements
+- v.2.2.8
+-- Added interface to have entities react to input update
+-- Other misc stuff and improvements
+
+
+- Pehkui: 3.6.2 -> 3.6.3
+-- Various reach distance interaction fixes
+-- Fix player visuals in inventory being wrong size in rare cases
+
+
+- playerAnimator: 0.4.0 -> 0.4.2
+-- Fix neck-twisting bug with all lerp
+
+
+- Resourceful Config: 1.0.18 -> 1.0.19
+-- No changelog provided
+
+
+- Resourceful Lib: 1.1.19 -> 1.1.22
+-- No changelog provided
+
+
+- Revelationary: 1.1.0 -> 1.3.0
+- v.1.2.0
+-- Added a config! Here you are able to specify to use the name of cloaked blocks / items to use their target blocks / items, or specify your own.
+- v.1.3.0
+-- Added Commands to sync player progress, unlock specific advancement trees and more (thanks a lot Maya & Falseresync!)
+-- Fixed drops for mods using the RevelationAware interface on dedicated servers
+-- Added a new config system with various settings around revelations
+
+
+- ShertiPhianCore: 1.3.4 -> 1.3.4b
+-- Minor fixes/corrections
+-- Prep for Terraqueous Port
+-- Injected SPC_ThinBlockHandler.class from 1.19.3 build; > removed redirect mixins for better mod compatibility
+-- Injected SPC_ISoil_Hooks.class, ISoil.class, SPC_ISoil_Hooks.class, & IPlantable.class from 1.19.3 build; > this should fix all the crop issues the previous build caused
+-- Deleted unneeded files after above changes
+-- Edited shetiphiancore.mixins.json & shetiphiancore-refmap.json so the injected mixins will function
+
+
+- YetAnotherConifgLib: 1.7.1 -> 2.2.0
+-- Backport of YACL 2.2.0 to 1.19.2
+
+
+- YungsApi: 3.8.2 -> 3.8.6
+--Completely overhauled the Jigsaw system! Now supports various features like deadend adjustments, post-placement modifiers, conditional placement, & more.
+
+
+# Mod Updates:
+- Alternate Current: 1.4.0 -> 1.5.0
+-- Fixes issues where adjacent but disconnected redstone dust dots behave inconsistently. (fixes #21)
+
+
+- Applied Botanics Addon: 1.4.1 -> 1.4.2
+-- Fixes a bug where the storage or export bus would try to convert other items or fluids into Mana randomly
+
+
+- Applied Energestics 2:  12.9.1 -> 12.9.2
+-- Further Pattern Provider extensibility
+
+
+- Better Combat: 1.5.4 -> 1.5.5
+-- Add attack speed cap
+-- Add knockback reduction for fast attacks (configurable)
+-- Improve back to back animation overlapping
+-- Fix offhand arm invisible while 2H animations
+-- Rework feinting
+-- Update staff and battlestaff presets
+
+
+- Cammie's Minecart Tweaks: 1.6 -> 1.7
+-- Switched from Cloth Config to MidnightLib
+-- "did some other stuff i think i forgot already despite just doing this."
+
+
+- Chisels & Bits: 1.3.126 -> 1.3.129
+-- Update to the latest scena.
+-- Fix a threading issue when loading a single player world. Switch to copy on write backend storage for the state entry storage bit set, levering the batch mechanics of block entities. Add line chisel mode Add drawn chisel group. Add wall chisel mode Fix an issue where the useBlock and useItem state where not respected on forge.
+	
+
+- Chunks Fade In: 3.0.7 -> 3.0.8
+- v.3.0.8
+-- Improved Iris compatibility even more
+- v.3.0.9
+-- Hotfixed a crash with Iris shaders
+
+- ChoiceTheorem's Overhauled Village: 3.1.4 -> 3.1.5
+-- Add supports for Immersive Engineering and Incubation mod.
+-- Fixes bugs with the bountiful mod.
+
+
+- Collective: 6.43 -> 6.48
+- v.45
+-- Updated DuskConfig to work correctly with min and max number values.
+- v.46
+-- Added a new TaskFunction to Collective which can correctly delay tasks, used in dependent mods
+- v.47
+-- Added support for special characters in the toml -> json5 config conversion. This is only used for dependent Serilum mods
+- v.48
+-- Fixed the CollectivePlayerEvents.ON_PLAYER_DIG_SPEED_CALC callback not being applied correctly
+
+
+- CraftTweaker: 10.0.23 -> 10.1.36
+-- Dependancy add for Faux Custom Entity Data
+-- Way too long to list instead will link each version
+- v.24
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4299184
+- v.25
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4353216
+- v.26
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4359117
+- v.27
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4360972
+- v.28
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4360984
+- v.29
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4360990
+- v.30
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4367616
+- v.31
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4369072
+- v.32
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4375442
+- v.33
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4375707
+- v.34
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4395481
+- v.35
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4403954
+- v.36
+-- https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/4406428
+
+
+- Create Crafts & Additions: 20221218a -> 20230211a
+- v.20230209a
+-- Fixed crash
+-- New Multi-block Accumulator.
+- v.20230211a
+-- Multi-block Accumulator display link support.
+-- Superheated liquid burning.
+-- Recipe for renewable Netherrack.
+-- Barbed Wire block.
+-- Festive Lights Spool.
+-- Updated Connector, now has different operating modes (Push, Pull, Passive, None).
+-- Updated Connector textures.
+-- Liquid burning burn-time and recipe re-balance.
+-- Improved Liquid burning JEI integration.
+-- Improved IE recipe integration.
+-- Improved Thermal Series recipe integration.
+-- General fixes.
+-- Deprecated (old) Accumulator.
+
+
+- Create Deco Fabric: 1.2.12 -> 1.2.13
+-- several texture updates * fixed doors not showing properly
+-- fixed recipes for cage lamps
+-- fixed cast iron block hardness
+-- fixed worn brick cracking
+
+
+- Create Fabric: 0.5.0g-796 -> 0.5.0j-961
+- v.H (No H version exists from fabric, changelog pulled from Forge version, take these changes with a grain of salt)
+-- Using Flywheel 0.6.8.a (resolves broken chest models, as well as AMD incompatibilities)
+-- Fixed Girder Encased Shafts getting ignored by the Schematicannon
+-- Fixed crash when curios inventory is configured to have no slots
+-- Fixed vaults not marking chunks dirty when its inventory changes
+-- Fixed players kicked for flying when standing on contraptions with a mount
+-- Fixed Steam Whistle not updating its pitch value correctly
+-- Maximum placement length of tracks and turns are now configurable
+-- Track graph no longer shows nodes and edges on f3 unless configured to
+-- Kinetic blocks no longer show debug information on f3 unless configured to (on new game instances)
+-- Superheated burn time of blaze cakes changed from 1000 to 3200 ticks
+-- Blaze Burners now accept fuel from deployers and arms a number of seconds before running out
+-- Adjust how and when blaze burners accept fuel
+-- Fixed crash with Optifine when rendering a map
+-- Improved value accuracy of various netcode when further from the worlds origin (ewoudje)
+-- Fixed signals not updating track graph when destroyed
+-- Added #deployable_drink tag for consumables that are not considered food
+-- Deployers can no longer consume potions or milk, and will instead feed players in their target area
+-- Fixed buttons in ponder not registering clicks near the edges
+-- Fixed config UI tooltips including the empty "." comments used for toml 'formatting'
+-- Fixed 'Damaged Item' Attribute for filtering not working correctly (Flemmli97)
+-- Improved handling of contraption data for syncing and minecart pickup (TropheusJ)
+-- Fixed and unified contraption data size estimates (TropheusJ)
+-- Added config for max contraption size for syncing (TropheusJ)
+-- Minecart pickup max is increased if XL Packets is loaded (TropheusJ)
+-- Fixed Belts not offering a valid item handler until their first tick
+- v.i-925
+-- synced with Patches G, H, and I
+-- added easy publishing to Modrinth, CurseForge, GitHub Releases, and Maven through a GitHub Action.
+-- added easy change logging. Future change logs will be much more thorough.
+-- updated AE2 compat recipes
+-- fixed error when using mechanical crafters with an empty hand
+-- dedicated Sodium compat fixes #695 and replaces NoIndium with a chat message
+-- updated zinc tags: raw_materials -> raw_ores, raw_zinc_materials -> raw_zinc_ores
+-- fix '/create ponder' crashing servers
+- v.i-946
+-- fix extraction from crushing wheels
+-- fix crashes with contraptions breaking blocks
+-- implement PlayerBlockBreakEvents into BlockHelper#destroyBlockAs
+-- fix crashes with mechanical arms and many more things (#795)
+-- fix toolbox return erroring (#794)
+-- fix alt sometimes getting stuck when closing toolbox menu
+-- fix Sequenced Gearshifts getting powered too easily (#791)
+-- refactor transfer in many places to improve compat and code quality (related: #496)
+-- fix a crash with item drain rendering
+- v.i-946
+-- fix occasional crash with pipes (start of vi961)
+-- add 'create:diving_fluids' tag to dictate which fluids the Diving Helmet works in
+-- fix funnels extracting from the opposite side they should be
+-- translate more tags for EMI
+-- fix crash with Sodium without Indium (still broken, but you'll see the warning)
+
+
+- Creeper Overhaul: 2.0.5 -> 2.0.7
+- v.2.0.6
+-- Snowy Creepers now drop 0-2 white wool when killed
+-- Added CreeperPlugin system to allow for other mods to control whether a creeper should be angry at a player or should be afraid of a mob when using their plugin.
+-- Change "Easter Egg" events to have increased time for all Christmas = 20-31, Halloween 25-31, St Patricks Day 15-19
+-- Added Ocean Creeper (Pufferfish Creeper)
+- v.2.0.7
+-- Reduced pufferfish creeper spawns
+
+- Entity Culling 1.5.2 -> 1.6.1
+-- Reworked the ray engine to fix corner cases. This should better prevent things from incorrectly getting culled(https://github.com/tr7zw/EntityCulling/issues/77 for more details)
+-- Fix Forge servers crashing when installing this mod
+-- Fix Warden heartbeat getting culled because it's generated clientside
+-- Remove donor skin animation stuff
+-- Correctly respect shouldRenderOffScreen and noCulling by Entities/BlockEntities
+-- Add skipEntityCulling/skipBlockEntityCulling config options
+-- Add more Botania projectiles to the default ignore config
+-- Add Traditional Chinese by @xMikux in https://github.com/tr7zw/EntityCulling/pull/94
+-- Add create entites to the default ticking whitelist
+
+
+- Expanded Storage: 8.1.0 Beta3 -> Beta5
+v.Beta4
+-- Implement Inventory Tabs support. (Fabric / Quilt)
+-- Fixed piglins not being angered.
+-- Added tag descriptions for EMI. (Fabric / Quilt)
+-- Fix upgrades causing errors when the target tier doesn't exist.
+-- Updated mod icon to new textures.
+-- Rewrote how chests are opened which should greatly improve mod compatibility, especially with claim mods.
+-- Update carrier compat & fix it not working on quilt.
+v.Beta5
+-- Fix inventories being rearranged a little on the fake pick screen.
+-- Implement REI support on Forge
+-- Implement JEI support for Fabric, Forge, and Quilt
+-- Fix JEI and REI showing on the fake pick screen.
+-- Fix repo url in commit message (see below :D)
+
+
+- Expanded Drawers: 1.3.5 -> 1.3.6
+-- Fix connectors having the wrong mining tool
+-- Fix comparator output on shadow drawers
+
+
+- FastAnim: 1.5.6 -> 1.5.7
+-- Lowered all mixin priorities and fixed two issues.
+
+
+- Fastload: 2.6.10 -> 2.6.11
+-- Vietnamese Translations.
+
+
+- Fix Experience Bug: 18 -> 19
+-- Version 2.3 for Minecraft 1.19.X Corrects a fat finger typo with the mods.toml file.
+
+
+- FTB Quests: 176 -> 190
+- v.186
+-- Merge pull request #668 from FTBTeam/1.19/dev - desht
+-- fix: ftb library version in forge mods.toml - Des Herriott
+-- build: depend on and require ftb library 1902.3.13-build.175+ - Des Herriott
+-- feat: allow /ftbquests reload to be run from server console - Des Herriott
+-- feat: improved (native) NBT matching - Des Herriott
+-- chore: updated changelog - Des Herriott
+-- fix: duplicate chapter names - Des Herriott
+-- chore: version -> 1902.4.7, updated changelog - Des Herriott-
+-- fix: quest button rendering in flexible mode - Des Herriott
+-- feat: option to hide quest details until quest is startable - Des Herriott
+-- feat: tasks can now also be copied - Des Herriott
+-- fix: a few fixes to task screen handling - Des Herriott
+-- chore: small item task cleanup - Des Herriott
+-- feat: add "task screen only" setting for item tasks - Des Herriott
+- v.190
+-- Merge pull request #670 from FTBTeam/1.19/dev - desht
+-- build: version -> 1902.4.8, updated changelog - Des Herriott
+-- fix: network sync error in Quest - Des Herriott
+
+
+- FTB Teams: 87 -> 95
+-- Merge pull request #31 from FTBTeam/1.19/dev - Max
+-- fix: fixed a couple of translation keys - Des Herriott
+-- chore: changelog update - Des Herriott
+-- fix: some significant changes to team sync behaviour - Des Herriott
+-- build: version -> 1902.2.12, updated changelog - Des Herriott
+-- fix: some GUI & logic fixes around inviting & allying - Des Herriott
+-- feat: add a StringListProperty type - Des Herriott
+-- chore: a little cleanup and added some debug messages - Des Herriott
+
+
+- IKnowWhatImDoing: 4.1.0 -> 4.1.1
+-- Updated to 1.19.3
+
+
+- Immediately Fast: 1.1.8 -> 1.1.9
+-- Fixed depth test issues
+-- Fixed crash when Iris is installed
+-- Improved performance in combination with Iris
+-- 
+
+- JourneyMap: 5.9.2 -> 5.9.3
+-- Fixed: Mod Villager texture exception.
+-- Fixed: Client Render range larger than Server causing chunks to render black.
+-- ModCompat: Now fully compatible with VulkanMod v0.2.2.
+
+
+- KubeJS: 6.0.140 -> 6.0.142
+-- Merge branch '1.19/dev' into 1.19/main - Max
+-- Return identity on ArmorMaterial / Tier wrappers if possible - Max
+-- Return identity on ArmorMaterial / Tier wrappers if possible - Max
+-- Update to Jei 10 (#562) - Frinn38
+-- Intern and cache RegexIDFilter match results on recipe IDs (#568) - embeddedtv
+-- Port of #553 to 1.18 - Jonathan Coates
+-- Added many more materials utilising many missing sound types (#398) - Xaidee
+
+
+- Leaves Be Gone: 4.0.0 -> 4.0.1
+-- marked as incompatible with the SnowyLeavesPlus mod on Fabric
+
+
+- Macaw's Doors: 1.0.7 -> 1.0.8
+-- Added Bamboo Variants, Sliding Glass Door, Store Door, Wooden & Iron Portcullis
+-- Removed some redundant model files
+-- Optimized Bark door blockstates
+-- Removed handles from shoji item textures to be more accurate to its block model
+-- Fix collision issue with barn doors ( Fix by DiRtens )
+-- Recipe book clutter fix
+-- Fix mangrove doors have wrong hinge/knob color
+-- Fix mangrove door items have a reddish tint to them
+-- Fix opened garage door has purple/black break particles
+
+
+- Macaw's Lights and Lamps: 1.0.4 -> 1.0.5
+-- Added Bamboo Tiki Torch, Soul Bamboo Tiki Torch
+-- Added 7 vanila style lanterns
+-- Reverted some models from earlier versions
+-- Revert 3D models as items, remove 2D items
+-- Fixed : Clutter in recipe book, now grouped
+-- Fixed: Villagers can't pathfind some lights/lamps
+-- Fixed: Fabric: Mixin Log Spam
+-- Fixed: Recipes with wooden fences are causing issues
+-- Fixed: Mangrove has no tool to break
+
+
+- Magnum Toruch: 4.2.0 -> 4.2.1
+-- Magnum torches are now found in a new creative mode tab
+-- Added additional checks to ensure the server config file is loaded already when it is used, so no errors are logged anymore
+-- Some minor internal refactoring
+
+
+- ME Requester: 1.0.2 -> 1.0.3
+-- Portuguese translation (#5, #6)
+
+
+- MemoryLeakFix: 0.7.0 -> 0.7.0
+-- No changes (Added support for 1.19.3)
+
+
+- No Telemetry: 1.5.0 -> 1.6.0
+-- Add support for 23w04a
+
+
+- Raised: 1.1.4 -> 1.2.1
+-- Fixed Forge Create mixins that were overwritten with Fabric versions
+-- Updated Botania tiara support in 1.19 versions
+-- Removed logger
+-- Revived 1.19-1.19.2 support
+-- Forge versions now enabled for all compatible patch subversions
+-- Tweaked icon
+
+- Reacharound: 1.1.0 -> 1.1.2
+- v.1.1.1
+-- Fix inventorio mod compatibility
+- v.1.1.2
+-- Fix cloth config requirement
+
+
+- RightClickHarvest: 3.0.6 -> 3.1.0
+-- Fix RPGStats compatibility for versions > 5.0.0.
+-- Update tests.
+
+
+- Roughly Enough Items: 9.1.580 -> 9.1.591
+- v.9.1.585
+-- Add support for c:hidden_fromrecipeviewers
+- v.9.1.587
+-- Fix Render Misbehaves Under Certain Conditions [1.19] (#1343)
+- v.9.1.591
+-- Improve PluginManager messages
+
+
+- Show Me Your Skin!: 1.3.5 -> 1.3.7
+- v.1.3.6
+-- Fixed an issue with leather armor not being properly hidden.
+- v.1.3.7
+-- Fixed an issue elytra enchant glint not being properly hidden.
+
+
+- Simply Swords: 1.36 -> 1.43.1
+- v.1.37
+-- Balance changes focused around the attack speed of weapons - please regenerate your config or the changes will not take effect
+-- Fixed a bug that caused Runic weapons to not obey the passive particle settings within the config
+-- Added unique halberd: Icewhisper
+-- Added unique halberd: Thunderbrand
+-- Added unique halberd: Arcanethyst
+-- Reworked the unique effect for Storm's Edge
+-- Reworked the unique effect for Hearthflame
+-- The Runic Warglaive has (finally) been added
+-- Livyatan attack combo has been changed
+-- Increased the default lootrate for uniques from 0.004 to 0.008
+- v.1.40
+-- All existing 3D assets have been replaced with 2D equivalents to be more inline with vanilla Minecraft.
+-- Optional Classic 3D resourcepack bundled with the mod for those who prefer the original look
+-- Runic weapons now have higher enchantability
+-- Unique weapons now have higher enchantability & durability, and now repair using runic tablets instead of netherite ingots
+-- Runic Scythe was missing from loot table - this has been corrected
+-- Runic tablets have been moved to the 'rare' loot table to increase scarcity
+-- Added new unique weapon trio: Slumbering/Waking/Awakened Lichblade
+-- Reworked Brimstone Claymore ability
+-- Reworked Stormbringer ability
+-- All recipes adjusted to make use of forge tags for common sticks
+-- Balance changes to existing recipes to reduce overall ingot costs
+-- Rewrite of unique weapon logic to better work on servers
+-- All unique weapon effects now obey the server PvP flag
+-- Fixed a broken spear/glaive recipe
+-- Greatsword idle pose changed
+-- Advancements added
+-- Patchouli support added
+-- LevelZ support added
+-- Mythic Metal compatibility now also applies the relevant innate abilities
+-- Added Russian translation (Thank you to the BeingArt Minecraft discord)
+- v.1.41.0
+-- Added new base weapon variant: Halberd
+-- Added new unique rapier: Shadowsting
+-- Removed Runic Weapons from loot tables (It didn't make a lot of sense for these to drop as loot. Runic weapons should be crafted using Runic Tablets and Netherite weapons)
+-- Chakram crafting recipe adjusted for higher cost
+-- Config option added for impact sound volume
+-- Config options added for Gobber & Mythic Metals material based damage modifiers for all weapons
+-- Unique Halberds adjusted to use new Halberd sized models
+- v.1.42.0
+-- Netherite, Runic, and most Unique weapons are now lava/fire proof
+-- Fixed an incorrect crafting recipe for the Netherite Halberd
+--  Fixed a bug that caused Shadowsting's blind effect radius to be oo large
+- v.1.42.1
+-- Fixed a possible crash relating to the Wildfire runic effect when used in a pvp environment
+-- Fixed a Quilt Loader crash that ocurred when several compatible mods were installed at the same time
+- v.1.43.0
+-- A loot_config has been added to allow end users to whitelist & blacklist structures/entities for the Unique weapon loot injection (See the config for more information)
+-- The booleans config has been expanded to allow the disabling of specific unique weapon spawning & runic effects
+-- Runic effect backend has been rewritten to streamline the expansion of the runic effects pool - this should allow me to more easily add runic effects going forward.
+-- New Runic effects added: Momentum, Imbued, and Pincushion.
+-- Greater variants of some Runic effects have been added - these are slightly more potent version of their base counterparts.
+-- Some Runic effects have had their potencies balanced to make room for the greater variants.
+-- The Iron Halberd tool material was previously using Gold instead of Iron. This has been corrected.
+- v.1.43.1
+-- Fixed a potential crash caused by the use of The Watcher & Watching Warglaives when in a PvP environment.
+
+
+- Spark: 1.10.17 -> 1.10.29
+- v.1.10.20
+-- Fix NPE in profiler when Chunk#getTileEntities returns null
+- v.1.10.21
+-- Make thread grouper configurable for the background sampler
+- v.1.10.22
+-- Exclude null chunks from the total chunk count
+- v.1.10.23
+-- Make thread dumper configurable for the background sampler
+- v.1.10.24
+-- Update minestom dependency (#282)
+- v.1.10.25
+-- Refactor thread grouper/dumper config parse
+- v.1.10.26
+-- Allocation profiler (#290)
+- v.1.10.27
+-- Stream live data to the viewer using WebSockets (#294)
+- v.1.10.28
+-- Fix bytebin user agent
+- v.1.10.29
+-- Update fabric/forge versions
+- v.1.10.30
+-- Fix NPE in ClassFinder (#287)
+
+
+- Spectrum: 1.6.4 -> 1.6.6
+-v.1.6.5
+-- Added Compat for Health Overlay. Thank you Nerjal and Terrails for both your help!
+- v.1.6.6
+-- Updated the included libs Arrowhead & Incubus Core for compat with newest Paradise Lost
+
+
+- Starter Kit: 2.5.0 -> 2.5.1.
+-- Fixed the addExistingItemsAfterKitSet config option not working correctly with some items.
+-- Added support for § (section sign) in books to colour text.
+
+
+- Structory: Towers: 1.0.0 -> 1.0.1
+-- Adjusted a few loot tables
+
+
+- Terralith: 2.3.5 -> 2.3.6
+-- Fixed an issue with tags
+
+
+- The Twilight Forest: 4.2.333 -> 4.2.335
+-- Fixed a crash with the Create mod
+
+
+- Tom's Simple Storage Mod: 1.4.6 -> 1.5.0
+-- Added item filters (simple, tag, polymorphic) (Closes #93)
+-- Added allow/deny settings, priority, keep last item in slot to filtered inventory cable connector (Closes #163, Closes #156)
+-- Rewritten terminal networking (Closes #154, Closes #52, Closes #63, Closes #170, Closes #164, Closes #139, Closes #105, Closes #192)
+-- Holding shift in the terminal stops sorting (Closes #155)
+-- Added support for JEI on fabric, REI on forge (Closes #189)
+-- Added ghost item drag to JEI/REI/EMI
+-- Updated pt_br (#177)
+-- Fixed terminal rendering issues (Closes #180)
+-- Fixed crafting terminals not dropping their inventory when breaking
+-- Fixed crash (Closes #190, Closes #191)
+-- Fixed wireless terminal bypassing FTB Chunks (Closes #167)
+
+
+- Too Many Binds: 
+-- Add support for 1.19.3
+-- No longer hard-depend on Amecs
+
+
+-Trash Cans: 0.0.1 -> 0.0.2
+-- Removed unnecessary mixin
+
+- Trinkets: 3.4.1 -> 3.4.2
+-- Backported command
+
+
+- Visual Workbench: 4.2.1 -> 4.2.2
+-- Minor refactors and clean-ups
+-- Fixed empty item stacks being serialized occasionally leading to huge nbt tags
+-- Fixed rendering calculations running on the server, too, which is unnecessary
+
+
+- WTHIT: 5.13.4 -> 5.13.5
+-- Fixed crash with mods expecting entity data to be serialized only on server side
+
+
+- You're in Grave Danger: 1.4.6 -> 1.4.8
+- v.1.4.7
+-- Changed glowing grave rendering. Will maybe solve issue for some people with invisible graves. Maybe not
+-- Fixed crash error with item loss config enabled
+-- Fixed item loss feature from only deleting air, to actual items
+-- Fixed issue with travelers backpack trinket integration causing backpack to disappear
+-- Fixed /yigd grave [user] bringing up GUI for wrong user
+- v.1.4.8
+-- Amethyst imbuement soulbound totem compat
+
+#\n(?!v|\n|-|#) #\n--
+#\nv(?!\.)(?=\d) #\nv.
+#\n(?!\n|#|--|Added Mods:|Removed Mods:|Api / Library Updates:|Mod Updates:|-\ |v)
+## Howdy there, you made it all the way to the end! Don't forget to drink some water.

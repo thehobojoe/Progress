@@ -96,6 +96,11 @@ flux_cell_mk2.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk3.addTooltip("Energy cell, a battery to store power");
 flux_cell_mk4.addTooltip("Energy cell, a battery to store power");
 
+craftingTable.addShaped("indrev_capsule", <item:indrev:capsule>, [
+	[tungsten_plate, 	glass, 	tungsten_plate],
+	[glass, 			empty, 	glass],
+	[steel_plate, 		glass, 	steel_plate]]);
+
 // generators
 craftingTable.remove(<item:indrev:coal_generator_mk1>);
 craftingTable.addShaped("coal_generator_mk1", <item:indrev:coal_generator_mk1>, [

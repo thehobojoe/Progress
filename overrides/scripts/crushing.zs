@@ -44,6 +44,13 @@ addCreateCrushing("crush_citrine_blocks", <item:spectrum:citrine_block>, [<item:
 addCreateCrushing("crush_emerald_blocks", <item:geodes:emerald_geode>, [<item:minecraft:emerald> % 50]);
 addCreateCrushing("crush_diamond_blocks", <item:geodes:diamond_geode>, [<item:minecraft:diamond> % 50]);
 
+addCreateCrushing("crush_moonstone", <item:ad_astra:moon_stone>, [<item:ad_astra:moon_sand> % 25, <item:ad_astra:raw_desh> % 1]);
+addCreateCrushing("crush_mooncobble", <item:ad_astra:moon_cobblestone>, [<item:ad_astra:moon_sand> % 25, <item:ad_astra:raw_desh> % 1]);
+addCreateCrushing("crush_marsstone", <item:ad_astra:mars_stone>, [<item:ad_astra:mars_sand> % 25, <item:ad_astra:raw_ostrum> % 1]);
+addCreateCrushing("crush_marscobble", <item:ad_astra:mars_cobblestone>, [<item:ad_astra:mars_sand> % 25, <item:ad_astra:raw_ostrum> % 1]);
+addCreateCrushing("crush_venusstone", <item:ad_astra:venus_stone>, [<item:ad_astra:venus_sand> % 25, <item:ad_astra:raw_calorite> % 1]);
+addCreateCrushing("crush_venuscobble", <item:ad_astra:venus_cobblestone>, [<item:ad_astra:venus_sand> % 25, <item:ad_astra:raw_calorite> % 1]);
+
 addCreateCrushing("crush_certus", <item:ae2:certus_quartz_crystal>, [<item:ae2:certus_quartz_dust>, <item:ae2:certus_quartz_dust> % 10]);
 addCreateCrushing("crush_charged_certus", <item:ae2:charged_certus_quartz_crystal>, [<item:ae2:certus_quartz_dust>, <item:ae2:certus_quartz_dust> % 10]);
 
