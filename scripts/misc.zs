@@ -124,7 +124,7 @@ craftingTable.addShaped("catwalk_gold", <item:createdeco:gold_catwalk> * 4, [
 craftingTable.remove(<item:createdeco:netherite_catwalk>);
 craftingTable.addShaped("catwalk_netherite", <item:createdeco:netherite_catwalk> * 4, [
 	[<tag:items:c:netherite_bars>, empty, empty],
-	[<tag:items:c:plates/netherite>, empty, empty],
+	[<tag:items:c:netherite_plates>, empty, empty],
 	[empty, empty, empty]]);
 
 craftingTable.remove(<item:createdeco:andesite_catwalk>);
@@ -142,7 +142,7 @@ craftingTable.addShaped("catwalk_brass", <item:createdeco:brass_catwalk> * 4, [
 craftingTable.remove(<item:createdeco:cast_iron_catwalk>);
 craftingTable.addShaped("catwalk_cast_iron", <item:createdeco:cast_iron_catwalk> * 4, [
 	[<tag:items:c:cast_iron_bars>, empty, empty],
-	[<tag:items:c:plates/cast_iron>, empty, empty],
+	[<tag:items:c:cast_iron_plates>, empty, empty],
 	[empty, empty, empty]]);
 
 craftingTable.remove(<item:createdeco:iron_catwalk>);

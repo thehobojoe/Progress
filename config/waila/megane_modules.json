@@ -3,6 +3,9 @@
     "megane-modern-dynamics": {
       "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
     },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true
     },
@@ -17,6 +20,9 @@
     },
     "megane-applied-energistics-2": {
       "lol.bai.megane.module.ae2.MeganeAppliedEnergistics2": true
+    },
+    "megane-powah": {
+      "lol.bai.megane.module.powah.MeganePowah": true
     },
     "megane-reborn-energy": {
       "lol.bai.megane.module.rebornenergy.MeganeRebornEnergy": true
