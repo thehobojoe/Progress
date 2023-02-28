@@ -19,7 +19,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         },
         {
           "item": "create:brass_sheet"
@@ -36,7 +36,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         },
         {
           "item": "powah:capacitor_basic"
@@ -53,7 +53,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         },
         {
           "item": "indrev:nikolite_dust"
@@ -70,10 +70,10 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         },
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         }
       ],
       "results": [
@@ -87,7 +87,7 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create:copper_sheet"
+          "tag": "c:copper_plates"
         }
       ],
       "results": [

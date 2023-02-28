@@ -270,7 +270,7 @@
     "maxInput": 4096
   },
   "miner": {
-    "energyCost": 64,
+    "energyCost": 512,
     "processSpeed": 100.0,
     "maxEnergyStored": 50000,
     "maxInput": 4096
@@ -281,7 +281,7 @@
     "maxEnergyStored": 2500,
     "maxInput": 4096
   },
-  "drill": 256,
+  "drill": 1536,
   "fishingMk2": {
     "energyCost": 8,
     "processSpeed": 400.0,

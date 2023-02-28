@@ -27,7 +27,7 @@
   "#avoidOverworldChecks": "Prevents stuff like gravity and oxygen checks in the overworld as that\u0027s normally not used in Ad Astra. enable if you\u0027re making an addon or something that transforms the overworld into some sort of planet.",
   "avoidOverworldChecks": true,
   "spawning": {
-    "spawnCorruptedLunarians": true,
+    "spawnCorruptedLunarians": false,
     "spawnStarCrawlers": true,
     "spawnMartianRaptors": true,
     "spawnMoglers": true,

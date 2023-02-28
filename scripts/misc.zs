@@ -113,3 +113,52 @@ craftingTable.addShapeless("shitsco_jetpack", <item:kubejs:shitsco_jetpack>, [
 craftingTable.remove(<item:createaddition:diamond_grit_sandpaper>);
 craftingTable.addShapeless("diamond_sandpaper", <item:createaddition:diamond_grit_sandpaper>, [
 	<item:minecraft:paper>, <tag:items:c:diamond_dusts>]);
+
+// catwalks
+craftingTable.remove(<item:createdeco:gold_catwalk>);
+craftingTable.addShaped("catwalk_gold", <item:createdeco:gold_catwalk> * 4, [
+	[<tag:items:c:gold_bars>, empty, empty],
+	[<tag:items:c:gold_plates>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:netherite_catwalk>);
+craftingTable.addShaped("catwalk_netherite", <item:createdeco:netherite_catwalk> * 4, [
+	[<tag:items:c:netherite_bars>, empty, empty],
+	[<tag:items:c:plates/netherite>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:andesite_catwalk>);
+craftingTable.addShaped("catwalk_andesite", <item:createdeco:andesite_catwalk> * 4, [
+	[<tag:items:c:andesite_bars>, empty, empty],
+	[<item:createdeco:andesite_sheet_metal>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:brass_catwalk>);
+craftingTable.addShaped("catwalk_brass", <item:createdeco:brass_catwalk> * 4, [
+	[<tag:items:c:brass_bars>, empty, empty],
+	[<tag:items:c:brass_plates>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:cast_iron_catwalk>);
+craftingTable.addShaped("catwalk_cast_iron", <item:createdeco:cast_iron_catwalk> * 4, [
+	[<tag:items:c:cast_iron_bars>, empty, empty],
+	[<tag:items:c:plates/cast_iron>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:iron_catwalk>);
+craftingTable.addShaped("catwalk_iron", <item:createdeco:iron_catwalk> * 4, [
+	[<item:minecraft:iron_bars>, empty, empty],
+	[<tag:items:c:iron_plates>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:copper_catwalk>);
+craftingTable.addShaped("catwalk_copper", <item:createdeco:copper_catwalk> * 4, [
+	[<tag:items:c:copper_bars>, empty, empty],
+	[<tag:items:c:copper_plates>, empty, empty],
+	[empty, empty, empty]]);
+
+craftingTable.remove(<item:createdeco:zinc_catwalk>);
+craftingTable.addShaped("zinc_copper", <item:createdeco:zinc_catwalk> * 4, [
+	[<tag:items:c:zinc_bars>, empty, empty],
+	[<tag:items:c:plates/zinc>, empty, empty],
+	[empty, empty, empty]]);
