@@ -271,7 +271,7 @@
   },
   "miner": {
     "energyCost": 512,
-    "processSpeed": 100.0,
+    "processSpeed": 120.0,
     "maxEnergyStored": 50000,
     "maxInput": 4096
   },

@@ -21,6 +21,13 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:ae2:growth_acceleratable>.add(<block:spectrum:budding_citrine>);
 <tag:blocks:ae2:growth_acceleratable>.add(<block:spectrum:budding_onyx>);
 
+<tag:items:c:uraninite_ores_poor>.add(<item:powah:uraninite_ore_poor>);
+<tag:items:c:uraninite_ores_poor>.add(<item:powah:deepslate_uraninite_ore_poor>);
+<tag:items:c:uraninite_ores_standard>.add(<item:powah:uraninite_ore>);
+<tag:items:c:uraninite_ores_standard>.add(<item:powah:deepslate_uraninite_ore>);
+<tag:items:c:uraninite_ores_dense>.add(<item:powah:uraninite_ore_dense>);
+<tag:items:c:uraninite_ores_dense>.add(<item:powah:deepslate_uraninite_ore_dense>);
+
 //budding
 <tag:blocks:spectrum:budding_blocks>.add(<block:geodes:budding_emerald>);
 <tag:blocks:spectrum:crystal_apothecary_harvestable>.add(<block:geodes:budding_emerald>);
