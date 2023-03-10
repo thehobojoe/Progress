@@ -9,6 +9,8 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:crafttweaker:veinmine>.add(<block:create:ochrum>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:create:crimsite>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:create:limestone>);
+<tag:blocks:crafttweaker:veinmine>.add(<block:create:veridium>);
+<tag:blocks:crafttweaker:veinmine>.add(<block:twigs:rhyolite>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:glowstone>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:clay>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:mangrove_roots>);
