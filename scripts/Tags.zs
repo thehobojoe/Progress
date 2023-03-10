@@ -14,6 +14,7 @@ import crafttweaker.api.tag.MCTag;
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:glowstone>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:clay>);
 <tag:blocks:crafttweaker:veinmine>.add(<block:minecraft:mangrove_roots>);
+<tag:blocks:crafttweaker:veinmine>.add(<block:create:asurine>);
 
 <tag:blocks:minecraft:mineable/pickaxe>.add(<block:minecraft:glowstone>);
 
