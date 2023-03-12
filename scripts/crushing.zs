@@ -89,3 +89,4 @@ addCreateCrushing("crush_rocket_t2", <item:ad_astra:tier_2_rocket>, [steel_dust 
 addCreateCrushing("crush_rocket_t3", <item:ad_astra:tier_3_rocket>, [steel_dust * 15, <item:kubejs:ostrum_dust> * 40]);
 addCreateCrushing("crush_rocket_t4", <item:ad_astra:tier_4_rocket>, [steel_dust * 15, <item:kubejs:calorite_dust> * 40]);
 
+addCreateCrushing("crush_rhyolite", <item:twigs:rhyolite>, [<item:minecraft:quartz> % 20, certus % 20]);
