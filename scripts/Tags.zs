@@ -47,3 +47,21 @@ import crafttweaker.api.tag.MCTag;
 <tag:items:c:netherite_bars>.add(<item:charm:netherite_bars>);
 <tag:items:c:cast_iron_bars>.add(<item:createdeco:cast_iron_bars>);
 
+// dank blacklist
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:baby_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:ender_pouch>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:frayed_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:plated_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:gilded_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:bejeweled_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:blazing_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:withered_backpack>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:inmis:endless_backpack>);
+
+<tag:items:dankstorage:blacklisted_usage>.add(<item:spiceoffabric:picnic_basket>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:spiceoffabric:paper_bag>);
+<tag:items:dankstorage:blacklisted_usage>.add(<item:spiceoffabric:lunch_box>);
+
+<tag:items:dankstorage:blacklisted_usage>.add(<item:botania:flower_bag>);
+
+<tag:items:dankstorage:blacklisted_usage>.add(<item:create:experience_nugget>);
