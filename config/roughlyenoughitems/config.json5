@@ -3202,7 +3202,7 @@
 		"accessibility": {
 			"entrySize": 1.0,
 			// Declares the position of the entry panel.
-			"displayPanelLocation": "LEFT",
+			"displayPanelLocation": "RIGHT",
 			// Declares how the scrollbar in composite screen should act.
 			"compositeScrollBarPermanent": false,
 			"toastDisplayedOnCopyIdentifier": true,

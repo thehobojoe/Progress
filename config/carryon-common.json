@@ -61,7 +61,8 @@
     "//allowedBlocks": "Blocks that CAN be picked up (useWhitelistBlocks must be true)",
     "allowedBlocks": [
       "*chest*",
-      "*drawer*"
+      "*drawer*",
+      "*barrel*"
     ],
     "//allowedStacking": "Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)",
     "allowedStacking": []
